@@ -1,0 +1,7 @@
+---
+globs: public/data/grammar/**
+alwaysApply: false
+---
+
+## 問題文を作成する際の基本事項
+初級は穴あき1つ、中級は穴あき2つまでにして

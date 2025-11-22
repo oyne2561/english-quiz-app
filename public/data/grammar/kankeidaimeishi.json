@@ -1,0 +1,1267 @@
+[
+  {
+    "id": "rel-001",
+    "category": "kankeidaimeishi",
+    "question": "This is the book ___ I bought yesterday.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "関係代名詞which。先行詞が物（book）の場合、whichまたはthatを使います。",
+      "translation": "これは私が昨日買った本です。",
+      "structure": "[S: This] [V: is] [O: the book] [RC: which [S: I] [V: bought] [ADV: yesterday]]",
+      "wrongOptionExplanations": {
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは物（book）を表しているので、whichを使います。",
+        "2": "whereは場所を表す先行詞に使う関係副詞です。ここでは物（book）を表しているので、whichを使います。",
+        "3": "whenは時を表す先行詞に使う関係副詞です。ここでは物（book）を表しているので、whichを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-002",
+    "category": "kankeidaimeishi",
+    "question": "The man ___ lives next door is a teacher.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "関係代名詞who。先行詞が人（man）の場合、whoまたはthatを使います。",
+      "translation": "隣に住んでいる男性は教師です。",
+      "structure": "[S: The man] [RC: who [V: lives] [PP: next door]] [V: is] [C: a teacher]",
+      "wrongOptionExplanations": {
+        "0": "whichは物を表す先行詞に使う関係代名詞です。ここでは人（man）を表しているので、whoを使います。",
+        "2": "whereは場所を表す先行詞に使う関係副詞です。ここでは人（man）を表しているので、whoを使います。",
+        "3": "whenは時を表す先行詞に使う関係副詞です。ここでは人（man）を表しているので、whoを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-003",
+    "category": "kankeidaimeishi",
+    "question": "This is the place ___ I was born.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "関係副詞where。先行詞が場所（place）の場合、whereを使います。",
+      "translation": "ここが私が生まれた場所です。",
+      "structure": "[S: This] [V: is] [O: the place] [RC: where [S: I] [V: was born]]",
+      "wrongOptionExplanations": {
+        "0": "whichは関係代名詞で、主語や目的語として使います。ここでは「場所で」という副詞的な意味を表すので、関係副詞whereを使います。",
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは場所（place）を表しているので、whereを使います。",
+        "3": "whenは時を表す先行詞に使う関係副詞です。ここでは場所（place）を表しているので、whereを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-004",
+    "category": "kankeidaimeishi",
+    "question": "I remember the day ___ we first met.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 3,
+    "explanation": {
+      "text": "関係副詞when。先行詞が時（day）の場合、whenを使います。",
+      "translation": "私たちが初めて会った日を覚えています。",
+      "structure": "[S: I] [V: remember] [O: the day] [RC: when [S: we] [ADV: first] [V: met]]",
+      "wrongOptionExplanations": {
+        "0": "whichは関係代名詞で、主語や目的語として使います。ここでは「その日に」という副詞的な意味を表すので、関係副詞whenを使います。",
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは時（day）を表しているので、whenを使います。",
+        "2": "whereは場所を表す先行詞に使う関係副詞です。ここでは時（day）を表しているので、whenを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-005",
+    "category": "kankeidaimeishi",
+    "question": "The reason ___ he left is still unknown.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "why"
+    ],
+    "correctAnswer": 3,
+    "explanation": {
+      "text": "関係副詞why。先行詞が理由（reason）の場合、whyを使います。",
+      "translation": "彼が去った理由はまだ分かっていない。",
+      "structure": "[S: The reason] [RC: why [S: he] [V: left]] [V: is] [C: still unknown]",
+      "wrongOptionExplanations": {
+        "0": "whichは関係代名詞で、主語や目的語として使います。ここでは「その理由で」という副詞的な意味を表すので、関係副詞whyを使います。",
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは理由（reason）を表しているので、whyを使います。",
+        "2": "whereは場所を表す先行詞に使う関係副詞です。ここでは理由（reason）を表しているので、whyを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-006",
+    "category": "kankeidaimeishi",
+    "question": "The woman ___ I met yesterday was very kind.",
+    "options": [
+      "which",
+      "who",
+      "whom",
+      "whose"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "関係代名詞whom。先行詞が人で目的格の場合、whomまたはwhoを使います。",
+      "translation": "昨日会った女性はとても親切でした。",
+      "structure": "[S: The woman] [RC: whom [S: I] [V: met] [ADV: yesterday]] [V: was] [C: very kind]",
+      "wrongOptionExplanations": {
+        "0": "whichは物を表す先行詞に使う関係代名詞です。ここでは人（woman）を表しているので、whomを使います。",
+        "1": "whoは主格として使う関係代名詞です。ここでは目的格なので、whomを使います。",
+        "3": "whoseは所有格を表す関係代名詞です。ここでは目的格なので、whomを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-007",
+    "category": "kankeidaimeishi",
+    "question": "The car ___ color is red belongs to my father.",
+    "options": [
+      "which",
+      "who",
+      "whose",
+      "where"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "関係代名詞whose。所有格を表す場合、whoseを使います。",
+      "translation": "色が赤い車は父のものです。",
+      "structure": "[S: The car] [RC: whose [S: color] [V: is] [C: red]] [V: belongs] [PP: to my father]",
+      "wrongOptionExplanations": {
+        "0": "whichは関係代名詞で、主語や目的語として使います。ここでは所有格を表すので、whoseを使います。",
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは所有格を表しているので、whoseを使います。",
+        "3": "whereは場所を表す先行詞に使う関係副詞です。ここでは所有格を表しているので、whoseを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-008",
+    "category": "kankeidaimeishi",
+    "question": "I have a friend ___ father is a doctor.",
+    "options": [
+      "which",
+      "who",
+      "whose",
+      "whom"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "関係代名詞whose。所有格を表す場合、whoseを使います。",
+      "translation": "父が医者である友人がいます。",
+      "structure": "[S: I] [V: have] [O: a friend] [RC: whose [S: father] [V: is] [C: a doctor]]",
+      "wrongOptionExplanations": {
+        "0": "whichは物を表す先行詞に使う関係代名詞です。ここでは所有格を表しているので、whoseを使います。",
+        "1": "whoは主格として使う関係代名詞です。ここでは所有格なので、whoseを使います。",
+        "3": "whomは目的格として使う関係代名詞です。ここでは所有格なので、whoseを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-009",
+    "category": "kankeidaimeishi",
+    "question": "The movie ___ we watched last night was interesting.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "関係代名詞which。先行詞が物（movie）で目的格の場合、whichまたはthatを使います。",
+      "translation": "昨夜見た映画は面白かった。",
+      "structure": "[S: The movie] [RC: which [S: we] [V: watched] [ADV: last night]] [V: was] [C: interesting]",
+      "wrongOptionExplanations": {
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは物（movie）を表しているので、whichを使います。",
+        "2": "whereは場所を表す先行詞に使う関係副詞です。ここでは物（movie）を表しているので、whichを使います。",
+        "3": "whenは時を表す先行詞に使う関係副詞です。ここでは物（movie）を表しているので、whichを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-010",
+    "category": "kankeidaimeishi",
+    "question": "The students ___ study hard will pass the exam.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "関係代名詞who。先行詞が人（students）で主格の場合、whoまたはthatを使います。",
+      "translation": "一生懸命勉強する学生は試験に合格するでしょう。",
+      "structure": "[S: The students] [RC: who [V: study] [ADV: hard]] [V: will pass] [O: the exam]",
+      "wrongOptionExplanations": {
+        "0": "whichは物を表す先行詞に使う関係代名詞です。ここでは人（students）を表しているので、whoを使います。",
+        "2": "whereは場所を表す先行詞に使う関係副詞です。ここでは人（students）を表しているので、whoを使います。",
+        "3": "whenは時を表す先行詞に使う関係副詞です。ここでは人（students）を表しているので、whoを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-011",
+    "category": "kankeidaimeishi",
+    "question": "The house ___ I grew up is now a museum.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "関係副詞where。先行詞が場所（house）の場合、whereを使います。",
+      "translation": "私が育った家は今博物館になっています。",
+      "structure": "[S: The house] [RC: where [S: I] [V: grew up]] [V: is] [C: now a museum]",
+      "wrongOptionExplanations": {
+        "0": "whichは関係代名詞で、主語や目的語として使います。ここでは「その家で」という副詞的な意味を表すので、関係副詞whereを使います。",
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは場所（house）を表しているので、whereを使います。",
+        "3": "whenは時を表す先行詞に使う関係副詞です。ここでは場所（house）を表しているので、whereを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-012",
+    "category": "kankeidaimeishi",
+    "question": "The person ___ I talked to was very helpful.",
+    "options": [
+      "which",
+      "who",
+      "whom",
+      "whose"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "関係代名詞whom。先行詞が人（person）で目的格の場合、whomまたはwhoを使います。",
+      "translation": "私が話した人はとても親切でした。",
+      "structure": "[S: The person] [RC: whom [S: I] [V: talked] [PP: to]] [V: was] [C: very helpful]",
+      "wrongOptionExplanations": {
+        "0": "whichは物を表す先行詞に使う関係代名詞です。ここでは人（person）を表しているので、whomを使います。",
+        "1": "whoは主格として使う関係代名詞です。ここでは目的格なので、whomを使います。",
+        "3": "whoseは所有格を表す関係代名詞です。ここでは目的格なので、whomを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-013",
+    "category": "kankeidaimeishi",
+    "question": "The restaurant ___ we had dinner was expensive.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "関係副詞where。先行詞が場所（restaurant）の場合、whereを使います。",
+      "translation": "私たちが夕食を食べたレストランは高価でした。",
+      "structure": "[S: The restaurant] [RC: where [S: we] [V: had] [O: dinner]] [V: was] [C: expensive]",
+      "wrongOptionExplanations": {
+        "0": "whichは関係代名詞で、主語や目的語として使います。ここでは「そのレストランで」という副詞的な意味を表すので、関係副詞whereを使います。",
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは場所（restaurant）を表しているので、whereを使います。",
+        "3": "whenは時を表す先行詞に使う関係副詞です。ここでは場所（restaurant）を表しているので、whereを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-014",
+    "category": "kankeidaimeishi",
+    "question": "The book ___ cover is torn belongs to me.",
+    "options": [
+      "which",
+      "who",
+      "whose",
+      "where"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "関係代名詞whose。所有格を表す場合、whoseを使います。",
+      "translation": "表紙が破れている本は私のものです。",
+      "structure": "[S: The book] [RC: whose [S: cover] [V: is] [C: torn]] [V: belongs] [PP: to me]",
+      "wrongOptionExplanations": {
+        "0": "whichは関係代名詞で、主語や目的語として使います。ここでは所有格を表すので、whoseを使います。",
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは所有格を表しているので、whoseを使います。",
+        "3": "whereは場所を表す先行詞に使う関係副詞です。ここでは所有格を表しているので、whoseを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-015",
+    "category": "kankeidaimeishi",
+    "question": "The year ___ I graduated was 2020.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 3,
+    "explanation": {
+      "text": "関係副詞when。先行詞が時（year）の場合、whenを使います。",
+      "translation": "私が卒業した年は2020年でした。",
+      "structure": "[S: The year] [RC: when [S: I] [V: graduated]] [V: was] [C: 2020]",
+      "wrongOptionExplanations": {
+        "0": "whichは関係代名詞で、主語や目的語として使います。ここでは「その年に」という副詞的な意味を表すので、関係副詞whenを使います。",
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは時（year）を表しているので、whenを使います。",
+        "2": "whereは場所を表す先行詞に使う関係副詞です。ここでは時（year）を表しているので、whenを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-016",
+    "category": "kankeidaimeishi",
+    "question": "The teacher ___ I respect most is Mr. Smith.",
+    "options": [
+      "which",
+      "who",
+      "whom",
+      "whose"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "関係代名詞whom。先行詞が人（teacher）で目的格の場合、whomまたはwhoを使います。",
+      "translation": "私が最も尊敬する教師はスミス先生です。",
+      "structure": "[S: The teacher] [RC: whom [S: I] [V: respect] [ADV: most]] [V: is] [C: Mr. Smith]",
+      "wrongOptionExplanations": {
+        "0": "whichは物を表す先行詞に使う関係代名詞です。ここでは人（teacher）を表しているので、whomを使います。",
+        "1": "whoは主格として使う関係代名詞です。ここでは目的格なので、whomを使います。",
+        "3": "whoseは所有格を表す関係代名詞です。ここでは目的格なので、whomを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-017",
+    "category": "kankeidaimeishi",
+    "question": "The city ___ I live is very beautiful.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "関係副詞where。先行詞が場所（city）の場合、whereを使います。",
+      "translation": "私が住んでいる都市はとても美しいです。",
+      "structure": "[S: The city] [RC: where [S: I] [V: live]] [V: is] [C: very beautiful]",
+      "wrongOptionExplanations": {
+        "0": "whichは関係代名詞で、主語や目的語として使います。ここでは「その都市で」という副詞的な意味を表すので、関係副詞whereを使います。",
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは場所（city）を表しているので、whereを使います。",
+        "3": "whenは時を表す先行詞に使う関係副詞です。ここでは場所（city）を表しているので、whereを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-018",
+    "category": "kankeidaimeishi",
+    "question": "The problem ___ we are facing is very difficult.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "関係代名詞which。先行詞が物（problem）で目的格の場合、whichまたはthatを使います。",
+      "translation": "私たちが直面している問題はとても難しいです。",
+      "structure": "[S: The problem] [RC: which [S: we] [V: are facing]] [V: is] [C: very difficult]",
+      "wrongOptionExplanations": {
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは物（problem）を表しているので、whichを使います。",
+        "2": "whereは場所を表す先行詞に使う関係副詞です。ここでは物（problem）を表しているので、whichを使います。",
+        "3": "whenは時を表す先行詞に使う関係副詞です。ここでは物（problem）を表しているので、whichを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-019",
+    "category": "kankeidaimeishi",
+    "question": "The moment ___ I saw her, I knew she was special.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 3,
+    "explanation": {
+      "text": "関係副詞when。先行詞が時（moment）の場合、whenを使います。",
+      "translation": "彼女を見た瞬間、私は彼女が特別だと分かりました。",
+      "structure": "[O: The moment] [RC: when [S: I] [V: saw] [O: her]] [S: I] [V: knew] [C: she was special]",
+      "wrongOptionExplanations": {
+        "0": "whichは関係代名詞で、主語や目的語として使います。ここでは「その瞬間に」という副詞的な意味を表すので、関係副詞whenを使います。",
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは時（moment）を表しているので、whenを使います。",
+        "2": "whereは場所を表す先行詞に使う関係副詞です。ここでは時（moment）を表しているので、whenを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-020",
+    "category": "kankeidaimeishi",
+    "question": "The person ___ I met yesterday is my teacher.",
+    "options": [
+      "which",
+      "who",
+      "whom",
+      "whose"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "関係代名詞whom。先行詞が人（person）で目的格の場合、whomまたはwhoを使います。",
+      "translation": "昨日会った人は私の先生です。",
+      "structure": "[S: The person] [RC: whom [S: I] [V: met] [ADV: yesterday]] [V: is] [C: my teacher]",
+      "wrongOptionExplanations": {
+        "0": "whichは物を表す先行詞に使う関係代名詞です。ここでは人（person）を表しているので、whomを使います。",
+        "1": "whoは主格として使う関係代名詞です。ここでは目的格なので、whomを使います。",
+        "3": "whoseは所有格を表す関係代名詞です。ここでは目的格なので、whomを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-021",
+    "category": "kankeidaimeishi",
+    "question": "The book ___ I borrowed from the library is very interesting.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "関係代名詞which。先行詞が物（book）で目的格の場合、whichまたはthatを使います。",
+      "translation": "図書館から借りた本はとても面白いです。",
+      "structure": "[S: The book] [RC: which [S: I] [V: borrowed] [PP: from the library]] [V: is] [C: very interesting]",
+      "wrongOptionExplanations": {
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは物（book）を表しているので、whichを使います。",
+        "2": "whereは場所を表す先行詞に使う関係副詞です。ここでは物（book）を表しているので、whichを使います。",
+        "3": "whenは時を表す先行詞に使う関係副詞です。ここでは物（book）を表しているので、whichを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-022",
+    "category": "kankeidaimeishi",
+    "question": "The school ___ I study is very large.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "関係副詞where。先行詞が場所（school）の場合、whereを使います。",
+      "translation": "私が勉強している学校はとても大きいです。",
+      "structure": "[S: The school] [RC: where [S: I] [V: study]] [V: is] [C: very large]",
+      "wrongOptionExplanations": {
+        "0": "whichは関係代名詞で、主語や目的語として使います。ここでは「その学校で」という副詞的な意味を表すので、関係副詞whereを使います。",
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは場所（school）を表しているので、whereを使います。",
+        "3": "whenは時を表す先行詞に使う関係副詞です。ここでは場所（school）を表しているので、whereを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-023",
+    "category": "kankeidaimeishi",
+    "question": "The day ___ I arrived was sunny.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 3,
+    "explanation": {
+      "text": "関係副詞when。先行詞が時（day）の場合、whenを使います。",
+      "translation": "私が到着した日は晴れていました。",
+      "structure": "[S: The day] [RC: when [S: I] [V: arrived]] [V: was] [C: sunny]",
+      "wrongOptionExplanations": {
+        "0": "whichは関係代名詞で、主語や目的語として使います。ここでは「その日に」という副詞的な意味を表すので、関係副詞whenを使います。",
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは時（day）を表しているので、whenを使います。",
+        "2": "whereは場所を表す先行詞に使う関係副詞です。ここでは時（day）を表しているので、whenを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-024",
+    "category": "kankeidaimeishi",
+    "question": "The student ___ homework is always perfect is very smart.",
+    "options": [
+      "which",
+      "who",
+      "whose",
+      "whom"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "関係代名詞whose。所有格を表す場合、whoseを使います。",
+      "translation": "宿題がいつも完璧な学生はとても賢いです。",
+      "structure": "[S: The student] [RC: whose [S: homework] [V: is] [C: always perfect]] [V: is] [C: very smart]",
+      "wrongOptionExplanations": {
+        "0": "whichは関係代名詞で、主語や目的語として使います。ここでは所有格を表すので、whoseを使います。",
+        "1": "whoは主格として使う関係代名詞です。ここでは所有格なので、whoseを使います。",
+        "3": "whomは目的格として使う関係代名詞です。ここでは所有格なので、whoseを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-025",
+    "category": "kankeidaimeishi",
+    "question": "The computer ___ I use every day is very fast.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "関係代名詞which。先行詞が物（computer）で目的格の場合、whichまたはthatを使います。",
+      "translation": "毎日使うコンピューターはとても速いです。",
+      "structure": "[S: The computer] [RC: which [S: I] [V: use] [ADV: every day]] [V: is] [C: very fast]",
+      "wrongOptionExplanations": {
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは物（computer）を表しているので、whichを使います。",
+        "2": "whereは場所を表す先行詞に使う関係副詞です。ここでは物（computer）を表しているので、whichを使います。",
+        "3": "whenは時を表す先行詞に使う関係副詞です。ここでは物（computer）を表しているので、whichを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-026",
+    "category": "kankeidaimeishi",
+    "question": "The park ___ we play is very beautiful.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "関係副詞where。先行詞が場所（park）の場合、whereを使います。",
+      "translation": "私たちが遊ぶ公園はとても美しいです。",
+      "structure": "[S: The park] [RC: where [S: we] [V: play]] [V: is] [C: very beautiful]",
+      "wrongOptionExplanations": {
+        "0": "whichは関係代名詞で、主語や目的語として使います。ここでは「その公園で」という副詞的な意味を表すので、関係副詞whereを使います。",
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは場所（park）を表しているので、whereを使います。",
+        "3": "whenは時を表す先行詞に使う関係副詞です。ここでは場所（park）を表しているので、whereを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-027",
+    "category": "kankeidaimeishi",
+    "question": "The woman ___ son is a doctor lives next door.",
+    "options": [
+      "which",
+      "who",
+      "whose",
+      "whom"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "関係代名詞whose。所有格を表す場合、whoseを使います。",
+      "translation": "息子が医者である女性が隣に住んでいます。",
+      "structure": "[S: The woman] [RC: whose [S: son] [V: is] [C: a doctor]] [V: lives] [PP: next door]",
+      "wrongOptionExplanations": {
+        "0": "whichは物を表す先行詞に使う関係代名詞です。ここでは所有格を表しているので、whoseを使います。",
+        "1": "whoは主格として使う関係代名詞です。ここでは所有格なので、whoseを使います。",
+        "3": "whomは目的格として使う関係代名詞です。ここでは所有格なので、whoseを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-028",
+    "category": "kankeidaimeishi",
+    "question": "The movie ___ we saw last week was amazing.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "関係代名詞which。先行詞が物（movie）で目的格の場合、whichまたはthatを使います。",
+      "translation": "先週見た映画は素晴らしかった。",
+      "structure": "[S: The movie] [RC: which [S: we] [V: saw] [ADV: last week]] [V: was] [C: amazing]",
+      "wrongOptionExplanations": {
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは物（movie）を表しているので、whichを使います。",
+        "2": "whereは場所を表す先行詞に使う関係副詞です。ここでは物（movie）を表しているので、whichを使います。",
+        "3": "whenは時を表す先行詞に使う関係副詞です。ここでは物（movie）を表しているので、whichを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-029",
+    "category": "kankeidaimeishi",
+    "question": "The store ___ I bought this shirt is closed now.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "関係副詞where。先行詞が場所（store）の場合、whereを使います。",
+      "translation": "このシャツを買った店は今閉まっています。",
+      "structure": "[S: The store] [RC: where [S: I] [V: bought] [O: this shirt]] [V: is] [C: closed now]",
+      "wrongOptionExplanations": {
+        "0": "whichは関係代名詞で、主語や目的語として使います。ここでは「その店で」という副詞的な意味を表すので、関係副詞whereを使います。",
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは場所（store）を表しているので、whereを使います。",
+        "3": "whenは時を表す先行詞に使う関係副詞です。ここでは場所（store）を表しているので、whereを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-030",
+    "category": "kankeidaimeishi",
+    "question": "The teacher ___ I respect the most is very kind.",
+    "options": [
+      "which",
+      "who",
+      "whom",
+      "whose"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "関係代名詞whom。先行詞が人（teacher）で目的格の場合、whomまたはwhoを使います。",
+      "translation": "私が最も尊敬する教師はとても親切です。",
+      "structure": "[S: The teacher] [RC: whom [S: I] [V: respect] [ADV: the most]] [V: is] [C: very kind]",
+      "wrongOptionExplanations": {
+        "0": "whichは物を表す先行詞に使う関係代名詞です。ここでは人（teacher）を表しているので、whomを使います。",
+        "1": "whoは主格として使う関係代名詞です。ここでは目的格なので、whomを使います。",
+        "3": "whoseは所有格を表す関係代名詞です。ここでは目的格なので、whomを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-031",
+    "category": "kankeidaimeishi",
+    "question": "The reason ___ I came here is to study English.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "why"
+    ],
+    "correctAnswer": 3,
+    "explanation": {
+      "text": "関係副詞why。先行詞が理由（reason）の場合、whyを使います。",
+      "translation": "私がここに来た理由は英語を勉強するためです。",
+      "structure": "[S: The reason] [RC: why [S: I] [V: came] [ADV: here]] [V: is] [C: to study English]",
+      "wrongOptionExplanations": {
+        "0": "whichは関係代名詞で、主語や目的語として使います。ここでは「その理由で」という副詞的な意味を表すので、関係副詞whyを使います。",
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは理由（reason）を表しているので、whyを使います。",
+        "2": "whereは場所を表す先行詞に使う関係副詞です。ここでは理由（reason）を表しているので、whyを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-032",
+    "category": "kankeidaimeishi",
+    "question": "The dog ___ I found yesterday is very friendly.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "関係代名詞which。先行詞が物や動物（dog）で目的格の場合、whichまたはthatを使います。",
+      "translation": "昨日見つけた犬はとてもフレンドリーです。",
+      "structure": "[S: The dog] [RC: which [S: I] [V: found] [ADV: yesterday]] [V: is] [C: very friendly]",
+      "wrongOptionExplanations": {
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは動物（dog）を表しているので、whichを使います。",
+        "2": "whereは場所を表す先行詞に使う関係副詞です。ここでは動物（dog）を表しているので、whichを使います。",
+        "3": "whenは時を表す先行詞に使う関係副詞です。ここでは動物（dog）を表しているので、whichを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-033",
+    "category": "kankeidaimeishi",
+    "question": "The country ___ I was born is Japan.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "関係副詞where。先行詞が場所（country）の場合、whereを使います。",
+      "translation": "私が生まれた国は日本です。",
+      "structure": "[S: The country] [RC: where [S: I] [V: was born]] [V: is] [C: Japan]",
+      "wrongOptionExplanations": {
+        "0": "whichは関係代名詞で、主語や目的語として使います。ここでは「その国で」という副詞的な意味を表すので、関係副詞whereを使います。",
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは場所（country）を表しているので、whereを使います。",
+        "3": "whenは時を表す先行詞に使う関係副詞です。ここでは場所（country）を表しているので、whereを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-034",
+    "category": "kankeidaimeishi",
+    "question": "The phone ___ I lost yesterday was expensive.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "関係代名詞which。先行詞が物（phone）で目的格の場合、whichまたはthatを使います。",
+      "translation": "昨日失くした電話は高価でした。",
+      "structure": "[S: The phone] [RC: which [S: I] [V: lost] [ADV: yesterday]] [V: was] [C: expensive]",
+      "wrongOptionExplanations": {
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは物（phone）を表しているので、whichを使います。",
+        "2": "whereは場所を表す先行詞に使う関係副詞です。ここでは物（phone）を表しているので、whichを使います。",
+        "3": "whenは時を表す先行詞に使う関係副詞です。ここでは物（phone）を表しているので、whichを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-035",
+    "category": "kankeidaimeishi",
+    "question": "The friend ___ I trust the most is always there for me.",
+    "options": [
+      "which",
+      "who",
+      "whom",
+      "whose"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "関係代名詞whom。先行詞が人（friend）で目的格の場合、whomまたはwhoを使います。",
+      "translation": "私が最も信頼する友人はいつも私のためにいてくれます。",
+      "structure": "[S: The friend] [RC: whom [S: I] [V: trust] [ADV: the most]] [V: is] [C: always there for me]",
+      "wrongOptionExplanations": {
+        "0": "whichは物を表す先行詞に使う関係代名詞です。ここでは人（friend）を表しているので、whomを使います。",
+        "1": "whoは主格として使う関係代名詞です。ここでは目的格なので、whomを使います。",
+        "3": "whoseは所有格を表す関係代名詞です。ここでは目的格なので、whomを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-036",
+    "category": "kankeidaimeishi",
+    "question": "The building ___ I work is very tall.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "関係副詞where。先行詞が場所（building）の場合、whereを使います。",
+      "translation": "私が働いている建物はとても高いです。",
+      "structure": "[S: The building] [RC: where [S: I] [V: work]] [V: is] [C: very tall]",
+      "wrongOptionExplanations": {
+        "0": "whichは関係代名詞で、主語や目的語として使います。ここでは「その建物で」という副詞的な意味を表すので、関係副詞whereを使います。",
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは場所（building）を表しているので、whereを使います。",
+        "3": "whenは時を表す先行詞に使う関係副詞です。ここでは場所（building）を表しているので、whereを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-037",
+    "category": "kankeidaimeishi",
+    "question": "The song ___ I like the most is very popular.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "関係代名詞which。先行詞が物（song）で目的格の場合、whichまたはthatを使います。",
+      "translation": "私が最も好きな曲はとても人気があります。",
+      "structure": "[S: The song] [RC: which [S: I] [V: like] [ADV: the most]] [V: is] [C: very popular]",
+      "wrongOptionExplanations": {
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは物（song）を表しているので、whichを使います。",
+        "2": "whereは場所を表す先行詞に使う関係副詞です。ここでは物（song）を表しているので、whichを使います。",
+        "3": "whenは時を表す先行詞に使う関係副詞です。ここでは物（song）を表しているので、whichを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-038",
+    "category": "kankeidaimeishi",
+    "question": "The time ___ we have lunch is 12 o'clock.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "when"
+    ],
+    "correctAnswer": 3,
+    "explanation": {
+      "text": "関係副詞when。先行詞が時（time）の場合、whenを使います。",
+      "translation": "私たちが昼食を食べる時間は12時です。",
+      "structure": "[S: The time] [RC: when [S: we] [V: have] [O: lunch]] [V: is] [C: 12 o'clock]",
+      "wrongOptionExplanations": {
+        "0": "whichは関係代名詞で、主語や目的語として使います。ここでは「その時に」という副詞的な意味を表すので、関係副詞whenを使います。",
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは時（time）を表しているので、whenを使います。",
+        "2": "whereは場所を表す先行詞に使う関係副詞です。ここでは時（time）を表しているので、whenを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-039",
+    "category": "kankeidaimeishi",
+    "question": "The car ___ owner is my neighbor is parked outside.",
+    "options": [
+      "which",
+      "who",
+      "whose",
+      "whom"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "関係代名詞whose。所有格を表す場合、whoseを使います。",
+      "translation": "所有者が私の隣人である車が外に駐車されています。",
+      "structure": "[S: The car] [RC: whose [S: owner] [V: is] [C: my neighbor]] [V: is parked] [ADV: outside]",
+      "wrongOptionExplanations": {
+        "0": "whichは関係代名詞で、主語や目的語として使います。ここでは所有格を表すので、whoseを使います。",
+        "1": "whoは人を表す先行詞に使う関係代名詞です。ここでは所有格を表しているので、whoseを使います。",
+        "3": "whomは目的格として使う関係代名詞です。ここでは所有格なので、whoseを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-040",
+    "category": "kankeidaimeishi",
+    "question": "The person ___ I admire most is my grandmother.",
+    "options": [
+      "which",
+      "who",
+      "whom",
+      "whose"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "関係代名詞whom。先行詞が人（person）で目的格の場合、whomまたはwhoを使います。",
+      "translation": "私が最も尊敬する人は私の祖母です。",
+      "structure": "[S: The person] [RC: whom [S: I] [V: admire] [ADV: most]] [V: is] [C: my grandmother]",
+      "wrongOptionExplanations": {
+        "0": "whichは物を表す先行詞に使う関係代名詞です。ここでは人（person）を表しているので、whomを使います。",
+        "1": "whoは主格として使う関係代名詞です。ここでは目的格なので、whomを使います。",
+        "3": "whoseは所有格を表す関係代名詞です。ここでは目的格なので、whomを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "rel-041",
+    "category": "kankeidaimeishi",
+    "question": "The artist ___ paintings are famous lives in Paris, and the gallery ___ displays his work is very popular.",
+    "options": [
+      "whose, which",
+      "who, where",
+      "whose, where",
+      "whom, which"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "1つ目は所有格の関係代名詞whose（絵画を所有している芸術家）、2つ目は物（gallery）を先行詞とする関係代名詞whichです。",
+      "translation": "絵画が有名な芸術家はパリに住んでおり、彼の作品を展示するギャラリーは非常に人気があります。",
+      "structure": "[S: The artist] [RC: whose [S: paintings] [V: are] [C: famous]] [V: lives] [PP: in Paris], and [S: the gallery] [RC: which [V: displays] [O: his work]] [V: is] [C: very popular]",
+      "wrongOptionExplanations": {
+        "1": "1つ目は所有格を表すのでwhoseが必要です。2つ目は場所ではなく物（gallery）が先行詞なのでwhichを使います。",
+        "2": "2つ目は場所ではなく物（gallery）が先行詞で、主語として使うのでwhichが必要です。",
+        "3": "1つ目は所有格を表すのでwhoseが必要です。whomは目的格の関係代名詞です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "rel-042",
+    "category": "kankeidaimeishi",
+    "question": "I met a scientist ___ research is groundbreaking, and she showed me the lab ___ she conducts her experiments.",
+    "options": [
+      "whose, where",
+      "who, which",
+      "whose, which",
+      "whom, where"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "1つ目は所有格の関係代名詞whose（研究を所有している科学者）、2つ目は場所を表す関係副詞whereです。",
+      "translation": "私は画期的な研究をしている科学者に会い、彼女は実験を行っている研究室を見せてくれました。",
+      "structure": "[S: I] [V: met] [O: a scientist] [RC: whose [S: research] [V: is] [C: groundbreaking]], and [S: she] [V: showed] [IO: me] [DO: the lab] [RC: where [S: she] [V: conducts] [O: her experiments]]",
+      "wrongOptionExplanations": {
+        "1": "1つ目は所有格を表すのでwhoseが必要です。2つ目は場所を表すのでwhereを使います。",
+        "2": "2つ目は場所を表す副詞的な意味なのでwhereが必要です。whichは主語や目的語として使います。",
+        "3": "1つ目は所有格を表すのでwhoseが必要です。whomは目的格の関係代名詞です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "rel-043",
+    "category": "kankeidaimeishi",
+    "question": "The company ___ products we use daily is expanding, and they hired an engineer ___ skills are exceptional.",
+    "options": [
+      "whose, whose",
+      "which, who",
+      "whose, whom",
+      "that, whose"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "両方とも所有格の関係代名詞whoseです。1つ目は製品を所有する会社、2つ目はスキルを持つエンジニアを表します。",
+      "translation": "私たちが毎日使う製品を作っている会社は拡大しており、彼らは優れたスキルを持つエンジニアを雇いました。",
+      "structure": "[S: The company] [RC: whose [O: products] [S: we] [V: use] [ADV: daily]] [V: is expanding], and [S: they] [V: hired] [O: an engineer] [RC: whose [S: skills] [V: are] [C: exceptional]]",
+      "wrongOptionExplanations": {
+        "1": "1つ目は所有格を表すのでwhoseが必要です。2つ目も所有格なのでwhoseを使います。",
+        "2": "2つ目は所有格を表すのでwhoseが必要です。whomは目的格の関係代名詞です。",
+        "3": "1つ目も所有格を表すのでwhoseが必要です。thatは所有格として使えません。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "rel-044",
+    "category": "kankeidaimeishi",
+    "question": "The author ___ books I enjoy writes mystery novels, and the stories ___ she creates are always thrilling.",
+    "options": [
+      "whose, which",
+      "who, that",
+      "whose, who",
+      "whom, which"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "1つ目は所有格の関係代名詞whose（本を書く著者）、2つ目は物（stories）を先行詞とする関係代名詞whichです。",
+      "translation": "私が楽しんでいる本を書く著者はミステリー小説を書いており、彼女が創作する物語はいつもスリリングです。",
+      "structure": "[S: The author] [RC: whose [O: books] [S: I] [V: enjoy]] [V: writes] [O: mystery novels], and [S: the stories] [RC: which [S: she] [V: creates]] [V: are] [ADV: always] [C: thrilling]",
+      "wrongOptionExplanations": {
+        "1": "1つ目は所有格を表すのでwhoseが必要です。2つ目はwhichでも正しいですが、ここでは構造を明確にするためwhichが最適です。",
+        "2": "2つ目はwhichが最も自然です。whoは人を先行詞とする関係代名詞です。",
+        "3": "1つ目は所有格を表すのでwhoseが正しいですが、whomは目的格の関係代名詞で不適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "rel-045",
+    "category": "kankeidaimeishi",
+    "question": "The restaurant ___ we had dinner serves Italian food, and the chef ___ works there won an award.",
+    "options": [
+      "where, who",
+      "which, whom",
+      "where, whom",
+      "that, whose"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "1つ目は場所を表す関係副詞where、2つ目は人（chef）を先行詞とし主格の関係代名詞whoです。",
+      "translation": "私たちが夕食を食べたレストランはイタリア料理を提供しており、そこで働いているシェフは賞を受賞しました。",
+      "structure": "[S: The restaurant] [RC: where [S: we] [V: had] [O: dinner]] [V: serves] [O: Italian food], and [S: the chef] [RC: who [V: works] [ADV: there]] [V: won] [O: an award]",
+      "wrongOptionExplanations": {
+        "1": "1つ目は場所を表すのでwhereが必要です。2つ目は主格なのでwhoを使います。",
+        "2": "2つ目は主格の関係代名詞が必要です。whomは目的格です。",
+        "3": "1つ目は場所を表すのでwhereが正しいですが、2つ目は所有格ではなく主格なのでwhoが必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "rel-046",
+    "category": "kankeidaimeishi",
+    "question": "The movie ___ we watched last night was exciting, and the actor ___ played the hero was brilliant.",
+    "options": [
+      "which, who",
+      "that, whom",
+      "which, whom",
+      "where, who"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "1つ目は物（movie）を先行詞とする関係代名詞which、2つ目は人（actor）を先行詞とし主格の関係代名詞whoです。",
+      "translation": "昨夜私たちが見た映画は興奮するもので、ヒーローを演じた俳優は素晴らしかったです。",
+      "structure": "[S: The movie] [RC: which [S: we] [V: watched] [ADV: last night]] [V: was] [C: exciting], and [S: the actor] [RC: who [V: played] [O: the hero]] [V: was] [C: brilliant]",
+      "wrongOptionExplanations": {
+        "1": "2つ目は主格の関係代名詞が必要です。whomは目的格です。",
+        "2": "2つ目は主格の関係代名詞が必要です。whomは目的格です。",
+        "3": "1つ目は物を表すのでwhichが正しいですが、whereは場所を表す関係副詞です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "rel-047",
+    "category": "kankeidaimeishi",
+    "question": "The museum ___ exhibits ancient artifacts is fascinating, and the guide ___ knowledge is extensive gave us a tour.",
+    "options": [
+      "which, whose",
+      "where, who",
+      "which, whom",
+      "that, whose"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "1つ目は物（museum）を先行詞とする関係代名詞which、2つ目は所有格の関係代名詞whose（知識を持つガイド）です。",
+      "translation": "古代の工芸品を展示する博物館は魅力的で、豊富な知識を持つガイドが私たちをツアーに案内してくれました。",
+      "structure": "[S: The museum] [RC: which [V: exhibits] [O: ancient artifacts]] [V: is] [C: fascinating], and [S: the guide] [RC: whose [S: knowledge] [V: is] [C: extensive]] [V: gave] [IO: us] [DO: a tour]",
+      "wrongOptionExplanations": {
+        "1": "1つ目は物（museum）を先行詞とするのでwhichを使います。2つ目は所有格なのでwhoseが必要です。",
+        "2": "2つ目は所有格を表すのでwhoseが必要です。whomは目的格の関係代名詞です。",
+        "3": "1つ目はwhichでもthatでも可能ですが、whichの方が明確です。2つ目は所有格なのでwhoseが正しいです。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "rel-048",
+    "category": "kankeidaimeishi",
+    "question": "The city ___ I grew up has changed dramatically, and the parks ___ we used to play are now modern facilities.",
+    "options": [
+      "where, where",
+      "which, which",
+      "where, which",
+      "that, where"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "両方とも場所を表す関係副詞whereです。1つ目は育った都市、2つ目は遊んだ公園を表します。",
+      "translation": "私が育った都市は劇的に変化し、私たちが遊んでいた公園は今では近代的な施設になっています。",
+      "structure": "[S: The city] [RC: where [S: I] [V: grew up]] [V: has changed] [ADV: dramatically], and [S: the parks] [RC: where [S: we] [V: used to play]] [V: are] [ADV: now] [C: modern facilities]",
+      "wrongOptionExplanations": {
+        "1": "両方とも場所を表し副詞的な意味なのでwhereが必要です。whichは主語や目的語として使います。",
+        "2": "1つ目は場所を表すのでwhereが必要です。2つ目も場所なのでwhereを使います。",
+        "3": "1つ目は場所を表すのでwhereが必要です。thatは場所の関係副詞としては使えません。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "rel-049",
+    "category": "kankeidaimeishi",
+    "question": "The conference ___ topics were innovative attracted many attendees, and the speaker ___ we invited was inspiring.",
+    "options": [
+      "whose, whom",
+      "which, who",
+      "whose, who",
+      "that, whom"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "1つ目は所有格の関係代名詞whose（トピックを持つ会議）、2つ目は目的格の関係代名詞whom（招待された講演者）です。",
+      "translation": "トピックが革新的だった会議は多くの参加者を引き付け、私たちが招待した講演者は感動的でした。",
+      "structure": "[S: The conference] [RC: whose [S: topics] [V: were] [C: innovative]] [V: attracted] [O: many attendees], and [S: the speaker] [RC: whom [S: we] [V: invited]] [V: was] [C: inspiring]",
+      "wrongOptionExplanations": {
+        "1": "1つ目は所有格を表すのでwhoseが必要です。2つ目はwhomでも正しいですが、目的格を明確にするためwhomが最適です。",
+        "2": "2つ目は目的格の関係代名詞が必要です。whomを使うのが適切です。",
+        "3": "1つ目は所有格を表すのでwhoseが正しいですが、thatは所有格として使えません。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "rel-050",
+    "category": "kankeidaimeishi",
+    "question": "The teacher ___ I respect most teaches history, and the lessons ___ he prepares are always engaging.",
+    "options": [
+      "whom, which",
+      "who, that",
+      "whose, which",
+      "whom, who"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "1つ目は目的格の関係代名詞whom（尊敬される先生）、2つ目は物（lessons）を先行詞とする関係代名詞whichです。",
+      "translation": "私が最も尊敬する先生は歴史を教えており、彼が準備する授業はいつも魅力的です。",
+      "structure": "[S: The teacher] [RC: whom [S: I] [V: respect] [ADV: most]] [V: teaches] [O: history], and [S: the lessons] [RC: which [S: he] [V: prepares]] [V: are] [ADV: always] [C: engaging]",
+      "wrongOptionExplanations": {
+        "1": "1つ目は目的格の関係代名詞が必要です。whomを使うのが適切です。2つ目はwhichでも正しいです。",
+        "2": "1つ目は目的格の関係代名詞whomが必要です。2つ目はwhichが最も自然です。",
+        "3": "1つ目は所有格ではなく目的格なのでwhomが必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "rel-051",
+    "category": "kankeidaimeishi",
+    "question": "The building ___ windows were broken is being renovated, and the construction company ___ we hired is very professional.",
+    "options": [
+      "whose, which",
+      "which, whom",
+      "whose, that",
+      "that, which"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "1つ目は所有格の関係代名詞whose（窓を持つ建物）、2つ目は物（company）を先行詞とする関係代名詞whichです。目的格を明確にするためwhichが最適です。",
+      "translation": "窓が壊れた建物は改装中で、私たちが雇った建設会社は非常にプロフェッショナルです。",
+      "structure": "[S: The building] [RC: whose [S: windows] [V: were broken]] [V: is being renovated], and [S: the construction company] [RC: which [S: we] [V: hired]] [V: is] [C: very professional]",
+      "wrongOptionExplanations": {
+        "1": "1つ目は所有格を表すのでwhoseが必要です。2つ目は物を先行詞とするのでwhichを使います。",
+        "2": "2つ目は物（company）を先行詞とするのでwhichが必要です。whomは人に使います。",
+        "3": "1つ目は所有格を表すのでwhoseが正しいです。2つ目はwhichでもthatでも可能ですが、whichの方が明確です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "rel-052",
+    "category": "kankeidaimeishi",
+    "question": "The book ___ I recommended to you is informative, and the author ___ wrote it is a renowned expert.",
+    "options": [
+      "which, who",
+      "that, whom",
+      "which, whose",
+      "where, who"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "1つ目は物（book）を先行詞とする関係代名詞which、2つ目は人（author）を先行詞とし主格の関係代名詞whoです。",
+      "translation": "私があなたに勧めた本は有益で、それを書いた著者は有名な専門家です。",
+      "structure": "[S: The book] [RC: which [S: I] [V: recommended] [PP: to you]] [V: is] [C: informative], and [S: the author] [RC: who [V: wrote] [O: it]] [V: is] [C: a renowned expert]",
+      "wrongOptionExplanations": {
+        "1": "2つ目は主格の関係代名詞が必要です。whomは目的格です。",
+        "2": "2つ目は主格の関係代名詞が必要です。whomは目的格、whoseは所有格です。",
+        "3": "1つ目は物を表すのでwhichが必要です。whereは場所を表す関係副詞です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "rel-053",
+    "category": "kankeidaimeishi",
+    "question": "The hotel ___ we stayed offers great service, and the staff members ___ work there are very friendly.",
+    "options": [
+      "where, who",
+      "which, whom",
+      "where, whose",
+      "that, who"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "1つ目は場所を表す関係副詞where、2つ目は人（staff members）を先行詞とし主格の関係代名詞whoです。",
+      "translation": "私たちが滞在したホテルは素晴らしいサービスを提供しており、そこで働くスタッフはとてもフレンドリーです。",
+      "structure": "[S: The hotel] [RC: where [S: we] [V: stayed]] [V: offers] [O: great service], and [S: the staff members] [RC: who [V: work] [ADV: there]] [V: are] [C: very friendly]",
+      "wrongOptionExplanations": {
+        "1": "1つ目は場所を表すのでwhereが必要です。2つ目は主格なのでwhoが正しいです。",
+        "2": "2つ目は主格の関係代名詞が必要です。whomは目的格、whoseは所有格です。",
+        "3": "1つ目は場所を表すのでwhereが正しいですが、thatは場所の関係副詞としては使えません。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "rel-054",
+    "category": "kankeidaimeishi",
+    "question": "The project ___ deadline is next month requires careful planning, and the team ___ we assembled is working hard.",
+    "options": [
+      "whose, which",
+      "which, who",
+      "whose, that",
+      "that, whom"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "1つ目は所有格の関係代名詞whose（締め切りを持つプロジェクト）、2つ目は物（team）を先行詞とする関係代名詞whichです。目的格を明確にするためwhichが最適です。",
+      "translation": "締め切りが来月のプロジェクトは慎重な計画が必要で、私たちが集めたチームは一生懸命働いています。",
+      "structure": "[S: The project] [RC: whose [S: deadline] [V: is] [C: next month]] [V: requires] [O: careful planning], and [S: the team] [RC: which [S: we] [V: assembled]] [V: is working] [ADV: hard]",
+      "wrongOptionExplanations": {
+        "1": "1つ目は所有格を表すのでwhoseが必要です。2つ目はwhichが最も適切です。",
+        "2": "2つ目は物（team）を先行詞とするのでwhichが必要です。whoは人に使います。",
+        "3": "1つ目は所有格を表すのでwhoseが正しいです。2つ目はwhichでもthatでも可能ですが、whichの方が明確です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "rel-055",
+    "category": "kankeidaimeishi",
+    "question": "The library ___ I study every day has excellent resources, and the librarian ___ helps students is very knowledgeable.",
+    "options": [
+      "where, who",
+      "which, whom",
+      "where, whose",
+      "that, who"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "1つ目は場所を表す関係副詞where、2つ目は人（librarian）を先行詞とし主格の関係代名詞whoです。",
+      "translation": "私が毎日勉強する図書館は優れたリソースを持っており、学生を助ける司書は非常に知識が豊富です。",
+      "structure": "[S: The library] [RC: where [S: I] [V: study] [ADV: every day]] [V: has] [O: excellent resources], and [S: the librarian] [RC: who [V: helps] [O: students]] [V: is] [C: very knowledgeable]",
+      "wrongOptionExplanations": {
+        "1": "1つ目は場所を表すのでwhereが必要です。2つ目は主格なのでwhoが正しいです。",
+        "2": "2つ目は主格の関係代名詞が必要です。whomは目的格、whoseは所有格です。",
+        "3": "1つ目は場所を表すのでwhereが正しいですが、thatは場所の関係副詞としては使えません。"
+      }
+    },
+    "difficulty": 2
+  }
+]

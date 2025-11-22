@@ -1,0 +1,3121 @@
+[
+  {
+    "word": "variable",
+    "meaning": [
+      "変数の",
+      "可変の"
+    ],
+    "example": {
+      "sentence": "Variable length",
+      "translation": "可変長"
+    },
+    "type": "word"
+  },
+  {
+    "word": "condition",
+    "meaning": [
+      "条件",
+      "状態"
+    ],
+    "example": {
+      "sentence": "Check the condition before executing",
+      "translation": "実行前に条件をチェックする"
+    },
+    "type": "word"
+  },
+  {
+    "word": "argument",
+    "meaning": [
+      "引数",
+      "議論"
+    ],
+    "example": {
+      "sentence": "Provide arguments when calling the function",
+      "translation": "関数を呼び出す際に引数を提供する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "exception",
+    "meaning": [
+      "例外",
+      "異常"
+    ],
+    "example": {
+      "sentence": "Handle the exception properly",
+      "translation": "例外を適切に処理する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "syntax",
+    "meaning": [
+      "構文",
+      "文法"
+    ],
+    "example": {
+      "sentence": "Check the syntax of your code",
+      "translation": "コードの構文をチェックする"
+    },
+    "type": "word"
+  },
+  {
+    "word": "semantic",
+    "meaning": [
+      "意味の",
+      "意味論の"
+    ],
+    "example": {
+      "sentence": "Understand the semantic meaning",
+      "translation": "意味論的な意味を理解する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "execute",
+    "meaning": [
+      "実行する",
+      "遂行する"
+    ],
+    "example": {
+      "sentence": "Execute the program",
+      "translation": "プログラムを実行する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "statement",
+    "meaning": [
+      "文",
+      "声明"
+    ],
+    "example": {
+      "sentence": "Each statement ends with a semicolon",
+      "translation": "各文はセミコロンで終わる"
+    },
+    "type": "word"
+  },
+  {
+    "word": "expression",
+    "meaning": [
+      "式",
+      "表現"
+    ],
+    "example": {
+      "sentence": "Evaluate the expression",
+      "translation": "式を評価する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "operator",
+    "meaning": [
+      "演算子",
+      "操作者"
+    ],
+    "example": {
+      "sentence": "Use the comparison operator",
+      "translation": "比較演算子を使用する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "operand",
+    "meaning": [
+      "被演算子"
+    ],
+    "example": {
+      "sentence": "The operands of the operation",
+      "translation": "操作の被演算子"
+    },
+    "type": "word"
+  },
+  {
+    "word": "declaration",
+    "meaning": [
+      "宣言",
+      "表明"
+    ],
+    "example": {
+      "sentence": "Variable declaration",
+      "translation": "変数の宣言"
+    },
+    "type": "word"
+  },
+  {
+    "word": "definition",
+    "meaning": [
+      "定義"
+    ],
+    "example": {
+      "sentence": "Function definition",
+      "translation": "関数の定義"
+    },
+    "type": "word"
+  },
+  {
+    "word": "assignment",
+    "meaning": [
+      "割り当て",
+      "代入"
+    ],
+    "example": {
+      "sentence": "Assignment operator",
+      "translation": "代入演算子"
+    },
+    "type": "word"
+  },
+  {
+    "word": "implement",
+    "meaning": [
+      "実装する",
+      "実行する"
+    ],
+    "example": {
+      "sentence": "Implement the interface",
+      "translation": "インターフェースを実装する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "define",
+    "meaning": [
+      "定義する",
+      "明確にする"
+    ],
+    "example": {
+      "sentence": "Define the function",
+      "translation": "関数を定義する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "declare",
+    "meaning": [
+      "宣言する",
+      "表明する"
+    ],
+    "example": {
+      "sentence": "Declare the variable",
+      "translation": "変数を宣言する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "assign",
+    "meaning": [
+      "割り当てる"
+    ],
+    "example": {
+      "sentence": "Assign a value to the variable",
+      "translation": "変数に値を代入する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "invoke",
+    "meaning": [
+      "呼び出す",
+      "起動する"
+    ],
+    "example": {
+      "sentence": "Invoke the method",
+      "translation": "メソッドを呼び出す"
+    },
+    "type": "word"
+  },
+  {
+    "word": "iterate",
+    "meaning": [
+      "反復する",
+      "繰り返す"
+    ],
+    "example": {
+      "sentence": "Iterate through the collection",
+      "translation": "コレクションを反復処理する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "traverse",
+    "meaning": [
+      "走査する",
+      "横断する"
+    ],
+    "example": {
+      "sentence": "Traverse the tree",
+      "translation": "ツリーを走査する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "transform",
+    "meaning": [
+      "変換する",
+      "変形する"
+    ],
+    "example": {
+      "sentence": "Transform the data",
+      "translation": "データを変換する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "convert",
+    "meaning": [
+      "変換する",
+      "変える"
+    ],
+    "example": {
+      "sentence": "Convert the type",
+      "translation": "型を変換する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "inheritance",
+    "meaning": [
+      "継承",
+      "相続"
+    ],
+    "example": {
+      "sentence": "Use inheritance to extend classes",
+      "translation": "クラスを拡張するために継承を使用する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "polymorphism",
+    "meaning": [
+      "多態性",
+      "多様性"
+    ],
+    "example": {
+      "sentence": "Implement polymorphism",
+      "translation": "多態性を実装する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "encapsulation",
+    "meaning": [
+      "カプセル化",
+      "封じ込め"
+    ],
+    "example": {
+      "sentence": "Achieve encapsulation",
+      "translation": "カプセル化を実現する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "abstraction",
+    "meaning": [
+      "抽象化",
+      "抽出"
+    ],
+    "example": {
+      "sentence": "Create an abstraction",
+      "translation": "抽象化を作成する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "abstract",
+    "meaning": [
+      "抽象的な",
+      "理論的な"
+    ],
+    "example": {
+      "sentence": "Define an abstract class",
+      "translation": "抽象クラスを定義する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "concrete",
+    "meaning": [
+      "具体的な",
+      "有形の"
+    ],
+    "example": {
+      "sentence": "Create a concrete implementation",
+      "translation": "具体的な実装を作成する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "attribute",
+    "meaning": [
+      "属性",
+      "特性"
+    ],
+    "example": {
+      "sentence": "Set the attribute",
+      "translation": "属性を設定する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "extend",
+    "meaning": [
+      "拡張する",
+      "広げる"
+    ],
+    "example": {
+      "sentence": "Extend the base class",
+      "translation": "基底クラスを拡張する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "inherit",
+    "meaning": [
+      "継承する",
+      "受け継ぐ"
+    ],
+    "example": {
+      "sentence": "Inherit from the parent class",
+      "translation": "親クラスから継承する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "derive",
+    "meaning": [
+      "派生する",
+      "導き出す"
+    ],
+    "example": {
+      "sentence": "Derive a new class",
+      "translation": "新しいクラスを派生する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "static",
+    "meaning": [
+      "静的",
+      "固定の"
+    ],
+    "example": {
+      "sentence": "Define a static method",
+      "translation": "静的メソッドを定義する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "dynamic",
+    "meaning": [
+      "動的",
+      "可変の"
+    ],
+    "example": {
+      "sentence": "Use dynamic typing",
+      "translation": "動的型付けを使用する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "internal",
+    "meaning": [
+      "内部の",
+      "内側の"
+    ],
+    "example": {
+      "sentence": "Use internal visibility",
+      "translation": "内部の可視性を使用する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "external",
+    "meaning": [
+      "外部の",
+      "外側の"
+    ],
+    "example": {
+      "sentence": "Access external resources",
+      "translation": "外部リソースにアクセスする"
+    },
+    "type": "word"
+  },
+  {
+    "word": "virtual",
+    "meaning": [
+      "仮想の",
+      "事実上の"
+    ],
+    "example": {
+      "sentence": "Define a virtual method",
+      "translation": "仮想メソッドを定義する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "constraint",
+    "meaning": [
+      "制約",
+      "制限"
+    ],
+    "example": {
+      "sentence": "Add type constraints",
+      "translation": "型制約を追加する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "inference",
+    "meaning": [
+      "推論",
+      "推理"
+    ],
+    "example": {
+      "sentence": "Use type inference",
+      "translation": "型推論を使用する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "pure",
+    "meaning": [
+      "純粋な",
+      "純正の"
+    ],
+    "example": {
+      "sentence": "Write pure functions",
+      "translation": "純粋関数を書く"
+    },
+    "type": "word"
+  },
+  {
+    "word": "immutable",
+    "meaning": [
+      "不変の",
+      "変更不可の"
+    ],
+    "example": {
+      "sentence": "Use immutable data structures",
+      "translation": "不変のデータ構造を使用する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "mutable",
+    "meaning": [
+      "可変の",
+      "変更可能な"
+    ],
+    "example": {
+      "sentence": "Mutable state can cause issues",
+      "translation": "可変状態は問題を引き起こす可能性がある"
+    },
+    "type": "word"
+  },
+  {
+    "word": "composition",
+    "meaning": [
+      "合成",
+      "構成"
+    ],
+    "example": {
+      "sentence": "Function composition",
+      "translation": "関数の合成"
+    },
+    "type": "word"
+  },
+  {
+    "word": "unfold",
+    "meaning": [
+      "展開する",
+      "広げる"
+    ],
+    "example": {
+      "sentence": "Unfold the sequence",
+      "translation": "シーケンスを展開する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "recursion",
+    "meaning": [
+      "再帰",
+      "回帰"
+    ],
+    "example": {
+      "sentence": "Use recursion",
+      "translation": "再帰を使用する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "recursive",
+    "meaning": [
+      "再帰的な",
+      "回帰的な"
+    ],
+    "example": {
+      "sentence": "Write recursive functions",
+      "translation": "再帰関数を書く"
+    },
+    "type": "word"
+  },
+  {
+    "word": "eager",
+    "meaning": [
+      "先行評価の",
+      "熱心な"
+    ],
+    "example": {
+      "sentence": "Eager evaluation",
+      "translation": "先行評価"
+    },
+    "type": "word"
+  },
+  {
+    "word": "predicate",
+    "meaning": [
+      "述語",
+      "断定"
+    ],
+    "example": {
+      "sentence": "Define a predicate function",
+      "translation": "述語関数を定義する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "compose",
+    "meaning": [
+      "合成する",
+      "構成する"
+    ],
+    "example": {
+      "sentence": "Compose functions",
+      "translation": "関数を合成する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "partial",
+    "meaning": [
+      "部分的な",
+      "不完全な"
+    ],
+    "example": {
+      "sentence": "Use partial application",
+      "translation": "部分適用を使用する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "accept",
+    "meaning": [
+      "受け入れる",
+      "承認する"
+    ],
+    "example": {
+      "sentence": "Accept incoming connections",
+      "translation": "着信接続を受け入れる"
+    },
+    "type": "word"
+  },
+  {
+    "word": "receive",
+    "meaning": [
+      "受信する",
+      "受け取る"
+    ],
+    "example": {
+      "sentence": "Receive the message",
+      "translation": "メッセージを受信する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "transmit",
+    "meaning": [
+      "転送する",
+      "伝送する"
+    ],
+    "example": {
+      "sentence": "Transmit the packet",
+      "translation": "パケットを転送する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "isolation",
+    "meaning": [
+      "分離",
+      "孤立"
+    ],
+    "example": {
+      "sentence": "Transaction isolation",
+      "translation": "トランザクション分離"
+    },
+    "type": "word"
+  },
+  {
+    "word": "consistency",
+    "meaning": [
+      "一貫性",
+      "整合性"
+    ],
+    "example": {
+      "sentence": "Maintain consistency",
+      "translation": "一貫性を維持する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "durability",
+    "meaning": [
+      "永続性",
+      "耐久性"
+    ],
+    "example": {
+      "sentence": "Ensure durability",
+      "translation": "永続性を確保する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "atomicity",
+    "meaning": [
+      "原子性"
+    ],
+    "example": {
+      "sentence": "Guarantee atomicity",
+      "translation": "原子性を保証する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "aggregate",
+    "meaning": [
+      "集約する",
+      "合計する"
+    ],
+    "example": {
+      "sentence": "Use aggregate functions",
+      "translation": "集約関数を使用する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "restore",
+    "meaning": [
+      "復元する"
+    ],
+    "example": {
+      "sentence": "Restore from backup",
+      "translation": "バックアップから復元する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "normalization",
+    "meaning": [
+      "正規化",
+      "標準化"
+    ],
+    "example": {
+      "sentence": "Apply normalization",
+      "translation": "正規化を適用する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "authorization",
+    "meaning": [
+      "認可",
+      "権限付与"
+    ],
+    "example": {
+      "sentence": "Check authorization",
+      "translation": "認可をチェックする"
+    },
+    "type": "word"
+  },
+  {
+    "word": "permission",
+    "meaning": [
+      "権限",
+      "許可"
+    ],
+    "example": {
+      "sentence": "Check permissions",
+      "translation": "権限をチェックする"
+    },
+    "type": "word"
+  },
+  {
+    "word": "control",
+    "meaning": [
+      "制御"
+    ],
+    "example": {
+      "sentence": "Implement access control",
+      "translation": "アクセス制御を実装する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "vulnerability",
+    "meaning": [
+      "脆弱性",
+      "弱点"
+    ],
+    "example": {
+      "sentence": "Fix vulnerabilities",
+      "translation": "脆弱性を修正する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "certificate",
+    "meaning": [
+      "証明書",
+      "証書"
+    ],
+    "example": {
+      "sentence": "Install SSL certificate",
+      "translation": "SSL証明書をインストールする"
+    },
+    "type": "word"
+  },
+  {
+    "word": "verify",
+    "meaning": [
+      "検証する",
+      "確認する"
+    ],
+    "example": {
+      "sentence": "Verify the token",
+      "translation": "トークンを検証する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "validate",
+    "meaning": [
+      "検証する",
+      "有効化する"
+    ],
+    "example": {
+      "sentence": "Validate input",
+      "translation": "入力を検証する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "trusted",
+    "meaning": [
+      "信頼された",
+      "信用できる"
+    ],
+    "example": {
+      "sentence": "Use trusted sources",
+      "translation": "信頼できるソースを使用する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "untrusted",
+    "meaning": [
+      "信頼されていない"
+    ],
+    "example": {
+      "sentence": "Handle untrusted data",
+      "translation": "信頼されていないデータを処理する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "malicious",
+    "meaning": [
+      "悪意のある",
+      "有害な"
+    ],
+    "example": {
+      "sentence": "Prevent malicious code",
+      "translation": "悪意のあるコードを防ぐ"
+    },
+    "type": "word"
+  },
+  {
+    "word": "threat",
+    "meaning": [
+      "脅威",
+      "恐れ"
+    ],
+    "example": {
+      "sentence": "Identify threats",
+      "translation": "脅威を特定する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "audit",
+    "meaning": [
+      "監査する",
+      "検査する"
+    ],
+    "example": {
+      "sentence": "Audit security logs",
+      "translation": "セキュリティログを監査する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "intrusion",
+    "meaning": [
+      "侵入",
+      "侵害"
+    ],
+    "example": {
+      "sentence": "Detect intrusions",
+      "translation": "侵入を検出する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "persistent",
+    "meaning": [
+      "永続的な"
+    ],
+    "example": {
+      "sentence": "Use persistent volumes",
+      "translation": "永続ボリュームを使用する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "utilization",
+    "meaning": [
+      "利用率",
+      "使用率"
+    ],
+    "example": {
+      "sentence": "Monitor utilization",
+      "translation": "利用率を監視する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "monitoring",
+    "meaning": [
+      "監視",
+      "観察"
+    ],
+    "example": {
+      "sentence": "Set up monitoring",
+      "translation": "監視を設定する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "aggregation",
+    "meaning": [
+      "集約"
+    ],
+    "example": {
+      "sentence": "Set up log aggregation",
+      "translation": "ログ集約を設定する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "assignee",
+    "meaning": [
+      "担当者",
+      "割り当て先"
+    ],
+    "example": {
+      "sentence": "Set assignee",
+      "translation": "担当者を設定する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "discussion",
+    "meaning": [
+      "議論",
+      "討論"
+    ],
+    "example": {
+      "sentence": "Start discussion",
+      "translation": "議論を開始する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "inspect",
+    "meaning": [
+      "検査する",
+      "調べる"
+    ],
+    "example": {
+      "sentence": "Inspect value",
+      "translation": "値を検査する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "fatal",
+    "meaning": [
+      "致命的な",
+      "重大な"
+    ],
+    "example": {
+      "sentence": "Fatal level",
+      "translation": "致命的レベル"
+    },
+    "type": "word"
+  },
+  {
+    "word": "dump",
+    "meaning": [
+      "放出する"
+    ],
+    "example": {
+      "sentence": "Dump memory",
+      "translation": "メモリをダンプする"
+    },
+    "type": "word"
+  },
+  {
+    "word": "race",
+    "meaning": [
+      "競走",
+      "競合"
+    ],
+    "example": {
+      "sentence": "Fix race condition",
+      "translation": "競合状態を修正する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "flaky",
+    "meaning": [
+      "不安定な",
+      "断続的な"
+    ],
+    "example": {
+      "sentence": "Fix flaky test",
+      "translation": "不安定なテストを修正する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "intermittent",
+    "meaning": [
+      "間欠的な",
+      "断続的な"
+    ],
+    "example": {
+      "sentence": "Fix intermittent bug",
+      "translation": "間欠的なバグを修正する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "reproduce",
+    "meaning": [
+      "再現する",
+      "再生する"
+    ],
+    "example": {
+      "sentence": "Reproduce bug",
+      "translation": "バグを再現する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "workaround",
+    "meaning": [
+      "回避策",
+      "代替手段"
+    ],
+    "example": {
+      "sentence": "Use workaround",
+      "translation": "回避策を使用する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "regression",
+    "meaning": [
+      "回帰",
+      "後退"
+    ],
+    "example": {
+      "sentence": "Fix regression",
+      "translation": "回帰を修正する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "parallel",
+    "meaning": [
+      "並列の",
+      "平行の"
+    ],
+    "example": {
+      "sentence": "Run in parallel",
+      "translation": "並列で実行する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "sequential",
+    "meaning": [
+      "順次的な",
+      "連続的な"
+    ],
+    "example": {
+      "sentence": "Run sequentially",
+      "translation": "順次実行する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "attach",
+    "meaning": [
+      "接続する"
+    ],
+    "example": {
+      "sentence": "Attach to container",
+      "translation": "コンテナに接続する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "detach",
+    "meaning": [
+      "切断する"
+    ],
+    "example": {
+      "sentence": "Detach from container",
+      "translation": "コンテナから切断する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "produce",
+    "meaning": [
+      "生成する",
+      "生産する"
+    ],
+    "example": {
+      "sentence": "Produce output",
+      "translation": "出力を生成する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "construct",
+    "meaning": [
+      "構築する",
+      "建設する"
+    ],
+    "example": {
+      "sentence": "Construct object",
+      "translation": "オブジェクトを構築する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "store",
+    "meaning": [
+      "保存する",
+      "保管する"
+    ],
+    "example": {
+      "sentence": "Store value",
+      "translation": "値を保存する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "retrieve",
+    "meaning": [
+      "取得する",
+      "取り出す"
+    ],
+    "example": {
+      "sentence": "Retrieve data",
+      "translation": "データを取得する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "alter",
+    "meaning": [
+      "変更する",
+      "変える"
+    ],
+    "example": {
+      "sentence": "Alter table",
+      "translation": "テーブルを変更する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "configure",
+    "meaning": [
+      "設定する",
+      "構成する"
+    ],
+    "example": {
+      "sentence": "Configure system",
+      "translation": "システムを設定する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "enable",
+    "meaning": [
+      "有効にする",
+      "可能にする"
+    ],
+    "example": {
+      "sentence": "Enable feature",
+      "translation": "機能を有効にする"
+    },
+    "type": "word"
+  },
+  {
+    "word": "disable",
+    "meaning": [
+      "無効にする",
+      "不可能にする"
+    ],
+    "example": {
+      "sentence": "Disable feature",
+      "translation": "機能を無効にする"
+    },
+    "type": "word"
+  },
+  {
+    "word": "activate",
+    "meaning": [
+      "アクティブにする",
+      "活性化する"
+    ],
+    "example": {
+      "sentence": "Activate license",
+      "translation": "ライセンスをアクティブにする"
+    },
+    "type": "word"
+  },
+  {
+    "word": "deactivate",
+    "meaning": [
+      "非アクティブにする",
+      "非活性化する"
+    ],
+    "example": {
+      "sentence": "Deactivate service",
+      "translation": "サービスを非アクティブにする"
+    },
+    "type": "word"
+  },
+  {
+    "word": "pause",
+    "meaning": [
+      "一時停止する",
+      "中断する"
+    ],
+    "example": {
+      "sentence": "Pause execution",
+      "translation": "実行を一時停止する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "resume",
+    "meaning": [
+      "再開する",
+      "再開する"
+    ],
+    "example": {
+      "sentence": "Resume operation",
+      "translation": "操作を再開する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "break",
+    "meaning": [
+      "中断する",
+      "壊す"
+    ],
+    "example": {
+      "sentence": "Break loop",
+      "translation": "ループを中断する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "pass",
+    "meaning": [
+      "渡す",
+      "通過する"
+    ],
+    "example": {
+      "sentence": "Pass parameter",
+      "translation": "パラメータを渡す"
+    },
+    "type": "word"
+  },
+  {
+    "word": "transfer",
+    "meaning": [
+      "転送する",
+      "移す"
+    ],
+    "example": {
+      "sentence": "Transfer file",
+      "translation": "ファイルを転送する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "duplicate",
+    "meaning": [
+      "重複の",
+      "複製の"
+    ],
+    "example": {
+      "sentence": "Duplicate entry",
+      "translation": "重複エントリ"
+    },
+    "type": "word"
+  },
+  {
+    "word": "split",
+    "meaning": [
+      "分割する",
+      "分ける"
+    ],
+    "example": {
+      "sentence": "Split string",
+      "translation": "文字列を分割する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "combine",
+    "meaning": [
+      "結合する",
+      "組み合わせる"
+    ],
+    "example": {
+      "sentence": "Combine arrays",
+      "translation": "配列を結合する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "concatenate",
+    "meaning": [
+      "連結する",
+      "結合する"
+    ],
+    "example": {
+      "sentence": "Concatenate strings",
+      "translation": "文字列を連結する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "append",
+    "meaning": [
+      "追加する",
+      "付加する"
+    ],
+    "example": {
+      "sentence": "Append item",
+      "translation": "アイテムを追加する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "prepend",
+    "meaning": [
+      "先頭に追加する"
+    ],
+    "example": {
+      "sentence": "Prepend item",
+      "translation": "アイテムを先頭に追加する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "extract",
+    "meaning": [
+      "抽出する",
+      "取り出す"
+    ],
+    "example": {
+      "sentence": "Extract data",
+      "translation": "データを抽出する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "process",
+    "meaning": [
+      "処理する",
+      "加工する"
+    ],
+    "example": {
+      "sentence": "Process data",
+      "translation": "データを処理する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "handle",
+    "meaning": [
+      "処理する",
+      "扱う"
+    ],
+    "example": {
+      "sentence": "Handle event",
+      "translation": "イベントを処理する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "monitor",
+    "meaning": [
+      "監視する",
+      "観察する"
+    ],
+    "example": {
+      "sentence": "Monitor system",
+      "translation": "システムを監視する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "observe",
+    "meaning": [
+      "観察する",
+      "観測する"
+    ],
+    "example": {
+      "sentence": "Observe behavior",
+      "translation": "動作を観察する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "track",
+    "meaning": [
+      "追跡する",
+      "追う"
+    ],
+    "example": {
+      "sentence": "Track changes",
+      "translation": "変更を追跡する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "record",
+    "meaning": [
+      "記録する",
+      "録音する"
+    ],
+    "example": {
+      "sentence": "Record data",
+      "translation": "データを記録する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "gather",
+    "meaning": [
+      "収集する",
+      "集める"
+    ],
+    "example": {
+      "sentence": "Gather information",
+      "translation": "情報を収集する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "summarize",
+    "meaning": [
+      "要約する",
+      "まとめる"
+    ],
+    "example": {
+      "sentence": "Summarize results",
+      "translation": "結果を要約する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "locate",
+    "meaning": [
+      "位置を特定する",
+      "見つける"
+    ],
+    "example": {
+      "sentence": "Locate file",
+      "translation": "ファイルの位置を特定する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "discover",
+    "meaning": [
+      "発見する",
+      "見つける"
+    ],
+    "example": {
+      "sentence": "Discover service",
+      "translation": "サービスを発見する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "detect",
+    "meaning": [
+      "検出する",
+      "発見する"
+    ],
+    "example": {
+      "sentence": "Detect error",
+      "translation": "エラーを検出する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "identify",
+    "meaning": [
+      "識別する",
+      "特定する"
+    ],
+    "example": {
+      "sentence": "Identify issue",
+      "translation": "問題を識別する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "recognize",
+    "meaning": [
+      "認識する",
+      "認める"
+    ],
+    "example": {
+      "sentence": "Recognize pattern",
+      "translation": "パターンを認識する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "compare",
+    "meaning": [
+      "比較する",
+      "対比する"
+    ],
+    "example": {
+      "sentence": "Compare values",
+      "translation": "値を比較する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "contrast",
+    "meaning": [
+      "対比する",
+      "対照する"
+    ],
+    "example": {
+      "sentence": "Contrast approaches",
+      "translation": "アプローチを対比する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "evaluate",
+    "meaning": [
+      "評価する",
+      "計算する"
+    ],
+    "example": {
+      "sentence": "Evaluate expression",
+      "translation": "式を評価する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "assess",
+    "meaning": [
+      "評価する",
+      "査定する"
+    ],
+    "example": {
+      "sentence": "Assess performance",
+      "translation": "パフォーマンスを評価する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "measure",
+    "meaning": [
+      "測定する",
+      "計る"
+    ],
+    "example": {
+      "sentence": "Measure time",
+      "translation": "時間を測定する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "compute",
+    "meaning": [
+      "計算する",
+      "演算する"
+    ],
+    "example": {
+      "sentence": "Compute result",
+      "translation": "結果を計算する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "truncate",
+    "meaning": [
+      "切り詰める",
+      "切り捨てる"
+    ],
+    "example": {
+      "sentence": "Truncate string",
+      "translation": "文字列を切り詰める"
+    },
+    "type": "word"
+  },
+  {
+    "word": "translate",
+    "meaning": [
+      "翻訳する",
+      "変換する"
+    ],
+    "example": {
+      "sentence": "Translate text",
+      "translation": "テキストを翻訳する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "sign",
+    "meaning": [
+      "署名する"
+    ],
+    "example": {
+      "sentence": "Sign document",
+      "translation": "ドキュメントに署名する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "confirm",
+    "meaning": [
+      "確認する",
+      "承認する"
+    ],
+    "example": {
+      "sentence": "Confirm action",
+      "translation": "アクションを確認する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "reject",
+    "meaning": [
+      "拒否する",
+      "却下する"
+    ],
+    "example": {
+      "sentence": "Reject change",
+      "translation": "変更を拒否する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "deny",
+    "meaning": [
+      "拒否する",
+      "否定する"
+    ],
+    "example": {
+      "sentence": "Deny access",
+      "translation": "アクセスを拒否する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "permit",
+    "meaning": [
+      "許可する",
+      "認可する"
+    ],
+    "example": {
+      "sentence": "Permit operation",
+      "translation": "操作を許可する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "grant",
+    "meaning": [
+      "付与する",
+      "授与する"
+    ],
+    "example": {
+      "sentence": "Grant permission",
+      "translation": "権限を付与する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "revoke",
+    "meaning": [
+      "取り消す",
+      "撤回する"
+    ],
+    "example": {
+      "sentence": "Revoke access",
+      "translation": "アクセスを取り消す"
+    },
+    "type": "word"
+  },
+  {
+    "word": "authorize",
+    "meaning": [
+      "認可する",
+      "権限を与える"
+    ],
+    "example": {
+      "sentence": "Authorize user",
+      "translation": "ユーザーを認可する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "authenticate",
+    "meaning": [
+      "認証する",
+      "証明する"
+    ],
+    "example": {
+      "sentence": "Authenticate user",
+      "translation": "ユーザーを認証する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "subscribe",
+    "meaning": [
+      "購読する",
+      "加入する"
+    ],
+    "example": {
+      "sentence": "Subscribe to event",
+      "translation": "イベントを購読する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "unsubscribe",
+    "meaning": [
+      "購読解除する"
+    ],
+    "example": {
+      "sentence": "Unsubscribe from event",
+      "translation": "イベントの購読を解除する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "reference",
+    "meaning": [
+      "参照",
+      "言及"
+    ],
+    "example": {
+      "sentence": "Object reference",
+      "translation": "オブジェクト参照"
+    },
+    "type": "word"
+  },
+  {
+    "word": "situation",
+    "meaning": [
+      "状況",
+      "事態"
+    ],
+    "example": {
+      "sentence": "Handle situation",
+      "translation": "状況を処理する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "structure",
+    "meaning": [
+      "構造",
+      "建物"
+    ],
+    "example": {
+      "sentence": "Data structure",
+      "translation": "データ構造"
+    },
+    "type": "word"
+  },
+  {
+    "word": "contract",
+    "meaning": [
+      "契約",
+      "契約書"
+    ],
+    "example": {
+      "sentence": "Service contract",
+      "translation": "サービス契約"
+    },
+    "type": "word"
+  },
+  {
+    "word": "specification",
+    "meaning": [
+      "仕様",
+      "明細"
+    ],
+    "example": {
+      "sentence": "Read specification",
+      "translation": "仕様を読む"
+    },
+    "type": "word"
+  },
+  {
+    "word": "requirement",
+    "meaning": [
+      "要件",
+      "要求"
+    ],
+    "example": {
+      "sentence": "Meet requirement",
+      "translation": "要件を満たす"
+    },
+    "type": "word"
+  },
+  {
+    "word": "feature",
+    "meaning": [
+      "機能",
+      "特徴"
+    ],
+    "example": {
+      "sentence": "Add feature",
+      "translation": "機能を追加する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "capability",
+    "meaning": [
+      "能力",
+      "才能"
+    ],
+    "example": {
+      "sentence": "Add capability",
+      "translation": "能力を追加する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "functionality",
+    "meaning": [
+      "機能性",
+      "機能"
+    ],
+    "example": {
+      "sentence": "Test functionality",
+      "translation": "機能性をテストする"
+    },
+    "type": "word"
+  },
+  {
+    "word": "behavior",
+    "meaning": [
+      "動作",
+      "振る舞い"
+    ],
+    "example": {
+      "sentence": "Observe behavior",
+      "translation": "動作を観察する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "operation",
+    "meaning": [
+      "操作"
+    ],
+    "example": {
+      "sentence": "Execute operation",
+      "translation": "操作を実行する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "async",
+    "meaning": [
+      "非同期の",
+      "非同時の"
+    ],
+    "example": {
+      "sentence": "Async operation",
+      "translation": "非同期操作"
+    },
+    "type": "word"
+  },
+  {
+    "word": "synchronous",
+    "meaning": [
+      "同期の",
+      "同時の"
+    ],
+    "example": {
+      "sentence": "Synchronous call",
+      "translation": "同期呼び出し"
+    },
+    "type": "word"
+  },
+  {
+    "word": "concurrent",
+    "meaning": [
+      "並行の",
+      "同時の"
+    ],
+    "example": {
+      "sentence": "Concurrent execution",
+      "translation": "並行実行"
+    },
+    "type": "word"
+  },
+  {
+    "word": "outcome",
+    "meaning": [
+      "結果",
+      "成果"
+    ],
+    "example": {
+      "sentence": "Check outcome",
+      "translation": "結果を確認する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "relationship",
+    "meaning": [
+      "関係"
+    ],
+    "example": {
+      "sentence": "Define relationships",
+      "translation": "関係を定義する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "association",
+    "meaning": [
+      "関連",
+      "連想"
+    ],
+    "example": {
+      "sentence": "Create association",
+      "translation": "関連を作成する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "translation",
+    "meaning": [
+      "翻訳",
+      "変換"
+    ],
+    "example": {
+      "sentence": "Perform translation",
+      "translation": "変換を実行する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "correct",
+    "meaning": [
+      "正しい",
+      "正確な"
+    ],
+    "example": {
+      "sentence": "Correct value",
+      "translation": "正しい値"
+    },
+    "type": "word"
+  },
+  {
+    "word": "incorrect",
+    "meaning": [
+      "間違った",
+      "不正確な"
+    ],
+    "example": {
+      "sentence": "Incorrect format",
+      "translation": "間違ったフォーマット"
+    },
+    "type": "word"
+  },
+  {
+    "word": "accurate",
+    "meaning": [
+      "正確な",
+      "精密な"
+    ],
+    "example": {
+      "sentence": "Accurate measurement",
+      "translation": "正確な測定"
+    },
+    "type": "word"
+  },
+  {
+    "word": "precise",
+    "meaning": [
+      "精密な",
+      "正確な"
+    ],
+    "example": {
+      "sentence": "Precise calculation",
+      "translation": "精密な計算"
+    },
+    "type": "word"
+  },
+  {
+    "word": "exact",
+    "meaning": [
+      "正確な",
+      "厳密な"
+    ],
+    "example": {
+      "sentence": "Exact match",
+      "translation": "完全一致"
+    },
+    "type": "word"
+  },
+  {
+    "word": "approximate",
+    "meaning": [
+      "近似の",
+      "おおよその"
+    ],
+    "example": {
+      "sentence": "Approximate value",
+      "translation": "近似値"
+    },
+    "type": "word"
+  },
+  {
+    "word": "different",
+    "meaning": [
+      "異なる",
+      "違う"
+    ],
+    "example": {
+      "sentence": "Different approach",
+      "translation": "異なるアプローチ"
+    },
+    "type": "word"
+  },
+  {
+    "word": "same",
+    "meaning": [
+      "同じ",
+      "同一の"
+    ],
+    "example": {
+      "sentence": "Same value",
+      "translation": "同じ値"
+    },
+    "type": "word"
+  },
+  {
+    "word": "equivalent",
+    "meaning": [
+      "等価な",
+      "同等の"
+    ],
+    "example": {
+      "sentence": "Equivalent operation",
+      "translation": "等価な操作"
+    },
+    "type": "word"
+  },
+  {
+    "word": "identical",
+    "meaning": [
+      "同一の",
+      "完全に同じ"
+    ],
+    "example": {
+      "sentence": "Identical objects",
+      "translation": "同一のオブジェクト"
+    },
+    "type": "word"
+  },
+  {
+    "word": "distinct",
+    "meaning": [
+      "異なる",
+      "区別された"
+    ],
+    "example": {
+      "sentence": "Distinct values",
+      "translation": "異なる値"
+    },
+    "type": "word"
+  },
+  {
+    "word": "shared",
+    "meaning": [
+      "共有の",
+      "共同の"
+    ],
+    "example": {
+      "sentence": "Shared resource",
+      "translation": "共有リソース"
+    },
+    "type": "word"
+  },
+  {
+    "word": "protected",
+    "meaning": [
+      "保護された",
+      "守られた"
+    ],
+    "example": {
+      "sentence": "Use protected access",
+      "translation": "保護されたアクセスを使用する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "available",
+    "meaning": [
+      "利用可能な",
+      "入手可能な"
+    ],
+    "example": {
+      "sentence": "Available resource",
+      "translation": "利用可能なリソース"
+    },
+    "type": "word"
+  },
+  {
+    "word": "unavailable",
+    "meaning": [
+      "利用不可の",
+      "入手不可の"
+    ],
+    "example": {
+      "sentence": "Unavailable service",
+      "translation": "利用不可なサービス"
+    },
+    "type": "word"
+  },
+  {
+    "word": "enabled",
+    "meaning": [
+      "有効な",
+      "可能にされた"
+    ],
+    "example": {
+      "sentence": "Enabled feature",
+      "translation": "有効な機能"
+    },
+    "type": "word"
+  },
+  {
+    "word": "paused",
+    "meaning": [
+      "一時停止の",
+      "中断された"
+    ],
+    "example": {
+      "sentence": "Paused execution",
+      "translation": "一時停止された実行"
+    },
+    "type": "word"
+  },
+  {
+    "word": "processing",
+    "meaning": [
+      "処理中の",
+      "加工中の"
+    ],
+    "example": {
+      "sentence": "Processing data",
+      "translation": "処理中のデータ"
+    },
+    "type": "word"
+  },
+  {
+    "word": "prepared",
+    "meaning": [
+      "準備された",
+      "用意された"
+    ],
+    "example": {
+      "sentence": "Prepared statement",
+      "translation": "準備されたステートメント"
+    },
+    "type": "word"
+  },
+  {
+    "word": "configured",
+    "meaning": [
+      "設定された",
+      "構成された"
+    ],
+    "example": {
+      "sentence": "Configured system",
+      "translation": "設定されたシステム"
+    },
+    "type": "word"
+  },
+  {
+    "word": "unconfigured",
+    "meaning": [
+      "未設定の",
+      "構成されていない"
+    ],
+    "example": {
+      "sentence": "Unconfigured device",
+      "translation": "未設定デバイス"
+    },
+    "type": "word"
+  },
+  {
+    "word": "connected",
+    "meaning": [
+      "接続された",
+      "連結された"
+    ],
+    "example": {
+      "sentence": "Connected client",
+      "translation": "接続されたクライアント"
+    },
+    "type": "word"
+  },
+  {
+    "word": "disconnected",
+    "meaning": [
+      "切断された",
+      "分離された"
+    ],
+    "example": {
+      "sentence": "Disconnected socket",
+      "translation": "切断されたソケット"
+    },
+    "type": "word"
+  },
+  {
+    "word": "synchronized",
+    "meaning": [
+      "同期された",
+      "同期化された"
+    ],
+    "example": {
+      "sentence": "Synchronized method",
+      "translation": "同期されたメソッド"
+    },
+    "type": "word"
+  },
+  {
+    "word": "unsynchronized",
+    "meaning": [
+      "非同期の",
+      "非同期化された"
+    ],
+    "example": {
+      "sentence": "Unsynchronized access",
+      "translation": "非同期アクセス"
+    },
+    "type": "word"
+  },
+  {
+    "word": "insecure",
+    "meaning": [
+      "安全でない",
+      "保護されていない"
+    ],
+    "example": {
+      "sentence": "Insecure protocol",
+      "translation": "安全でないプロトコル"
+    },
+    "type": "word"
+  },
+  {
+    "word": "unsafe",
+    "meaning": [
+      "安全でない",
+      "危険な"
+    ],
+    "example": {
+      "sentence": "Unsafe cast",
+      "translation": "安全でないキャスト"
+    },
+    "type": "word"
+  },
+  {
+    "word": "stable",
+    "meaning": [
+      "安定した",
+      "固定された"
+    ],
+    "example": {
+      "sentence": "Stable version",
+      "translation": "安定バージョン"
+    },
+    "type": "word"
+  },
+  {
+    "word": "unstable",
+    "meaning": [
+      "不安定な",
+      "固定されていない"
+    ],
+    "example": {
+      "sentence": "Unstable build",
+      "translation": "不安定なビルド"
+    },
+    "type": "word"
+  },
+  {
+    "word": "reliable",
+    "meaning": [
+      "信頼できる",
+      "確実な"
+    ],
+    "example": {
+      "sentence": "Reliable service",
+      "translation": "信頼できるサービス"
+    },
+    "type": "word"
+  },
+  {
+    "word": "unreliable",
+    "meaning": [
+      "信頼できない",
+      "不確実な"
+    ],
+    "example": {
+      "sentence": "Unreliable connection",
+      "translation": "信頼できない接続"
+    },
+    "type": "word"
+  },
+  {
+    "word": "consistent",
+    "meaning": [
+      "一貫した",
+      "整合性のある"
+    ],
+    "example": {
+      "sentence": "Consistent state",
+      "translation": "一貫した状態"
+    },
+    "type": "word"
+  },
+  {
+    "word": "inconsistent",
+    "meaning": [
+      "一貫性のない",
+      "整合性のない"
+    ],
+    "example": {
+      "sentence": "Inconsistent data",
+      "translation": "一貫性のないデータ"
+    },
+    "type": "word"
+  },
+  {
+    "word": "compatible",
+    "meaning": [
+      "互換性のある",
+      "適合する"
+    ],
+    "example": {
+      "sentence": "Compatible version",
+      "translation": "互換性のあるバージョン"
+    },
+    "type": "word"
+  },
+  {
+    "word": "incompatible",
+    "meaning": [
+      "互換性のない",
+      "適合しない"
+    ],
+    "example": {
+      "sentence": "Incompatible API",
+      "translation": "互換性のないAPI"
+    },
+    "type": "word"
+  },
+  {
+    "word": "deprecated",
+    "meaning": [
+      "非推奨の",
+      "廃止予定の"
+    ],
+    "example": {
+      "sentence": "Deprecated function",
+      "translation": "非推奨関数"
+    },
+    "type": "word"
+  },
+  {
+    "word": "obsolete",
+    "meaning": [
+      "廃止された",
+      "時代遅れの"
+    ],
+    "example": {
+      "sentence": "Obsolete API",
+      "translation": "廃止されたAPI"
+    },
+    "type": "word"
+  },
+  {
+    "word": "intermediate",
+    "meaning": [
+      "中間の",
+      "中継の"
+    ],
+    "example": {
+      "sentence": "Intermediate result",
+      "translation": "中間結果"
+    },
+    "type": "word"
+  },
+  {
+    "word": "temporary",
+    "meaning": [
+      "一時的な",
+      "臨時の"
+    ],
+    "example": {
+      "sentence": "Temporary file",
+      "translation": "一時ファイル"
+    },
+    "type": "word"
+  },
+  {
+    "word": "permanent",
+    "meaning": [
+      "永続的な",
+      "恒久的な"
+    ],
+    "example": {
+      "sentence": "Permanent storage",
+      "translation": "永続ストレージ"
+    },
+    "type": "word"
+  },
+  {
+    "word": "persistent",
+    "meaning": [
+      "永続的な",
+      "持続的な"
+    ],
+    "example": {
+      "sentence": "Persistent data",
+      "translation": "永続データ"
+    },
+    "type": "word"
+  },
+  {
+    "word": "transient",
+    "meaning": [
+      "一時的な",
+      "過渡的な"
+    ],
+    "example": {
+      "sentence": "Transient state",
+      "translation": "一時状態"
+    },
+    "type": "word"
+  },
+  {
+    "word": "volatile",
+    "meaning": [
+      "揮発性の",
+      "不安定な"
+    ],
+    "example": {
+      "sentence": "Volatile variable",
+      "translation": "揮発性変数"
+    },
+    "type": "word"
+  },
+  {
+    "word": "constant",
+    "meaning": [
+      "定数の",
+      "不変の"
+    ],
+    "example": {
+      "sentence": "Constant value",
+      "translation": "定数値"
+    },
+    "type": "word"
+  },
+  {
+    "word": "although",
+    "meaning": [
+      "～にもかかわらず",
+      "～だけれども"
+    ],
+    "example": {
+      "sentence": "Although deprecated",
+      "translation": "非推奨にもかかわらず"
+    },
+    "type": "word"
+  },
+  {
+    "word": "though",
+    "meaning": [
+      "～にもかかわらず",
+      "～だけれども"
+    ],
+    "example": {
+      "sentence": "Though complex",
+      "translation": "複雑だけれども"
+    },
+    "type": "word"
+  },
+  {
+    "word": "however",
+    "meaning": [
+      "しかし",
+      "しかしながら"
+    ],
+    "example": {
+      "sentence": "However, it works",
+      "translation": "しかし、動作する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "therefore",
+    "meaning": [
+      "したがって",
+      "それゆえ"
+    ],
+    "example": {
+      "sentence": "Therefore, use this",
+      "translation": "したがって、これを使用する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "moreover",
+    "meaning": [
+      "さらに",
+      "その上"
+    ],
+    "example": {
+      "sentence": "Moreover, it's fast",
+      "translation": "さらに、高速である"
+    },
+    "type": "word"
+  },
+  {
+    "word": "furthermore",
+    "meaning": [
+      "さらに",
+      "その上"
+    ],
+    "example": {
+      "sentence": "Furthermore, it's secure",
+      "translation": "さらに、安全である"
+    },
+    "type": "word"
+  },
+  {
+    "word": "among",
+    "meaning": [
+      "～の中に",
+      "～の間で"
+    ],
+    "example": {
+      "sentence": "Among the options",
+      "translation": "オプションの中に"
+    },
+    "type": "word"
+  },
+  {
+    "word": "through",
+    "meaning": [
+      "～を通って",
+      "～経由で"
+    ],
+    "example": {
+      "sentence": "Through the API",
+      "translation": "API経由で"
+    },
+    "type": "word"
+  },
+  {
+    "word": "across",
+    "meaning": [
+      "～を横切って",
+      "～全体で"
+    ],
+    "example": {
+      "sentence": "Across servers",
+      "translation": "サーバー全体で"
+    },
+    "type": "word"
+  },
+  {
+    "word": "within",
+    "meaning": [
+      "～の中に",
+      "～以内で"
+    ],
+    "example": {
+      "sentence": "Within the scope",
+      "translation": "スコープ内で"
+    },
+    "type": "word"
+  },
+  {
+    "word": "around",
+    "meaning": [
+      "～の周りに",
+      "～について"
+    ],
+    "example": {
+      "sentence": "Around the issue",
+      "translation": "問題について"
+    },
+    "type": "word"
+  },
+  {
+    "word": "near",
+    "meaning": [
+      "～の近くに",
+      "～に近い"
+    ],
+    "example": {
+      "sentence": "Near the boundary",
+      "translation": "境界の近くに"
+    },
+    "type": "word"
+  },
+  {
+    "word": "far",
+    "meaning": [
+      "遠くに",
+      "はるかに"
+    ],
+    "example": {
+      "sentence": "Far from optimal",
+      "translation": "最適から遠い"
+    },
+    "type": "word"
+  },
+  {
+    "word": "beyond",
+    "meaning": [
+      "～を超えて",
+      "～の向こうに"
+    ],
+    "example": {
+      "sentence": "Beyond the scope",
+      "translation": "スコープを超えて"
+    },
+    "type": "word"
+  },
+  {
+    "word": "behind",
+    "meaning": [
+      "～の後ろに",
+      "～の背後で"
+    ],
+    "example": {
+      "sentence": "Behind the proxy",
+      "translation": "プロキシの背後で"
+    },
+    "type": "word"
+  },
+  {
+    "word": "beside",
+    "meaning": [
+      "～の横に",
+      "～のそばに"
+    ],
+    "example": {
+      "sentence": "Beside the point",
+      "translation": "要点の横に"
+    },
+    "type": "word"
+  },
+  {
+    "word": "besides",
+    "meaning": [
+      "～のほかに",
+      "～に加えて"
+    ],
+    "example": {
+      "sentence": "Besides the main feature",
+      "translation": "メイン機能のほかに"
+    },
+    "type": "word"
+  },
+  {
+    "word": "against",
+    "meaning": [
+      "～に対して",
+      "～と対比して"
+    ],
+    "example": {
+      "sentence": "Against the database",
+      "translation": "データベースに対して"
+    },
+    "type": "word"
+  },
+  {
+    "word": "toward",
+    "meaning": [
+      "～に向かって",
+      "～へ向けて"
+    ],
+    "example": {
+      "sentence": "Toward the goal",
+      "translation": "目標に向かって"
+    },
+    "type": "word"
+  },
+  {
+    "word": "towards",
+    "meaning": [
+      "～に向かって",
+      "～へ向けて"
+    ],
+    "example": {
+      "sentence": "Towards the solution",
+      "translation": "解決策に向かって"
+    },
+    "type": "word"
+  },
+  {
+    "word": "throughout",
+    "meaning": [
+      "～を通じて",
+      "～全体で"
+    ],
+    "example": {
+      "sentence": "Throughout the process",
+      "translation": "プロセス全体で"
+    },
+    "type": "word"
+  },
+  {
+    "word": "regarding",
+    "meaning": [
+      "～について",
+      "～に関して"
+    ],
+    "example": {
+      "sentence": "Regarding the issue",
+      "translation": "イシューについて"
+    },
+    "type": "word"
+  },
+  {
+    "word": "concerning",
+    "meaning": [
+      "～について",
+      "～に関して"
+    ],
+    "example": {
+      "sentence": "Concerning the bug",
+      "translation": "バグについて"
+    },
+    "type": "word"
+  },
+  {
+    "word": "except",
+    "meaning": [
+      "～を除いて",
+      "～以外に"
+    ],
+    "example": {
+      "sentence": "Except for the error",
+      "translation": "エラーを除いて"
+    },
+    "type": "word"
+  },
+  {
+    "word": "versus",
+    "meaning": [
+      "～対",
+      "～と比較して"
+    ],
+    "example": {
+      "sentence": "Version A versus B",
+      "translation": "バージョンA対B"
+    },
+    "type": "word"
+  },
+  {
+    "word": "via",
+    "meaning": [
+      "～経由で",
+      "～を通じて"
+    ],
+    "example": {
+      "sentence": "Via the API",
+      "translation": "API経由で"
+    },
+    "type": "word"
+  },
+  {
+    "word": "per",
+    "meaning": [
+      "～ごとに",
+      "～につき"
+    ],
+    "example": {
+      "sentence": "Per request",
+      "translation": "リクエストごとに"
+    },
+    "type": "word"
+  },
+  {
+    "word": "times",
+    "meaning": [
+      "～倍",
+      "～回"
+    ],
+    "example": {
+      "sentence": "Times faster",
+      "translation": "何倍速い"
+    },
+    "type": "word"
+  },
+  {
+    "word": "like",
+    "meaning": [
+      "～のような",
+      "～に似た"
+    ],
+    "example": {
+      "sentence": "Like the previous version",
+      "translation": "前のバージョンのような"
+    },
+    "type": "word"
+  },
+  {
+    "word": "unlike",
+    "meaning": [
+      "～と違って",
+      "～とは異なり"
+    ],
+    "example": {
+      "sentence": "Unlike the old API",
+      "translation": "古いAPIと違って"
+    },
+    "type": "word"
+  },
+  {
+    "word": "approve",
+    "meaning": [
+      "承認する",
+      "認可する"
+    ],
+    "example": {
+      "sentence": "Approve PR",
+      "translation": "PRを承認する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "specify",
+    "meaning": [
+      "指定する"
+    ],
+    "example": {
+      "sentence": "Specify the parameter",
+      "translation": "パラメータを指定する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "ensure",
+    "meaning": [
+      "確実にする",
+      "確保する"
+    ],
+    "example": {
+      "sentence": "Ensure the condition",
+      "translation": "条件を確実にする"
+    },
+    "type": "word"
+  },
+  {
+    "word": "manage",
+    "meaning": [
+      "管理する",
+      "扱う"
+    ],
+    "example": {
+      "sentence": "Manage resources",
+      "translation": "リソースを管理する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "recommend",
+    "meaning": [
+      "推奨する",
+      "勧める"
+    ],
+    "example": {
+      "sentence": "Recommend using this",
+      "translation": "これを使用することを推奨する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "provide",
+    "meaning": [
+      "提供する",
+      "供給する"
+    ],
+    "example": {
+      "sentence": "Provide the service",
+      "translation": "サービスを提供する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "isolate",
+    "meaning": [
+      "分離する",
+      "隔離する"
+    ],
+    "example": {
+      "sentence": "Isolate the container",
+      "translation": "コンテナを分離する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "queued",
+    "meaning": [
+      "待機中の"
+    ],
+    "example": {
+      "sentence": "Queued job",
+      "translation": "待ち行列に入ったジョブ"
+    },
+    "type": "word"
+  },
+  {
+    "word": "manually",
+    "meaning": [
+      "手動で"
+    ],
+    "example": {
+      "sentence": "Run manually",
+      "translation": "手動で実行する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "immediately",
+    "meaning": [
+      "すぐに",
+      "即座に"
+    ],
+    "example": {
+      "sentence": "Execute immediately",
+      "translation": "すぐに実行する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "until",
+    "meaning": [
+      "～まで",
+      "～するまで"
+    ],
+    "example": {
+      "sentence": "Wait until the condition is met",
+      "translation": "条件が満たされるまで待つ"
+    },
+    "type": "word"
+  },
+  {
+    "word": "excluding",
+    "meaning": [
+      "～を除いて",
+      "～を除外して"
+    ],
+    "example": {
+      "sentence": "Excluding deprecated APIs",
+      "translation": "非推奨APIを除いて"
+    },
+    "type": "word"
+  },
+  {
+    "word": "exist",
+    "meaning": [
+      "存在する"
+    ],
+    "example": {
+      "sentence": "The file does not exist",
+      "translation": "ファイルが存在しない"
+    },
+    "type": "word"
+  },
+  {
+    "word": "describe",
+    "meaning": [
+      "説明する",
+      "述べる"
+    ],
+    "example": {
+      "sentence": "Describe the function",
+      "translation": "関数を説明する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "destination",
+    "meaning": [
+      "行き先",
+      "宛先"
+    ],
+    "example": {
+      "sentence": "Set the destination path",
+      "translation": "宛先パスを設定する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "declarative",
+    "meaning": [
+      "宣言的な"
+    ],
+    "example": {
+      "sentence": "Declarative programming",
+      "translation": "宣言的プログラミング"
+    },
+    "type": "word"
+  },
+  {
+    "word": "follow",
+    "meaning": [
+      "従う"
+    ],
+    "example": {
+      "sentence": "Follow the instructions",
+      "translation": "指示に従う"
+    },
+    "type": "word"
+  },
+  {
+    "word": "desired",
+    "meaning": [
+      "望ましい",
+      "期待される"
+    ],
+    "example": {
+      "sentence": "The desired result",
+      "translation": "期待される結果"
+    },
+    "type": "word"
+  },
+  {
+    "word": "instruction",
+    "meaning": [
+      "命令",
+      "指図",
+      "教育"
+    ],
+    "example": {
+      "sentence": "Follow the instruction",
+      "translation": "命令に従う"
+    },
+    "type": "word"
+  },
+  {
+    "word": "satisfied",
+    "meaning": [
+      "満足"
+    ],
+    "example": {
+      "sentence": "The condition is satisfied",
+      "translation": "条件が満たされている"
+    },
+    "type": "word"
+  },
+  {
+    "word": "assert",
+    "meaning": [
+      "断言する",
+      "主張する"
+    ],
+    "example": {
+      "sentence": "Assert the condition",
+      "translation": "条件を主張する"
+    },
+    "type": "word"
+  },
+  {
+    "word": "direction",
+    "meaning": [
+      "方向"
+    ],
+    "example": {
+      "sentence": "Move in the right direction",
+      "translation": "正しい方向に進む"
+    },
+    "type": "word"
+  },
+  {
+    "word": "opposite",
+    "meaning": [
+      "反対"
+    ],
+    "example": {
+      "sentence": "The opposite direction",
+      "translation": "反対方向"
+    },
+    "type": "word"
+  }
+]

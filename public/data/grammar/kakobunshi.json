@@ -1,0 +1,278 @@
+[
+  {
+    "id": "past-001",
+    "category": "past-participle",
+    "question": "I had my car ___ last week.",
+    "options": [
+      "repair",
+      "repairing",
+      "repaired",
+      "repairs"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "have + 目的語 + 過去分詞の構文。目的語が他動詞の動作を受けることを表します（使役・受身）。",
+      "translation": "私は先週、車を修理してもらった。",
+      "wrongOptionExplanations": {
+        "0": "repairは原形ですが、have + 目的語 + 動詞の原形は「目的語に〜させる」という使役の意味になります。ここでは「車が修理される」という受動的な意味を表すので、過去分詞を使います。",
+        "1": "repairingは現在分詞ですが、have + 目的語 + 現在分詞は「目的語を〜している状態に保つ」という意味になります。ここでは「車が修理される」という受動的な意味を表すので、過去分詞を使います。",
+        "3": "repairsは三人称単数現在形ですが、haveの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: I] [V: had] [O: my car] [C: repaired] [OTHER: last week]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "past-002",
+    "category": "past-participle",
+    "question": "She got her hair ___ at the salon.",
+    "options": [
+      "cut",
+      "cutting",
+      "cutted",
+      "cuts"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "get + 目的語 + 過去分詞の構文。目的語が他動詞の動作を受けることを表します。",
+      "translation": "彼女は美容院で髪を切ってもらった。",
+      "wrongOptionExplanations": {
+        "1": "cuttingは現在分詞ですが、get + 目的語 + 現在分詞は「目的語を〜している状態にする」という意味になります。ここでは「髪が切られる」という受動的な意味を表すので、過去分詞を使います。",
+        "2": "cuttedは誤った過去分詞です。cutの過去分詞はcut（不規則変化）です。",
+        "3": "cutsは三人称単数現在形ですが、getの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: She] [V: got] [O: her hair] [C: cut] [OTHER: at the salon]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "past-003",
+    "category": "past-participle",
+    "question": "I want this report ___ by tomorrow.",
+    "options": [
+      "finish",
+      "finishing",
+      "finished",
+      "finishes"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "want + 目的語 + 過去分詞の構文。目的語が他動詞の動作を受けることを表します。",
+      "translation": "このレポートを明日までに終わらせたい。",
+      "wrongOptionExplanations": {
+        "0": "finishは原形ですが、want + 目的語 + 動詞の原形という構文はありません。want + 目的語 + 過去分詞で「目的語が〜されることを望む」という意味になります。",
+        "1": "finishingは現在分詞ですが、want + 目的語 + 現在分詞という構文はありません。",
+        "3": "finishesは三人称単数現在形ですが、wantの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: I] [V: want] [O: this report] [C: finished] [OTHER: by tomorrow]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "past-004",
+    "category": "past-participle",
+    "question": "He had his wallet ___ yesterday.",
+    "options": [
+      "steal",
+      "stealing",
+      "stolen",
+      "steals"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "have + 目的語 + 過去分詞の構文。目的語が他動詞の動作を受けることを表します（使役・受身）。",
+      "translation": "彼は昨日、財布を盗まれた。",
+      "wrongOptionExplanations": {
+        "0": "stealは原形ですが、have + 目的語 + 動詞の原形は「目的語に〜させる」という使役の意味になります。ここでは「財布が盗まれる」という受動的な意味を表すので、過去分詞を使います。",
+        "1": "stealingは現在分詞ですが、have + 目的語 + 現在分詞は「目的語を〜している状態に保つ」という意味になります。ここでは「財布が盗まれる」という受動的な意味を表すので、過去分詞を使います。",
+        "3": "stealsは三人称単数現在形ですが、haveの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: He] [V: had] [O: his wallet] [C: stolen] [OTHER: yesterday]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "past-005",
+    "category": "past-participle",
+    "question": "We need the documents ___ by Friday.",
+    "options": [
+      "prepare",
+      "preparing",
+      "prepared",
+      "prepares"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "need + 目的語 + 過去分詞の構文。目的語が他動詞の動作を受けることを表します。",
+      "translation": "私たちは金曜日までに書類を準備してもらう必要がある。",
+      "wrongOptionExplanations": {
+        "0": "prepareは原形ですが、need + 目的語 + 動詞の原形という構文はありません。need + 目的語 + 過去分詞で「目的語が〜される必要がある」という意味になります。",
+        "1": "preparingは現在分詞ですが、need + 目的語 + 現在分詞という構文はありません。",
+        "3": "preparesは三人称単数現在形ですが、needの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: We] [V: need] [O: the documents] [C: prepared] [OTHER: by Friday]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "past-006",
+    "category": "past-participle",
+    "question": "The company had all its employees ___ background checks before hiring.",
+    "options": [
+      "undergo",
+      "undergoing",
+      "undergone",
+      "to undergo"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "have + 目的語 + 過去分詞の構文で、undergoは「〜を受ける」という意味の他動詞です。複雑な動詞の使い方を理解する必要があります。",
+      "translation": "その会社は採用前に全従業員に身元調査を受けさせた。",
+      "wrongOptionExplanations": {
+        "0": "undergoは原形ですが、have + 目的語 + 動詞の原形は「目的語に〜させる」という使役の意味になります。ここでは「従業員が身元調査を受ける」という受動的な意味を表すので、過去分詞を使います。",
+        "1": "undergoingは現在分詞ですが、have + 目的語 + 現在分詞は「目的語を〜している状態に保つ」という意味になります。ここでは「従業員が身元調査を受ける」という受動的な意味を表すので、過去分詞を使います。",
+        "3": "to undergoは不定詞ですが、have + 目的語 + 不定詞という構文はありません。"
+      },
+      "structure": "[S: The company] [V: had] [O: all its employees] [C: undergone] [OTHER: background checks before hiring]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "past-007",
+    "category": "past-participle",
+    "question": "She wants her proposal ___ by the board before the next meeting.",
+    "options": [
+      "review",
+      "reviewing",
+      "reviewed",
+      "to review"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "want + 目的語 + 過去分詞の構文で、目的語が他動詞の動作を受けることを表します。複雑な文構造を理解する必要があります。",
+      "translation": "彼女は次の会議までに自分の提案が理事会に検討されることを望んでいる。",
+      "wrongOptionExplanations": {
+        "0": "reviewは原形ですが、want + 目的語 + 動詞の原形という構文はありません。",
+        "1": "reviewingは現在分詞ですが、want + 目的語 + 現在分詞という構文はありません。",
+        "3": "to reviewは不定詞ですが、want + 目的語 + 不定詞は「目的語に〜してほしい」という意味になり、ここでは「提案が検討される」という受動的な意味を表すので、過去分詞を使います。"
+      },
+      "structure": "[S: She] [V: wants] [O: her proposal] [C: reviewed] [OTHER: by the board before the next meeting]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "past-008",
+    "category": "past-participle",
+    "question": "The manager made sure the report ___ by the deadline.",
+    "options": [
+      "complete",
+      "completing",
+      "completed",
+      "to complete"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "make sure + that節または目的語 + 過去分詞の構文で、目的語が他動詞の動作を受けることを表します。make sureの特殊な使い方を理解する必要があります。",
+      "translation": "マネージャーはレポートが期限までに完成するように確実にした。",
+      "wrongOptionExplanations": {
+        "0": "completeは原形ですが、make sure + 目的語 + 動詞の原形という構文はありません。",
+        "1": "completingは現在分詞ですが、make sure + 目的語 + 現在分詞という構文はありません。",
+        "3": "to completeは不定詞ですが、make sure + 目的語 + 不定詞という構文はありません。"
+      },
+      "structure": "[S: The manager] [V: made sure] [O: the report] [C: completed] [OTHER: by the deadline]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "past-009",
+    "category": "past-participle",
+    "question": "The company had all confidential documents ___ before the merger, and now they're trying to have the deal ___ off.",
+    "options": [
+      "destroyed, called",
+      "deleted, turned",
+      "removed, put",
+      "erased, taken"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "have + 目的語 + 過去分詞は「目的語が〜される」、call offは「中止する」という熟語です。have構文と熟語を組み合わせた複雑な文構造です。",
+      "translation": "その会社は合併前にすべての機密文書を破棄させたが、今は取引を中止させようとしている。",
+      "wrongOptionExplanations": {
+        "1": "deletedは「削除する」という意味ですが、ここでは「破棄する」という意味が必要です。turn downは「断る」という意味ですが、ここでは「中止する」という意味が必要です。",
+        "2": "removedは「削除する」という意味ですが、ここでは「破棄する」という意味が必要です。put asideは「脇に置く」という意味ですが、ここでは「中止する」という意味が必要です。",
+        "3": "erasedは「消去する」という意味ですが、ここでは「破棄する」という意味が必要です。take backは「取り戻す」という意味ですが、ここでは「中止する」という意味が必要です。"
+      },
+      "structure": "[S: The company] [V: had] [O: all confidential documents] [C: destroyed] [OTHER: before the merger and now they're trying to have the deal called off]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "past-010",
+    "category": "past-participle",
+    "question": "She wants the contract ___ and the terms ___ ___ before she signs it, so she needs everything written out clearly.",
+    "options": [
+      "reviewed, looked, over",
+      "checked, gone, through",
+      "examined, read, through",
+      "studied, turned, around"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "want + 目的語 + 過去分詞は「目的語が〜されることを望む」、look overは「検討する」、write outは「書き出す」という熟語です。want構文と複数の熟語を組み合わせた非常に複雑な文構造です。",
+      "translation": "彼女は契約書を検討し、署名する前に条件を確認したいので、すべてを明確に書き出してもらう必要がある。",
+      "wrongOptionExplanations": {
+        "1": "checkedは「確認する」という意味ですが、ここでは「検討する」という意味が必要です。go throughは「通過する、経験する」という意味ですが、ここでは「確認する」という意味が必要です。type upは「タイプする」という意味ですが、ここでは「書き出す」という意味が必要です。",
+        "2": "examinedは「検査する」という意味ですが、ここでは「検討する」という意味が必要です。read throughは「読み通す」という意味ですが、ここでは「確認する」という意味が必要です。print downは一般的ではありません。",
+        "3": "studiedは「研究する」という意味ですが、ここでは「検討する」という意味が必要です。turn aroundは「好転させる」という意味ですが、ここでは「確認する」という意味が必要です。copy inは一般的ではありません。"
+      },
+      "structure": "[S: She] [V: wants] [O: the contract] [C: reviewed] [OTHER: and the terms looked over before she signs it so she needs everything written out clearly]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "past-011",
+    "category": "past-participle",
+    "question": "The manager made sure all employees ___ ___ ___ the new policy, and those of didn't comply would have their contracts who.",
+    "options": [
+      "were, made, aware",
+      "had, got, familiar",
+      "became, turned, conscious",
+      "got, became, informed"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "make sure + that節、make aware ofは「〜に気づかせる」、whoは関係代名詞、have + 目的語 + 過去分詞は「目的語が〜される」という構文です。make sure構文、熟語、関係代名詞、have構文を組み合わせた非常に複雑な文構造です。",
+      "translation": "マネージャーは全従業員が新しい方針を認識するように確実にし、それに従わなかった者は契約を終了させられることになる。",
+      "wrongOptionExplanations": {
+        "1": "get familiar withは「〜に慣れる」という意味ですが、ここでは「認識する」という意味が必要です。whichは物を表す関係代名詞ですが、ここでは人を表すのでwhoを使います。endは「終わる」という自動詞ですが、ここでは「終了させる」という他動詞の過去分詞が必要です。",
+        "2": "become conscious aboutは一般的ではありません。thatは関係代名詞として使えますが、ここではwhoが適切です。cancelは「キャンセルする」という意味ですが、ここでは「終了させる」という意味が必要です。",
+        "3": "get informed onは一般的ではありません。whomは目的格の関係代名詞ですが、ここでは主格なのでwhoを使います。stopは「止める」という意味ですが、ここでは「終了させる」という意味が必要です。"
+      },
+      "structure": "[S: The manager] [V: made sure] [OTHER: all employees were made aware of the new policy and those who didn't comply would have their contracts terminated]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "past-012",
+    "category": "past-participle",
+    "question": "Having had the proposal ___ by the board, they now need to have the budget ___ and the timeline worked out before they can proceed.",
+    "options": [
+      "approved, approved",
+      "accepted, accepted",
+      "agreed, agreed",
+      "confirmed, confirmed"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Having had + 目的語 + 過去分詞は完了分詞構文、have + 目的語 + 過去分詞は「目的語が〜される」、work outは「計算する、解決する」という熟語です。完了分詞構文、have構文、熟語を組み合わせた非常に複雑な文構造です。",
+      "translation": "提案が理事会に承認されたので、彼らは進む前に予算を承認してもらい、タイムラインを計算してもらう必要がある。",
+      "wrongOptionExplanations": {
+        "1": "acceptedは「受け入れられる」という意味ですが、ここでは「承認される」という意味が必要です。figure inは「考慮に入れる」という意味ですが、ここでは「計算する」という意味が必要です。",
+        "2": "agreedは「同意される」という意味ですが、ここでは「承認される」という意味が必要です。plan aheadは「事前に計画する」という意味ですが、ここでは「計算する」という意味が必要です。",
+        "3": "confirmedは「確認される」という意味ですが、ここでは「承認される」という意味が必要です。schedule forwardは一般的ではありません。"
+      },
+      "structure": "[S: they] [V: now need] [OTHER: Having had the proposal approved by the board to have the budget approved and the timeline worked out before they can proceed]"
+    },
+    "difficulty": 2
+  }
+]

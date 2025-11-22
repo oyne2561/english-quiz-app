@@ -1,0 +1,232 @@
+[
+  {
+    "id": "subj-001",
+    "category": "subjunctive",
+    "question": "I suggest that he ___ the meeting immediately.",
+    "options": [
+      "attend",
+      "attends",
+      "attended",
+      "attending"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "suggest that + 主語 + 動詞の原形は仮定法現在の構文です。that節内の動詞は原形を使います。",
+      "translation": "私は彼がすぐに会議に出席することを提案します。",
+      "wrongOptionExplanations": {
+        "1": "attendsは三人称単数現在形ですが、仮定法現在では動詞の原形を使います。",
+        "2": "attendedは過去形ですが、仮定法現在では動詞の原形を使います。",
+        "3": "attendingは現在分詞ですが、仮定法現在では動詞の原形を使います。"
+      },
+      "structure": "[S: I] [V: suggest] [OTHER: that he attend the meeting immediately]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "subj-002",
+    "category": "subjunctive",
+    "question": "It is important that she ___ on time.",
+    "options": [
+      "be",
+      "is",
+      "was",
+      "being"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "It is important that + 主語 + 動詞の原形は仮定法現在の構文です。be動詞も原形のbeを使います。",
+      "translation": "彼女が時間通りに来ることが重要です。",
+      "wrongOptionExplanations": {
+        "1": "isは現在形ですが、仮定法現在ではbe動詞も原形のbeを使います。",
+        "2": "wasは過去形ですが、仮定法現在ではbe動詞も原形のbeを使います。",
+        "3": "beingは現在分詞ですが、仮定法現在ではbe動詞も原形のbeを使います。"
+      },
+      "structure": "[V: is] [C: important] [OTHER: It that she be on time]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "subj-003",
+    "category": "subjunctive",
+    "question": "If I ___ you, I would accept the offer.",
+    "options": [
+      "were",
+      "was",
+      "am",
+      "be"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "If I were youは仮定法過去の構文です。be動詞はwereを使います（wasは使わない）。",
+      "translation": "もし私があなただったら、その申し出を受け入れるでしょう。",
+      "wrongOptionExplanations": {
+        "1": "wasは仮定法過去では使えません。仮定法過去ではbe動詞はwereを使います。",
+        "2": "amは現在形ですが、仮定法過去ではwereを使います。",
+        "3": "beは原形ですが、仮定法過去ではwereを使います。"
+      },
+      "structure": "[S: I] [V: were] [C: you] [OTHER: If I would accept the offer]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "subj-004",
+    "category": "subjunctive",
+    "question": "I wish ___ more time to study.",
+    "options": [
+      "had",
+      "have",
+      "has",
+      "having"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "I wish + 主語 + 過去形は仮定法過去の構文です。現在の事実に反する願望を表します。",
+      "translation": "もっと勉強する時間があればいいのに。",
+      "wrongOptionExplanations": {
+        "1": "haveは現在形ですが、I wish構文では過去形を使います。",
+        "2": "hasは三人称単数現在形ですが、I wish構文では過去形を使います。",
+        "3": "havingは現在分詞ですが、I wish構文では過去形を使います。"
+      },
+      "structure": "[S: I] [V: wish] [OTHER: I had more time to study]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "subj-005",
+    "category": "subjunctive",
+    "question": "The doctor recommended that the patient ___ smoking.",
+    "options": [
+      "quit",
+      "quits",
+      "quitted",
+      "quitting"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "recommend that + 主語 + 動詞の原形は仮定法現在の構文です。that節内の動詞は原形を使います。",
+      "translation": "医師は患者が喫煙をやめることを勧めました。",
+      "wrongOptionExplanations": {
+        "1": "quitsは三人称単数現在形ですが、仮定法現在では動詞の原形を使います。",
+        "2": "quittedは過去形ですが、仮定法現在では動詞の原形を使います。",
+        "3": "quittingは現在分詞ですが、仮定法現在では動詞の原形を使います。"
+      },
+      "structure": "[S: The doctor] [V: recommended] [OTHER: that the patient quit smoking]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "subj-006",
+    "category": "subjunctive",
+    "question": "If I ___ known about the meeting, I would have attended.",
+    "options": [
+      "had",
+      "have",
+      "has",
+      "having"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "If + 主語 + had + 過去分詞は仮定法過去完了の構文です。過去の事実に反する仮定を表します。",
+      "translation": "もし会議について知っていたら、出席していたでしょう。",
+      "wrongOptionExplanations": {
+        "1": "haveは現在形ですが、仮定法過去完了ではhad + 過去分詞を使います。",
+        "2": "hasは三人称単数現在形ですが、仮定法過去完了ではhad + 過去分詞を使います。",
+        "3": "havingは現在分詞ですが、仮定法過去完了ではhad + 過去分詞を使います。"
+      },
+      "structure": "[S: I] [V: had known] [OTHER: If I about the meeting I would have attended]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "subj-007",
+    "category": "subjunctive",
+    "question": "It is essential that all employees ___ the safety protocol ___ heart.",
+    "options": [
+      "learn, by",
+      "learns, with",
+      "learned, at",
+      "learning, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "It is essential that + 主語 + 動詞の原形は仮定法現在の構文です。learn by heartは「暗記する」という熟語です。仮定法現在と熟語を組み合わせた複雑な構文です。",
+      "translation": "すべての従業員が安全プロトコルを暗記することが不可欠です。",
+      "wrongOptionExplanations": {
+        "1": "learnsは三人称単数現在形ですが、仮定法現在では動詞の原形を使います。learn with heartは一般的ではありません。",
+        "2": "learned atは文法的に正しくありません。ここではlearn byが適切です。",
+        "3": "learningは現在分詞ですが、仮定法現在では動詞の原形を使います。learn in heartは一般的ではありません。"
+      },
+      "structure": "[V: is] [C: essential] [OTHER: It that all employees learn the safety protocol by heart]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "subj-008",
+    "category": "subjunctive",
+    "question": "I wish ___ ___ the opportunity when it was available, but now it's too late.",
+    "options": [
+      "had, taken",
+      "have, taken",
+      "had, take",
+      "have, take"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "I wish + 主語 + had + 過去分詞は仮定法過去完了の構文です。過去の事実に反する後悔を表します。",
+      "translation": "機会があった時にそれを利用していればよかったのに、今では遅すぎる。",
+      "wrongOptionExplanations": {
+        "1": "have takenは現在完了形ですが、I wish構文ではhad + 過去分詞を使います。",
+        "2": "had takeはhad + 原形ですが、仮定法過去完了ではhad + 過去分詞を使います。",
+        "3": "have takeは現在形ですが、I wish構文ではhad + 過去分詞を使います。"
+      },
+      "structure": "[S: I] [V: wish] [OTHER: I had taken the opportunity when it was available but now it's too late]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "subj-009",
+    "category": "subjunctive",
+    "question": "The board demanded that the CEO ___ ___ about the company's financial situation with the shareholders.",
+    "options": [
+      "be, transparent",
+      "is, clear",
+      "was, honest",
+      "being, open"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "demand that + 主語 + 動詞の原形は仮定法現在の構文です。be transparent aboutは「〜について透明である」、withは「〜に対して」という意味です。仮定法現在、be動詞の原形、複数の前置詞を組み合わせた非常に複雑な構文です。",
+      "translation": "理事会はCEOが株主に対して会社の財務状況について透明であることを要求した。",
+      "wrongOptionExplanations": {
+        "1": "is clearは文法的に正しくありません。ここではbe transparentが適切です。",
+        "2": "was honestは文法的に正しくありません。ここではbe transparentが適切です。",
+        "3": "being openは文法的に正しくありません。ここではbe transparentが適切です。"
+      },
+      "structure": "[S: The board] [V: demanded] [OTHER: that the CEO be transparent about the company's financial situation with the shareholders]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "subj-010",
+    "category": "subjunctive",
+    "question": "If only I ___ ___ ___ the warning signs earlier, we to would able to prevent the crisis.",
+    "options": [
+      "had, paid, attention",
+      "have, noticed, the",
+      "was, seen, those",
+      "were, observed, these"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "If only + 主語 + had + 過去分詞は仮定法過去完了の構文です。pay attention toは「〜に注意を払う」、would have been able toは「〜できたはずだ」という熟語です。仮定法過去完了、熟語、完了形の助動詞を組み合わせた非常に複雑な構文です。",
+      "translation": "もっと早く警告サインに注意を払っていれば、私たちは危機を防ぐことができたはずだ。",
+      "wrongOptionExplanations": {
+        "1": "have noticedは現在完了形ですが、If only構文ではhad + 過去分詞を使います。would could beは文法的に正しくありません。",
+        "2": "was seenは受動態の過去形ですが、If only構文ではhad + 過去分詞を使います。might have becomeは「〜になったかもしれない」という意味ですが、ここでは「できたはずだ」という意味が必要です。",
+        "3": "were observedは仮定法過去ですが、If only構文ではhad + 過去分詞を使います。should getは「〜すべきだ」という意味ですが、ここでは「できたはずだ」という意味が必要です。"
+      },
+      "structure": "[S: I] [V: had paid] [OTHER: If only I attention to the warning signs earlier we would have been able to prevent the crisis]"
+    },
+    "difficulty": 2
+  }
+]

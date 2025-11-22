@@ -1,0 +1,692 @@
+[
+  {
+    "id": "ger-001",
+    "category": "gerund",
+    "question": "I enjoy ___ books.",
+    "options": [
+      "reading",
+      "to read",
+      "read",
+      "reads"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "enjoy + 動名詞は「〜を楽しむ」という意味です。enjoyの後には動名詞（動詞のing形）を使います。",
+      "translation": "私は本を読むことを楽しんでいます。",
+      "wrongOptionExplanations": {
+        "1": "to readは不定詞ですが、enjoyの後には動名詞を使います。",
+        "2": "readは原形ですが、enjoyの後には動名詞を使います。",
+        "3": "readsは三人称単数現在形ですが、enjoyの後には動名詞を使います。"
+      },
+      "structure": "[S: I] [V: enjoy] [O: reading] [OTHER: books]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "ger-002",
+    "category": "gerund",
+    "question": "She finished ___ her homework.",
+    "options": [
+      "doing",
+      "to do",
+      "do",
+      "does"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "finish + 動名詞は「〜を終える」という意味です。finishの後には動名詞を使います。",
+      "translation": "彼女は宿題を終えました。",
+      "wrongOptionExplanations": {
+        "1": "to doは不定詞ですが、finishの後には動名詞を使います。",
+        "2": "doは原形ですが、finishの後には動名詞を使います。",
+        "3": "doesは三人称単数現在形ですが、finishの後には動名詞を使います。"
+      },
+      "structure": "[S: She] [V: finished] [O: doing] [OTHER: her homework]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "ger-003",
+    "category": "gerund",
+    "question": "He is good at ___ English.",
+    "options": [
+      "speaking",
+      "to speak",
+      "speak",
+      "speaks"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "be good at + 動名詞は「〜が得意だ」という意味です。前置詞atの後には動名詞を使います。",
+      "translation": "彼は英語を話すことが得意です。",
+      "wrongOptionExplanations": {
+        "1": "to speakは不定詞ですが、前置詞atの後には動名詞を使います。",
+        "2": "speakは原形ですが、前置詞atの後には動名詞を使います。",
+        "3": "speaksは三人称単数現在形ですが、前置詞atの後には動名詞を使います。"
+      },
+      "structure": "[S: He] [V: is] [C: good] [OTHER: at speaking English]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "ger-004",
+    "category": "gerund",
+    "question": "They are interested in ___ abroad.",
+    "options": [
+      "studying",
+      "to study",
+      "study",
+      "studies"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "be interested in + 動名詞は「〜に興味がある」という意味です。前置詞inの後には動名詞を使います。",
+      "translation": "彼らは海外で勉強することに興味があります。",
+      "wrongOptionExplanations": {
+        "1": "to studyは不定詞ですが、前置詞inの後には動名詞を使います。",
+        "2": "studyは原形ですが、前置詞inの後には動名詞を使います。",
+        "3": "studiesは三人称単数現在形ですが、前置詞inの後には動名詞を使います。"
+      },
+      "structure": "[S: They] [V: are] [C: interested] [OTHER: in studying abroad]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "ger-005",
+    "category": "gerund",
+    "question": "I'm looking forward to ___ you.",
+    "options": [
+      "seeing",
+      "to see",
+      "see",
+      "sees"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "look forward to + 動名詞は「〜を楽しみにしている」という意味です。前置詞toの後には動名詞を使います。",
+      "translation": "あなたに会うのを楽しみにしています。",
+      "wrongOptionExplanations": {
+        "1": "to seeは不定詞ですが、look forward toの後には動名詞を使います。",
+        "2": "seeは原形ですが、look forward toの後には動名詞を使います。",
+        "3": "seesは三人称単数現在形ですが、look forward toの後には動名詞を使います。"
+      },
+      "structure": "[S: I] [V: am looking forward] [OTHER: to seeing you]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "ger-006",
+    "category": "gerund",
+    "question": "She admitted ___ ___ the mistake, but she kept insisting that it was someone else's fault.",
+    "options": [
+      "to, making",
+      "having, got",
+      "being, done",
+      "becoming, made"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "admit to + 動名詞は「〜を認める」、keep + 動名詞は「〜し続ける」という意味です。前置詞+動名詞と動名詞を組み合わせた複雑な構文です。",
+      "translation": "彼女は間違いを認めたが、それが他の誰かのせいだと言い続けた。",
+      "wrongOptionExplanations": {
+        "1": "having gotは一般的ではありません。claimingは動名詞として使えますが、insistingの方が適切です。",
+        "2": "being doneは文法的に正しくありません。ここではto makingが適切です。",
+        "3": "becoming madeは一般的ではありません。tellingは動名詞として使えますが、insistingの方が適切です。"
+      },
+      "structure": "[S: She] [V: admitted] [OTHER: to making the mistake but she kept insisting that it was someone else's fault]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "ger-007",
+    "category": "gerund",
+    "question": "The company is considering ___ ___ launch the project, but they're worried about running into budget constraints.",
+    "options": [
+      "postponing, the",
+      "delaying, a",
+      "putting, off",
+      "holding, back"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "consider + 動名詞は「〜を検討する」、be worried about + 動名詞は「〜を心配している」、run intoは「〜に遭遇する」という意味です。動名詞、前置詞+動名詞、熟語を組み合わせた非常に複雑な構文です。",
+      "translation": "会社はプロジェクトの開始を延期することを検討しているが、予算の制約に遭遇することを心配している。",
+      "wrongOptionExplanations": {
+        "1": "delaying a startは一般的ですが、postponing the launchの方が適切です。coming acrossは「偶然出会う」という意味ですが、ここでは「遭遇する」という意味が必要です。",
+        "2": "putting off the beginningは一般的ですが、postponing the launchの方が適切です。getting overは「克服する」という意味ですが、ここでは「遭遇する」という意味が必要です。",
+        "3": "holding back an openingは一般的ですが、postponing the launchの方が適切です。going throughは「経験する」という意味ですが、ここでは「遭遇する」という意味が必要です。"
+      },
+      "structure": "[S: The company] [V: is considering] [O: postponing] [OTHER: the launch of the project but they're worried about running into budget constraints]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "ger-008",
+    "category": "gerund",
+    "question": "He denied ___ ___ the information, despite there being strong evidence to the contrary.",
+    "options": [
+      "having, leaked",
+      "to, have",
+      "being, done",
+      "becoming, made"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "deny + 動名詞は「〜を否定する」、having + 過去分詞は完了形の動名詞「〜したこと」、despite + 動名詞は「〜にもかかわらず」、to the contraryは「それに反して」という意味です。完了形の動名詞、前置詞+動名詞、熟語を組み合わせた非常に複雑な構文です。",
+      "translation": "それに反する強い証拠があるにもかかわらず、彼はその情報を漏らしたことを否定した。",
+      "wrongOptionExplanations": {
+        "1": "to have gotは一般的ではありません。it becoming clear forは一般的ですが、there being strong evidence to the contraryの方が適切です。",
+        "2": "being done withは一般的ではありません。what turning out atは一般的ですが、there being strong evidence to the contraryの方が適切です。",
+        "3": "becoming made aware ofは一般的ではありません。which getting over inは一般的ですが、there being strong evidence to the contraryの方が適切です。"
+      },
+      "structure": "[S: He] [V: denied] [OTHER: having leaked the information despite there being strong evidence to the contrary]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "ger-009",
+    "category": "gerund",
+    "question": "They ended ___ ___ the decision after considering each of all the options carefully.",
+    "options": [
+      "up, making",
+      "down, taking",
+      "off, doing",
+      "out, having"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "end up + 動名詞は「結局〜する」、after + 動名詞は「〜した後で」、each ofは「〜のそれぞれ」という意味です。熟語+動名詞、前置詞+動名詞、前置詞句を組み合わせた非常に複雑な構文です。",
+      "translation": "すべての選択肢を慎重に検討した後、彼らは結局その決定を下した。",
+      "wrongOptionExplanations": {
+        "1": "end downは一般的ではありません。thinking about everyは一般的ですが、considering each ofの方が適切です。",
+        "2": "end offは一般的ではありません。looking into allは一般的ですが、considering each ofの方が適切です。",
+        "3": "end outは一般的ではありません。going through someは一般的ですが、considering each ofの方が適切です。"
+      },
+      "structure": "[S: They] [V: ended] [OTHER: up making the decision after considering each of all the options carefully]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "ger-010",
+    "category": "gerund",
+    "question": "She can't help ___ ___ the situation, even though she knows should stop thinking too much about it.",
+    "options": [
+      "worrying, about",
+      "to, worry",
+      "being, worried",
+      "becoming, anxious"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "can't help + 動名詞は「〜せずにはいられない」、worry aboutは「〜を心配する」、stop + 動名詞は「〜するのをやめる」、think too much aboutは「〜について考えすぎる」という意味です。動名詞、前置詞+動名詞、動名詞、熟語を組み合わせた非常に複雑な構文です。",
+      "translation": "彼女はその状況について心配せずにはいられない。それについて考えすぎるのをやめるべきだとわかっているにもかかわらず。",
+      "wrongOptionExplanations": {
+        "1": "to worryは不定詞ですが、can't helpの後には動名詞を使います。to thinkは不定詞ですが、stopの後には動名詞を使います。",
+        "2": "being worried atは一般的ではありません。to be thinking overは一般的ですが、thinking too much aboutの方が適切です。",
+        "3": "becoming anxious onは一般的ではありません。getting prepared toは一般的ですが、thinking too much aboutの方が適切です。"
+      },
+      "structure": "[S: She] [V: can't help] [O: worrying] [OTHER: about the situation even though she knows she should stop thinking too much about it]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "ger-011",
+    "category": "gerund",
+    "question": "I'm used to ___ early in the morning.",
+    "options": [
+      "getting up",
+      "get up",
+      "got up",
+      "gets up"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "be used to + 動名詞は「〜に慣れている」という意味です。前置詞toの後には動名詞を使います。",
+      "translation": "私は朝早く起きることに慣れています。",
+      "wrongOptionExplanations": {
+        "1": "get upは原形ですが、be used toの後には動名詞を使います。",
+        "2": "got upは過去形ですが、be used toの後には動名詞を使います。",
+        "3": "gets upは三人称単数現在形ですが、be used toの後には動名詞を使います。"
+      },
+      "structure": "[S: I] [V: am used] [OTHER: to getting up early in the morning]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "ger-012",
+    "category": "gerund",
+    "question": "She avoided ___ the difficult question.",
+    "options": [
+      "answering",
+      "to answer",
+      "answer",
+      "answers"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "avoid + 動名詞は「〜を避ける」という意味です。avoidの後には動名詞を使います。",
+      "translation": "彼女は難しい質問に答えることを避けた。",
+      "wrongOptionExplanations": {
+        "1": "to answerは不定詞ですが、avoidの後には動名詞を使います。",
+        "2": "answerは原形ですが、avoidの後には動名詞を使います。",
+        "3": "answersは三人称単数現在形ですが、avoidの後には動名詞を使います。"
+      },
+      "structure": "[S: She] [V: avoided] [O: answering] [OTHER: the difficult question]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "ger-013",
+    "category": "gerund",
+    "question": "He succeeded in ___ the exam.",
+    "options": [
+      "passing",
+      "to pass",
+      "pass",
+      "passes"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "succeed in + 動名詞は「〜に成功する」という意味です。前置詞inの後には動名詞を使います。",
+      "translation": "彼は試験に合格することに成功した。",
+      "wrongOptionExplanations": {
+        "1": "to passは不定詞ですが、前置詞inの後には動名詞を使います。",
+        "2": "passは原形ですが、前置詞inの後には動名詞を使います。",
+        "3": "passesは三人称単数現在形ですが、前置詞inの後には動名詞を使います。"
+      },
+      "structure": "[S: He] [V: succeeded] [OTHER: in passing the exam]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "ger-014",
+    "category": "gerund",
+    "question": "They are thinking about ___ a new house.",
+    "options": [
+      "buying",
+      "to buy",
+      "buy",
+      "buys"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "think about + 動名詞は「〜について考える」という意味です。前置詞aboutの後には動名詞を使います。",
+      "translation": "彼らは新しい家を買うことを考えています。",
+      "wrongOptionExplanations": {
+        "1": "to buyは不定詞ですが、前置詞aboutの後には動名詞を使います。",
+        "2": "buyは原形ですが、前置詞aboutの後には動名詞を使います。",
+        "3": "buysは三人称単数現在形ですが、前置詞aboutの後には動名詞を使います。"
+      },
+      "structure": "[S: They] [V: are thinking] [OTHER: about buying a new house]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "ger-015",
+    "category": "gerund",
+    "question": "I'm tired of ___ the same thing every day.",
+    "options": [
+      "doing",
+      "to do",
+      "do",
+      "does"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "be tired of + 動名詞は「〜に飽きている」という意味です。前置詞ofの後には動名詞を使います。",
+      "translation": "私は毎日同じことをするのに飽きています。",
+      "wrongOptionExplanations": {
+        "1": "to doは不定詞ですが、前置詞ofの後には動名詞を使います。",
+        "2": "doは原形ですが、前置詞ofの後には動名詞を使います。",
+        "3": "doesは三人称単数現在形ですが、前置詞ofの後には動名詞を使います。"
+      },
+      "structure": "[S: I] [V: am tired] [OTHER: of doing the same thing every day]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "ger-016",
+    "category": "gerund",
+    "question": "She keeps ___ about her problems.",
+    "options": [
+      "complaining",
+      "to complain",
+      "complain",
+      "complains"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "keep + 動名詞は「〜し続ける」という意味です。keepの後には動名詞を使います。",
+      "translation": "彼女は自分の問題について文句を言い続けている。",
+      "wrongOptionExplanations": {
+        "1": "to complainは不定詞ですが、keepの後には動名詞を使います。",
+        "2": "complainは原形ですが、keepの後には動名詞を使います。",
+        "3": "complainsは三人称単数現在形ですが、keepの後には動名詞を使います。"
+      },
+      "structure": "[S: She] [V: keeps] [O: complaining] [OTHER: about her problems]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "ger-017",
+    "category": "gerund",
+    "question": "He gave up ___ to quit smoking.",
+    "options": [
+      "trying",
+      "to try",
+      "try",
+      "tries"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "give up + 動名詞は「〜するのをあきらめる」という意味です。give upの後には動名詞を使います。",
+      "translation": "彼はタバコをやめようとするのをあきらめた。",
+      "wrongOptionExplanations": {
+        "1": "to tryは不定詞ですが、give upの後には動名詞を使います。",
+        "2": "tryは原形ですが、give upの後には動名詞を使います。",
+        "3": "triesは三人称単数現在形ですが、give upの後には動名詞を使います。"
+      },
+      "structure": "[S: He] [V: gave up] [O: trying] [OTHER: to quit smoking]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "ger-018",
+    "category": "gerund",
+    "question": "They are afraid of ___ mistakes.",
+    "options": [
+      "making",
+      "to make",
+      "make",
+      "makes"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "be afraid of + 動名詞は「〜することを恐れる」という意味です。前置詞ofの後には動名詞を使います。",
+      "translation": "彼らは間違いを犯すことを恐れています。",
+      "wrongOptionExplanations": {
+        "1": "to makeは不定詞ですが、前置詞ofの後には動名詞を使います。",
+        "2": "makeは原形ですが、前置詞ofの後には動名詞を使います。",
+        "3": "makesは三人称単数現在形ですが、前置詞ofの後には動名詞を使います。"
+      },
+      "structure": "[S: They] [V: are afraid] [OTHER: of making mistakes]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "ger-019",
+    "category": "gerund",
+    "question": "I'm excited about ___ to the concert.",
+    "options": [
+      "going",
+      "to go",
+      "go",
+      "goes"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "be excited about + 動名詞は「〜に興奮している」という意味です。前置詞aboutの後には動名詞を使います。",
+      "translation": "私はコンサートに行くことに興奮しています。",
+      "wrongOptionExplanations": {
+        "1": "to goは不定詞ですが、前置詞aboutの後には動名詞を使います。",
+        "2": "goは原形ですが、前置詞aboutの後には動名詞を使います。",
+        "3": "goesは三人称単数現在形ですが、前置詞aboutの後には動名詞を使います。"
+      },
+      "structure": "[S: I] [V: am excited] [OTHER: about going to the concert]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "ger-020",
+    "category": "gerund",
+    "question": "She is responsible for ___ the project.",
+    "options": [
+      "managing",
+      "to manage",
+      "manage",
+      "manages"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "be responsible for + 動名詞は「〜に責任がある」という意味です。前置詞forの後には動名詞を使います。",
+      "translation": "彼女はプロジェクトを管理する責任があります。",
+      "wrongOptionExplanations": {
+        "1": "to manageは不定詞ですが、前置詞forの後には動名詞を使います。",
+        "2": "manageは原形ですが、前置詞forの後には動名詞を使います。",
+        "3": "managesは三人称単数現在形ですが、前置詞forの後には動名詞を使います。"
+      },
+      "structure": "[S: She] [V: is] [C: responsible] [OTHER: for managing the project]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "ger-021",
+    "category": "gerund",
+    "question": "He is capable of ___ complex problems.",
+    "options": [
+      "solving",
+      "to solve",
+      "solve",
+      "solves"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "be capable of + 動名詞は「〜する能力がある」という意味です。前置詞ofの後には動名詞を使います。",
+      "translation": "彼は複雑な問題を解決する能力がある。",
+      "wrongOptionExplanations": {
+        "1": "to solveは不定詞ですが、前置詞ofの後には動名詞を使います。",
+        "2": "solveは原形ですが、前置詞ofの後には動名詞を使います。",
+        "3": "solvesは三人称単数現在形ですが、前置詞ofの後には動名詞を使います。"
+      },
+      "structure": "[S: He] [V: is] [C: capable] [OTHER: of solving complex problems]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "ger-022",
+    "category": "gerund",
+    "question": "They are proud of ___ their goals.",
+    "options": [
+      "achieving",
+      "to achieve",
+      "achieve",
+      "achieves"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "be proud of + 動名詞は「〜を誇りに思う」という意味です。前置詞ofの後には動名詞を使います。",
+      "translation": "彼らは目標を達成したことを誇りに思っています。",
+      "wrongOptionExplanations": {
+        "1": "to achieveは不定詞ですが、前置詞ofの後には動名詞を使います。",
+        "2": "achieveは原形ですが、前置詞ofの後には動名詞を使います。",
+        "3": "achievesは三人称単数現在形ですが、前置詞ofの後には動名詞を使います。"
+      },
+      "structure": "[S: They] [V: are proud] [OTHER: of achieving their goals]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "ger-023",
+    "category": "gerund",
+    "question": "She is good at ___ languages.",
+    "options": [
+      "learning",
+      "to learn",
+      "learn",
+      "learns"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "be good at + 動名詞は「〜が得意だ」という意味です。前置詞atの後には動名詞を使います。",
+      "translation": "彼女は言語を学ぶことが得意です。",
+      "wrongOptionExplanations": {
+        "1": "to learnは不定詞ですが、前置詞atの後には動名詞を使います。",
+        "2": "learnは原形ですが、前置詞atの後には動名詞を使います。",
+        "3": "learnsは三人称単数現在形ですが、前置詞atの後には動名詞を使います。"
+      },
+      "structure": "[S: She] [V: is] [C: good] [OTHER: at learning languages]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "ger-024",
+    "category": "gerund",
+    "question": "He is fond of ___ books.",
+    "options": [
+      "reading",
+      "to read",
+      "read",
+      "reads"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "be fond of + 動名詞は「〜が好きだ」という意味です。前置詞ofの後には動名詞を使います。",
+      "translation": "彼は本を読むことが好きです。",
+      "wrongOptionExplanations": {
+        "1": "to readは不定詞ですが、前置詞ofの後には動名詞を使います。",
+        "2": "readは原形ですが、前置詞ofの後には動名詞を使います。",
+        "3": "readsは三人称単数現在形ですが、前置詞ofの後には動名詞を使います。"
+      },
+      "structure": "[S: He] [V: is fond] [OTHER: of reading books]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "ger-025",
+    "category": "gerund",
+    "question": "They are worried about ___ the deadline.",
+    "options": [
+      "missing",
+      "to miss",
+      "miss",
+      "misses"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "be worried about + 動名詞は「〜を心配している」という意味です。前置詞aboutの後には動名詞を使います。",
+      "translation": "彼らは期限に間に合わないことを心配しています。",
+      "wrongOptionExplanations": {
+        "1": "to missは不定詞ですが、前置詞aboutの後には動名詞を使います。",
+        "2": "missは原形ですが、前置詞aboutの後には動名詞を使います。",
+        "3": "missesは三人称単数現在形ですが、前置詞aboutの後には動名詞を使います。"
+      },
+      "structure": "[S: They] [V: are worried] [OTHER: about missing the deadline]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "ger-026",
+    "category": "gerund",
+    "question": "She is keen on ___ new skills.",
+    "options": [
+      "learning",
+      "to learn",
+      "learn",
+      "learns"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "be keen on + 動名詞は「〜に熱心だ」という意味です。前置詞onの後には動名詞を使います。",
+      "translation": "彼女は新しいスキルを学ぶことに熱心です。",
+      "wrongOptionExplanations": {
+        "1": "to learnは不定詞ですが、前置詞onの後には動名詞を使います。",
+        "2": "learnは原形ですが、前置詞onの後には動名詞を使います。",
+        "3": "learnsは三人称単数現在形ですが、前置詞onの後には動名詞を使います。"
+      },
+      "structure": "[S: She] [V: is keen] [OTHER: on learning new skills]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "ger-027",
+    "category": "gerund",
+    "question": "He is bad at ___ directions.",
+    "options": [
+      "following",
+      "to follow",
+      "follow",
+      "follows"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "be bad at + 動名詞は「〜が苦手だ」という意味です。前置詞atの後には動名詞を使います。",
+      "translation": "彼は道順をたどるのが苦手です。",
+      "wrongOptionExplanations": {
+        "1": "to followは不定詞ですが、前置詞atの後には動名詞を使います。",
+        "2": "followは原形ですが、前置詞atの後には動名詞を使います。",
+        "3": "followsは三人称単数現在形ですが、前置詞atの後には動名詞を使います。"
+      },
+      "structure": "[S: He] [V: is] [C: bad] [OTHER: at following directions]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "ger-028",
+    "category": "gerund",
+    "question": "They are serious about ___ their business.",
+    "options": [
+      "expanding",
+      "to expand",
+      "expand",
+      "expands"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "be serious about + 動名詞は「〜に真剣だ」という意味です。前置詞aboutの後には動名詞を使います。",
+      "translation": "彼らは事業を拡大することに真剣です。",
+      "wrongOptionExplanations": {
+        "1": "to expandは不定詞ですが、前置詞aboutの後には動名詞を使います。",
+        "2": "expandは原形ですが、前置詞aboutの後には動名詞を使います。",
+        "3": "expandsは三人称単数現在形ですが、前置詞aboutの後には動名詞を使います。"
+      },
+      "structure": "[S: They] [V: are serious] [OTHER: about expanding their business]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "ger-029",
+    "category": "gerund",
+    "question": "She is committed to ___ her goals.",
+    "options": [
+      "achieving",
+      "to achieve",
+      "achieve",
+      "achieves"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "be committed to + 動名詞は「〜にコミットしている」という意味です。前置詞toの後には動名詞を使います。",
+      "translation": "彼女は目標を達成することにコミットしています。",
+      "wrongOptionExplanations": {
+        "1": "to achieveは不定詞ですが、be committed toの後には動名詞を使います。",
+        "2": "achieveは原形ですが、be committed toの後には動名詞を使います。",
+        "3": "achievesは三人称単数現在形ですが、be committed toの後には動名詞を使います。"
+      },
+      "structure": "[S: She] [V: is committed] [OTHER: to achieving her goals]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "ger-030",
+    "category": "gerund",
+    "question": "The company is focused on ___ customer satisfaction while ___ high levels cost efficiency of the same time.",
+    "options": [
+      "improving, maintaining",
+      "to, improve",
+      "being, improved",
+      "becoming, improved"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "be focused on + 動名詞は「〜に焦点を当てている」、while + 動名詞は「〜しながら」、at the same timeは「同時に」という意味です。動名詞、分詞構文、熟語を組み合わせた非常に複雑な構文です。",
+      "translation": "その会社は顧客満足度の向上に焦点を当てながら、同時に高いコスト効率を維持している。",
+      "wrongOptionExplanations": {
+        "1": "to improveは不定詞ですが、be focused onの後には動名詞を使います。keeping good standards forは一般的ですが、maintaining high levels ofの方が適切です。",
+        "2": "being improvedは受動態の動名詞ですが、ここでは能動態の動名詞が必要です。having better quality inは一般的ですが、maintaining high levels ofの方が適切です。",
+        "3": "becoming improvedは一般的ではありません。getting higher rates onは一般的ですが、maintaining high levels ofの方が適切です。"
+      },
+      "structure": "[S: The company] [V: is focused] [OTHER: on improving customer satisfaction while maintaining high levels of cost efficiency at the same time]"
+    },
+    "difficulty": 2
+  }
+]

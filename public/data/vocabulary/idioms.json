@@ -1,0 +1,212 @@
+[
+  {
+    "word": "can be specified",
+    "meaning": [
+      "指定することができる（受動態）"
+    ],
+    "example": {
+      "sentence": "The parameter can be specified",
+      "translation": "パラメータを指定することができる"
+    },
+    "type": "idiom"
+  },
+  {
+    "word": "in several ways",
+    "meaning": [
+      "いくつかの方法で"
+    ],
+    "example": {
+      "sentence": "It can be done in several ways",
+      "translation": "いくつかの方法で実行できる"
+    },
+    "type": "idiom"
+  },
+  {
+    "word": "side effect",
+    "meaning": [
+      "副作用",
+      "余波"
+    ],
+    "example": {
+      "sentence": "Avoid side effects",
+      "translation": "副作用を避ける"
+    },
+    "type": "idiom"
+  },
+  {
+    "word": "undefined behavior",
+    "meaning": [
+      "未定義動作"
+    ],
+    "example": {
+      "sentence": "Avoid undefined behavior",
+      "translation": "未定義動作を避ける"
+    },
+    "type": "idiom"
+  },
+  {
+    "word": "assertion failure",
+    "meaning": [
+      "アサーション失敗"
+    ],
+    "example": {
+      "sentence": "Fix assertion failure",
+      "translation": "アサーション失敗を修正する"
+    },
+    "type": "idiom"
+  },
+  {
+    "word": "steps to reproduce",
+    "meaning": [
+      "再現手順"
+    ],
+    "example": {
+      "sentence": "Provide steps to reproduce",
+      "translation": "再現手順を提供する"
+    },
+    "type": "idiom"
+  },
+  {
+    "word": "root cause",
+    "meaning": [
+      "根本原因"
+    ],
+    "example": {
+      "sentence": "Find root cause",
+      "translation": "根本原因を見つける"
+    },
+    "type": "idiom"
+  },
+  {
+    "word": "according to",
+    "meaning": [
+      "～によると",
+      "～に従って"
+    ],
+    "example": {
+      "sentence": "According to the docs",
+      "translation": "ドキュメントによると"
+    },
+    "type": "idiom"
+  },
+  {
+    "word": "based on",
+    "meaning": [
+      "～に基づいて",
+      "～を基に"
+    ],
+    "example": {
+      "sentence": "Based on the spec",
+      "translation": "仕様に基づいて"
+    },
+    "type": "idiom"
+  },
+  {
+    "word": "due to",
+    "meaning": [
+      "～のために",
+      "～が原因で"
+    ],
+    "example": {
+      "sentence": "Due to the error",
+      "translation": "エラーのために"
+    },
+    "type": "idiom"
+  },
+  {
+    "word": "thanks to",
+    "meaning": [
+      "～のおかげで",
+      "～により"
+    ],
+    "example": {
+      "sentence": "Thanks to the fix",
+      "translation": "修正のおかげで"
+    },
+    "type": "idiom"
+  },
+  {
+    "word": "instead of",
+    "meaning": [
+      "～の代わりに",
+      "～ではなく"
+    ],
+    "example": {
+      "sentence": "Instead of the old API",
+      "translation": "古いAPIの代わりに"
+    },
+    "type": "idiom"
+  },
+  {
+    "word": "as well as",
+    "meaning": [
+      "～もまた",
+      "～と同様に"
+    ],
+    "example": {
+      "sentence": "A as well as B",
+      "translation": "AもまたB"
+    },
+    "type": "idiom"
+  },
+  {
+    "word": "along with",
+    "meaning": [
+      "～と一緒に",
+      "～とともに"
+    ],
+    "example": {
+      "sentence": "Along with the update",
+      "translation": "更新と一緒に"
+    },
+    "type": "idiom"
+  },
+  {
+    "word": "together with",
+    "meaning": [
+      "～と一緒に",
+      "～とともに"
+    ],
+    "example": {
+      "sentence": "Together with the fix",
+      "translation": "修正と一緒に"
+    },
+    "type": "idiom"
+  },
+  {
+    "word": "apart from",
+    "meaning": [
+      "～を除いて",
+      "～以外に"
+    ],
+    "example": {
+      "sentence": "Apart from the bug",
+      "translation": "バグを除いて"
+    },
+    "type": "idiom"
+  },
+  {
+    "word": "except for",
+    "meaning": [
+      "～を除いて",
+      "～以外に"
+    ],
+    "example": {
+      "sentence": "Except for this case",
+      "translation": "このケースを除いて"
+    },
+    "type": "idiom"
+  },
+  {
+    "word": "such as",
+    "meaning": [
+      "～のような",
+      "例えば"
+    ],
+    "example": {
+      "sentence": "Such as error handling",
+      "translation": "エラーハンドリングのような"
+    },
+    "type": "idiom"
+  }
+]

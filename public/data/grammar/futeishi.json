@@ -1,0 +1,232 @@
+[
+  {
+    "id": "inf-001",
+    "category": "infinitive",
+    "question": "I want ___ English fluently.",
+    "options": [
+      "to speak",
+      "speaking",
+      "speak",
+      "speaks"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "want to + 動詞の原形は「〜したい」という意味です。wantの後には不定詞（to + 動詞の原形）を使います。",
+      "translation": "私は英語を流暢に話したい。",
+      "wrongOptionExplanations": {
+        "1": "speakingは動名詞ですが、wantの後には不定詞を使います。",
+        "2": "speakは原形ですが、wantの後にはto不定詞を使います。",
+        "3": "speaksは三人称単数現在形ですが、wantの後には不定詞を使います。"
+      },
+      "structure": "[S: I] [V: want] [OTHER: to speak English fluently]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "inf-002",
+    "category": "infinitive",
+    "question": "She decided ___ a new job.",
+    "options": [
+      "to look for",
+      "looking for",
+      "look for",
+      "looks for"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "decide to + 動詞の原形は「〜することを決める」という意味です。decideの後には不定詞を使います。",
+      "translation": "彼女は新しい仕事を探すことに決めた。",
+      "wrongOptionExplanations": {
+        "1": "looking forは動名詞ですが、decideの後には不定詞を使います。",
+        "2": "look forは原形ですが、decideの後にはto不定詞を使います。",
+        "3": "looks forは三人称単数現在形ですが、decideの後には不定詞を使います。"
+      },
+      "structure": "[S: She] [V: decided] [OTHER: to look for a new job]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "inf-003",
+    "category": "infinitive",
+    "question": "It is important ___ on time.",
+    "options": [
+      "to arrive",
+      "arriving",
+      "arrive",
+      "arrives"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "It is important to + 動詞の原形は「〜することが重要だ」という意味です。形式主語のItの後には不定詞を使います。",
+      "translation": "時間通りに到着することが重要です。",
+      "wrongOptionExplanations": {
+        "1": "arrivingは動名詞ですが、It is importantの後には不定詞を使います。",
+        "2": "arriveは原形ですが、It is importantの後にはto不定詞を使います。",
+        "3": "arrivesは三人称単数現在形ですが、It is importantの後には不定詞を使います。"
+      },
+      "structure": "[V: is] [C: important] [OTHER: It to arrive on time]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "inf-004",
+    "category": "infinitive",
+    "question": "I need ___ the report by Friday.",
+    "options": [
+      "to finish",
+      "finishing",
+      "finish",
+      "finishes"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "need to + 動詞の原形は「〜する必要がある」という意味です。needの後には不定詞を使います。",
+      "translation": "私は金曜日までにレポートを終える必要がある。",
+      "wrongOptionExplanations": {
+        "1": "finishingは動名詞ですが、needの後には不定詞を使います。",
+        "2": "finishは原形ですが、needの後にはto不定詞を使います。",
+        "3": "finishesは三人称単数現在形ですが、needの後には不定詞を使います。"
+      },
+      "structure": "[S: I] [V: need] [OTHER: to finish the report by Friday]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "inf-005",
+    "category": "infinitive",
+    "question": "He asked me ___ him with the project.",
+    "options": [
+      "to help",
+      "helping",
+      "help",
+      "helps"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "ask + 人 + to + 動詞の原形は「人に〜するように頼む」という意味です。askの後には不定詞を使います。",
+      "translation": "彼は私にプロジェクトを手伝ってほしいと頼んだ。",
+      "wrongOptionExplanations": {
+        "1": "helpingは動名詞ですが、askの後には不定詞を使います。",
+        "2": "helpは原形ですが、askの後にはto不定詞を使います。",
+        "3": "helpsは三人称単数現在形ですが、askの後には不定詞を使います。"
+      },
+      "structure": "[S: He] [V: asked] [O: me] [OTHER: to help him with the project]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "inf-006",
+    "category": "infinitive",
+    "question": "She seems ___ ___ understood the problem, but we need to make sure before we proceed.",
+    "options": [
+      "to, have",
+      "having, got",
+      "to, be",
+      "being, become"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "seem to have + 過去分詞は「〜したようだ」、need to make sureは「確実にする必要がある」という意味です。完了形の不定詞と不定詞を組み合わせた複雑な構文です。",
+      "translation": "彼女は問題を理解したようだが、進む前に確実にする必要がある。",
+      "wrongOptionExplanations": {
+        "1": "having got solvedは一般的ではありません。making certainは一般的ですが、to make sureの方が適切です。",
+        "2": "to be aware ofは「〜に気づいている」という意味ですが、ここでは「理解した」という完了形が必要です。getting clearは一般的ですが、to make sureの方が適切です。",
+        "3": "being becomeは文法的に正しくありません。having confirmedは一般的ですが、to make sureの方が適切です。"
+      },
+      "structure": "[S: She] [V: seems] [OTHER: to have understood the problem but we need to make sure before we proceed]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "inf-007",
+    "category": "infinitive",
+    "question": "The company expects ___ ___ ___ the project by the end of the month, but they need to account for delays.",
+    "options": [
+      "to, have, completed",
+      "having, got, finished",
+      "to, be, done",
+      "being, become, accomplished"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "expect to have + 過去分詞は「〜したことを期待する」、by the end ofは「〜の終わりまでに」、need to account forは「〜を考慮する必要がある」という意味です。完了形の不定詞、前置詞句、熟語を組み合わせた非常に複雑な構文です。",
+      "translation": "会社は月末までにプロジェクトを完成させることを期待しているが、遅延を考慮する必要がある。",
+      "wrongOptionExplanations": {
+        "1": "having got finishedは一般的ではありません。must be prepared withは一般的ですが、need to account forの方が適切です。",
+        "2": "to be doneは「完了される」という意味ですが、ここでは「完成させる」という完了形が必要です。should get ready toは一般的ですが、need to account forの方が適切です。",
+        "3": "being becomeは文法的に正しくありません。can have set upは一般的ですが、need to account forの方が適切です。"
+      },
+      "structure": "[S: The company] [V: expects] [OTHER: to have completed the project by the end of the month but they need to account for delays]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "inf-008",
+    "category": "infinitive",
+    "question": "I would like ___ ___ ___ the opportunity to meet with you earlier, but circumstances prevented me from doing so.",
+    "options": [
+      "to, have, had",
+      "having, got, the",
+      "to, be, given",
+      "being, become, provided"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "would like to have + 過去分詞は「〜したかった（のにしなかった）」、prevent from + 動名詞は「〜することを妨げる」という意味です。完了形の不定詞、不定詞、前置詞+動名詞を組み合わせた非常に複雑な構文です。",
+      "translation": "もっと早くあなたに会う機会があればよかったが、状況がそれを妨げた。",
+      "wrongOptionExplanations": {
+        "1": "having got the chanceは一般的ではありません。meeting upは一般的ですが、to meet withの方が適切です。to beingは文法的に正しくありません。",
+        "2": "to be given the occasionは一般的ではありません。seeingは動名詞ですが、ここでは不定詞が必要です。by becomingは一般的ではありません。",
+        "3": "being becomeは文法的に正しくありません。talkingは動名詞ですが、ここでは不定詞が必要です。in gettingは一般的ではありません。"
+      },
+      "structure": "[S: I] [V: would like] [OTHER: to have had the opportunity to meet with you earlier but circumstances prevented me from doing so]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "inf-009",
+    "category": "infinitive",
+    "question": "The manager told the team ___ ___ ___ to the deadline, but they were unable to meet it on time.",
+    "options": [
+      "to, make, sure",
+      "making, certain, meeting",
+      "to, be, certain",
+      "being, sure, about"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "tell + 人 + to + 動詞の原形は「人に〜するように言う」、make sure toは「確実に〜する」、were unable to do soは「そうすることができなかった」、on timeは「時間通りに」という意味です。不定詞、熟語、助動詞の不定詞、前置詞句を組み合わせた非常に複雑な構文です。",
+      "translation": "マネージャーはチームに期限を確実に守るように言ったが、彼らは時間通りにそうすることができなかった。",
+      "wrongOptionExplanations": {
+        "1": "making certainは動名詞ですが、tellの後には不定詞を使います。meeting up withは一般的ですが、to meet the deadlineの方が適切です。could not get it done byは一般的ですが、were unable to do so on timeの方が適切です。",
+        "2": "to be certain ofは一般的ではありません。reachingは動名詞ですが、ここでは不定詞が必要です。might not have the task finished atは一般的ですが、were unable to do so on timeの方が適切です。",
+        "3": "being sure aboutは動名詞ですが、tellの後には不定詞を使います。achievingは動名詞ですが、ここでは不定詞が必要です。should not become the work completed inは一般的ではありません。"
+      },
+      "structure": "[S: The manager] [V: told] [O: the team] [OTHER: to make sure to meet the deadline but they were unable to do so on time]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "inf-010",
+    "category": "infinitive",
+    "question": "She appears ___ ___ ___ the situation under control, but we need to keep an eye on her.",
+    "options": [
+      "to, have, got",
+      "having, become, familiar",
+      "to, be, aware",
+      "being, turned, conscious"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "appear to have + 過去分詞は「〜したようだ」、get...under controlは「〜をコントロール下に置く」、need to keep an eye onは「〜に注意を払う必要がある」という意味です。完了形の不定詞、熟語、不定詞、熟語を組み合わせた非常に複雑な構文です。",
+      "translation": "彼女は状況をコントロール下に置いたようだが、私たちは彼女に注意を払う必要がある。",
+      "wrongOptionExplanations": {
+        "1": "having become familiar withは一般的ではありません。in controlは「コントロール下に」という意味ですが、ここではget...under controlの方が適切です。must be watching out forは一般的ですが、need to keep an eye onの方が適切です。",
+        "2": "to be aware ofは「〜に気づいている」という意味ですが、ここでは「コントロール下に置いた」という完了形が必要です。at controlは一般的ではありません。should get prepared to helpは一般的ですが、need to keep an eye onの方が適切です。",
+        "3": "being turned conscious aboutは一般的ではありません。on controlは一般的ではありません。can have set up to supportは一般的ですが、need to keep an eye onの方が適切です。"
+      },
+      "structure": "[S: She] [V: appears] [OTHER: to have got the situation under control but we need to keep an eye on her]"
+    },
+    "difficulty": 2
+  }
+]

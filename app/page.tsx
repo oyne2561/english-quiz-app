@@ -1,65 +1,123 @@
-import Image from "next/image";
+/**
+ * ホームページ
+ */
+
+import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div className="home-page">
+      <div className="home-page__container">
+        <div className="home-page__title">
+          クイズアプリ
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+
+        <div className="home-page__grid">
+          {/* 単語学習カード */}
+          <Link href="/word?type=word" className="menu-card">
+            <div className="menu-card__header">
+              <div className="menu-card__emoji">📖</div>
+              <h2 className="menu-card__title">
+                単語
+              </h2>
+            </div>
+            <p className="menu-card__description">
+              音声付きで単語を学習
+            </p>
+          </Link>
+
+          {/* 慣用句学習カード */}
+          <Link href="/word?type=idiom" className="menu-card">
+            <div className="menu-card__header">
+              <div className="menu-card__emoji">💬</div>
+              <h2 className="menu-card__title">
+                慣用句
+              </h2>
+            </div>
+            <p className="menu-card__description">
+              慣用句を学習
+            </p>
+          </Link>
+
+          {/* クイズカード */}
+          <Link href="/quiz/category" className="menu-card">
+            <div className="menu-card__header">
+              <div className="menu-card__emoji">📚</div>
+              <h2 className="menu-card__title">
+                文法 (穴埋め問題)
+              </h2>
+            </div>
+            <p className="menu-card__description">
+              関係代名詞、前置詞、分詞などの文法を学習
+            </p>
+          </Link>
+
+          {/* 基本学習カード */}
+          <Link href="/learn" className="menu-card">
+            <div className="menu-card__header">
+              <div className="menu-card__emoji">📝</div>
+              <h2 className="menu-card__title">
+                基本学習
+              </h2>
+            </div>
+            <p className="menu-card__description">
+              関係代名詞、前置詞、分詞などの基本を学習
+            </p>
+          </Link>
+
+          {/* DDDとモデリングカード */}
+          <Link href="/modeling" className="menu-card menu-card--special">
+            <div className="menu-card__header">
+              <div className="menu-card__emoji">🎨</div>
+              <h2 className="menu-card__title">
+                DDDとモデリング
+              </h2>
+            </div>
+            <p className="menu-card__description">
+              具体と抽象を行き来する思考力を身につける
+            </p>
+          </Link>
+
+          {/* 苦手克服カード（単語） */}
+          <Link href="/word?mode=weak&type=word" className="menu-card">
+            <div className="menu-card__header">
+              <div className="menu-card__emoji">📝</div>
+              <h2 className="menu-card__title">
+                苦手克服（単語）
+              </h2>
+            </div>
+            <p className="menu-card__description">
+              間違えた単語を重点的に復習
+            </p>
+          </Link>
+
+          {/* 苦手克服カード（慣用句） */}
+          <Link href="/word?mode=weak&type=idiom" className="menu-card">
+            <div className="menu-card__header">
+              <div className="menu-card__emoji">💬</div>
+              <h2 className="menu-card__title">
+                苦手克服（慣用句）
+              </h2>
+            </div>
+            <p className="menu-card__description">
+              間違えた慣用句を重点的に復習
+            </p>
+          </Link>
+
+          {/* 苦手克服カード（文法） */}
+          <Link href="/quiz?mode=weak" className="menu-card">
+            <div className="menu-card__header">
+              <div className="menu-card__emoji">🎯</div>
+              <h2 className="menu-card__title">
+                苦手克服（文法）
+              </h2>
+            </div>
+            <p className="menu-card__description">
+              間違えた文法問題を重点的に復習
+            </p>
+          </Link>
         </div>
-      </main>
+      </div>
     </div>
   );
 }
