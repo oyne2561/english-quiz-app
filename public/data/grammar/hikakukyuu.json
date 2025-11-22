@@ -1,0 +1,2072 @@
+[
+  {
+    "id": "comp-001",
+    "category": "hikakukyuu",
+    "question": "This book is ___ than that one.",
+    "options": [
+      "big",
+      "bigger",
+      "biggest",
+      "more big"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "biggerはbigの比較級です。1音節の形容詞は-erを付けて比較級を作ります。",
+      "translation": "この本はあの本より大きいです。",
+      "structure": "[S: This book] [V: is] [C: bigger] [OTHER: than that one]",
+      "wrongOptionExplanations": {
+        "0": "bigは原級で、比較級にはbiggerを使います。",
+        "2": "biggestは最上級で、2つのものを比較する時は比較級を使います。",
+        "3": "more bigは文法的に正しくありません。ここではbiggerが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-002",
+    "category": "hikakukyuu",
+    "question": "She is the ___ student in the class.",
+    "options": [
+      "tall",
+      "taller",
+      "tallest",
+      "more tall"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "tallestはtallの最上級です。1音節の形容詞は-estを付けて最上級を作ります。",
+      "translation": "彼女はクラスで一番背が高い学生です。",
+      "structure": "[S: She] [V: is] [C: the tallest student] [OTHER: in the class]",
+      "wrongOptionExplanations": {
+        "0": "tallは原級で、最上級にはtallestを使います。",
+        "1": "tallerは比較級で、3つ以上のものを比較する時は最上級を使います。",
+        "3": "more tallは文法的に正しくありません。tallは-estで最上級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-003",
+    "category": "hikakukyuu",
+    "question": "This movie is ___ than the previous one.",
+    "options": [
+      "interesting",
+      "more interesting",
+      "most interesting",
+      "interestinger"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "more interestingはinterestingの比較級です。3音節以上の形容詞はmoreを付けて比較級を作ります。",
+      "translation": "この映画は前の映画より面白いです。",
+      "structure": "[S: This movie] [V: is] [C: more interesting] [OTHER: than the previous one]",
+      "wrongOptionExplanations": {
+        "0": "interestingは文法的に正しくありません。ここではmore interestingが適切です。",
+        "2": "most interestingは文法的に正しくありません。ここではmore interestingが適切です。",
+        "3": "interestingerは文法的に正しくありません。interestingはmoreで比較級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-004",
+    "category": "hikakukyuu",
+    "question": "This is ___ most beautiful place I've ever seen.",
+    "options": [
+      "the",
+      "a",
+      "an",
+      "one"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "most beautifulはbeautifulの最上級です。3音節以上の形容詞はmostを付けて最上級を作ります。",
+      "translation": "これは私が今まで見た中で最も美しい場所です。",
+      "structure": "[S: This] [V: is] [C: the most beautiful place] [RC: I've ever seen]",
+      "wrongOptionExplanations": {
+        "0": "beautifulは原級で、最上級にはmost beautifulを使います。",
+        "1": "more beautifulは比較級で、3つ以上のものを比較する時は最上級を使います。",
+        "3": "beautifulestは文法的に正しくありません。beautifulはmostで最上級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-005",
+    "category": "hikakukyuu",
+    "question": "He runs ___ than I do.",
+    "options": [
+      "fast",
+      "faster",
+      "fastest",
+      "more fast"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "fasterはfastの比較級です。1音節の副詞は-erを付けて比較級を作ります。",
+      "translation": "彼は私より速く走ります。",
+      "structure": "[S: He] [V: runs] [ADV: faster] [OTHER: than I do]",
+      "wrongOptionExplanations": {
+        "0": "fastは原級で、比較級にはfasterを使います。",
+        "2": "fastestは最上級で、2つのものを比較する時は比較級を使います。",
+        "3": "more fastは文法的に正しくありません。fastは-erで比較級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-006",
+    "category": "hikakukyuu",
+    "question": "She speaks English ___ than her sister.",
+    "options": [
+      "well",
+      "better",
+      "best",
+      "more well"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "betterはgood/wellの比較級です。不規則変化の形容詞・副詞です。",
+      "translation": "彼女は姉より英語を上手に話します。",
+      "structure": "[S: She] [V: speaks] [O: English] [ADV: better] [OTHER: than her sister]",
+      "wrongOptionExplanations": {
+        "0": "wellは原級で、比較級にはbetterを使います。",
+        "2": "bestは最上級で、2つのものを比較する時は比較級を使います。",
+        "3": "more wellは文法的に正しくありません。wellは不規則変化でbetterになります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-007",
+    "category": "hikakukyuu",
+    "question": "This is the ___ book in the library.",
+    "options": [
+      "good",
+      "better",
+      "best",
+      "more good"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "bestはgoodの最上級です。不規則変化の形容詞です。",
+      "translation": "これは図書館で一番良い本です。",
+      "structure": "[S: This] [V: is] [C: the best book] [OTHER: in the library]",
+      "wrongOptionExplanations": {
+        "0": "goodは原級で、最上級にはbestを使います。",
+        "1": "betterは比較級で、3つ以上のものを比較する時は最上級を使います。",
+        "3": "more goodは文法的に正しくありません。goodは不規則変化でbestになります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-008",
+    "category": "hikakukyuu",
+    "question": "The weather is ___ today than yesterday.",
+    "options": [
+      "bad",
+      "worse",
+      "worst",
+      "more bad"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "worseはbadの比較級です。不規則変化の形容詞です。",
+      "translation": "今日の天気は昨日より悪いです。",
+      "structure": "[S: The weather] [V: is] [C: worse] [OTHER: today than yesterday]",
+      "wrongOptionExplanations": {
+        "0": "badは原級で、比較級にはworseを使います。",
+        "2": "worstは最上級で、2つのものを比較する時は比較級を使います。",
+        "3": "more badは文法的に正しくありません。badは不規則変化でworseになります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-009",
+    "category": "hikakukyuu",
+    "question": "This is the ___ day of my life.",
+    "options": [
+      "bad",
+      "worse",
+      "worst",
+      "more bad"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "worstはbadの最上級です。不規則変化の形容詞です。",
+      "translation": "これは私の人生で最悪の日です。",
+      "structure": "[S: This] [V: is] [C: the worst day] [OTHER: of my life]",
+      "wrongOptionExplanations": {
+        "0": "badは原級で、最上級にはworstを使います。",
+        "1": "worseは比較級で、3つ以上のものを比較する時は最上級を使います。",
+        "3": "more badは文法的に正しくありません。badは不規則変化でworstになります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-010",
+    "category": "hikakukyuu",
+    "question": "I have ___ money than you.",
+    "options": [
+      "many",
+      "more",
+      "most",
+      "much"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "moreはmany/muchの比較級です。不規則変化の形容詞です。",
+      "translation": "私はあなたより多くのお金を持っています。",
+      "structure": "[S: I] [V: have] [O: more money] [OTHER: than you]",
+      "wrongOptionExplanations": {
+        "0": "manyは原級で、比較級にはmoreを使います。",
+        "2": "mostは最上級で、2つのものを比較する時は比較級を使います。",
+        "3": "muchは原級で、比較級にはmoreを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-011",
+    "category": "hikakukyuu",
+    "question": "She has the ___ friends in the school.",
+    "options": [
+      "many",
+      "more",
+      "most",
+      "much"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "mostはmany/muchの最上級です。不規則変化の形容詞です。",
+      "translation": "彼女は学校で最も多くの友達がいます。",
+      "structure": "[S: She] [V: has] [O: the most friends] [OTHER: in the school]",
+      "wrongOptionExplanations": {
+        "0": "manyは原級で、最上級にはmostを使います。",
+        "1": "moreは比較級で、3つ以上のものを比較する時は最上級を使います。",
+        "3": "muchは原級で、最上級にはmostを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-012",
+    "category": "hikakukyuu",
+    "question": "I have ___ time than before.",
+    "options": [
+      "little",
+      "less",
+      "least",
+      "fewer"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "lessはlittleの比較級です。不規則変化の形容詞です。",
+      "translation": "私は以前より時間が少ないです。",
+      "structure": "[S: I] [V: have] [O: less time] [OTHER: than before]",
+      "wrongOptionExplanations": {
+        "0": "littleは原級で、比較級にはlessを使います。",
+        "2": "leastは最上級で、2つのものを比較する時は比較級を使います。",
+        "3": "fewerは数えられる名詞に使いますが、timeは数えられない名詞なのでlessを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-013",
+    "category": "hikakukyuu",
+    "question": "This is ___ most expensive restaurant in town.",
+    "options": [
+      "the",
+      "a",
+      "an",
+      "one"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "most expensiveはexpensiveの最上級です。3音節以上の形容詞はmostを付けて最上級を作ります。",
+      "translation": "これは町で最も高価なレストランです。",
+      "structure": "[S: This] [V: is] [C: the most expensive restaurant] [OTHER: in town]",
+      "wrongOptionExplanations": {
+        "0": "expensiveは原級で、最上級にはmost expensiveを使います。",
+        "1": "more expensiveは文法的に正しくありません。ここではmost expensiveが適切です。",
+        "3": "expensivestは文法的に正しくありません。3音節以上の形容詞はmostを付けて最上級を作ります（most expensive）。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-014",
+    "category": "hikakukyuu",
+    "question": "He is ___ than his brother.",
+    "options": [
+      "old",
+      "older",
+      "oldest",
+      "more old"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "olderはoldの比較級です。1音節の形容詞は-erを付けて比較級を作ります。",
+      "translation": "彼は兄より年上です。",
+      "structure": "[S: He] [V: is] [C: older] [OTHER: than his brother]",
+      "wrongOptionExplanations": {
+        "0": "oldは原級で、比較級にはolderを使います。",
+        "2": "oldestは最上級で、2つのものを比較する時は比較級を使います。",
+        "3": "more oldは文法的に正しくありません。ここではolderが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-015",
+    "category": "hikakukyuu",
+    "question": "She is the ___ person in her family.",
+    "options": [
+      "young",
+      "younger",
+      "youngest",
+      "more young"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "youngestはyoungの最上級です。1音節の形容詞は-estを付けて最上級を作ります。",
+      "translation": "彼女は家族で一番若い人です。",
+      "structure": "[S: She] [V: is] [C: the youngest person] [OTHER: in her family]",
+      "wrongOptionExplanations": {
+        "0": "youngは原級で、最上級にはyoungestを使います。",
+        "1": "youngerは比較級で、3つ以上のものを比較する時は最上級を使います。",
+        "3": "more youngは文法的に正しくありません。youngは-estで最上級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-016",
+    "category": "hikakukyuu",
+    "question": "This problem is ___ than I thought.",
+    "options": [
+      "difficult",
+      "more difficult",
+      "most difficult",
+      "difficultier"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "more difficultはdifficultの比較級です。3音節以上の形容詞はmoreを付けて比較級を作ります。",
+      "translation": "この問題は私が思っていたより難しいです。",
+      "structure": "[S: This problem] [V: is] [C: more difficult] [OTHER: than I thought]",
+      "wrongOptionExplanations": {
+        "0": "difficultは原級で、比較級にはmore difficultを使います。",
+        "2": "most difficultは文法的に正しくありません。ここではmore difficultが適切です。",
+        "3": "difficultierは文法的に正しくありません。difficultはmoreで比較級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-017",
+    "category": "hikakukyuu",
+    "question": "She is ___ tall ___ her mother.",
+    "options": [
+      "so, as",
+      "as, as",
+      "more, than",
+      "very, than"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "as...asは「〜と同じくらい」という同等比較を表します。",
+      "translation": "彼女は母親と同じくらい背が高いです。",
+      "structure": "[S: She] [V: is] [C: as tall] [OTHER: as her mother]",
+      "wrongOptionExplanations": {
+        "0": "so...asは否定文で使いますが、肯定文ではas...asを使います。",
+        "2": "moreは比較級に使いますが、ここでは同等比較なのでas...asを使います。",
+        "3": "veryは程度を表しますが、比較には使えません。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-018",
+    "category": "hikakukyuu",
+    "question": "He is not ___ tall as his father.",
+    "options": [
+      "so",
+      "as",
+      "more",
+      "very"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "not as...as / not so...asは「〜ほど〜でない」という否定の同等比較を表します。",
+      "translation": "彼は父親ほど背が高くありません。",
+      "structure": "[S: He] [V: is not] [C: as tall] [OTHER: as his father]",
+      "wrongOptionExplanations": {
+        "0": "not so...asも使えますが、not as...asの方が一般的です。",
+        "2": "moreは比較級に使いますが、ここでは否定の同等比較なのでasを使います。",
+        "3": "veryは程度を表しますが、比較には使えません。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-019",
+    "category": "hikakukyuu",
+    "question": "The ___ you practice, the better you become.",
+    "options": [
+      "more",
+      "most",
+      "much",
+      "many"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "the more...the more...は「〜すればするほど、〜になる」という比例比較を表します。",
+      "translation": "練習すればするほど、上手になります。",
+      "structure": "[OTHER: The more you practice] [OTHER: the better you become]",
+      "wrongOptionExplanations": {
+        "1": "mostは最上級に使いますが、ここでは比例比較なのでmoreを使います。",
+        "2": "muchは原級に使いますが、ここでは比例比較なのでmoreを使います。",
+        "3": "manyは数えられる名詞に使いますが、ここでは比例比較なのでmoreを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-020",
+    "category": "hikakukyuu",
+    "question": "This car is ___ expensive than that one.",
+    "options": [
+      "less",
+      "least",
+      "little",
+      "fewer"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "lessはlittleの比較級で、「より少ない、より〜でない」という意味を表します。",
+      "translation": "この車はあの車より安いです。",
+      "structure": "[S: This car] [V: is] [C: less expensive] [OTHER: than that one]",
+      "wrongOptionExplanations": {
+        "1": "leastは最上級で、2つのものを比較する時は比較級を使います。",
+        "2": "littleは原級で、比較級にはlessを使います。",
+        "3": "fewerは数えられる名詞に使いますが、expensiveは形容詞なのでlessを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-021",
+    "category": "hikakukyuu",
+    "question": "This is ___ most important meeting of the year.",
+    "options": [
+      "the",
+      "a",
+      "an",
+      "one"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "most importantはimportantの最上級です。3音節以上の形容詞はmostを付けて最上級を作ります。",
+      "translation": "これは今年最も重要な会議です。",
+      "structure": "[S: This] [V: is] [C: the most important meeting] [OTHER: of the year]",
+      "wrongOptionExplanations": {
+        "0": "importantは原級で、最上級にはmost importantを使います。",
+        "1": "more importantは文法的に正しくありません。ここではmost importantが適切です。",
+        "3": "importanterは文法的に正しくありません。importantはmostで最上級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-022",
+    "category": "hikakukyuu",
+    "question": "He works ___ than his colleagues.",
+    "options": [
+      "hard",
+      "harder",
+      "hardest",
+      "more hard"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "harderはhardの比較級です。1音節の副詞は-erを付けて比較級を作ります。",
+      "translation": "彼は同僚より一生懸命働きます。",
+      "structure": "[S: He] [V: works] [ADV: harder] [OTHER: than his colleagues]",
+      "wrongOptionExplanations": {
+        "0": "hardは原級で、比較級にはharderを使います。",
+        "2": "hardestは最上級で、2つのものを比較する時は比較級を使います。",
+        "3": "more hardは文法的に正しくありません。hardは-erで比較級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-023",
+    "category": "hikakukyuu",
+    "question": "She is ___ most careful person I know.",
+    "options": [
+      "the",
+      "a",
+      "an",
+      "one"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "most carefulはcarefulの最上級です。2音節の形容詞で-fulで終わるものはmore/mostを使います。",
+      "translation": "彼女は私が知っている中で最も注意深い人です。",
+      "structure": "[S: She] [V: is] [C: the most careful person] [RC: I know]",
+      "wrongOptionExplanations": {
+        "0": "carefulは原級で、最上級にはmost carefulを使います。",
+        "1": "more carefulは比較級で、3つ以上のものを比較する時は最上級を使います。",
+        "3": "carefullerは文法的に正しくありません。carefulはmostで最上級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-024",
+    "category": "hikakukyuu",
+    "question": "This room is ___ than the other one.",
+    "options": [
+      "clean",
+      "cleaner",
+      "cleanest",
+      "more clean"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "cleanerはcleanの比較級です。1音節の形容詞は-erを付けて比較級を作ります。",
+      "translation": "この部屋は他の部屋よりきれいです。",
+      "structure": "[S: This room] [V: is] [C: cleaner] [OTHER: than the other one]",
+      "wrongOptionExplanations": {
+        "0": "cleanは原級で、比較級にはcleanerを使います。",
+        "2": "cleanestは最上級で、2つのものを比較する時は比較級を使います。",
+        "3": "more cleanは文法的に正しくありません。cleanは-erで比較級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-025",
+    "category": "hikakukyuu",
+    "question": "He is ___ than his friend.",
+    "options": [
+      "smart",
+      "smarter",
+      "smartest",
+      "more smart"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "smarterはsmartの比較級です。1音節の形容詞は-erを付けて比較級を作ります。",
+      "translation": "彼は友達より賢いです。",
+      "structure": "[S: He] [V: is] [C: smarter] [OTHER: than his friend]",
+      "wrongOptionExplanations": {
+        "0": "smartは原級で、比較級にはsmarterを使います。",
+        "2": "smartestは最上級で、2つのものを比較する時は比較級を使います。",
+        "3": "more smartは文法的に正しくありません。smartは-erで比較級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-026",
+    "category": "hikakukyuu",
+    "question": "This is ___ most comfortable chair in the room.",
+    "options": [
+      "the",
+      "a",
+      "an",
+      "one"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "most comfortableはcomfortableの最上級です。3音節以上の形容詞はmostを付けて最上級を作ります。",
+      "translation": "これは部屋で最も快適な椅子です。",
+      "structure": "[S: This] [V: is] [C: the most comfortable chair] [OTHER: in the room]",
+      "wrongOptionExplanations": {
+        "0": "comfortableは文法的に正しくありません。ここではmost comfortableが適切です。",
+        "1": "more comfortableは文法的に正しくありません。ここではmost comfortableが適切です。",
+        "3": "comfortablerは文法的に正しくありません。comfortableはmostで最上級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-027",
+    "category": "hikakukyuu",
+    "question": "She speaks ___ than her classmates.",
+    "options": [
+      "quiet",
+      "quieter",
+      "quietest",
+      "more quiet"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "quieterはquietの比較級です。2音節の形容詞で-eで終わるものは-rを付けて比較級を作ります。",
+      "translation": "彼女はクラスメートより静かに話します。",
+      "structure": "[S: She] [V: speaks] [ADV: quieter] [OTHER: than her classmates]",
+      "wrongOptionExplanations": {
+        "0": "quietは原級で、比較級にはquieterを使います。",
+        "2": "quietestは最上級で、2つのものを比較する時は比較級を使います。",
+        "3": "more quietは文法的に正しくありません。quietは-rで比較級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-028",
+    "category": "hikakukyuu",
+    "question": "This is the ___ quiet place in the city.",
+    "options": [
+      "quiet",
+      "quieter",
+      "quietest",
+      "more quiet"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "quietestはquietの最上級です。2音節の形容詞で-eで終わるものは-stを付けて最上級を作ります。",
+      "translation": "これは市内で最も静かな場所です。",
+      "structure": "[S: This] [V: is] [C: the quietest place] [OTHER: in the city]",
+      "wrongOptionExplanations": {
+        "0": "quietは原級で、最上級にはquietestを使います。",
+        "1": "quieterは比較級で、3つ以上のものを比較する時は最上級を使います。",
+        "3": "more quietは文法的に正しくありません。quietは-stで最上級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-029",
+    "category": "hikakukyuu",
+    "question": "He is ___ than his brother.",
+    "options": [
+      "strong",
+      "stronger",
+      "strongest",
+      "more strong"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "strongerはstrongの比較級です。1音節の形容詞は-erを付けて比較級を作ります。",
+      "translation": "彼は兄より強いです。",
+      "structure": "[S: He] [V: is] [C: stronger] [OTHER: than his brother]",
+      "wrongOptionExplanations": {
+        "0": "strongは原級で、比較級にはstrongerを使います。",
+        "2": "strongestは最上級で、2つのものを比較する時は比較級を使います。",
+        "3": "more strongは文法的に正しくありません。strongは-erで比較級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-030",
+    "category": "hikakukyuu",
+    "question": "She is the ___ student in her class.",
+    "options": [
+      "smart",
+      "smarter",
+      "smartest",
+      "more smart"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "smartestはsmartの最上級です。1音節の形容詞は-estを付けて最上級を作ります。",
+      "translation": "彼女はクラスで一番賢い学生です。",
+      "structure": "[S: She] [V: is] [C: the smartest student] [OTHER: in her class]",
+      "wrongOptionExplanations": {
+        "0": "smartは原級で、最上級にはsmartestを使います。",
+        "1": "smarterは比較級で、3つ以上のものを比較する時は最上級を使います。",
+        "3": "more smartは文法的に正しくありません。smartは-estで最上級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-031",
+    "category": "hikakukyuu",
+    "question": "This test is ___ than the last one.",
+    "options": [
+      "easy",
+      "easier",
+      "easiest",
+      "more easy"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "easierはeasyの比較級です。2音節の形容詞で-yで終わるものは-yを-ierに変えて比較級を作ります。",
+      "translation": "このテストは前回のテストより簡単です。",
+      "structure": "[S: This test] [V: is] [C: easier] [OTHER: than the last one]",
+      "wrongOptionExplanations": {
+        "0": "easyは原級で、比較級にはeasierを使います。",
+        "2": "easiestは最上級で、2つのものを比較する時は比較級を使います。",
+        "3": "more easyは文法的に正しくありません。easyは-ierで比較級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-032",
+    "category": "hikakukyuu",
+    "question": "This is the ___ easy question in the exam.",
+    "options": [
+      "easy",
+      "easier",
+      "easiest",
+      "more easy"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "easiestはeasyの最上級です。2音節の形容詞で-yで終わるものは-yを-iestに変えて最上級を作ります。",
+      "translation": "これは試験で最も簡単な問題です。",
+      "structure": "[S: This] [V: is] [C: the easiest question] [OTHER: in the exam]",
+      "wrongOptionExplanations": {
+        "0": "easyは原級で、最上級にはeasiestを使います。",
+        "1": "easierは比較級で、3つ以上のものを比較する時は最上級を使います。",
+        "3": "more easyは文法的に正しくありません。easyは-iestで最上級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-033",
+    "category": "hikakukyuu",
+    "question": "He is ___ than his sister.",
+    "options": [
+      "happy",
+      "happier",
+      "happiest",
+      "more happy"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "happierはhappyの比較級です。2音節の形容詞で-yで終わるものは-yを-ierに変えて比較級を作ります。",
+      "translation": "彼は姉より幸せです。",
+      "structure": "[S: He] [V: is] [C: happier] [OTHER: than his sister]",
+      "wrongOptionExplanations": {
+        "0": "happyは原級で、比較級にはhappierを使います。",
+        "2": "happiestは最上級で、2つのものを比較する時は比較級を使います。",
+        "3": "more happyは文法的に正しくありません。happyは-ierで比較級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-034",
+    "category": "hikakukyuu",
+    "question": "She is the ___ happy person I've ever met.",
+    "options": [
+      "happy",
+      "happier",
+      "happiest",
+      "more happy"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "happiestはhappyの最上級です。2音節の形容詞で-yで終わるものは-yを-iestに変えて最上級を作ります。",
+      "translation": "彼女は私が今まで会った中で最も幸せな人です。",
+      "structure": "[S: She] [V: is] [C: the happiest person] [RC: I've ever met]",
+      "wrongOptionExplanations": {
+        "0": "happyは原級で、最上級にはhappiestを使います。",
+        "1": "happierは比較級で、3つ以上のものを比較する時は最上級を使います。",
+        "3": "more happyは文法的に正しくありません。happyは-iestで最上級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-035",
+    "category": "hikakukyuu",
+    "question": "This book is ___ than that one.",
+    "options": [
+      "thick",
+      "thicker",
+      "thickest",
+      "more thick"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "thickerはthickの比較級です。1音節の形容詞は-erを付けて比較級を作ります。",
+      "translation": "この本はあの本より厚いです。",
+      "structure": "[S: This book] [V: is] [C: thicker] [OTHER: than that one]",
+      "wrongOptionExplanations": {
+        "0": "thickは原級で、比較級にはthickerを使います。",
+        "2": "thickestは最上級で、2つのものを比較する時は比較級を使います。",
+        "3": "more thickは文法的に正しくありません。thickは-erで比較級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-036",
+    "category": "hikakukyuu",
+    "question": "This is the ___ thick book on the shelf.",
+    "options": [
+      "thick",
+      "thicker",
+      "thickest",
+      "more thick"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "thickestはthickの最上級です。1音節の形容詞は-estを付けて最上級を作ります。",
+      "translation": "これは棚で最も厚い本です。",
+      "structure": "[S: This] [V: is] [C: the thickest book] [OTHER: on the shelf]",
+      "wrongOptionExplanations": {
+        "0": "thickは原級で、最上級にはthickestを使います。",
+        "1": "thickerは比較級で、3つ以上のものを比較する時は最上級を使います。",
+        "3": "more thickは文法的に正しくありません。thickは-estで最上級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-037",
+    "category": "hikakukyuu",
+    "question": "He runs ___ than his friend.",
+    "options": [
+      "slow",
+      "slower",
+      "slowest",
+      "more slow"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "slowerはslowの比較級です。1音節の形容詞・副詞は-erを付けて比較級を作ります。",
+      "translation": "彼は友達より遅く走ります。",
+      "structure": "[S: He] [V: runs] [ADV: slower] [OTHER: than his friend]",
+      "wrongOptionExplanations": {
+        "0": "slowは原級で、比較級にはslowerを使います。",
+        "2": "slowestは最上級で、2つのものを比較する時は比較級を使います。",
+        "3": "more slowは文法的に正しくありません。slowは-erで比較級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-038",
+    "category": "hikakukyuu",
+    "question": "She is the ___ slow runner in the team.",
+    "options": [
+      "slow",
+      "slower",
+      "slowest",
+      "more slow"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "slowestはslowの最上級です。1音節の形容詞は-estを付けて最上級を作ります。",
+      "translation": "彼女はチームで最も遅いランナーです。",
+      "structure": "[S: She] [V: is] [C: the slowest runner] [OTHER: in the team]",
+      "wrongOptionExplanations": {
+        "0": "slowは原級で、最上級にはslowestを使います。",
+        "1": "slowerは比較級で、3つ以上のものを比較する時は最上級を使います。",
+        "3": "more slowは文法的に正しくありません。slowは-estで最上級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-039",
+    "category": "hikakukyuu",
+    "question": "This coffee is ___ than the one I had yesterday.",
+    "options": [
+      "hot",
+      "hotter",
+      "hottest",
+      "more hot"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "hotterはhotの比較級です。1音節の形容詞で短母音+子音で終わるものは子音を重ねて-erを付けます。",
+      "translation": "このコーヒーは昨日飲んだものより熱いです。",
+      "structure": "[S: This coffee] [V: is] [C: hotter] [OTHER: than the one I had yesterday]",
+      "wrongOptionExplanations": {
+        "0": "hotは原級で、比較級にはhotterを使います。",
+        "2": "hottestは最上級で、2つのものを比較する時は比較級を使います。",
+        "3": "more hotは文法的に正しくありません。ここではhotterが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-040",
+    "category": "hikakukyuu",
+    "question": "This is the ___ hot day of the year.",
+    "options": [
+      "hot",
+      "hotter",
+      "hottest",
+      "more hot"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "hottestはhotの最上級です。1音節の形容詞で短母音+子音で終わるものは子音を重ねて-estを付けます。",
+      "translation": "これは今年最も暑い日です。",
+      "structure": "[S: This] [V: is] [C: the hottest day] [OTHER: of the year]",
+      "wrongOptionExplanations": {
+        "0": "hotは原級で、最上級にはhottestを使います。",
+        "1": "hotterは比較級で、3つ以上のものを比較する時は最上級を使います。",
+        "3": "more hotは文法的に正しくありません。hotは-estで最上級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-041",
+    "category": "hikakukyuu",
+    "question": "He is ___ than his classmate.",
+    "options": [
+      "thin",
+      "thinner",
+      "thinnest",
+      "more thin"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "thinnerはthinの比較級です。1音節の形容詞で短母音+子音で終わるものは子音を重ねて-erを付けます。",
+      "translation": "彼はクラスメートより細いです。",
+      "structure": "[S: He] [V: is] [C: thinner] [OTHER: than his classmate]",
+      "wrongOptionExplanations": {
+        "0": "thinは原級で、比較級にはthinnerを使います。",
+        "2": "thinnestは最上級で、2つのものを比較する時は比較級を使います。",
+        "3": "more thinは文法的に正しくありません。thinは-erで比較級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-042",
+    "category": "hikakukyuu",
+    "question": "She is the ___ thin person in her family.",
+    "options": [
+      "thin",
+      "thinner",
+      "thinnest",
+      "more thin"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "thinnestはthinの最上級です。1音節の形容詞で短母音+子音で終わるものは子音を重ねて-estを付けます。",
+      "translation": "彼女は家族で最も細い人です。",
+      "structure": "[S: She] [V: is] [C: the thinnest person] [OTHER: in her family]",
+      "wrongOptionExplanations": {
+        "0": "thinは原級で、最上級にはthinnestを使います。",
+        "1": "thinnerは比較級で、3つ以上のものを比較する時は最上級を使います。",
+        "3": "more thinは文法的に正しくありません。thinは-estで最上級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-043",
+    "category": "hikakukyuu",
+    "question": "This problem is ___ than the previous one.",
+    "options": [
+      "simple",
+      "simpler",
+      "simplest",
+      "more simple"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "simplerはsimpleの比較級です。2音節の形容詞で-leで終わるものは-rを付けて比較級を作ります。",
+      "translation": "この問題は前の問題より簡単です。",
+      "structure": "[S: This problem] [V: is] [C: simpler] [OTHER: than the previous one]",
+      "wrongOptionExplanations": {
+        "0": "simpleは原級で、比較級にはsimplerを使います。",
+        "2": "simplestは最上級で、2つのものを比較する時は比較級を使います。",
+        "3": "more simpleも使えますが、simplerの方が一般的です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-044",
+    "category": "hikakukyuu",
+    "question": "This is the ___ simple solution to the problem.",
+    "options": [
+      "simple",
+      "simpler",
+      "simplest",
+      "more simple"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "simplestはsimpleの最上級です。2音節の形容詞で-leで終わるものは-stを付けて最上級を作ります。",
+      "translation": "これは問題に対する最も簡単な解決策です。",
+      "structure": "[S: This] [V: is] [C: the simplest solution] [OTHER: to the problem]",
+      "wrongOptionExplanations": {
+        "0": "simpleは原級で、最上級にはsimplestを使います。",
+        "1": "simplerは比較級で、3つ以上のものを比較する時は最上級を使います。",
+        "3": "most simpleも使えますが、simplestの方が一般的です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-045",
+    "category": "hikakukyuu",
+    "question": "He is ___ than his brother.",
+    "options": [
+      "far",
+      "farther",
+      "farthest",
+      "more far"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "fartherはfarの比較級です。不規則変化の形容詞・副詞です。",
+      "translation": "彼は兄より遠くにいます。",
+      "structure": "[S: He] [V: is] [ADV: farther] [OTHER: than his brother]",
+      "wrongOptionExplanations": {
+        "0": "farは原級で、比較級にはfartherを使います。",
+        "2": "farthestは最上級で、2つのものを比較する時は比較級を使います。",
+        "3": "more farは文法的に正しくありません。farは不規則変化でfartherになります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-046",
+    "category": "hikakukyuu",
+    "question": "This is the ___ place from here.",
+    "options": [
+      "far",
+      "farther",
+      "farthest",
+      "more far"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "farthestはfarの最上級です。不規則変化の形容詞・副詞です。",
+      "translation": "これはここから最も遠い場所です。",
+      "structure": "[S: This] [V: is] [C: the farthest place] [OTHER: from here]",
+      "wrongOptionExplanations": {
+        "0": "farは原級で、最上級にはfarthestを使います。",
+        "1": "fartherは比較級で、3つ以上のものを比較する時は最上級を使います。",
+        "3": "more farは文法的に正しくありません。farは不規則変化でfarthestになります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-047",
+    "category": "hikakukyuu",
+    "question": "She is ___ intelligent ___ her sister.",
+    "options": [
+      "so, as",
+      "as, as",
+      "more, than",
+      "very, than"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "as...asは「〜と同じくらい」という同等比較を表します。",
+      "translation": "彼女は姉と同じくらい賢いです。",
+      "structure": "[S: She] [V: is] [C: as intelligent] [OTHER: as her sister]",
+      "wrongOptionExplanations": {
+        "0": "so...asは否定文で使いますが、肯定文ではas...asを使います。",
+        "2": "moreは比較級に使いますが、ここでは同等比較なのでas...asを使います。",
+        "3": "veryは程度を表しますが、比較には使えません。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-048",
+    "category": "hikakukyuu",
+    "question": "This cake is not ___ sweet as that one.",
+    "options": [
+      "so",
+      "as",
+      "more",
+      "very"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "not as...as / not so...asは「〜ほど〜でない」という否定の同等比較を表します。",
+      "translation": "このケーキはあのケーキほど甘くありません。",
+      "structure": "[S: This cake] [V: is not] [C: as sweet] [OTHER: as that one]",
+      "wrongOptionExplanations": {
+        "0": "not so...asも使えますが、not as...asの方が一般的です。",
+        "2": "moreは比較級に使いますが、ここでは否定の同等比較なのでasを使います。",
+        "3": "veryは程度を表しますが、比較には使えません。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-049",
+    "category": "hikakukyuu",
+    "question": "The ___ you study, the better your grades will be.",
+    "options": [
+      "more",
+      "most",
+      "much",
+      "many"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "the more...the more...は「〜すればするほど、〜になる」という比例比較を表します。",
+      "translation": "勉強すればするほど、成績が良くなります。",
+      "structure": "[OTHER: The more you study] [OTHER: the better your grades will be]",
+      "wrongOptionExplanations": {
+        "1": "mostは最上級に使いますが、ここでは比例比較なのでmoreを使います。",
+        "2": "muchは原級に使いますが、ここでは比例比較なのでmoreを使います。",
+        "3": "manyは数えられる名詞に使いますが、ここでは比例比較なのでmoreを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-050",
+    "category": "hikakukyuu",
+    "question": "This room is ___ than the other one.",
+    "options": [
+      "wide",
+      "wider",
+      "widest",
+      "more wide"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "widerはwideの比較級です。1音節の形容詞で-eで終わるものは-rを付けて比較級を作ります。",
+      "translation": "この部屋は他の部屋より広いです。",
+      "structure": "[S: This room] [V: is] [C: wider] [OTHER: than the other one]",
+      "wrongOptionExplanations": {
+        "0": "wideは原級で、比較級にはwiderを使います。",
+        "2": "widestは最上級で、2つのものを比較する時は比較級を使います。",
+        "3": "more wideは文法的に正しくありません。wideは-rで比較級を作ります。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "comp-051",
+    "category": "hikakukyuu",
+    "question": "This is ___ more complicated than I expected, and it requires ___ careful analysis than we ___ done before.",
+    "options": [
+      "much, a, have",
+      "many, an, had",
+      "more, the, did",
+      "most, some, do"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "much moreは「はるかに〜」という強調表現、a more carefulは「より注意深い」、have doneは現在完了形です。比較級の強調と完了形を組み合わせた複雑な構文です。",
+      "translation": "これは私が予想していたよりはるかに複雑で、以前に行ったよりもより注意深い分析が必要です。",
+      "structure": "[S: This] [V: is] [C: much more complicated] [OTHER: than I expected] [OTHER: and it requires a more careful analysis than we have done before]",
+      "wrongOptionExplanations": {
+        "1": "manyは数えられる名詞に使いますが、ここでは比較級の強調なのでmuchを使います。anは母音で始まる単語に使いますが、carefulは子音で始まるのでaを使います。had doneは過去完了形ですが、ここでは現在完了形が必要です。",
+        "2": "more moreは重複しています。the moreは比例比較に使いますが、ここでは単純な比較級です。didは過去形ですが、ここでは完了形が必要です。",
+        "3": "mostは最上級に使いますが、ここでは比較級の強調なのでmuchを使います。someは不特定の数量を表しますが、ここでは冠詞aが必要です。doは現在形ですが、ここでは完了形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-052",
+    "category": "hikakukyuu",
+    "question": "The ___ we understand the problem, the ___ effectively we can solve it, but this requires more patience than we have shown so far.",
+    "options": [
+      "more, more",
+      "most, most",
+      "much, much",
+      "many, many"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "the more...the more...は比例比較、more effectivelyは副詞の比較級、more patienceは名詞の比較級、have shownは現在完了形です。比例比較、副詞の比較級、名詞の比較級、完了形を組み合わせた非常に複雑な構文です。",
+      "translation": "問題を理解すればするほど、より効果的に解決できますが、これまで示してきたよりもより多くの忍耐が必要です。",
+      "structure": "[OTHER: The more we understand the problem] [OTHER: the more effectively we can solve it] [OTHER: but this requires more patience than we have shown so far]",
+      "wrongOptionExplanations": {
+        "1": "mostは最上級に使いますが、ここでは比例比較なのでmoreを使います。had shownは過去完了形ですが、ここでは現在完了形が必要です。",
+        "2": "muchは比較級の強調に使いますが、比例比較には使えません。manyは数えられる名詞に使いますが、patienceは数えられない名詞なのでmoreを使います。didは過去形ですが、ここでは完了形が必要です。",
+        "3": "manyは数えられる名詞に使いますが、ここでは比例比較なのでmoreを使います。doは現在形ですが、ここでは完了形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-053",
+    "category": "hikakukyuu",
+    "question": "She is ___ intelligent than her classmates, and she has achieved ___ success than anyone ___ expected.",
+    "options": [
+      "far more, far more, has",
+      "much more, much more, had",
+      "many more, many more, did",
+      "most more, most more, do"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "far moreは「はるかに〜」という強調表現、far more successは名詞の比較級の強調、has expectedは現在完了形です。比較級の強調と完了形を組み合わせた複雑な構文です。",
+      "translation": "彼女はクラスメートよりはるかに賢く、誰もが期待していたよりもはるかに多くの成功を収めています。",
+      "structure": "[S: She] [V: is] [C: far more intelligent] [OTHER: than her classmates] [OTHER: and she has achieved far more success than anyone has expected]",
+      "wrongOptionExplanations": {
+        "1": "much moreも使えますが、far moreの方が一般的です。had expectedは過去完了形ですが、ここでは現在完了形が必要です。",
+        "2": "many moreは数えられる名詞に使いますが、successは数えられない名詞なのでfar moreを使います。didは過去形ですが、ここでは完了形が必要です。",
+        "3": "most more most more doは文法的に正しくありません。ここではfar more far more hasが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-054",
+    "category": "hikakukyuu",
+    "question": "This is by ___ ___ ___ the most difficult challenge we have faced, and it requires more resources than we have available.",
+    "options": [
+      "far, the, most",
+      "much, more, had",
+      "many, most, did",
+      "some, more, do"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "by farは「断然、はるかに」という最上級の強調表現、most difficultは最上級、have facedは現在完了形、more resourcesは名詞の比較級、have availableは現在完了形です。最上級の強調、完了形、名詞の比較級を組み合わせた非常に複雑な構文です。",
+      "translation": "これは私たちが直面した中で断然最も困難な挑戦で、利用可能なものよりもより多くの資源が必要です。",
+      "structure": "[S: This] [V: is] [OTHER: by far the most difficult challenge] [RC: we have faced] [OTHER: and it requires more resources than we have available]",
+      "wrongOptionExplanations": {
+        "1": "muchは比較級の強調に使いますが、最上級の強調にはby farを使います。moreは比較級ですが、ここでは最上級が必要です。had facedは過去完了形ですが、ここでは現在完了形が必要です。",
+        "2": "manyは数えられる名詞に使いますが、ここでは最上級の強調なのでby farを使います。didは過去形ですが、ここでは完了形が必要です。doは現在形ですが、ここでは完了形が必要です。",
+        "3": "someは不特定の数量を表しますが、ここでは最上級の強調なのでby farを使います。doは現在形ですが、ここでは完了形が必要です。areは現在形ですが、ここでは完了形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-055",
+    "category": "hikakukyuu",
+    "question": "The ___ experienced you are, the ___ mistakes you will make, but this doesn't mean you should become less careful.",
+    "options": [
+      "more, fewer",
+      "most, fewest",
+      "much, many",
+      "many, more"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "the more...the fewer...は比例比較、will makeは未来形、should becomeは推奨、less carefulは比較級です。比例比較、未来形、推奨、比較級を組み合わせた非常に複雑な構文です。",
+      "translation": "経験があればあるほど、間違いは少なくなりますが、これは注意深さが減るべきだという意味ではありません。",
+      "structure": "[OTHER: The more experienced you are] [OTHER: the fewer mistakes you will make] [OTHER: but this doesn't mean you should become less careful]",
+      "wrongOptionExplanations": {
+        "1": "mostは最上級に使いますが、ここでは比例比較なのでmoreを使います。wouldは仮定法に使いますが、ここでは未来形が必要です。mustは義務を表しますが、ここでは推奨を表すのでshouldを使います。",
+        "2": "muchは比較級の強調に使いますが、比例比較には使えません。manyは数えられる名詞に使いますが、ここでは比例比較なのでfewerを使います。canは能力を表しますが、ここでは未来形が必要です。",
+        "3": "manyは数えられる名詞に使いますが、ここでは比例比較なのでmoreを使います。couldは過去の能力を表しますが、ここでは未来形が必要です。fewerは数えられる名詞に使いますが、carefulは形容詞なのでlessを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-056",
+    "category": "hikakukyuu",
+    "question": "He is ___ better at math than his peers, and he has made ___ progress than anyone ___ anticipated.",
+    "options": [
+      "far, far more, has",
+      "much, much more, had",
+      "many, many more, did",
+      "most, most more, do"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "far betterは「はるかに良い」という比較級の強調、far more progressは名詞の比較級の強調、has anticipatedは現在完了形です。比較級の強調と完了形を組み合わせた複雑な構文です。",
+      "translation": "彼は同級生よりはるかに数学が得意で、誰もが予想していたよりもはるかに多くの進歩を遂げています。",
+      "structure": "[S: He] [V: is] [C: far better] [OTHER: at math than his peers] [OTHER: and he has made far more progress than anyone has anticipated]",
+      "wrongOptionExplanations": {
+        "1": "much betterも使えますが、far betterの方が一般的です。had anticipatedは過去完了形ですが、ここでは現在完了形が必要です。",
+        "2": "manyは数えられる名詞に使いますが、progressは数えられない名詞なのでfar moreを使います。didは過去形ですが、ここでは完了形が必要です。",
+        "3": "most most more doは文法的に正しくありません。ここではfar far more hasが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-057",
+    "category": "hikakukyuu",
+    "question": "This is ___ less complicated than the previous version, but it still requires ___ attention than we ___ giving it.",
+    "options": [
+      "much, more, are",
+      "many, most, were",
+      "more, much, have",
+      "most, many, had"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "much lessは「はるかに〜でない」という比較級の強調、more attentionは名詞の比較級、are givingは現在進行形です。比較級の強調、名詞の比較級、進行形を組み合わせた複雑な構文です。",
+      "translation": "これは前のバージョンよりはるかに複雑ではありませんが、私たちが与えているよりもより多くの注意が必要です。",
+      "structure": "[S: This] [V: is] [C: much less complicated] [OTHER: than the previous version] [OTHER: but it still requires more attention than we are giving it]",
+      "wrongOptionExplanations": {
+        "1": "manyは数えられる名詞に使いますが、ここでは比較級の強調なのでmuchを使います。mostは最上級ですが、ここでは比較級が必要です。wereは過去形ですが、ここでは現在進行形が必要です。",
+        "2": "more lessは重複しています。muchは比較級の強調に使いますが、ここでは名詞の比較級なのでmoreを使います。have givingは文法的に正しくありません。",
+        "3": "mostは最上級に使いますが、ここでは比較級の強調なのでmuchを使います。manyは数えられる名詞に使いますが、attentionは数えられない名詞なのでmoreを使います。hadは過去完了形ですが、ここでは現在進行形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-058",
+    "category": "hikakukyuu",
+    "question": "The ___ you practice, the ___ confident you become, and the ___ mistakes you will make in the future.",
+    "options": [
+      "more, more, fewer",
+      "most, most, fewest",
+      "much, much, many",
+      "many, many, more"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "the more...the more...は比例比較、more confidentは比較級、fewer mistakesは名詞の比較級、will makeは未来形です。比例比較、比較級、名詞の比較級、未来形を組み合わせた非常に複雑な構文です。",
+      "translation": "練習すればするほど、より自信がつき、将来間違いは少なくなります。",
+      "structure": "[OTHER: The more you practice] [OTHER: the more confident you become] [OTHER: and the fewer mistakes you will make in the future]",
+      "wrongOptionExplanations": {
+        "1": "mostは最上級に使いますが、ここでは比例比較なのでmoreを使います。wouldは仮定法に使いますが、ここでは未来形が必要です。",
+        "2": "muchは比較級の強調に使いますが、比例比較には使えません。manyは数えられる名詞に使いますが、ここでは比例比較なのでfewerを使います。canは能力を表しますが、ここでは未来形が必要です。",
+        "3": "manyは数えられる名詞に使いますが、ここでは比例比較なのでmoreを使います。couldは過去の能力を表しますが、ここでは未来形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-059",
+    "category": "hikakukyuu",
+    "question": "She is ___ talented ___ her sister, but she works ___ harder than anyone has in the family.",
+    "options": [
+      "as, as, much",
+      "so, as, many",
+      "more, than, most",
+      "very, than, more"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "as...asは同等比較、much harderは比較級の強調、has workedは現在完了形です。同等比較、比較級の強調、完了形を組み合わせた複雑な構文です。",
+      "translation": "彼女は姉と同じくらい才能がありますが、家族の中で誰よりもはるかに一生懸命働いています。",
+      "structure": "[S: She] [V: is] [C: as talented] [OTHER: as her sister] [OTHER: but she works much harder than anyone has in the family]",
+      "wrongOptionExplanations": {
+        "1": "so...asは否定文で使いますが、肯定文ではas...asを使います。manyは数えられる名詞に使いますが、ここでは比較級の強調なのでmuchを使います。had workedは過去完了形ですが、ここでは現在完了形が必要です。",
+        "2": "moreは比較級に使いますが、ここでは同等比較なのでas...asを使います。mostは最上級ですが、ここでは比較級の強調が必要です。didは過去形ですが、ここでは完了形が必要です。",
+        "3": "veryは程度を表しますが、比較には使えません。doは現在形ですが、ここでは完了形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-060",
+    "category": "hikakukyuu",
+    "question": "This is by ___ ___ ___ the effective solution we far found, and it requires less effort than the previous one did.",
+    "options": [
+      "far, most, have",
+      "much, more, had",
+      "many, most, did",
+      "some, more, do"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "by farは最上級の強調、most effectiveは最上級、have foundは現在完了形、less effortは名詞の比較級、didは過去形です。最上級の強調、完了形、名詞の比較級、過去形を組み合わせた非常に複雑な構文です。",
+      "translation": "これは私たちが見つけた中で断然最も効果的な解決策で、前のものよりもより少ない努力が必要です。",
+      "structure": "[S: This] [V: is] [OTHER: by far the most effective solution] [RC: we have found] [OTHER: and it requires less effort than the previous one did]",
+      "wrongOptionExplanations": {
+        "1": "muchは比較級の強調に使いますが、最上級の強調にはby farを使います。moreは比較級ですが、ここでは最上級が必要です。had foundは過去完了形ですが、ここでは現在完了形が必要です。",
+        "2": "manyは数えられる名詞に使いますが、ここでは最上級の強調なのでby farを使います。didは過去形ですが、ここでは完了形が必要です。littleは原級ですが、ここでは比較級が必要です。doは現在形ですが、ここでは過去形が必要です。",
+        "3": "someは不特定の数量を表しますが、ここでは最上級の強調なのでby farを使います。doは現在形ですが、ここでは完了形が必要です。fewerは数えられる名詞に使いますが、effortは数えられない名詞なのでlessを使います。areは現在形ですが、ここでは過去形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-061",
+    "category": "hikakukyuu",
+    "question": "The ___ complex the problem becomes, the ___ time we need to solve it, and the ___ resources we have to allocate.",
+    "options": [
+      "more, more, more",
+      "most, most, most",
+      "much, much, many",
+      "many, many, more"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "the more...the more...は比例比較、more timeは名詞の比較級、more resourcesは名詞の比較級、have to allocateは必要性を表す表現です。比例比較、名詞の比較級、必要性を組み合わせた非常に複雑な構文です。",
+      "translation": "問題が複雑になればなるほど、解決するのに必要な時間が増え、割り当てる必要がある資源も増えます。",
+      "structure": "[OTHER: The more complex the problem becomes] [OTHER: the more time we need to solve it] [OTHER: and the more resources we have to allocate]",
+      "wrongOptionExplanations": {
+        "1": "mostは最上級に使いますが、ここでは比例比較なのでmoreを使います。had toは過去の必要性を表しますが、ここでは現在の必要性が必要です。",
+        "2": "muchは比較級の強調に使いますが、比例比較には使えません。manyは数えられる名詞に使いますが、ここでは比例比較なのでmoreを使います。didは過去形ですが、ここでは必要性を表す表現が必要です。",
+        "3": "manyは数えられる名詞に使いますが、ここでは比例比較なのでmoreを使います。doは現在形ですが、ここでは必要性を表す表現が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-062",
+    "category": "hikakukyuu",
+    "question": "He is ___ better prepared than his competitors, and he has achieved ___ results than anyone ___ predicted.",
+    "options": [
+      "far, far better, has",
+      "much, much better, had",
+      "many, many better, did",
+      "most, most better, do"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "far betterは「はるかに良い」という比較級の強調、far better resultsは名詞の比較級の強調、has predictedは現在完了形です。比較級の強調と完了形を組み合わせた複雑な構文です。",
+      "translation": "彼は競争相手よりはるかに準備ができており、誰もが予測していたよりもはるかに良い結果を達成しています。",
+      "structure": "[S: He] [V: is] [C: far better prepared] [OTHER: than his competitors] [OTHER: and he has achieved far better results than anyone has predicted]",
+      "wrongOptionExplanations": {
+        "1": "much betterも使えますが、far betterの方が一般的です。had predictedは過去完了形ですが、ここでは現在完了形が必要です。",
+        "2": "manyは数えられる名詞に使いますが、ここでは比較級の強調なのでfarを使います。didは過去形ですが、ここでは完了形が必要です。",
+        "3": "most most better doは文法的に正しくありません。ここではfar far better hasが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-063",
+    "category": "hikakukyuu",
+    "question": "This is ___ less expensive than the alternative, but it offers ___ benefits than we ___ initially expected.",
+    "options": [
+      "much, more, had",
+      "many, most, have",
+      "more, much, did",
+      "most, many, do"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "much lessは「はるかに〜でない」という比較級の強調、more benefitsは名詞の比較級、had expectedは過去完了形です。比較級の強調、名詞の比較級、過去完了形を組み合わせた複雑な構文です。",
+      "translation": "これは代替案よりはるかに安価ですが、最初に期待していたよりもより多くの利点を提供します。",
+      "structure": "[S: This] [V: is] [C: much less expensive] [OTHER: than the alternative] [OTHER: but it offers more benefits than we had initially expected]",
+      "wrongOptionExplanations": {
+        "1": "manyは数えられる名詞に使いますが、ここでは比較級の強調なのでmuchを使います。mostは最上級ですが、ここでは比較級が必要です。have expectedは現在完了形ですが、ここでは過去完了形が必要です。",
+        "2": "more lessは重複しています。muchは比較級の強調に使いますが、ここでは名詞の比較級なのでmoreを使います。didは過去形ですが、ここでは過去完了形が必要です。",
+        "3": "mostは最上級に使いますが、ここでは比較級の強調なのでmuchを使います。manyは数えられる名詞に使いますが、benefitsは複数形なのでmoreを使います。doは現在形ですが、ここでは過去完了形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-064",
+    "category": "hikakukyuu",
+    "question": "The ___ you invest in learning, the ___ opportunities you ___ have, and the more successful you will become.",
+    "options": [
+      "more, more, will",
+      "most, most, would",
+      "much, much, can",
+      "many, many, could"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "the more...the more...は比例比較、more opportunitiesは名詞の比較級、will haveは未来形、more successfulは比較級、will becomeは未来形です。比例比較、名詞の比較級、比較級、未来形を組み合わせた非常に複雑な構文です。",
+      "translation": "学習に投資すればするほど、より多くの機会を持ち、より成功するようになります。",
+      "structure": "[OTHER: The more you invest in learning] [OTHER: the more opportunities you will have] [OTHER: and the more successful you will become]",
+      "wrongOptionExplanations": {
+        "1": "mostは最上級に使いますが、ここでは比例比較なのでmoreを使います。wouldは仮定法に使いますが、ここでは未来形が必要です。",
+        "2": "muchは比較級の強調に使いますが、比例比較には使えません。canは能力を表しますが、ここでは未来形が必要です。",
+        "3": "manyは数えられる名詞に使いますが、ここでは比例比較なのでmoreを使います。couldは過去の能力を表しますが、ここでは未来形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-065",
+    "category": "hikakukyuu",
+    "question": "She is ___ experienced as her mentor, but she has made ___ progress than anyone ___ in the company.",
+    "options": [
+      "as, far more, has",
+      "so, much more, had",
+      "more, many more, did",
+      "very, most more, do"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "as...asは同等比較、far more progressは名詞の比較級の強調、has madeは現在完了形です。同等比較、名詞の比較級の強調、完了形を組み合わせた複雑な構文です。",
+      "translation": "彼女はメンターと同じくらい経験がありますが、会社の誰よりもはるかに多くの進歩を遂げています。",
+      "structure": "[S: She] [V: is] [C: as experienced] [OTHER: as her mentor] [OTHER: but she has made far more progress than anyone has in the company]",
+      "wrongOptionExplanations": {
+        "1": "so...asは否定文で使いますが、肯定文ではas...asを使います。much moreも使えますが、far moreの方が一般的です。had madeは過去完了形ですが、ここでは現在完了形が必要です。",
+        "2": "moreは比較級に使いますが、ここでは同等比較なのでas...asを使います。manyは数えられる名詞に使いますが、progressは数えられない名詞なのでfar moreを使います。didは過去形ですが、ここでは完了形が必要です。",
+        "3": "veryは程度を表しますが、比較には使えません。most moreは文法的に正しくありません。doは現在形ですが、ここでは完了形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-066",
+    "category": "hikakukyuu",
+    "question": "This is by ___ ___ ___ the challenging project we far undertaken, and it demands more commitment than we have before.",
+    "options": [
+      "far, most, have",
+      "much, more, had",
+      "many, most, did",
+      "some, more, do"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "by farは最上級の強調、most challengingは最上級、have undertakenは現在完了形、more commitmentは名詞の比較級、have demandedは現在完了形です。最上級の強調、完了形、名詞の比較級を組み合わせた非常に複雑な構文です。",
+      "translation": "これは私たちが引き受けた中で断然最も挑戦的なプロジェクトで、以前よりもより多くのコミットメントを要求します。",
+      "structure": "[S: This] [V: is] [OTHER: by far the most challenging project] [RC: we have undertaken] [OTHER: and it demands more commitment than we have before]",
+      "wrongOptionExplanations": {
+        "1": "muchは比較級の強調に使いますが、最上級の強調にはby farを使います。moreは比較級ですが、ここでは最上級が必要です。had undertakenは過去完了形ですが、ここでは現在完了形が必要です。",
+        "2": "manyは数えられる名詞に使いますが、ここでは最上級の強調なのでby farを使います。didは過去形ですが、ここでは完了形が必要です。manyは数えられる名詞に使いますが、commitmentは数えられない名詞なのでmoreを使います。",
+        "3": "someは不特定の数量を表しますが、ここでは最上級の強調なのでby farを使います。doは現在形ですが、ここでは完了形が必要です。muchは比較級の強調に使いますが、ここでは名詞の比較級なのでmoreを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-067",
+    "category": "hikakukyuu",
+    "question": "The ___ you understand the concept, the ___ easily you can apply it, and the fewer errors you will encounter.",
+    "options": [
+      "more, more",
+      "most, most",
+      "much, much",
+      "many, many"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "the more...the more...は比例比較、more easilyは副詞の比較級、fewer errorsは名詞の比較級、will encounterは未来形です。比例比較、副詞の比較級、名詞の比較級、未来形を組み合わせた非常に複雑な構文です。",
+      "translation": "概念を理解すればするほど、より簡単に適用でき、遭遇するエラーは少なくなります。",
+      "structure": "[OTHER: The more you understand the concept] [OTHER: the more easily you can apply it] [OTHER: and the fewer errors you will encounter]",
+      "wrongOptionExplanations": {
+        "1": "mostは最上級に使いますが、ここでは比例比較なのでmoreを使います。wouldは仮定法に使いますが、ここでは未来形が必要です。",
+        "2": "muchは比較級の強調に使いますが、比例比較には使えません。manyは数えられる名詞に使いますが、ここでは比例比較なのでfewerを使います。canは能力を表しますが、ここでは未来形が必要です。",
+        "3": "manyは数えられる名詞に使いますが、ここでは比例比較なのでmoreを使います。couldは過去の能力を表しますが、ここでは未来形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-068",
+    "category": "hikakukyuu",
+    "question": "He is ___ better at solving problems than his team members, and he has found ___ solutions than anyone ___.",
+    "options": [
+      "far, far more, has",
+      "much, much more, had",
+      "many, many more, did",
+      "most, most more, do"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "far betterは「はるかに良い」という比較級の強調、far more solutionsは名詞の比較級の強調、has foundは現在完了形です。比較級の強調と完了形を組み合わせた複雑な構文です。",
+      "translation": "彼はチームメンバーよりはるかに問題解決が得意で、誰よりもはるかに多くの解決策を見つけています。",
+      "structure": "[S: He] [V: is] [C: far better] [OTHER: at solving problems than his team members] [OTHER: and he has found far more solutions than anyone has]",
+      "wrongOptionExplanations": {
+        "1": "much betterも使えますが、far betterの方が一般的です。had foundは過去完了形ですが、ここでは現在完了形が必要です。",
+        "2": "manyは数えられる名詞に使いますが、ここでは比較級の強調なのでfarを使います。didは過去形ですが、ここでは完了形が必要です。",
+        "3": "most most more doは文法的に正しくありません。ここではfar far more hasが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-069",
+    "category": "hikakukyuu",
+    "question": "This is ___ less time-consuming than the old method, but it still requires ___ precision than we ___ used to.",
+    "options": [
+      "much, more, are",
+      "many, most, were",
+      "more, much, have",
+      "most, many, had"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "much lessは「はるかに〜でない」という比較級の強調、more precisionは名詞の比較級、are used toは現在の習慣を表す表現です。比較級の強調、名詞の比較級、習慣を表す表現を組み合わせた複雑な構文です。",
+      "translation": "これは古い方法よりはるかに時間がかかりませんが、私たちが慣れているよりもより多くの精度が必要です。",
+      "structure": "[S: This] [V: is] [C: much less time-consuming] [OTHER: than the old method] [OTHER: but it still requires more precision than we are used to]",
+      "wrongOptionExplanations": {
+        "1": "manyは数えられる名詞に使いますが、ここでは比較級の強調なのでmuchを使います。mostは最上級ですが、ここでは比較級が必要です。wereは過去形ですが、ここでは現在の習慣を表す表現が必要です。",
+        "2": "more lessは重複しています。muchは比較級の強調に使いますが、ここでは名詞の比較級なのでmoreを使います。have used toは文法的に正しくありません。",
+        "3": "mostは最上級に使いますが、ここでは比較級の強調なのでmuchを使います。manyは数えられる名詞に使いますが、precisionは数えられない名詞なのでmoreを使います。hadは過去完了形ですが、ここでは現在の習慣を表す表現が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-070",
+    "category": "hikakukyuu",
+    "question": "The ___ you focus on quality, the ___ satisfied your customers will be, and the better reputation you will build.",
+    "options": [
+      "more, more",
+      "most, most",
+      "much, much",
+      "many, many"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "the more...the more...は比例比較、more satisfiedは比較級、will beは未来形、better reputationは名詞の比較級、will buildは未来形です。比例比較、比較級、名詞の比較級、未来形を組み合わせた非常に複雑な構文です。",
+      "translation": "品質に焦点を当てれば当てるほど、顧客はより満足し、より良い評判を築くことができます。",
+      "structure": "[OTHER: The more you focus on quality] [OTHER: the more satisfied your customers will be] [OTHER: and the better reputation you will build]",
+      "wrongOptionExplanations": {
+        "1": "mostは最上級に使いますが、ここでは比例比較なのでmoreを使います。bestは最上級ですが、ここでは比較級が必要です。wouldは仮定法に使いますが、ここでは未来形が必要です。",
+        "2": "muchは比較級の強調に使いますが、比例比較には使えません。goodは原級ですが、ここでは比較級が必要です。canは能力を表しますが、ここでは未来形が必要です。",
+        "3": "manyは数えられる名詞に使いますが、ここでは比例比較なのでmoreを使います。wellは副詞ですが、ここでは名詞の比較級なのでbetterを使います。couldは過去の能力を表しますが、ここでは未来形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-071",
+    "category": "hikakukyuu",
+    "question": "She is ___ skilled as her instructor, but she has accomplished ___ than anyone ___ in her field.",
+    "options": [
+      "as, far more, has",
+      "so, much more, had",
+      "more, many more, did",
+      "very, most more, do"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "as...asは同等比較、far moreは名詞の比較級の強調、has accomplishedは現在完了形です。同等比較、名詞の比較級の強調、完了形を組み合わせた複雑な構文です。",
+      "translation": "彼女はインストラクターと同じくらい熟練していますが、自分の分野で誰よりもはるかに多くのことを達成しています。",
+      "structure": "[S: She] [V: is] [C: as skilled] [OTHER: as her instructor] [OTHER: but she has accomplished far more than anyone has in her field]",
+      "wrongOptionExplanations": {
+        "1": "so...asは否定文で使いますが、肯定文ではas...asを使います。much moreも使えますが、far moreの方が一般的です。had accomplishedは過去完了形ですが、ここでは現在完了形が必要です。",
+        "2": "moreは比較級に使いますが、ここでは同等比較なのでas...asを使います。manyは数えられる名詞に使いますが、ここでは名詞の比較級の強調なのでfar moreを使います。didは過去形ですが、ここでは完了形が必要です。",
+        "3": "veryは程度を表しますが、比較には使えません。most moreは文法的に正しくありません。doは現在形ですが、ここでは完了形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-072",
+    "category": "hikakukyuu",
+    "question": "This is by ___ ___ ___ the most efficient system we have implemented, and it uses less energy than the previous one did.",
+    "options": [
+      "far, the, most",
+      "much, more, had",
+      "many, most, did",
+      "some, more, do"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "by farは最上級の強調、most efficientは最上級、have implementedは現在完了形、less energyは名詞の比較級、didは過去形です。最上級の強調、完了形、名詞の比較級、過去形を組み合わせた非常に複雑な構文です。",
+      "translation": "これは私たちが実装した中で断然最も効率的なシステムで、前のものよりもより少ないエネルギーを使用します。",
+      "structure": "[S: This] [V: is] [OTHER: by far the most efficient system] [RC: we have implemented] [OTHER: and it uses less energy than the previous one did]",
+      "wrongOptionExplanations": {
+        "1": "muchは比較級の強調に使いますが、最上級の強調にはby farを使います。moreは比較級ですが、ここでは最上級が必要です。had implementedは過去完了形ですが、ここでは現在完了形が必要です。",
+        "2": "manyは数えられる名詞に使いますが、ここでは最上級の強調なのでby farを使います。didは過去形ですが、ここでは完了形が必要です。littleは原級ですが、ここでは比較級が必要です。doは現在形ですが、ここでは過去形が必要です。",
+        "3": "someは不特定の数量を表しますが、ここでは最上級の強調なのでby farを使います。doは現在形ですが、ここでは完了形が必要です。fewerは数えられる名詞に使いますが、energyは数えられない名詞なのでlessを使います。areは現在形ですが、ここでは過去形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-073",
+    "category": "hikakukyuu",
+    "question": "The ___ you communicate, the ___ misunderstandings you will have, and the more productive your team will be.",
+    "options": [
+      "more, fewer",
+      "most, fewest",
+      "much, many",
+      "many, more"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "the more...the fewer...は比例比較、fewer misunderstandingsは名詞の比較級、will haveは未来形、more productiveは比較級、will beは未来形です。比例比較、名詞の比較級、比較級、未来形を組み合わせた非常に複雑な構文です。",
+      "translation": "コミュニケーションを取れば取るほど、誤解は少なくなり、チームはより生産的になります。",
+      "structure": "[OTHER: The more you communicate] [OTHER: the fewer misunderstandings you will have] [OTHER: and the more productive your team will be]",
+      "wrongOptionExplanations": {
+        "1": "mostは最上級に使いますが、ここでは比例比較なのでmoreを使います。wouldは仮定法に使いますが、ここでは未来形が必要です。",
+        "2": "muchは比較級の強調に使いますが、比例比較には使えません。manyは数えられる名詞に使いますが、ここでは比例比較なのでfewerを使います。canは能力を表しますが、ここでは未来形が必要です。",
+        "3": "manyは数えられる名詞に使いますが、ここでは比例比較なのでmoreを使います。couldは過去の能力を表しますが、ここでは未来形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-074",
+    "category": "hikakukyuu",
+    "question": "He is ___ better equipped than his rivals, and he has secured ___ deals than anyone ___ in the industry.",
+    "options": [
+      "far, far more, has",
+      "much, much more, had",
+      "many, many more, did",
+      "most, most more, do"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "far betterは「はるかに良い」という比較級の強調、far more dealsは名詞の比較級の強調、has securedは現在完了形です。比較級の強調と完了形を組み合わせた複雑な構文です。",
+      "translation": "彼は競争相手よりはるかに装備が整っており、業界の誰よりもはるかに多くの取引を確保しています。",
+      "structure": "[S: He] [V: is] [C: far better equipped] [OTHER: than his rivals] [OTHER: and he has secured far more deals than anyone has in the industry]",
+      "wrongOptionExplanations": {
+        "1": "much betterも使えますが、far betterの方が一般的です。had securedは過去完了形ですが、ここでは現在完了形が必要です。",
+        "2": "manyは数えられる名詞に使いますが、ここでは比較級の強調なのでfarを使います。didは過去形ですが、ここでは完了形が必要です。",
+        "3": "most most more doは文法的に正しくありません。ここではfar far more hasが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-075",
+    "category": "hikakukyuu",
+    "question": "This is ___ less risky than the previous approach, but it still demands ___ attention than we ___ providing.",
+    "options": [
+      "much, more, are",
+      "many, most, were",
+      "more, much, have",
+      "most, many, had"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "much lessは「はるかに〜でない」という比較級の強調、more attentionは名詞の比較級、are providingは現在進行形です。比較級の強調、名詞の比較級、進行形を組み合わせた複雑な構文です。",
+      "translation": "これは前のアプローチよりはるかにリスクが低いですが、私たちが提供しているよりもより多くの注意が必要です。",
+      "structure": "[S: This] [V: is] [C: much less risky] [OTHER: than the previous approach] [OTHER: but it still demands more attention than we are providing]",
+      "wrongOptionExplanations": {
+        "1": "manyは数えられる名詞に使いますが、ここでは比較級の強調なのでmuchを使います。mostは最上級ですが、ここでは比較級が必要です。wereは過去形ですが、ここでは現在進行形が必要です。",
+        "2": "more lessは重複しています。muchは比較級の強調に使いますが、ここでは名詞の比較級なのでmoreを使います。have providingは文法的に正しくありません。",
+        "3": "mostは最上級に使いますが、ここでは比較級の強調なのでmuchを使います。manyは数えられる名詞に使いますが、attentionは数えられない名詞なのでmoreを使います。hadは過去完了形ですが、ここでは現在進行形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-076",
+    "category": "hikakukyuu",
+    "question": "The ___ you adapt to changes, the ___ competitive you will remain, and the more opportunities you will discover.",
+    "options": [
+      "more, more",
+      "most, most",
+      "much, much",
+      "many, many"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "the more...the more...は比例比較、more competitiveは比較級、will remainは未来形、more opportunitiesは名詞の比較級、will discoverは未来形です。比例比較、比較級、名詞の比較級、未来形を組み合わせた非常に複雑な構文です。",
+      "translation": "変化に適応すればするほど、より競争力を持ち続け、より多くの機会を発見します。",
+      "structure": "[OTHER: The more you adapt to changes] [OTHER: the more competitive you will remain] [OTHER: and the more opportunities you will discover]",
+      "wrongOptionExplanations": {
+        "1": "mostは最上級に使いますが、ここでは比例比較なのでmoreを使います。wouldは仮定法に使いますが、ここでは未来形が必要です。",
+        "2": "muchは比較級の強調に使いますが、比例比較には使えません。canは能力を表しますが、ここでは未来形が必要です。",
+        "3": "manyは数えられる名詞に使いますが、ここでは比例比較なのでmoreを使います。couldは過去の能力を表しますが、ここでは未来形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-077",
+    "category": "hikakukyuu",
+    "question": "She is ___ knowledgeable as her professor, but she has published ___ papers than anyone ___ in her department.",
+    "options": [
+      "as, far more, has",
+      "so, much more, had",
+      "more, many more, did",
+      "very, most more, do"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "as...asは同等比較、far more papersは名詞の比較級の強調、has publishedは現在完了形です。同等比較、名詞の比較級の強調、完了形を組み合わせた複雑な構文です。",
+      "translation": "彼女は教授と同じくらい知識がありますが、自分の学科の誰よりもはるかに多くの論文を発表しています。",
+      "structure": "[S: She] [V: is] [C: as knowledgeable] [OTHER: as her professor] [OTHER: but she has published far more papers than anyone has in her department]",
+      "wrongOptionExplanations": {
+        "1": "so...asは否定文で使いますが、肯定文ではas...asを使います。much moreも使えますが、far moreの方が一般的です。had publishedは過去完了形ですが、ここでは現在完了形が必要です。",
+        "2": "moreは比較級に使いますが、ここでは同等比較なのでas...asを使います。manyは数えられる名詞に使いますが、ここでは名詞の比較級の強調なのでfar moreを使います。didは過去形ですが、ここでは完了形が必要です。",
+        "3": "veryは程度を表しますが、比較には使えません。most moreは文法的に正しくありません。doは現在形ですが、ここでは完了形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-078",
+    "category": "hikakukyuu",
+    "question": "This is by ___ ___ ___ the most innovative design we have created, and it requires less maintenance than traditional models do.",
+    "options": [
+      "far, the, most",
+      "much, more, had",
+      "many, most, did",
+      "some, more, do"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "by farは最上級の強調、most innovativeは最上級、have createdは現在完了形、less maintenanceは名詞の比較級、doは現在形です。最上級の強調、完了形、名詞の比較級、現在形を組み合わせた非常に複雑な構文です。",
+      "translation": "これは私たちが作成した中で断然最も革新的なデザインで、従来のモデルよりもより少ないメンテナンスが必要です。",
+      "structure": "[S: This] [V: is] [OTHER: by far the most innovative design] [RC: we have created] [OTHER: and it requires less maintenance than traditional models do]",
+      "wrongOptionExplanations": {
+        "1": "muchは比較級の強調に使いますが、最上級の強調にはby farを使います。moreは比較級ですが、ここでは最上級が必要です。had createdは過去完了形ですが、ここでは現在完了形が必要です。",
+        "2": "manyは数えられる名詞に使いますが、ここでは最上級の強調なのでby farを使います。didは過去形ですが、ここでは完了形が必要です。littleは原級ですが、ここでは比較級が必要です。haveは現在完了形ですが、ここでは現在形が必要です。",
+        "3": "someは不特定の数量を表しますが、ここでは最上級の強調なのでby farを使います。doは現在形ですが、ここでは完了形が必要です。fewerは数えられる名詞に使いますが、maintenanceは数えられない名詞なのでlessを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-079",
+    "category": "hikakukyuu",
+    "question": "The ___ you invest in research, the ___ breakthroughs you ___ achieve, and the greater impact you will make.",
+    "options": [
+      "more, more, will",
+      "most, most, would",
+      "much, much, can",
+      "many, many, could"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "the more...the more...は比例比較、more breakthroughsは名詞の比較級、will achieveは未来形、greater impactは名詞の比較級、will makeは未来形です。比例比較、名詞の比較級、未来形を組み合わせた非常に複雑な構文です。",
+      "translation": "研究に投資すればするほど、より多くのブレークスルーを達成し、より大きな影響を与えます。",
+      "structure": "[OTHER: The more you invest in research] [OTHER: the more breakthroughs you will achieve] [OTHER: and the greater impact you will make]",
+      "wrongOptionExplanations": {
+        "1": "mostは最上級に使いますが、ここでは比例比較なのでmoreを使います。greatestは最上級ですが、ここでは比較級が必要です。wouldは仮定法に使いますが、ここでは未来形が必要です。",
+        "2": "muchは比較級の強調に使いますが、比例比較には使えません。greatは原級ですが、ここでは比較級が必要です。canは能力を表しますが、ここでは未来形が必要です。",
+        "3": "manyは数えられる名詞に使いますが、ここでは比例比較なのでmoreを使います。goodは原級ですが、ここでは比較級が必要です。couldは過去の能力を表しますが、ここでは未来形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-080",
+    "category": "hikakukyuu",
+    "question": "He is ___ better prepared than his opponents, and he has developed ___ strategies than anyone ___ in the competition.",
+    "options": [
+      "far, far more, has",
+      "much, much more, had",
+      "many, many more, did",
+      "most, most more, do"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "far betterは「はるかに良い」という比較級の強調、far more strategiesは名詞の比較級の強調、has developedは現在完了形です。比較級の強調と完了形を組み合わせた複雑な構文です。",
+      "translation": "彼は対戦相手よりはるかに準備ができており、競争で誰よりもはるかに多くの戦略を開発しています。",
+      "structure": "[S: He] [V: is] [C: far better prepared] [OTHER: than his opponents] [OTHER: and he has developed far more strategies than anyone has in the competition]",
+      "wrongOptionExplanations": {
+        "1": "much betterも使えますが、far betterの方が一般的です。had developedは過去完了形ですが、ここでは現在完了形が必要です。",
+        "2": "manyは数えられる名詞に使いますが、ここでは比較級の強調なのでfarを使います。didは過去形ですが、ここでは完了形が必要です。",
+        "3": "most most more doは文法的に正しくありません。ここではfar far more hasが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-081",
+    "category": "hikakukyuu",
+    "question": "This is ___ less complicated than the original version, but it still needs ___ refinement than we ___ currently applying.",
+    "options": [
+      "much, more, are",
+      "many, most, were",
+      "more, much, have",
+      "most, many, had"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "much lessは「はるかに〜でない」という比較級の強調、more refinementは名詞の比較級、are applyingは現在進行形です。比較級の強調、名詞の比較級、進行形を組み合わせた複雑な構文です。",
+      "translation": "これは元のバージョンよりはるかに複雑ではありませんが、現在適用しているよりもより多くの改良が必要です。",
+      "structure": "[S: This] [V: is] [C: much less complicated] [OTHER: than the original version] [OTHER: but it still needs more refinement than we are currently applying]",
+      "wrongOptionExplanations": {
+        "1": "manyは数えられる名詞に使いますが、ここでは比較級の強調なのでmuchを使います。mostは最上級ですが、ここでは比較級が必要です。wereは過去形ですが、ここでは現在進行形が必要です。",
+        "2": "more lessは重複しています。muchは比較級の強調に使いますが、ここでは名詞の比較級なのでmoreを使います。have applyingは文法的に正しくありません。",
+        "3": "mostは最上級に使いますが、ここでは比較級の強調なのでmuchを使います。manyは数えられる名詞に使いますが、refinementは数えられない名詞なのでmoreを使います。hadは過去完了形ですが、ここでは現在進行形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-082",
+    "category": "hikakukyuu",
+    "question": "The ___ you collaborate, the ___ ideas you ___ generate, and the more innovative solutions you will create.",
+    "options": [
+      "more, more, will",
+      "most, most, would",
+      "much, much, can",
+      "many, many, could"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "the more...the more...は比例比較、more ideasは名詞の比較級、will generateは未来形、more innovative solutionsは名詞の比較級、will createは未来形です。比例比較、名詞の比較級、未来形を組み合わせた非常に複雑な構文です。",
+      "translation": "協力すればするほど、より多くのアイデアを生み出し、より革新的な解決策を作り出します。",
+      "structure": "[OTHER: The more you collaborate] [OTHER: the more ideas you will generate] [OTHER: and the more innovative solutions you will create]",
+      "wrongOptionExplanations": {
+        "1": "mostは最上級に使いますが、ここでは比例比較なのでmoreを使います。wouldは仮定法に使いますが、ここでは未来形が必要です。",
+        "2": "muchは比較級の強調に使いますが、比例比較には使えません。canは能力を表しますが、ここでは未来形が必要です。",
+        "3": "manyは数えられる名詞に使いますが、ここでは比例比較なのでmoreを使います。couldは過去の能力を表しますが、ここでは未来形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-083",
+    "category": "hikakukyuu",
+    "question": "She is ___ experienced as her supervisor, but she has completed ___ projects than anyone ___ in her team.",
+    "options": [
+      "as, far more, has",
+      "so, much more, had",
+      "more, many more, did",
+      "very, most more, do"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "as...asは同等比較、far more projectsは名詞の比較級の強調、has completedは現在完了形です。同等比較、名詞の比較級の強調、完了形を組み合わせた複雑な構文です。",
+      "translation": "彼女は上司と同じくらい経験がありますが、チームの誰よりもはるかに多くのプロジェクトを完了しています。",
+      "structure": "[S: She] [V: is] [C: as experienced] [OTHER: as her supervisor] [OTHER: but she has completed far more projects than anyone has in her team]",
+      "wrongOptionExplanations": {
+        "1": "so...asは否定文で使いますが、肯定文ではas...asを使います。much moreも使えますが、far moreの方が一般的です。had completedは過去完了形ですが、ここでは現在完了形が必要です。",
+        "2": "moreは比較級に使いますが、ここでは同等比較なのでas...asを使います。manyは数えられる名詞に使いますが、ここでは名詞の比較級の強調なのでfar moreを使います。didは過去形ですが、ここでは完了形が必要です。",
+        "3": "veryは程度を表しますが、比較には使えません。most moreは文法的に正しくありません。doは現在形ですが、ここでは完了形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-084",
+    "category": "hikakukyuu",
+    "question": "This is by ___ ___ ___ the most comprehensive analysis we have conducted, and it reveals more insights than previous studies did.",
+    "options": [
+      "far, the, most",
+      "much, more, had",
+      "many, most, did",
+      "some, more, do"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "by farは最上級の強調、most comprehensiveは最上級、have conductedは現在完了形、more insightsは名詞の比較級、didは過去形です。最上級の強調、完了形、名詞の比較級、過去形を組み合わせた非常に複雑な構文です。",
+      "translation": "これは私たちが実施した中で断然最も包括的な分析で、以前の研究よりもより多くの洞察を明らかにしています。",
+      "structure": "[S: This] [V: is] [OTHER: by far the most comprehensive analysis] [RC: we have conducted] [OTHER: and it reveals more insights than previous studies did]",
+      "wrongOptionExplanations": {
+        "1": "muchは比較級の強調に使いますが、最上級の強調にはby farを使います。moreは比較級ですが、ここでは最上級が必要です。had conductedは過去完了形ですが、ここでは現在完了形が必要です。",
+        "2": "manyは数えられる名詞に使いますが、ここでは最上級の強調なのでby farを使います。didは過去形ですが、ここでは完了形が必要です。manyは数えられる名詞に使いますが、insightsは複数形なのでmoreを使います。",
+        "3": "someは不特定の数量を表しますが、ここでは最上級の強調なのでby farを使います。doは現在形ですが、ここでは完了形が必要です。muchは比較級の強調に使いますが、ここでは名詞の比較級なのでmoreを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-085",
+    "category": "hikakukyuu",
+    "question": "The ___ you understand the market, the ___ accurately you can predict trends, and the greater advantage you will gain.",
+    "options": [
+      "more, more",
+      "most, most",
+      "much, much",
+      "many, many"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "the more...the more...は比例比較、more accuratelyは副詞の比較級、can predictは能力、greater advantageは名詞の比較級、will gainは未来形です。比例比較、副詞の比較級、能力、名詞の比較級、未来形を組み合わせた非常に複雑な構文です。",
+      "translation": "市場を理解すればするほど、より正確にトレンドを予測でき、より大きな優位性を得ます。",
+      "structure": "[OTHER: The more you understand the market] [OTHER: the more accurately you can predict trends] [OTHER: and the greater advantage you will gain]",
+      "wrongOptionExplanations": {
+        "1": "mostは最上級に使いますが、ここでは比例比較なのでmoreを使います。greatestは最上級ですが、ここでは比較級が必要です。couldは過去の能力を表しますが、ここでは現在の能力が必要です。wouldは仮定法に使いますが、ここでは未来形が必要です。",
+        "2": "muchは比較級の強調に使いますが、比例比較には使えません。greatは原級ですが、ここでは比較級が必要です。mayは可能性を表しますが、ここでは能力が必要です。canは能力を表しますが、ここでは未来形が必要です。",
+        "3": "manyは数えられる名詞に使いますが、ここでは比例比較なのでmoreを使います。goodは原級ですが、ここでは比較級が必要です。mightは弱い可能性を表しますが、ここでは能力が必要です。couldは過去の能力を表しますが、ここでは未来形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-086",
+    "category": "hikakukyuu",
+    "question": "He is ___ better at negotiations than his colleagues, and he has closed ___ deals than anyone ___ in the company.",
+    "options": [
+      "far, far more, has",
+      "much, much more, had",
+      "many, many more, did",
+      "most, most more, do"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "far betterは「はるかに良い」という比較級の強調、far more dealsは名詞の比較級の強調、has closedは現在完了形です。比較級の強調と完了形を組み合わせた複雑な構文です。",
+      "translation": "彼は同僚よりはるかに交渉が得意で、会社の誰よりもはるかに多くの取引を成立させています。",
+      "structure": "[S: He] [V: is] [C: far better] [OTHER: at negotiations than his colleagues] [OTHER: and he has closed far more deals than anyone has in the company]",
+      "wrongOptionExplanations": {
+        "1": "much betterも使えますが、far betterの方が一般的です。had closedは過去完了形ですが、ここでは現在完了形が必要です。",
+        "2": "manyは数えられる名詞に使いますが、ここでは比較級の強調なのでfarを使います。didは過去形ですが、ここでは完了形が必要です。",
+        "3": "most most more doは文法的に正しくありません。ここではfar far more hasが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-087",
+    "category": "hikakukyuu",
+    "question": "This is ___ less time-consuming than the old process, but it still requires ___ coordination than we ___ currently managing.",
+    "options": [
+      "much, more, are",
+      "many, most, were",
+      "more, much, have",
+      "most, many, had"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "much lessは「はるかに〜でない」という比較級の強調、more coordinationは名詞の比較級、are managingは現在進行形です。比較級の強調、名詞の比較級、進行形を組み合わせた複雑な構文です。",
+      "translation": "これは古いプロセスよりはるかに時間がかかりませんが、現在管理しているよりもより多くの調整が必要です。",
+      "structure": "[S: This] [V: is] [C: much less time-consuming] [OTHER: than the old process] [OTHER: but it still requires more coordination than we are currently managing]",
+      "wrongOptionExplanations": {
+        "1": "manyは数えられる名詞に使いますが、ここでは比較級の強調なのでmuchを使います。mostは最上級ですが、ここでは比較級が必要です。wereは過去形ですが、ここでは現在進行形が必要です。",
+        "2": "more lessは重複しています。muchは比較級の強調に使いますが、ここでは名詞の比較級なのでmoreを使います。have managingは文法的に正しくありません。",
+        "3": "mostは最上級に使いますが、ここでは比較級の強調なのでmuchを使います。manyは数えられる名詞に使いますが、coordinationは数えられない名詞なのでmoreを使います。hadは過去完了形ですが、ここでは現在進行形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-088",
+    "category": "hikakukyuu",
+    "question": "The ___ you invest in training, the ___ skilled your employees will become, and the higher productivity you will achieve.",
+    "options": [
+      "more, more",
+      "most, most",
+      "much, much",
+      "many, many"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "the more...the more...は比例比較、more skilledは比較級、will becomeは未来形、higher productivityは名詞の比較級、will achieveは未来形です。比例比較、比較級、名詞の比較級、未来形を組み合わせた非常に複雑な構文です。",
+      "translation": "訓練に投資すればするほど、従業員はより熟練し、より高い生産性を達成します。",
+      "structure": "[OTHER: The more you invest in training] [OTHER: the more skilled your employees will become] [OTHER: and the higher productivity you will achieve]",
+      "wrongOptionExplanations": {
+        "1": "mostは最上級に使いますが、ここでは比例比較なのでmoreを使います。highestは最上級ですが、ここでは比較級が必要です。wouldは仮定法に使いますが、ここでは未来形が必要です。",
+        "2": "muchは比較級の強調に使いますが、比例比較には使えません。highは原級ですが、ここでは比較級が必要です。canは能力を表しますが、ここでは未来形が必要です。",
+        "3": "manyは数えられる名詞に使いますが、ここでは比例比較なのでmoreを使います。goodは原級ですが、ここでは比較級が必要です。couldは過去の能力を表しますが、ここでは未来形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-089",
+    "category": "hikakukyuu",
+    "question": "She is ___ qualified as her manager, but she has completed ___ certifications than anyone ___ in her department.",
+    "options": [
+      "as, far more, has",
+      "so, much more, had",
+      "more, many more, did",
+      "very, most more, do"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "as...asは同等比較、far more certificationsは名詞の比較級の強調、has completedは現在完了形です。同等比較、名詞の比較級の強調、完了形を組み合わせた複雑な構文です。",
+      "translation": "彼女はマネージャーと同じくらい資格がありますが、自分の部門の誰よりもはるかに多くの認定を完了しています。",
+      "structure": "[S: She] [V: is] [C: as qualified] [OTHER: as her manager] [OTHER: but she has completed far more certifications than anyone has in her department]",
+      "wrongOptionExplanations": {
+        "1": "so...asは否定文で使いますが、肯定文ではas...asを使います。much moreも使えますが、far moreの方が一般的です。had completedは過去完了形ですが、ここでは現在完了形が必要です。",
+        "2": "moreは比較級に使いますが、ここでは同等比較なのでas...asを使います。manyは数えられる名詞に使いますが、ここでは名詞の比較級の強調なのでfar moreを使います。didは過去形ですが、ここでは完了形が必要です。",
+        "3": "veryは程度を表しますが、比較には使えません。most moreは文法的に正しくありません。doは現在形ですが、ここでは完了形が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "comp-090",
+    "category": "hikakukyuu",
+    "question": "This is by ___ ___ the efficient method we have tested, and it consumes less energy than conventional approaches do.",
+    "options": [
+      "far, most",
+      "much, more",
+      "many, most",
+      "some, more"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "by farは最上級の強調、most efficientは最上級、have testedは現在完了形、less energyは名詞の比較級、doは現在形です。最上級の強調、完了形、名詞の比較級、現在形を組み合わせた非常に複雑な構文です。",
+      "translation": "これは私たちがテストした中で断然最も効率的な方法で、従来のアプローチよりもより少ないエネルギーを消費します。",
+      "structure": "[S: This] [V: is] [OTHER: by far the most efficient method] [RC: we have tested] [OTHER: and it consumes less energy than conventional approaches do]",
+      "wrongOptionExplanations": {
+        "1": "muchは比較級の強調に使いますが、最上級の強調にはby farを使います。moreは比較級ですが、ここでは最上級が必要です。had testedは過去完了形ですが、ここでは現在完了形が必要です。",
+        "2": "manyは数えられる名詞に使いますが、ここでは最上級の強調なのでby farを使います。didは過去形ですが、ここでは完了形が必要です。littleは原級ですが、ここでは比較級が必要です。haveは現在完了形ですが、ここでは現在形が必要です。",
+        "3": "someは不特定の数量を表しますが、ここでは最上級の強調なのでby farを使います。doは現在形ですが、ここでは完了形が必要です。fewerは数えられる名詞に使いますが、energyは数えられない名詞なのでlessを使います。"
+      }
+    },
+    "difficulty": 2
+  }
+]

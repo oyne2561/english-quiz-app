@@ -1,0 +1,1152 @@
+[
+  {
+    "id": "gimon-001",
+    "category": "jodoushi-gimon",
+    "question": "___ I help you with your luggage?",
+    "options": [
+      "Shall",
+      "Can",
+      "May",
+      "Will"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Shall I...?は「私が〜しましょうか？」という提案・申し出を表します。",
+      "translation": "荷物をお手伝いしましょうか？",
+      "structure": "[V: Shall I help] [O: you] [OTHER: with your luggage]",
+      "wrongOptionExplanations": {
+        "1": "Can I...?は「〜してもいいですか？」という許可を求める表現です。",
+        "2": "May I...?は「〜してもよろしいでしょうか？」という丁寧な許可を求める表現です。",
+        "3": "Will I...?は「〜するつもりですか？」という意思を尋ねる表現ですが、ここでは提案なのでShallを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-002",
+    "category": "jodoushi-gimon",
+    "question": "___ I open the window?",
+    "options": [
+      "Can",
+      "Shall",
+      "May",
+      "Will"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Can I...?は「〜してもいいですか？」という許可を求める表現です。",
+      "translation": "窓を開けてもいいですか？",
+      "structure": "[V: Can I open] [O: the window]",
+      "wrongOptionExplanations": {
+        "0": "Shall I...?は「〜しましょうか？」という提案を表しますが、ここでは許可を求めるのでCanを使います。",
+        "2": "May I...?はより丁寧な表現ですが、Can I...?の方が一般的です。",
+        "3": "Will I...?は「〜するつもりですか？」という意思を尋ねる表現ですが、ここでは許可を求めるのでCanを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-003",
+    "category": "jodoushi-gimon",
+    "question": "___ I borrow your pen?",
+    "options": [
+      "May",
+      "Can",
+      "Shall",
+      "Will"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "May I...?は「〜してもよろしいでしょうか？」という丁寧な許可を求める表現です。",
+      "translation": "ペンを借りてもよろしいでしょうか？",
+      "structure": "[V: May I borrow] [O: your pen]",
+      "wrongOptionExplanations": {
+        "1": "Can I...?も使えますが、May I...?の方がより丁寧です。",
+        "2": "Shall I...?は「〜しましょうか？」という提案を表しますが、ここでは許可を求めるのでMayを使います。",
+        "3": "Will I...?は「〜するつもりですか？」という意思を尋ねる表現ですが、ここでは許可を求めるのでMayを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-004",
+    "category": "jodoushi-gimon",
+    "question": "___ you pass me the salt, please?",
+    "options": [
+      "Will",
+      "Would",
+      "Can",
+      "May"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Will you...?は「〜してくれませんか？」という依頼を表します。",
+      "translation": "塩を取ってくれませんか？",
+      "structure": "[V: Will you pass] [O: me the salt] [OTHER: please]",
+      "wrongOptionExplanations": {
+        "1": "Would you...?はより丁寧な依頼ですが、Will you...?も一般的です。",
+        "2": "Can you...?も依頼に使えますが、Will you...?の方が一般的です。",
+        "3": "Mayは特定の意味という意味ですが、ここでは特定の意味という意味のWillが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-005",
+    "category": "jodoushi-gimon",
+    "question": "___ you help me with this?",
+    "options": [
+      "Would",
+      "Will",
+      "Can",
+      "May"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Would you...?は「〜していただけますか？」という丁寧な依頼を表します。",
+      "translation": "これを手伝っていただけますか？",
+      "structure": "[V: Would you help] [O: me] [OTHER: with this]",
+      "wrongOptionExplanations": {
+        "1": "Will you...?も依頼に使えますが、Would you...?の方がより丁寧です。",
+        "2": "Canは「〜できますか？」という意味ですが、ここでは「〜してもかまいませんか？」という意味のWouldが適切です。",
+        "3": "Mayは特定の意味という意味ですが、ここでは特定の意味という意味のWouldが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-006",
+    "category": "jodoushi-gimon",
+    "question": "___ we go now?",
+    "options": [
+      "Shall",
+      "Will",
+      "Can",
+      "May"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Shall we...?は「〜しましょうか？」という提案を表します。",
+      "translation": "今行きましょうか？",
+      "structure": "[V: Shall we go] [OTHER: now]",
+      "wrongOptionExplanations": {
+        "1": "Will we...?は「〜するつもりですか？」という未来の疑問を表しますが、ここでは提案なのでShallを使います。",
+        "2": "Can we...?は「〜できますか？」という能力を尋ねる表現ですが、ここでは提案なのでShallを使います。",
+        "3": "May we...?は「〜してもいいですか？」という許可を求める表現ですが、ここでは提案なのでShallを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-007",
+    "category": "jodoushi-gimon",
+    "question": "___ I use your phone?",
+    "options": [
+      "Can",
+      "Shall",
+      "May",
+      "Will"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Can I...?は「〜してもいいですか？」という許可を求める表現です。",
+      "translation": "電話を使ってもいいですか？",
+      "structure": "[V: Can I use] [O: your phone]",
+      "wrongOptionExplanations": {
+        "0": "Shall I...?は「〜しましょうか？」という提案を表しますが、ここでは許可を求めるのでCanを使います。",
+        "2": "May I...?はより丁寧な表現ですが、Can I...?の方が一般的です。",
+        "3": "Will I...?は「〜するつもりですか？」という意思を尋ねる表現ですが、ここでは許可を求めるのでCanを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-008",
+    "category": "jodoushi-gimon",
+    "question": "___ you come with me?",
+    "options": [
+      "Will",
+      "Would",
+      "Can",
+      "May"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Will you...?は「〜してくれませんか？」という依頼を表します。",
+      "translation": "一緒に来てくれませんか？",
+      "structure": "[V: Will you come] [OTHER: with me]",
+      "wrongOptionExplanations": {
+        "1": "Would you...?はより丁寧な依頼ですが、Will you...?も一般的です。",
+        "2": "Can you...?も依頼に使えますが、Will you...?の方が一般的です。",
+        "3": "Mayは特定の意味という意味ですが、ここでは特定の意味という意味のWillが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-009",
+    "category": "jodoushi-gimon",
+    "question": "___ you like some coffee?",
+    "options": [
+      "Would",
+      "Will",
+      "Can",
+      "May"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Would you like...?は「〜しませんか？」という勧誘を表します。",
+      "translation": "コーヒーはいかがですか？",
+      "structure": "[V: Would you like] [O: some coffee]",
+      "wrongOptionExplanations": {
+        "1": "Will you like...?は「〜を好むつもりですか？」という未来の好みを尋ねる表現ですが、ここでは勧誘なのでWouldを使います。",
+        "2": "Canは「〜できますか？」という意味ですが、ここでは「〜してもかまいませんか？」という意味のWouldが適切です。",
+        "3": "Mayは特定の意味という意味ですが、ここでは特定の意味という意味のWouldが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-010",
+    "category": "jodoushi-gimon",
+    "question": "___ I get you something to drink?",
+    "options": [
+      "Shall",
+      "Can",
+      "May",
+      "Will"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Shall I...?は「私が〜しましょうか？」という提案・申し出を表します。",
+      "translation": "何か飲み物をお持ちしましょうか？",
+      "structure": "[V: Shall I get] [O: you something to drink]",
+      "wrongOptionExplanations": {
+        "1": "Can I...?は「〜してもいいですか？」という許可を求める表現ですが、ここでは提案なのでShallを使います。",
+        "2": "May I...?は「〜してもよろしいでしょうか？」という許可を求める表現ですが、ここでは提案なのでShallを使います。",
+        "3": "Will I...?は「〜するつもりですか？」という意思を尋ねる表現ですが、ここでは提案なのでShallを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-011",
+    "category": "jodoushi-gimon",
+    "question": "___ you please close the door?",
+    "options": [
+      "Can",
+      "Will",
+      "Would",
+      "May"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Can you...?は「〜してくれませんか？」という依頼を表します。",
+      "translation": "ドアを閉めてくれませんか？",
+      "structure": "[V: Can you please close] [O: the door]",
+      "wrongOptionExplanations": {
+        "1": "Will you...?も依頼に使えますが、Can you...?の方が一般的です。",
+        "2": "Would you...?はより丁寧な依頼ですが、Can you...?も一般的です。",
+        "3": "Mayは特定の意味という意味ですが、ここでは特定の意味という意味のCanが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-012",
+    "category": "jodoushi-gimon",
+    "question": "___ I ask you a question?",
+    "options": [
+      "May",
+      "Can",
+      "Shall",
+      "Will"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "May I...?は「〜してもよろしいでしょうか？」という丁寧な許可を求める表現です。",
+      "translation": "質問してもよろしいでしょうか？",
+      "structure": "[V: May I ask] [O: you a question]",
+      "wrongOptionExplanations": {
+        "1": "Can I...?も使えますが、May I...?の方がより丁寧です。",
+        "2": "Shall I...?は「〜しましょうか？」という提案を表しますが、ここでは許可を求めるのでMayを使います。",
+        "3": "Will I...?は「〜するつもりですか？」という意思を尋ねる表現ですが、ここでは許可を求めるのでMayを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-013",
+    "category": "jodoushi-gimon",
+    "question": "___ you wait here, please?",
+    "options": [
+      "Will",
+      "Would",
+      "Can",
+      "May"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Will you...?は「〜してくれませんか？」という依頼を表します。",
+      "translation": "ここで待っていてくれませんか？",
+      "structure": "[V: Will you wait] [OTHER: here please]",
+      "wrongOptionExplanations": {
+        "1": "Would you...?はより丁寧な依頼ですが、Will you...?も一般的です。",
+        "2": "Can you...?も依頼に使えますが、Will you...?の方が一般的です。",
+        "3": "Mayは特定の意味という意味ですが、ここでは特定の意味という意味のWillが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-014",
+    "category": "jodoushi-gimon",
+    "question": "___ you mind if I smoke?",
+    "options": [
+      "Would",
+      "Will",
+      "Can",
+      "May"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Would you mind if...?は「〜してもかまいませんか？」という丁寧な許可を求める表現です。",
+      "translation": "タバコを吸ってもかまいませんか？",
+      "structure": "[V: Would you mind] [OTHER: if I smoke]",
+      "wrongOptionExplanations": {
+        "1": "Will you mind if...?も使えますが、Would you mind if...?の方が一般的です。",
+        "2": "Canは「〜できますか？」という意味ですが、ここでは「〜してもかまいませんか？」という意味のWouldが適切です。",
+        "3": "Mayは文法的に正しくありません。ここではWouldが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-015",
+    "category": "jodoushi-gimon",
+    "question": "___ we start the meeting?",
+    "options": [
+      "Shall",
+      "Will",
+      "Can",
+      "May"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Shall we...?は「〜しましょうか？」という提案を表します。",
+      "translation": "会議を始めましょうか？",
+      "structure": "[V: Shall we start] [O: the meeting]",
+      "wrongOptionExplanations": {
+        "1": "Will we...?は「〜するつもりですか？」という未来の疑問を表しますが、ここでは提案なのでShallを使います。",
+        "2": "Can we...?は「〜できますか？」という能力を尋ねる表現ですが、ここでは提案なのでShallを使います。",
+        "3": "May we...?は「〜してもいいですか？」という許可を求める表現ですが、ここでは提案なのでShallを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-016",
+    "category": "jodoushi-gimon",
+    "question": "___ I turn on the light?",
+    "options": [
+      "Shall",
+      "Can",
+      "May",
+      "Will"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Shall I...?は「私が〜しましょうか？」という提案・申し出を表します。",
+      "translation": "電気をつけましょうか？",
+      "structure": "[V: Shall I turn on] [O: the light]",
+      "wrongOptionExplanations": {
+        "1": "Can I...?は「〜してもいいですか？」という許可を求める表現ですが、ここでは提案なのでShallを使います。",
+        "2": "May I...?は「〜してもよろしいでしょうか？」という許可を求める表現ですが、ここでは提案なのでShallを使います。",
+        "3": "Will I...?は「〜するつもりですか？」という意思を尋ねる表現ですが、ここでは提案なのでShallを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-017",
+    "category": "jodoushi-gimon",
+    "question": "___ you give me a hand?",
+    "options": [
+      "Can",
+      "Will",
+      "Would",
+      "May"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Can you...?は「〜してくれませんか？」という依頼を表します。",
+      "translation": "手伝ってくれませんか？",
+      "structure": "[V: Can you give] [O: me a hand]",
+      "wrongOptionExplanations": {
+        "1": "Will you...?も依頼に使えますが、Can you...?の方が一般的です。",
+        "2": "Would you...?はより丁寧な依頼ですが、Can you...?も一般的です。",
+        "3": "Mayは特定の意味という意味ですが、ここでは特定の意味という意味のCanが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-018",
+    "category": "jodoushi-gimon",
+    "question": "___ I have a look at your notes?",
+    "options": [
+      "May",
+      "Can",
+      "Shall",
+      "Will"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "May I...?は「〜してもよろしいでしょうか？」という丁寧な許可を求める表現です。",
+      "translation": "ノートを見せてもよろしいでしょうか？",
+      "structure": "[V: May I have] [O: a look] [OTHER: at your notes]",
+      "wrongOptionExplanations": {
+        "1": "Can I...?も使えますが、May I...?の方がより丁寧です。",
+        "2": "Shall I...?は「〜しましょうか？」という提案を表しますが、ここでは許可を求めるのでMayを使います。",
+        "3": "Will I...?は「〜するつもりですか？」という意思を尋ねる表現ですが、ここでは許可を求めるのでMayを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-019",
+    "category": "jodoushi-gimon",
+    "question": "___ you like to join us?",
+    "options": [
+      "Would",
+      "Will",
+      "Can",
+      "May"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Would you like to...?は「〜しませんか？」という勧誘を表します。",
+      "translation": "一緒に参加しませんか？",
+      "structure": "[V: Would you like] [INF: to join] [O: us]",
+      "wrongOptionExplanations": {
+        "1": "Will you like to...?は「〜を好むつもりですか？」という未来の好みを尋ねる表現ですが、ここでは勧誘なのでWouldを使います。",
+        "2": "Canは「〜できますか？」という意味ですが、ここでは「〜してもかまいませんか？」という意味のWouldが適切です。",
+        "3": "Mayは文法的に正しくありません。ここではWouldが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-020",
+    "category": "jodoushi-gimon",
+    "question": "___ we meet tomorrow?",
+    "options": [
+      "Shall",
+      "Will",
+      "Can",
+      "May"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Shall we...?は「〜しましょうか？」という提案を表します。",
+      "translation": "明日会いましょうか？",
+      "structure": "[V: Shall we meet] [OTHER: tomorrow]",
+      "wrongOptionExplanations": {
+        "1": "Will we...?は「〜するつもりですか？」という未来の疑問を表しますが、ここでは提案なのでShallを使います。",
+        "2": "Can we...?は「〜できますか？」という能力を尋ねる表現ですが、ここでは提案なのでShallを使います。",
+        "3": "May we...?は「〜してもいいですか？」という許可を求める表現ですが、ここでは提案なのでShallを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-021",
+    "category": "jodoushi-gimon",
+    "question": "___ I take a message?",
+    "options": [
+      "Shall",
+      "Can",
+      "May",
+      "Will"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Shall I...?は「私が〜しましょうか？」という提案・申し出を表します。",
+      "translation": "伝言をお預かりしましょうか？",
+      "structure": "[V: Shall I take] [O: a message]",
+      "wrongOptionExplanations": {
+        "1": "Can I...?は「〜してもいいですか？」という許可を求める表現ですが、ここでは提案なのでShallを使います。",
+        "2": "May I...?は「〜してもよろしいでしょうか？」という許可を求める表現ですが、ここでは提案なのでShallを使います。",
+        "3": "Will I...?は「〜するつもりですか？」という意思を尋ねる表現ですが、ここでは提案なのでShallを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-022",
+    "category": "jodoushi-gimon",
+    "question": "___ you tell me the time?",
+    "options": [
+      "Can",
+      "Will",
+      "Would",
+      "May"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Can you...?は「〜してくれませんか？」という依頼を表します。",
+      "translation": "時間を教えてくれませんか？",
+      "structure": "[V: Can you tell] [O: me the time]",
+      "wrongOptionExplanations": {
+        "1": "Will you...?も依頼に使えますが、Can you...?の方が一般的です。",
+        "2": "Would you...?はより丁寧な依頼ですが、Can you...?も一般的です。",
+        "3": "Mayは特定の意味という意味ですが、ここでは特定の意味という意味のCanが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-023",
+    "category": "jodoushi-gimon",
+    "question": "___ I make a reservation?",
+    "options": [
+      "May",
+      "Can",
+      "Shall",
+      "Will"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "May I...?は「〜してもよろしいでしょうか？」という丁寧な許可を求める表現です。",
+      "translation": "予約してもよろしいでしょうか？",
+      "structure": "[V: May I make] [O: a reservation]",
+      "wrongOptionExplanations": {
+        "1": "Can I...?も使えますが、May I...?の方がより丁寧です。",
+        "2": "Shall I...?は「〜しましょうか？」という提案を表しますが、ここでは許可を求めるのでMayを使います。",
+        "3": "Will I...?は「〜するつもりですか？」という意思を尋ねる表現ですが、ここでは許可を求めるのでMayを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-024",
+    "category": "jodoushi-gimon",
+    "question": "___ you please be quiet?",
+    "options": [
+      "Can",
+      "Will",
+      "Would",
+      "May"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Can you...?は「〜してくれませんか？」という依頼を表します。",
+      "translation": "静かにしてくれませんか？",
+      "structure": "[V: Can you please be] [C: quiet]",
+      "wrongOptionExplanations": {
+        "1": "Will you...?も依頼に使えますが、Can you...?の方が一般的です。",
+        "2": "Would you...?はより丁寧な依頼ですが、Can you...?も一般的です。",
+        "3": "Mayは特定の意味という意味ですが、ここでは特定の意味という意味のCanが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-025",
+    "category": "jodoushi-gimon",
+    "question": "___ we order some food?",
+    "options": [
+      "Shall",
+      "Will",
+      "Can",
+      "May"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Shall we...?は「〜しましょうか？」という提案を表します。",
+      "translation": "食べ物を注文しましょうか？",
+      "structure": "[V: Shall we order] [O: some food]",
+      "wrongOptionExplanations": {
+        "1": "Will we...?は「〜するつもりですか？」という未来の疑問を表しますが、ここでは提案なのでShallを使います。",
+        "2": "Can we...?は「〜できますか？」という能力を尋ねる表現ですが、ここでは提案なのでShallを使います。",
+        "3": "May we...?は「〜してもいいですか？」という許可を求める表現ですが、ここでは提案なのでShallを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-026",
+    "category": "jodoushi-gimon",
+    "question": "___ I call you back later?",
+    "options": [
+      "Shall",
+      "Can",
+      "May",
+      "Will"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Shall I...?は「私が〜しましょうか？」という提案・申し出を表します。",
+      "translation": "後で電話をかけ直しましょうか？",
+      "structure": "[V: Shall I call] [O: you] [ADV: back later]",
+      "wrongOptionExplanations": {
+        "1": "Can I...?は「〜してもいいですか？」という許可を求める表現ですが、ここでは提案なのでShallを使います。",
+        "2": "May I...?は「〜してもよろしいでしょうか？」という許可を求める表現ですが、ここでは提案なのでShallを使います。",
+        "3": "Will I...?は「〜するつもりですか？」という意思を尋ねる表現ですが、ここでは提案なのでShallを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-027",
+    "category": "jodoushi-gimon",
+    "question": "___ you like a cup of tea?",
+    "options": [
+      "Would",
+      "Will",
+      "Can",
+      "May"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Would you like...?は「〜しませんか？」という勧誘を表します。",
+      "translation": "お茶を一杯いかがですか？",
+      "structure": "[V: Would you like] [O: a cup of tea]",
+      "wrongOptionExplanations": {
+        "1": "Will you like...?は「〜を好むつもりですか？」という未来の好みを尋ねる表現ですが、ここでは勧誘なのでWouldを使います。",
+        "2": "Canは「〜できますか？」という意味ですが、ここでは「〜してもかまいませんか？」という意味のWouldが適切です。",
+        "3": "Mayは特定の意味という意味ですが、ここでは特定の意味という意味のWouldが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-028",
+    "category": "jodoushi-gimon",
+    "question": "___ you mind closing the window?",
+    "options": [
+      "Would",
+      "Will",
+      "Can",
+      "May"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Would you mind...?は「〜していただけますか？」という丁寧な依頼を表します。",
+      "translation": "窓を閉めていただけますか？",
+      "structure": "[V: Would you mind closing] [O: the window]",
+      "wrongOptionExplanations": {
+        "1": "Will you mind...?も使えますが、Would you mind...?の方が一般的です。",
+        "2": "Canは「〜できますか？」という意味ですが、ここでは「〜してもかまいませんか？」という意味のWouldが適切です。",
+        "3": "Mayは特定の意味という意味ですが、ここでは特定の意味という意味のWouldが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-029",
+    "category": "jodoushi-gimon",
+    "question": "___ I leave early today?",
+    "options": [
+      "May",
+      "Can",
+      "Shall",
+      "Will"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "May I...?は「〜してもよろしいでしょうか？」という丁寧な許可を求める表現です。",
+      "translation": "今日早く帰ってもよろしいでしょうか？",
+      "structure": "[V: May I leave] [ADV: early] [OTHER: today]",
+      "wrongOptionExplanations": {
+        "1": "Can I...?も使えますが、May I...?の方がより丁寧です。",
+        "2": "Shall I...?は「〜しましょうか？」という提案を表しますが、ここでは許可を求めるのでMayを使います。",
+        "3": "Will I...?は「〜するつもりですか？」という意思を尋ねる表現ですが、ここでは許可を求めるのでMayを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-030",
+    "category": "jodoushi-gimon",
+    "question": "___ we try a different approach?",
+    "options": [
+      "Shall",
+      "Will",
+      "Can",
+      "May"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Shall we...?は「〜しましょうか？」という提案を表します。",
+      "translation": "別のアプローチを試してみましょうか？",
+      "structure": "[V: Shall we try] [O: a different approach]",
+      "wrongOptionExplanations": {
+        "1": "Will we...?は「〜するつもりですか？」という未来の疑問を表しますが、ここでは提案なのでShallを使います。",
+        "2": "Can we...?は「〜できますか？」という能力を尋ねる表現ですが、ここでは提案なのでShallを使います。",
+        "3": "May we...?は「〜してもいいですか？」という許可を求める表現ですが、ここでは提案なのでShallを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "gimon-031",
+    "category": "jodoushi-gimon",
+    "question": "___ ___ ___ I Shall to help you with if you need assistance the project with we the that have been working on.",
+    "options": [
+      "Shall, be, able",
+      "Can, have, been",
+      "May, be, being",
+      "Will, have, been"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Shall I be able to help...?は「〜できるようになりましょうか？」という提案、if you need assistance withは「〜の支援が必要なら」、the project that we have been working onは「私たちが取り組んできたプロジェクト」という意味です。提案、完了形、関係代名詞、現在完了進行形を組み合わせた非常に複雑な構文です。",
+      "translation": "私たちが取り組んできたプロジェクトの支援が必要なら、私がお手伝いできるようになりましょうか？",
+      "structure": "[V: Shall I be able] [INF: to help you] [OTHER: with if you need assistance with the project] [RC: that we have been working on]",
+      "wrongOptionExplanations": {
+        "1": "Can have beenは文法的に正しくありません。ここではShall be ableが適切です。",
+        "2": "Mayは特定の意味という意味ですが、ここでは特定の意味という意味のShallが適切です。",
+        "3": "Will I have been supporting...?は未来完了進行形ですが、ここでは提案なのでShallを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "gimon-032",
+    "category": "jodoushi-gimon",
+    "question": "___ ___ you mind if I asked you to review the documents ___ we have been preparing?",
+    "options": [
+      "Would, mind, that",
+      "Will, care, which",
+      "Can, bother, who",
+      "May, trouble, where"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Would you mind if I asked...?は「〜してもかまいませんか？」という丁寧な許可を求める表現、to review the documentsは「書類を確認する」、that we have been preparingは「私たちが準備してきた」という意味です。丁寧な許可、完了形、関係代名詞、現在完了進行形を組み合わせた非常に複雑な構文です。",
+      "translation": "私たちが準備してきた書類を確認してもらってもかまいませんか？",
+      "structure": "[V: Would you mind] [OTHER: if I asked you] [INF: to review the documents] [RC: that we have been preparing]",
+      "wrongOptionExplanations": {
+        "1": "Will care whenは文法的に正しくありません。ここではWould mind ifが適切です。",
+        "2": "Can bother whileは「〜できますか？」という意味ですが、ここでは「〜してもかまいませんか？」という意味のWould mind ifが適切です。",
+        "3": "May trouble sinceは文法的に正しくありません。ここではWould mind ifが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "gimon-033",
+    "category": "jodoushi-gimon",
+    "question": "___ ___ consider postponing the meeting if we need more time to prepare for the one ___ we have been planning?",
+    "options": [
+      "Shall, we, that",
+      "Will, we, which",
+      "Can, we, who",
+      "May, we, where"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Shall we consider...?は「〜を検討しましょうか？」という提案、postponing the meetingは「会議を延期する」、if we need more time to prepare forは「準備により多くの時間が必要なら」、the meeting that we have been planningは「私たちが計画してきた会議」という意味です。提案、完了形、関係代名詞、現在完了進行形を組み合わせた非常に複雑な構文です。",
+      "translation": "私たちが計画してきた会議の準備により多くの時間が必要なら、会議を延期することを検討しましょうか？",
+      "structure": "[V: Shall we consider] [GER: postponing the meeting] [OTHER: if we need more time to prepare for the meeting] [RC: that we have been planning]",
+      "wrongOptionExplanations": {
+        "1": "Will we think about...?は「〜について考えるつもりですか？」という未来の疑問を表しますが、ここでは提案なのでShallを使います。",
+        "2": "Can ponder onは文法的に正しくありません。ここではShall consider postponingが適切です。",
+        "3": "May reflect inは文法的に正しくありません。ここではShall consider postponingが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "gimon-034",
+    "category": "jodoushi-gimon",
+    "question": "___ ___ you help me find the that me we have been searching for the information we.",
+    "options": [
+      "Could, possibly",
+      "Would, maybe",
+      "Can, perhaps",
+      "May, probably"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Could you possibly help...?は「〜していただけますか？」という非常に丁寧な依頼、help me findは「見つけるのを手伝う」、the information that we have been searching forは「私たちが探してきた情報」という意味です。丁寧な依頼、完了形、関係代名詞、現在完了進行形を組み合わせた非常に複雑な構文です。",
+      "translation": "私たちが探してきた情報を見つけるのを手伝っていただけますか？",
+      "structure": "[V: Could you possibly help] [O: me] [INF: to find the information] [RC: that we have been searching for]",
+      "wrongOptionExplanations": {
+        "1": "Would you maybe assist...?も使えますが、Could you possibly...?の方が一般的です。",
+        "2": "Can perhapsは「〜できますか？」という意味ですが、ここではより丁寧な「〜していただけますか？」という意味のCould possiblyが適切です。",
+        "3": "May probablyは「〜してもよいですか？」という意味ですが、ここではより丁寧な「〜していただけますか？」という意味のCould possiblyが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "gimon-035",
+    "category": "jodoushi-gimon",
+    "question": "___ ___ ___ I Shall to provide you with the that you have been requesting the report you.",
+    "options": [
+      "Shall, be, able",
+      "Can, have, been",
+      "May, be, being",
+      "Will, have, been"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Shall I be able to provide...?は「〜できるようになりましょうか？」という提案、provide you with the reportは「報告書を提供する」、that you have been requestingは「あなたが要求してきた」という意味です。提案、完了形、関係代名詞、現在完了進行形を組み合わせた非常に複雑な構文です。",
+      "translation": "あなたが要求してきた報告書を提供できるようになりましょうか？",
+      "structure": "[V: Shall I be able] [INF: to provide you with the report] [RC: that you have been requesting]",
+      "wrongOptionExplanations": {
+        "1": "Can have beenは文法的に正しくありません。ここではShall be ableが適切です。",
+        "2": "Mayは特定の意味という意味ですが、ここでは特定の意味という意味のShallが適切です。",
+        "3": "Will I have been offering...?は未来完了進行形ですが、ここでは提案なのでShallを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "gimon-036",
+    "category": "jodoushi-gimon",
+    "question": "___ ___ ___ you Would I consulted you about the me that we have been discussing the decision we.",
+    "options": [
+      "Would, mind, if",
+      "Will, care, when",
+      "Can, bother, while",
+      "May, trouble, since"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Would you mind if I consulted...?は「〜してもかまいませんか？」という丁寧な許可を求める表現、consulted you about the decisionは「決定について相談する」、that we have been discussingは「私たちが議論してきた」という意味です。丁寧な許可、完了形、関係代名詞、現在完了進行形を組み合わせた非常に複雑な構文です。",
+      "translation": "私たちが議論してきた決定について相談してもかまいませんか？",
+      "structure": "[V: Would you mind] [OTHER: if I consulted you] [OTHER: about the decision] [RC: that we have been discussing]",
+      "wrongOptionExplanations": {
+        "1": "Will care whenは文法的に正しくありません。ここではWould mind ifが適切です。",
+        "2": "Can bother whileは「〜できますか？」という意味ですが、ここでは「〜してもかまいませんか？」という意味のWould mind ifが適切です。",
+        "3": "May trouble sinceは文法的に正しくありません。ここではWould mind ifが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "gimon-037",
+    "category": "jodoushi-gimon",
+    "question": "___ ___ ___ we Shall the if we need the strategy to we adjust the that have been developing.",
+    "options": [
+      "Shall, consider, revising",
+      "Will, think, about",
+      "Can, ponder, on",
+      "May, reflect, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Shall we consider...?は「〜を検討しましょうか？」という提案、revising the strategyは「戦略を修正する」、if we need to adjustは「調整する必要があるなら」、the strategy that we have been developingは「私たちが開発してきた戦略」という意味です。提案、完了形、関係代名詞、現在完了進行形を組み合わせた非常に複雑な構文です。",
+      "translation": "私たちが開発してきた戦略を調整する必要があるなら、戦略を修正することを検討しましょうか？",
+      "structure": "[V: Shall we consider] [GER: revising the strategy] [OTHER: if we need to adjust the strategy] [RC: that we have been developing]",
+      "wrongOptionExplanations": {
+        "1": "Will we think about...?は「〜について考えるつもりですか？」という未来の疑問を表しますが、ここでは提案なのでShallを使います。",
+        "2": "Can ponder onは文法的に正しくありません。ここではShall consider revisingが適切です。",
+        "3": "May reflect inは文法的に正しくありません。ここではShall consider revisingが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "gimon-038",
+    "category": "jodoushi-gimon",
+    "question": "___ ___ you explain the to me the that we have been facing the situation we.",
+    "options": [
+      "Could, possibly",
+      "Would, maybe",
+      "Can, perhaps",
+      "May, probably"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Could you possibly explain...?は「〜していただけますか？」という非常に丁寧な依頼、explain the situation to meは「状況を説明する」、that we have been facingは「私たちが直面してきた」という意味です。丁寧な依頼、完了形、関係代名詞、現在完了進行形を組み合わせた非常に複雑な構文です。",
+      "translation": "私たちが直面してきた状況を説明していただけますか？",
+      "structure": "[V: Could you possibly explain] [O: the situation] [OTHER: to me] [RC: that we have been facing]",
+      "wrongOptionExplanations": {
+        "1": "Would you maybe describe...?も使えますが、Could you possibly...?の方が一般的です。",
+        "2": "Can perhapsは「〜できますか？」という意味ですが、ここではより丁寧な「〜していただけますか？」という意味のCould possiblyが適切です。",
+        "3": "May probablyは「〜してもよいですか？」という意味ですが、ここではより丁寧な「〜していただけますか？」という意味のCould possiblyが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "gimon-039",
+    "category": "jodoushi-gimon",
+    "question": "___ ___ ___ I Shall to assist you with the that you have been struggling the problem with you.",
+    "options": [
+      "Shall, be, able",
+      "Can, have, been",
+      "May, be, being",
+      "Will, have, been"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Shall I be able to assist...?は「〜できるようになりましょうか？」という提案、assist you with the problemは「問題を手伝う」、that you have been struggling withは「あなたが苦労してきた」という意味です。提案、完了形、関係代名詞、現在完了進行形を組み合わせた非常に複雑な構文です。",
+      "translation": "あなたが苦労してきた問題を手伝えるようになりましょうか？",
+      "structure": "[V: Shall I be able] [INF: to assist you] [OTHER: with the problem] [RC: that you have been struggling with]",
+      "wrongOptionExplanations": {
+        "1": "Can have beenは文法的に正しくありません。ここではShall be ableが適切です。",
+        "2": "Mayは特定の意味という意味ですが、ここでは特定の意味という意味のShallが適切です。",
+        "3": "Will I have been aiding...?は未来完了進行形ですが、ここでは提案なのでShallを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "gimon-040",
+    "category": "jodoushi-gimon",
+    "question": "___ ___ you if I asked you about the me that we have been reviewing the details we.",
+    "options": [
+      "Would, mind",
+      "Will, care",
+      "Can, bother",
+      "May, trouble"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Would you mind if I asked...?は「〜してもかまいませんか？」という丁寧な許可を求める表現、asked you about the detailsは「詳細について尋ねる」、that we have been reviewingは「私たちが検討してきた」という意味です。丁寧な許可、完了形、関係代名詞、現在完了進行形を組み合わせた非常に複雑な構文です。",
+      "translation": "私たちが検討してきた詳細について尋ねてもかまいませんか？",
+      "structure": "[V: Would you mind] [OTHER: if I asked you] [OTHER: about the details] [RC: that we have been reviewing]",
+      "wrongOptionExplanations": {
+        "1": "Willは特定の意味という意味ですが、ここでは特定の意味という意味のWouldが適切です。",
+        "2": "Can botherは「〜できますか？」という意味ですが、ここでは「〜してもかまいませんか？」という意味のWould mindが適切です。",
+        "3": "May troubleは文法的に正しくありません。ここではWould mindが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "gimon-041",
+    "category": "jodoushi-gimon",
+    "question": "___ ___ discuss modifying the plan if we need to change the one ___ we have been implementing?",
+    "options": [
+      "Shall, we, that",
+      "Will, we, which",
+      "Can, we, who",
+      "May, we, where"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Shall we discuss...?は「〜について話し合いましょうか？」という提案、modifying the planは「計画を修正する」、if we need to changeは「変更する必要があるなら」、the plan that we have been implementingは「私たちが実施してきた計画」という意味です。提案、完了形、関係代名詞、現在完了進行形を組み合わせた非常に複雑な構文です。",
+      "translation": "私たちが実施してきた計画を変更する必要があるなら、計画を修正することについて話し合いましょうか？",
+      "structure": "[V: Shall we discuss] [GER: modifying the plan] [OTHER: if we need to change the plan] [RC: that we have been implementing]",
+      "wrongOptionExplanations": {
+        "1": "Will we talk about...?は「〜について話すつもりですか？」という未来の疑問を表しますが、ここでは提案なのでShallを使います。",
+        "2": "Can speak onは文法的に正しくありません。ここではShall discuss modifyingが適切です。",
+        "3": "May converse inは文法的に正しくありません。ここではShall discuss modifyingが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "gimon-042",
+    "category": "jodoushi-gimon",
+    "question": "___ ___ ___ me understand the issue that we have been investigating.",
+    "options": [
+      "Could, possibly, help",
+      "Would, maybe, assist",
+      "Can, perhaps, support",
+      "May, probably, aid"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Could you possibly help...?は「〜していただけますか？」という非常に丁寧な依頼、help me understand the issueは「問題を理解するのを手伝う」、that we have been investigatingは「私たちが調査してきた」という意味です。丁寧な依頼、完了形、関係代名詞、現在完了進行形を組み合わせた非常に複雑な構文です。",
+      "translation": "私たちが調査してきた問題を理解するのを手伝っていただけますか？",
+      "structure": "[V: Could you possibly help] [O: me] [INF: to understand the issue] [RC: that we have been investigating]",
+      "wrongOptionExplanations": {
+        "1": "Would you maybe assist...?も使えますが、Could you possibly...?の方が一般的です。",
+        "2": "Can perhaps supportは「〜できますか？」という意味ですが、ここではより丁寧な「〜していただけますか？」という意味のCould possibly helpが適切です。",
+        "3": "May probably aidは「〜してもよいですか？」という意味ですが、ここではより丁寧な「〜していただけますか？」という意味のCould possibly helpが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "gimon-043",
+    "category": "jodoushi-gimon",
+    "question": "___ I ___ able to provide you with the resources ___ you have been requesting?",
+    "options": [
+      "Shall, be, that",
+      "Can, have, which",
+      "May, be, who",
+      "Will, have, where"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Shall I be able to provide...?は「〜できるようになりましょうか？」という提案、provide you with the resourcesは「資源を提供する」、that you have been requestingは「あなたが要求してきた」という意味です。提案、完了形、関係代名詞、現在完了進行形を組み合わせた非常に複雑な構文です。",
+      "translation": "あなたが要求してきた資源を提供できるようになりましょうか？",
+      "structure": "[V: Shall I be able] [INF: to provide you with the resources] [RC: that you have been requesting]",
+      "wrongOptionExplanations": {
+        "1": "Can have beenは文法的に正しくありません。ここではShall be ableが適切です。",
+        "2": "Mayは特定の意味という意味ですが、ここでは特定の意味という意味のShallが適切です。",
+        "3": "Will I have been offering...?は未来完了進行形ですが、ここでは提案なのでShallを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "gimon-044",
+    "category": "jodoushi-gimon",
+    "question": "___ ___ you if I showed you the that me we have been developing the proposal we.",
+    "options": [
+      "Would, mind",
+      "Will, care",
+      "Can, bother",
+      "May, trouble"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Would you mind if I showed...?は「〜してもかまいませんか？」という丁寧な許可を求める表現、showed you the proposalは「提案を見せる」、that we have been developingは「私たちが開発してきた」という意味です。丁寧な許可、完了形、関係代名詞、現在完了進行形を組み合わせた非常に複雑な構文です。",
+      "translation": "私たちが開発してきた提案を見せてもかまいませんか？",
+      "structure": "[V: Would you mind] [OTHER: if I showed you the proposal] [RC: that we have been developing]",
+      "wrongOptionExplanations": {
+        "1": "Willは特定の意味という意味ですが、ここでは特定の意味という意味のWouldが適切です。",
+        "2": "Can botherは「〜できますか？」という意味ですが、ここでは「〜してもかまいませんか？」という意味のWould mindが適切です。",
+        "3": "May troubleは文法的に正しくありません。ここではWould mindが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "gimon-045",
+    "category": "jodoushi-gimon",
+    "question": "___ ___ we adjusting the if we need the schedule to we modify the that have been following.",
+    "options": [
+      "Shall, consider",
+      "Will, think",
+      "Can, ponder",
+      "May, reflect"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Shall we consider...?は「〜を検討しましょうか？」という提案、adjusting the scheduleは「スケジュールを調整する」、if we need to modifyは「変更する必要があるなら」、the schedule that we have been followingは「私たちが従ってきたスケジュール」という意味です。提案、完了形、関係代名詞、現在完了進行形を組み合わせた非常に複雑な構文です。",
+      "translation": "私たちが従ってきたスケジュールを変更する必要があるなら、スケジュールを調整することを検討しましょうか？",
+      "structure": "[V: Shall we consider] [GER: adjusting the schedule] [OTHER: if we need to modify the schedule] [RC: that we have been following]",
+      "wrongOptionExplanations": {
+        "1": "Will we think about...?は「〜について考えるつもりですか？」という未来の疑問を表しますが、ここでは提案なのでShallを使います。",
+        "2": "Can ponderは文法的に正しくありません。ここではShall considerが適切です。",
+        "3": "May reflectは文法的に正しくありません。ここではShall considerが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "gimon-046",
+    "category": "jodoushi-gimon",
+    "question": "___ ___ you help me find the that we me have been searching for the solution we.",
+    "options": [
+      "Could, possibly",
+      "Would, maybe",
+      "Can, perhaps",
+      "May, probably"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Could you possibly help...?は「〜していただけますか？」という非常に丁寧な依頼、help me find the solutionは「解決策を見つけるのを手伝う」、that we have been searching forは「私たちが探してきた」という意味です。丁寧な依頼、完了形、関係代名詞、現在完了進行形を組み合わせた非常に複雑な構文です。",
+      "translation": "私たちが探してきた解決策を見つけるのを手伝っていただけますか？",
+      "structure": "[V: Could you possibly help] [O: me] [INF: to find the solution] [RC: that we have been searching for]",
+      "wrongOptionExplanations": {
+        "1": "Would you maybe assist...?も使えますが、Could you possibly...?の方が一般的です。",
+        "2": "Can perhapsは「〜できますか？」という意味ですが、ここではより丁寧な「〜していただけますか？」という意味のCould possiblyが適切です。",
+        "3": "May probablyは「〜してもよいですか？」という意味ですが、ここではより丁寧な「〜していただけますか？」という意味のCould possiblyが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "gimon-047",
+    "category": "jodoushi-gimon",
+    "question": "___ I ___ able to assist you with the task ___ you have been working on?",
+    "options": [
+      "Shall, be, that",
+      "Can, have, which",
+      "May, be, who",
+      "Will, have, where"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Shall I be able to assist...?は「〜できるようになりましょうか？」という提案、assist you with the taskは「タスクを手伝う」、that you have been working onは「あなたが取り組んできた」という意味です。提案、完了形、関係代名詞、現在完了進行形を組み合わせた非常に複雑な構文です。",
+      "translation": "あなたが取り組んできたタスクを手伝えるようになりましょうか？",
+      "structure": "[V: Shall I be able] [INF: to assist you] [OTHER: with the task] [RC: that you have been working on]",
+      "wrongOptionExplanations": {
+        "1": "Can have beenは文法的に正しくありません。ここではShall be ableが適切です。",
+        "2": "Mayは特定の意味という意味ですが、ここでは特定の意味という意味のShallが適切です。",
+        "3": "Will I have been aiding...?は未来完了進行形ですが、ここでは提案なのでShallを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "gimon-048",
+    "category": "jodoushi-gimon",
+    "question": "___ ___ you if I asked you about the me that we have been analyzing the data we.",
+    "options": [
+      "Would, mind",
+      "Will, care",
+      "Can, bother",
+      "May, trouble"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Would you mind if I asked...?は「〜してもかまいませんか？」という丁寧な許可を求める表現、asked you about the dataは「データについて尋ねる」、that we have been analyzingは「私たちが分析してきた」という意味です。丁寧な許可、完了形、関係代名詞、現在完了進行形を組み合わせた非常に複雑な構文です。",
+      "translation": "私たちが分析してきたデータについて尋ねてもかまいませんか？",
+      "structure": "[V: Would you mind] [OTHER: if I asked you] [OTHER: about the data] [RC: that we have been analyzing]",
+      "wrongOptionExplanations": {
+        "1": "Willは特定の意味という意味ですが、ここでは特定の意味という意味のWouldが適切です。",
+        "2": "Can botherは「〜できますか？」という意味ですが、ここでは「〜してもかまいませんか？」という意味のWould mindが適切です。",
+        "3": "May troubleは文法的に正しくありません。ここではWould mindが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "gimon-049",
+    "category": "jodoushi-gimon",
+    "question": "___ ___ ___ we Shall the if we need the approach to we revise the that have been using.",
+    "options": [
+      "Shall, discuss, changing",
+      "Will, talk, about",
+      "Can, speak, on",
+      "May, converse, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Shall we discuss...?は「〜について話し合いましょうか？」という提案、changing the approachは「アプローチを変更する」、if we need to reviseは「修正する必要があるなら」、the approach that we have been usingは「私たちが使ってきたアプローチ」という意味です。提案、完了形、関係代名詞、現在完了進行形を組み合わせた非常に複雑な構文です。",
+      "translation": "私たちが使ってきたアプローチを修正する必要があるなら、アプローチを変更することについて話し合いましょうか？",
+      "structure": "[V: Shall we discuss] [GER: changing the approach] [OTHER: if we need to revise the approach] [RC: that we have been using]",
+      "wrongOptionExplanations": {
+        "1": "Will we talk about...?は「〜について話すつもりですか？」という未来の疑問を表しますが、ここでは提案なのでShallを使います。",
+        "2": "Can speak onは文法的に正しくありません。ここではShall discuss changingが適切です。",
+        "3": "May converse inは文法的に正しくありません。ここではShall discuss changingが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "gimon-050",
+    "category": "jodoushi-gimon",
+    "question": "___ ___ you help me interpret the that we me have been reviewing the results we.",
+    "options": [
+      "Could, possibly",
+      "Would, maybe",
+      "Can, perhaps",
+      "May, probably"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Could you possibly help...?は「〜していただけますか？」という非常に丁寧な依頼、help me interpret the resultsは「結果を解釈するのを手伝う」、that we have been reviewingは「私たちが検討してきた」という意味です。丁寧な依頼、完了形、関係代名詞、現在完了進行形を組み合わせた非常に複雑な構文です。",
+      "translation": "私たちが検討してきた結果を解釈するのを手伝っていただけますか？",
+      "structure": "[V: Could you possibly help] [O: me] [INF: to interpret the results] [RC: that we have been reviewing]",
+      "wrongOptionExplanations": {
+        "1": "Would you maybe assist...?も使えますが、Could you possibly...?の方が一般的です。",
+        "2": "Can perhapsは「〜できますか？」という意味ですが、ここではより丁寧な「〜していただけますか？」という意味のCould possiblyが適切です。",
+        "3": "May probablyは「〜してもよいですか？」という意味ですが、ここではより丁寧な「〜していただけますか？」という意味のCould possiblyが適切です。"
+      }
+    },
+    "difficulty": 2
+  }
+]

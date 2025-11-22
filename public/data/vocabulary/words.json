@@ -1,0 +1,4902 @@
+[
+  {
+    "id": "word-0002",
+    "word": "variable",
+    "meaning": [
+      "変数の",
+      "可変の"
+    ],
+    "example": {
+      "sentence": "Variable length",
+      "translation": "可変長"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0005",
+    "word": "condition",
+    "meaning": [
+      "条件",
+      "状態"
+    ],
+    "example": {
+      "sentence": "Check the condition before executing",
+      "translation": "実行前に条件をチェックする"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0010",
+    "word": "argument",
+    "meaning": [
+      "引数",
+      "議論"
+    ],
+    "example": {
+      "sentence": "Provide arguments when calling the function",
+      "translation": "関数を呼び出す際に引数を提供する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0012",
+    "word": "exception",
+    "meaning": [
+      "例外",
+      "異常"
+    ],
+    "example": {
+      "sentence": "Handle the exception properly",
+      "translation": "例外を適切に処理する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0013",
+    "word": "syntax",
+    "meaning": [
+      "構文",
+      "文法"
+    ],
+    "example": {
+      "sentence": "Check the syntax of your code",
+      "translation": "コードの構文をチェックする"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0014",
+    "word": "semantic",
+    "meaning": [
+      "意味論の",
+      "意味の"
+    ],
+    "example": {
+      "sentence": "Understand the semantic meaning",
+      "translation": "意味論的な意味を理解する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0016",
+    "word": "execute",
+    "meaning": [
+      "実行する",
+      "遂行する"
+    ],
+    "example": {
+      "sentence": "Execute the program",
+      "translation": "プログラムを実行する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0020",
+    "word": "statement",
+    "meaning": [
+      "文",
+      "声明"
+    ],
+    "example": {
+      "sentence": "Each statement ends with a semicolon",
+      "translation": "各文はセミコロンで終わる"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0021",
+    "word": "expression",
+    "meaning": [
+      "式",
+      "表現"
+    ],
+    "example": {
+      "sentence": "Evaluate the expression",
+      "translation": "式を評価する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0022",
+    "word": "operator",
+    "meaning": [
+      "演算子",
+      "操作者"
+    ],
+    "example": {
+      "sentence": "Use the comparison operator",
+      "translation": "比較演算子を使用する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0023",
+    "word": "operand",
+    "meaning": [
+      "被演算子",
+      "オペランド"
+    ],
+    "example": {
+      "sentence": "The operands of the operation",
+      "translation": "操作の被演算子"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0029",
+    "word": "declaration",
+    "meaning": [
+      "宣言",
+      "表明"
+    ],
+    "example": {
+      "sentence": "Variable declaration",
+      "translation": "変数の宣言"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0030",
+    "word": "definition",
+    "meaning": [
+      "定義",
+      "明確化"
+    ],
+    "example": {
+      "sentence": "Function definition",
+      "translation": "関数の定義"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0032",
+    "word": "assignment",
+    "meaning": [
+      "代入",
+      "割り当て"
+    ],
+    "example": {
+      "sentence": "Assignment operator",
+      "translation": "代入演算子"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0044",
+    "word": "implement",
+    "meaning": [
+      "実装する",
+      "実行する"
+    ],
+    "example": {
+      "sentence": "Implement the interface",
+      "translation": "インターフェースを実装する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0045",
+    "word": "define",
+    "meaning": [
+      "定義する",
+      "明確にする"
+    ],
+    "example": {
+      "sentence": "Define the function",
+      "translation": "関数を定義する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0046",
+    "word": "declare",
+    "meaning": [
+      "宣言する",
+      "表明する"
+    ],
+    "example": {
+      "sentence": "Declare the variable",
+      "translation": "変数を宣言する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0048",
+    "word": "assign",
+    "meaning": [
+      "代入する",
+      "割り当てる"
+    ],
+    "example": {
+      "sentence": "Assign a value to the variable",
+      "translation": "変数に値を代入する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0049",
+    "word": "invoke",
+    "meaning": [
+      "呼び出す",
+      "起動する"
+    ],
+    "example": {
+      "sentence": "Invoke the method",
+      "translation": "メソッドを呼び出す"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0052",
+    "word": "data structure",
+    "meaning": [
+      "データ構造",
+      "データの構造"
+    ],
+    "example": {
+      "sentence": "Choose the right data structure",
+      "translation": "適切なデータ構造を選択する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0062",
+    "word": "vertex",
+    "meaning": [
+      "頂点",
+      "頂"
+    ],
+    "example": {
+      "sentence": "Find the vertex",
+      "translation": "頂点を見つける"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0074",
+    "word": "iterate",
+    "meaning": [
+      "反復する",
+      "繰り返す"
+    ],
+    "example": {
+      "sentence": "Iterate through the collection",
+      "translation": "コレクションを反復処理する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0075",
+    "word": "traverse",
+    "meaning": [
+      "走査する",
+      "横断する"
+    ],
+    "example": {
+      "sentence": "Traverse the tree",
+      "translation": "ツリーを走査する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0081",
+    "word": "transform",
+    "meaning": [
+      "変換する",
+      "変形する"
+    ],
+    "example": {
+      "sentence": "Transform the data",
+      "translation": "データを変換する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0082",
+    "word": "convert",
+    "meaning": [
+      "変換する",
+      "変える"
+    ],
+    "example": {
+      "sentence": "Convert the type",
+      "translation": "型を変換する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0083",
+    "word": "parse",
+    "meaning": [
+      "解析する",
+      "構文解析する"
+    ],
+    "example": {
+      "sentence": "Parse the JSON string",
+      "translation": "JSON文字列を解析する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0084",
+    "word": "serialize",
+    "meaning": [
+      "シリアライズする",
+      "直列化する"
+    ],
+    "example": {
+      "sentence": "Serialize the object",
+      "translation": "オブジェクトをシリアライズする"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0085",
+    "word": "deserialize",
+    "meaning": [
+      "デシリアライズする",
+      "逆直列化する"
+    ],
+    "example": {
+      "sentence": "Deserialize the data",
+      "translation": "データをデシリアライズする"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0089",
+    "word": "character",
+    "meaning": [
+      "文字",
+      "性格"
+    ],
+    "example": {
+      "sentence": "Check each character",
+      "translation": "各文字をチェックする"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0101",
+    "word": "inheritance",
+    "meaning": [
+      "継承",
+      "相続"
+    ],
+    "example": {
+      "sentence": "Use inheritance to extend classes",
+      "translation": "クラスを拡張するために継承を使用する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0102",
+    "word": "polymorphism",
+    "meaning": [
+      "多態性",
+      "多様性"
+    ],
+    "example": {
+      "sentence": "Implement polymorphism",
+      "translation": "多態性を実装する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0103",
+    "word": "encapsulation",
+    "meaning": [
+      "カプセル化",
+      "封じ込め"
+    ],
+    "example": {
+      "sentence": "Achieve encapsulation",
+      "translation": "カプセル化を実現する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0104",
+    "word": "abstraction",
+    "meaning": [
+      "抽象化",
+      "抽出"
+    ],
+    "example": {
+      "sentence": "Create an abstraction",
+      "translation": "抽象化を作成する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0106",
+    "word": "abstract",
+    "meaning": [
+      "抽象的な",
+      "理論的な"
+    ],
+    "example": {
+      "sentence": "Define an abstract class",
+      "translation": "抽象クラスを定義する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0107",
+    "word": "concrete",
+    "meaning": [
+      "具体的な",
+      "実体のある"
+    ],
+    "example": {
+      "sentence": "Create a concrete implementation",
+      "translation": "具体的な実装を作成する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0113",
+    "word": "attribute",
+    "meaning": [
+      "属性",
+      "特性"
+    ],
+    "example": {
+      "sentence": "Set the attribute",
+      "translation": "属性を設定する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0121",
+    "word": "overload",
+    "meaning": [
+      "オーバーロードする",
+      "多重定義する"
+    ],
+    "example": {
+      "sentence": "Overload the function",
+      "translation": "関数をオーバーロードする"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0122",
+    "word": "extend",
+    "meaning": [
+      "拡張する",
+      "広げる"
+    ],
+    "example": {
+      "sentence": "Extend the base class",
+      "translation": "基底クラスを拡張する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0123",
+    "word": "inherit",
+    "meaning": [
+      "継承する",
+      "受け継ぐ"
+    ],
+    "example": {
+      "sentence": "Inherit from the parent class",
+      "translation": "親クラスから継承する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0124",
+    "word": "derive",
+    "meaning": [
+      "派生する",
+      "導出する"
+    ],
+    "example": {
+      "sentence": "Derive a new class",
+      "translation": "新しいクラスを派生する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0131",
+    "word": "static",
+    "meaning": [
+      "静的",
+      "固定の"
+    ],
+    "example": {
+      "sentence": "Define a static method",
+      "translation": "静的メソッドを定義する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0132",
+    "word": "dynamic",
+    "meaning": [
+      "動的",
+      "可変の"
+    ],
+    "example": {
+      "sentence": "Use dynamic typing",
+      "translation": "動的型付けを使用する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0136",
+    "word": "internal",
+    "meaning": [
+      "内部の",
+      "内側の"
+    ],
+    "example": {
+      "sentence": "Use internal visibility",
+      "translation": "内部の可視性を使用する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0137",
+    "word": "external",
+    "meaning": [
+      "外部の",
+      "外側の"
+    ],
+    "example": {
+      "sentence": "Access external resources",
+      "translation": "外部リソースにアクセスする"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0138",
+    "word": "virtual",
+    "meaning": [
+      "仮想の",
+      "実質的な"
+    ],
+    "example": {
+      "sentence": "Define a virtual method",
+      "translation": "仮想メソッドを定義する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0144",
+    "word": "type constraint",
+    "meaning": [
+      "型制約"
+    ],
+    "example": {
+      "sentence": "Add type constraints",
+      "translation": "型制約を追加する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0145",
+    "word": "type inference",
+    "meaning": [
+      "型推論"
+    ],
+    "example": {
+      "sentence": "Use type inference",
+      "translation": "型推論を使用する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0146",
+    "word": "cast",
+    "meaning": [
+      "キャストする",
+      "型変換する"
+    ],
+    "example": {
+      "sentence": "Cast to the target type",
+      "translation": "ターゲット型にキャストする"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0148",
+    "word": "type safety",
+    "meaning": [
+      "型安全性"
+    ],
+    "example": {
+      "sentence": "Ensure type safety",
+      "translation": "型安全性を確保する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0152",
+    "word": "pure",
+    "meaning": [
+      "純粋な",
+      "純正の"
+    ],
+    "example": {
+      "sentence": "Write pure functions",
+      "translation": "純粋関数を書く"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0153",
+    "word": "side effect",
+    "meaning": [
+      "副作用",
+      "余波"
+    ],
+    "example": {
+      "sentence": "Avoid side effects",
+      "translation": "副作用を避ける"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0154",
+    "word": "immutable",
+    "meaning": [
+      "不変の",
+      "変更不可の"
+    ],
+    "example": {
+      "sentence": "Use immutable data structures",
+      "translation": "不変のデータ構造を使用する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0155",
+    "word": "mutable",
+    "meaning": [
+      "可変の",
+      "変更可能な"
+    ],
+    "example": {
+      "sentence": "Mutable state can cause issues",
+      "translation": "可変状態は問題を引き起こす可能性がある"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0158",
+    "word": "higher-order",
+    "meaning": [
+      "高階の",
+      "高次の"
+    ],
+    "example": {
+      "sentence": "Use higher-order functions",
+      "translation": "高階関数を使用する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0160",
+    "word": "partial application",
+    "meaning": [
+      "部分適用"
+    ],
+    "example": {
+      "sentence": "Use partial application",
+      "translation": "部分適用を使用する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0161",
+    "word": "composition",
+    "meaning": [
+      "合成",
+      "構成"
+    ],
+    "example": {
+      "sentence": "Function composition",
+      "translation": "関数の合成"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0164",
+    "word": "fold",
+    "meaning": [
+      "畳み込む",
+      "折りたたむ"
+    ],
+    "example": {
+      "sentence": "Fold the collection",
+      "translation": "コレクションを畳み込む"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0165",
+    "word": "unfold",
+    "meaning": [
+      "展開する",
+      "広げる"
+    ],
+    "example": {
+      "sentence": "Unfold the sequence",
+      "translation": "シーケンスを展開する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0171",
+    "word": "recursion",
+    "meaning": [
+      "再帰",
+      "回帰"
+    ],
+    "example": {
+      "sentence": "Use recursion",
+      "translation": "再帰を使用する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0172",
+    "word": "recursive",
+    "meaning": [
+      "再帰的な",
+      "回帰的な"
+    ],
+    "example": {
+      "sentence": "Write recursive functions",
+      "translation": "再帰関数を書く"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0173",
+    "word": "tail recursion",
+    "meaning": [
+      "末尾再帰"
+    ],
+    "example": {
+      "sentence": "Optimize with tail recursion",
+      "translation": "末尾再帰で最適化する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0174",
+    "word": "lazy",
+    "meaning": [
+      "遅延評価の",
+      "怠惰な"
+    ],
+    "example": {
+      "sentence": "Use lazy evaluation",
+      "translation": "遅延評価を使用する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0175",
+    "word": "eager",
+    "meaning": [
+      "先行評価の",
+      "熱心な"
+    ],
+    "example": {
+      "sentence": "Eager evaluation",
+      "translation": "先行評価"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0178",
+    "word": "yield",
+    "meaning": [
+      "生成する",
+      "産出する"
+    ],
+    "example": {
+      "sentence": "Yield values",
+      "translation": "値を生成する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0180",
+    "word": "predicate",
+    "meaning": [
+      "述語",
+      "断定"
+    ],
+    "example": {
+      "sentence": "Define a predicate function",
+      "translation": "述語関数を定義する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0188",
+    "word": "compose",
+    "meaning": [
+      "合成する",
+      "構成する"
+    ],
+    "example": {
+      "sentence": "Compose functions",
+      "translation": "関数を合成する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0190",
+    "word": "partial",
+    "meaning": [
+      "部分的な",
+      "不完全な"
+    ],
+    "example": {
+      "sentence": "Use partial application",
+      "translation": "部分適用を使用する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0223",
+    "word": "accept",
+    "meaning": [
+      "受け入れる",
+      "承認する"
+    ],
+    "example": {
+      "sentence": "Accept incoming connections",
+      "translation": "着信接続を受け入れる"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0225",
+    "word": "receive",
+    "meaning": [
+      "受信する",
+      "受け取る"
+    ],
+    "example": {
+      "sentence": "Receive the message",
+      "translation": "メッセージを受信する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0226",
+    "word": "transmit",
+    "meaning": [
+      "転送する",
+      "伝送する"
+    ],
+    "example": {
+      "sentence": "Transmit the packet",
+      "translation": "パケットを転送する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0235",
+    "word": "bandwidth",
+    "meaning": [
+      "帯域幅",
+      "通信容量"
+    ],
+    "example": {
+      "sentence": "Check bandwidth usage",
+      "translation": "帯域幅の使用量をチェックする"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0260",
+    "word": "isolation",
+    "meaning": [
+      "分離",
+      "孤立"
+    ],
+    "example": {
+      "sentence": "Transaction isolation",
+      "translation": "トランザクション分離"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0261",
+    "word": "consistency",
+    "meaning": [
+      "一貫性",
+      "整合性"
+    ],
+    "example": {
+      "sentence": "Maintain consistency",
+      "translation": "一貫性を維持する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0262",
+    "word": "durability",
+    "meaning": [
+      "永続性",
+      "耐久性"
+    ],
+    "example": {
+      "sentence": "Ensure durability",
+      "translation": "永続性を確保する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0263",
+    "word": "atomicity",
+    "meaning": [
+      "原子性"
+    ],
+    "example": {
+      "sentence": "Guarantee atomicity",
+      "translation": "原子性を保証する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0276",
+    "word": "aggregate",
+    "meaning": [
+      "集約する",
+      "合計する"
+    ],
+    "example": {
+      "sentence": "Use aggregate functions",
+      "translation": "集約関数を使用する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0285",
+    "word": "restore",
+    "meaning": [
+      "リストアする",
+      "復元する"
+    ],
+    "example": {
+      "sentence": "Restore from backup",
+      "translation": "バックアップから復元する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0300",
+    "word": "normalization",
+    "meaning": [
+      "正規化",
+      "標準化"
+    ],
+    "example": {
+      "sentence": "Apply normalization",
+      "translation": "正規化を適用する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0304",
+    "word": "authorization",
+    "meaning": [
+      "認可",
+      "権限付与"
+    ],
+    "example": {
+      "sentence": "Check authorization",
+      "translation": "認可をチェックする"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0307",
+    "word": "encryption",
+    "meaning": [
+      "暗号化",
+      "符号化"
+    ],
+    "example": {
+      "sentence": "Use encryption",
+      "translation": "暗号化を使用する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0308",
+    "word": "decryption",
+    "meaning": [
+      "復号化",
+      "解読"
+    ],
+    "example": {
+      "sentence": "Perform decryption",
+      "translation": "復号化を実行する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0318",
+    "word": "permission",
+    "meaning": [
+      "権限",
+      "許可"
+    ],
+    "example": {
+      "sentence": "Check permissions",
+      "translation": "権限をチェックする"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0320",
+    "word": "access control",
+    "meaning": [
+      "アクセス制御"
+    ],
+    "example": {
+      "sentence": "Implement access control",
+      "translation": "アクセス制御を実装する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0322",
+    "word": "vulnerability",
+    "meaning": [
+      "脆弱性",
+      "弱点"
+    ],
+    "example": {
+      "sentence": "Fix vulnerabilities",
+      "translation": "脆弱性を修正する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0324",
+    "word": "attack",
+    "meaning": [
+      "攻撃",
+      "襲撃"
+    ],
+    "example": {
+      "sentence": "Prevent attacks",
+      "translation": "攻撃を防ぐ"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0329",
+    "word": "certificate",
+    "meaning": [
+      "証明書",
+      "証書"
+    ],
+    "example": {
+      "sentence": "Install SSL certificate",
+      "translation": "SSL証明書をインストールする"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0334",
+    "word": "signature",
+    "meaning": [
+      "署名",
+      "サイン"
+    ],
+    "example": {
+      "sentence": "Verify the signature",
+      "translation": "署名を検証する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0335",
+    "word": "verify",
+    "meaning": [
+      "検証する",
+      "確認する"
+    ],
+    "example": {
+      "sentence": "Verify the token",
+      "translation": "トークンを検証する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0336",
+    "word": "validate",
+    "meaning": [
+      "検証する",
+      "有効化する"
+    ],
+    "example": {
+      "sentence": "Validate input",
+      "translation": "入力を検証する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0337",
+    "word": "sanitize",
+    "meaning": [
+      "サニタイズする",
+      "浄化する"
+    ],
+    "example": {
+      "sentence": "Sanitize user input",
+      "translation": "ユーザー入力をサニタイズする"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0338",
+    "word": "escape",
+    "meaning": [
+      "エスケープする",
+      "逃げる"
+    ],
+    "example": {
+      "sentence": "Escape special characters",
+      "translation": "特殊文字をエスケープする"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0341",
+    "word": "secure",
+    "meaning": [
+      "安全な",
+      "保護された"
+    ],
+    "example": {
+      "sentence": "Use secure protocols",
+      "translation": "セキュアなプロトコルを使用する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0343",
+    "word": "trusted",
+    "meaning": [
+      "信頼された",
+      "信用できる"
+    ],
+    "example": {
+      "sentence": "Use trusted sources",
+      "translation": "信頼できるソースを使用する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0344",
+    "word": "untrusted",
+    "meaning": [
+      "信頼されていない"
+    ],
+    "example": {
+      "sentence": "Handle untrusted data",
+      "translation": "信頼されていないデータを処理する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0345",
+    "word": "malicious",
+    "meaning": [
+      "悪意のある",
+      "有害な"
+    ],
+    "example": {
+      "sentence": "Prevent malicious code",
+      "translation": "悪意のあるコードを防ぐ"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0346",
+    "word": "threat",
+    "meaning": [
+      "脅威",
+      "恐れ"
+    ],
+    "example": {
+      "sentence": "Identify threats",
+      "translation": "脅威を特定する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0348",
+    "word": "audit",
+    "meaning": [
+      "監査する",
+      "検査する"
+    ],
+    "example": {
+      "sentence": "Audit security logs",
+      "translation": "セキュリティログを監査する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0351",
+    "word": "intrusion",
+    "meaning": [
+      "侵入",
+      "侵害"
+    ],
+    "example": {
+      "sentence": "Detect intrusions",
+      "translation": "侵入を検出する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0364",
+    "word": "persistent volume",
+    "meaning": [
+      "永続ボリューム"
+    ],
+    "example": {
+      "sentence": "Use persistent volumes",
+      "translation": "永続ボリュームを使用する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0388",
+    "word": "scale",
+    "meaning": [
+      "拡大する"
+    ],
+    "example": {
+      "sentence": "Scale the deployment",
+      "translation": "デプロイメントをスケールする"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0441",
+    "word": "capacity",
+    "meaning": [
+      "容量",
+      "能力"
+    ],
+    "example": {
+      "sentence": "Set the capacity",
+      "translation": "容量を設定する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0442",
+    "word": "utilization",
+    "meaning": [
+      "利用率",
+      "使用率"
+    ],
+    "example": {
+      "sentence": "Monitor utilization",
+      "translation": "利用率を監視する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0443",
+    "word": "monitoring",
+    "meaning": [
+      "監視",
+      "観察"
+    ],
+    "example": {
+      "sentence": "Set up monitoring",
+      "translation": "監視を設定する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0450",
+    "word": "log aggregation",
+    "meaning": [
+      "ログ集約"
+    ],
+    "example": {
+      "sentence": "Set up log aggregation",
+      "translation": "ログ集約を設定する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0498",
+    "word": "assignee",
+    "meaning": [
+      "担当者",
+      "割り当て先"
+    ],
+    "example": {
+      "sentence": "Set assignee",
+      "translation": "担当者を設定する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0500",
+    "word": "review",
+    "meaning": [
+      "レビューする",
+      "検討する"
+    ],
+    "example": {
+      "sentence": "Review code",
+      "translation": "コードをレビューする"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0503",
+    "word": "discussion",
+    "meaning": [
+      "議論",
+      "討論"
+    ],
+    "example": {
+      "sentence": "Start discussion",
+      "translation": "議論を開始する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0549",
+    "word": "inspect",
+    "meaning": [
+      "検査する",
+      "調べる"
+    ],
+    "example": {
+      "sentence": "Inspect value",
+      "translation": "値を検査する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0555",
+    "word": "integration test",
+    "meaning": [
+      "統合テスト"
+    ],
+    "example": {
+      "sentence": "Write integration tests",
+      "translation": "統合テストを書く"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0557",
+    "word": "acceptance test",
+    "meaning": [
+      "受け入れテスト"
+    ],
+    "example": {
+      "sentence": "Run acceptance tests",
+      "translation": "受け入れテストを実行する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0558",
+    "word": "regression test",
+    "meaning": [
+      "回帰テスト"
+    ],
+    "example": {
+      "sentence": "Run regression tests",
+      "translation": "回帰テストを実行する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0561",
+    "word": "load test",
+    "meaning": [
+      "負荷テスト"
+    ],
+    "example": {
+      "sentence": "Run load tests",
+      "translation": "負荷テストを実行する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0618",
+    "word": "fatal",
+    "meaning": [
+      "致命的な",
+      "重大な"
+    ],
+    "example": {
+      "sentence": "Fatal level",
+      "translation": "致命的レベル"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0628",
+    "word": "dump",
+    "meaning": [
+      "ダンプする",
+      "吐き出す"
+    ],
+    "example": {
+      "sentence": "Dump memory",
+      "translation": "メモリをダンプする"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0634",
+    "word": "race condition",
+    "meaning": [
+      "競合状態"
+    ],
+    "example": {
+      "sentence": "Fix race condition",
+      "translation": "競合状態を修正する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0638",
+    "word": "undefined behavior",
+    "meaning": [
+      "未定義動作"
+    ],
+    "example": {
+      "sentence": "Avoid undefined behavior",
+      "translation": "未定義動作を避ける"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0639",
+    "word": "assertion failure",
+    "meaning": [
+      "アサーション失敗"
+    ],
+    "example": {
+      "sentence": "Fix assertion failure",
+      "translation": "アサーション失敗を修正する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0641",
+    "word": "flaky test",
+    "meaning": [
+      "不安定なテスト"
+    ],
+    "example": {
+      "sentence": "Fix flaky test",
+      "translation": "不安定なテストを修正する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0642",
+    "word": "intermittent",
+    "meaning": [
+      "間欠的な",
+      "断続的な"
+    ],
+    "example": {
+      "sentence": "Fix intermittent bug",
+      "translation": "間欠的なバグを修正する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0643",
+    "word": "reproduce",
+    "meaning": [
+      "再現する",
+      "再生する"
+    ],
+    "example": {
+      "sentence": "Reproduce bug",
+      "translation": "バグを再現する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0644",
+    "word": "steps to reproduce",
+    "meaning": [
+      "再現手順"
+    ],
+    "example": {
+      "sentence": "Provide steps to reproduce",
+      "translation": "再現手順を提供する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0645",
+    "word": "workaround",
+    "meaning": [
+      "回避策",
+      "代替手段"
+    ],
+    "example": {
+      "sentence": "Use workaround",
+      "translation": "回避策を使用する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0649",
+    "word": "regression",
+    "meaning": [
+      "回帰",
+      "後退"
+    ],
+    "example": {
+      "sentence": "Fix regression",
+      "translation": "回帰を修正する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0650",
+    "word": "root cause",
+    "meaning": [
+      "根本原因"
+    ],
+    "example": {
+      "sentence": "Find root cause",
+      "translation": "根本原因を見つける"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0676",
+    "word": "package",
+    "meaning": [
+      "パッケージ",
+      "包装"
+    ],
+    "example": {
+      "sentence": "Install package",
+      "translation": "パッケージをインストールする"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0685",
+    "word": "parallel",
+    "meaning": [
+      "並列の",
+      "平行の"
+    ],
+    "example": {
+      "sentence": "Run in parallel",
+      "translation": "並列で実行する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0686",
+    "word": "sequential",
+    "meaning": [
+      "順次的な",
+      "連続的な"
+    ],
+    "example": {
+      "sentence": "Run sequentially",
+      "translation": "順次実行する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0746",
+    "word": "force-unlock",
+    "meaning": [
+      "強制アンロック"
+    ],
+    "example": {
+      "sentence": "Force unlock",
+      "translation": "強制アンロックする"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0794",
+    "word": "attach",
+    "meaning": [
+      "アタッチする",
+      "接続する"
+    ],
+    "example": {
+      "sentence": "Attach to container",
+      "translation": "コンテナにアタッチする"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0795",
+    "word": "detach",
+    "meaning": [
+      "デタッチする",
+      "切断する"
+    ],
+    "example": {
+      "sentence": "Detach from container",
+      "translation": "コンテナからデタッチする"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0854",
+    "word": "produce",
+    "meaning": [
+      "生成する",
+      "生産する"
+    ],
+    "example": {
+      "sentence": "Produce output",
+      "translation": "出力を生成する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0856",
+    "word": "construct",
+    "meaning": [
+      "構築する",
+      "建設する"
+    ],
+    "example": {
+      "sentence": "Construct object",
+      "translation": "オブジェクトを構築する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0865",
+    "word": "store",
+    "meaning": [
+      "保存する",
+      "保管する"
+    ],
+    "example": {
+      "sentence": "Store value",
+      "translation": "値を保存する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0866",
+    "word": "retrieve",
+    "meaning": [
+      "取得する",
+      "取り出す"
+    ],
+    "example": {
+      "sentence": "Retrieve data",
+      "translation": "データを取得する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0873",
+    "word": "alter",
+    "meaning": [
+      "変更する",
+      "変える"
+    ],
+    "example": {
+      "sentence": "Alter table",
+      "translation": "テーブルを変更する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0880",
+    "word": "configure",
+    "meaning": [
+      "設定する",
+      "構成する"
+    ],
+    "example": {
+      "sentence": "Configure system",
+      "translation": "システムを設定する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0884",
+    "word": "enable",
+    "meaning": [
+      "有効にする",
+      "可能にする"
+    ],
+    "example": {
+      "sentence": "Enable feature",
+      "translation": "機能を有効にする"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0885",
+    "word": "disable",
+    "meaning": [
+      "無効にする",
+      "不可能にする"
+    ],
+    "example": {
+      "sentence": "Disable feature",
+      "translation": "機能を無効にする"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0886",
+    "word": "activate",
+    "meaning": [
+      "アクティブにする",
+      "活性化する"
+    ],
+    "example": {
+      "sentence": "Activate license",
+      "translation": "ライセンスをアクティブにする"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0887",
+    "word": "deactivate",
+    "meaning": [
+      "非アクティブにする",
+      "非活性化する"
+    ],
+    "example": {
+      "sentence": "Deactivate service",
+      "translation": "サービスを非アクティブにする"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0890",
+    "word": "pause",
+    "meaning": [
+      "一時停止する",
+      "中断する"
+    ],
+    "example": {
+      "sentence": "Pause execution",
+      "translation": "実行を一時停止する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0891",
+    "word": "resume",
+    "meaning": [
+      "再開する",
+      "再開する"
+    ],
+    "example": {
+      "sentence": "Resume operation",
+      "translation": "操作を再開する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0899",
+    "word": "abort",
+    "meaning": [
+      "中止する",
+      "中断する"
+    ],
+    "example": {
+      "sentence": "Abort operation",
+      "translation": "操作を中止する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0902",
+    "word": "break",
+    "meaning": [
+      "中断する",
+      "壊す"
+    ],
+    "example": {
+      "sentence": "Break loop",
+      "translation": "ループを中断する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0905",
+    "word": "pass",
+    "meaning": [
+      "渡す",
+      "通過する"
+    ],
+    "example": {
+      "sentence": "Pass parameter",
+      "translation": "パラメータを渡す"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0909",
+    "word": "transfer",
+    "meaning": [
+      "転送する",
+      "移す"
+    ],
+    "example": {
+      "sentence": "Transfer file",
+      "translation": "ファイルを転送する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0913",
+    "word": "duplicate",
+    "meaning": [
+      "重複の",
+      "複製の"
+    ],
+    "example": {
+      "sentence": "Duplicate entry",
+      "translation": "重複エントリ"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0917",
+    "word": "split",
+    "meaning": [
+      "分割する",
+      "分ける"
+    ],
+    "example": {
+      "sentence": "Split string",
+      "translation": "文字列を分割する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0919",
+    "word": "combine",
+    "meaning": [
+      "結合する",
+      "組み合わせる"
+    ],
+    "example": {
+      "sentence": "Combine arrays",
+      "translation": "配列を結合する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0920",
+    "word": "concatenate",
+    "meaning": [
+      "連結する",
+      "結合する"
+    ],
+    "example": {
+      "sentence": "Concatenate strings",
+      "translation": "文字列を連結する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0921",
+    "word": "append",
+    "meaning": [
+      "追加する",
+      "付加する"
+    ],
+    "example": {
+      "sentence": "Append item",
+      "translation": "アイテムを追加する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0922",
+    "word": "prepend",
+    "meaning": [
+      "先頭に追加する"
+    ],
+    "example": {
+      "sentence": "Prepend item",
+      "translation": "アイテムを先頭に追加する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0926",
+    "word": "extract",
+    "meaning": [
+      "抽出する",
+      "取り出す"
+    ],
+    "example": {
+      "sentence": "Extract data",
+      "translation": "データを抽出する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0928",
+    "word": "process",
+    "meaning": [
+      "処理する",
+      "加工する"
+    ],
+    "example": {
+      "sentence": "Process data",
+      "translation": "データを処理する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0929",
+    "word": "handle",
+    "meaning": [
+      "処理する",
+      "扱う"
+    ],
+    "example": {
+      "sentence": "Handle event",
+      "translation": "イベントを処理する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0932",
+    "word": "monitor",
+    "meaning": [
+      "監視する",
+      "観察する"
+    ],
+    "example": {
+      "sentence": "Monitor system",
+      "translation": "システムを監視する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0934",
+    "word": "observe",
+    "meaning": [
+      "観察する",
+      "観測する"
+    ],
+    "example": {
+      "sentence": "Observe behavior",
+      "translation": "動作を観察する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0935",
+    "word": "track",
+    "meaning": [
+      "追跡する",
+      "追う"
+    ],
+    "example": {
+      "sentence": "Track changes",
+      "translation": "変更を追跡する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0937",
+    "word": "record",
+    "meaning": [
+      "記録する",
+      "録音する"
+    ],
+    "example": {
+      "sentence": "Record data",
+      "translation": "データを記録する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0938",
+    "word": "capture",
+    "meaning": [
+      "キャプチャする",
+      "捕獲する"
+    ],
+    "example": {
+      "sentence": "Capture screenshot",
+      "translation": "スクリーンショットをキャプチャする"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0940",
+    "word": "gather",
+    "meaning": [
+      "収集する",
+      "集める"
+    ],
+    "example": {
+      "sentence": "Gather information",
+      "translation": "情報を収集する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0942",
+    "word": "summarize",
+    "meaning": [
+      "要約する",
+      "まとめる"
+    ],
+    "example": {
+      "sentence": "Summarize results",
+      "translation": "結果を要約する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0947",
+    "word": "locate",
+    "meaning": [
+      "位置を特定する",
+      "見つける"
+    ],
+    "example": {
+      "sentence": "Locate file",
+      "translation": "ファイルの位置を特定する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0948",
+    "word": "discover",
+    "meaning": [
+      "発見する",
+      "見つける"
+    ],
+    "example": {
+      "sentence": "Discover service",
+      "translation": "サービスを発見する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0949",
+    "word": "detect",
+    "meaning": [
+      "検出する",
+      "発見する"
+    ],
+    "example": {
+      "sentence": "Detect error",
+      "translation": "エラーを検出する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0950",
+    "word": "identify",
+    "meaning": [
+      "識別する",
+      "特定する"
+    ],
+    "example": {
+      "sentence": "Identify issue",
+      "translation": "問題を識別する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0951",
+    "word": "recognize",
+    "meaning": [
+      "認識する",
+      "認める"
+    ],
+    "example": {
+      "sentence": "Recognize pattern",
+      "translation": "パターンを認識する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0953",
+    "word": "compare",
+    "meaning": [
+      "比較する",
+      "対比する"
+    ],
+    "example": {
+      "sentence": "Compare values",
+      "translation": "値を比較する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0954",
+    "word": "contrast",
+    "meaning": [
+      "対比する",
+      "対照する"
+    ],
+    "example": {
+      "sentence": "Contrast approaches",
+      "translation": "アプローチを対比する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0955",
+    "word": "evaluate",
+    "meaning": [
+      "評価する",
+      "計算する"
+    ],
+    "example": {
+      "sentence": "Evaluate expression",
+      "translation": "式を評価する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0956",
+    "word": "assess",
+    "meaning": [
+      "評価する",
+      "査定する"
+    ],
+    "example": {
+      "sentence": "Assess performance",
+      "translation": "パフォーマンスを評価する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0957",
+    "word": "measure",
+    "meaning": [
+      "測定する",
+      "計る"
+    ],
+    "example": {
+      "sentence": "Measure time",
+      "translation": "時間を測定する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0959",
+    "word": "compute",
+    "meaning": [
+      "計算する",
+      "演算する"
+    ],
+    "example": {
+      "sentence": "Compute result",
+      "translation": "結果を計算する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0968",
+    "word": "truncate",
+    "meaning": [
+      "切り詰める",
+      "切り捨てる"
+    ],
+    "example": {
+      "sentence": "Truncate string",
+      "translation": "文字列を切り詰める"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0972",
+    "word": "translate",
+    "meaning": [
+      "翻訳する",
+      "変換する"
+    ],
+    "example": {
+      "sentence": "Translate text",
+      "translation": "テキストを翻訳する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0978",
+    "word": "sign",
+    "meaning": [
+      "署名する",
+      "サインする"
+    ],
+    "example": {
+      "sentence": "Sign document",
+      "translation": "ドキュメントに署名する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0984",
+    "word": "confirm",
+    "meaning": [
+      "確認する",
+      "承認する"
+    ],
+    "example": {
+      "sentence": "Confirm action",
+      "translation": "アクションを確認する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0986",
+    "word": "reject",
+    "meaning": [
+      "拒否する",
+      "却下する"
+    ],
+    "example": {
+      "sentence": "Reject change",
+      "translation": "変更を拒否する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0988",
+    "word": "deny",
+    "meaning": [
+      "拒否する",
+      "否定する"
+    ],
+    "example": {
+      "sentence": "Deny access",
+      "translation": "アクセスを拒否する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0990",
+    "word": "permit",
+    "meaning": [
+      "許可する",
+      "認可する"
+    ],
+    "example": {
+      "sentence": "Permit operation",
+      "translation": "操作を許可する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0991",
+    "word": "grant",
+    "meaning": [
+      "付与する",
+      "授与する"
+    ],
+    "example": {
+      "sentence": "Grant permission",
+      "translation": "権限を付与する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0992",
+    "word": "revoke",
+    "meaning": [
+      "取り消す",
+      "撤回する"
+    ],
+    "example": {
+      "sentence": "Revoke access",
+      "translation": "アクセスを取り消す"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0993",
+    "word": "authorize",
+    "meaning": [
+      "認可する",
+      "権限を与える"
+    ],
+    "example": {
+      "sentence": "Authorize user",
+      "translation": "ユーザーを認可する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0994",
+    "word": "authenticate",
+    "meaning": [
+      "認証する",
+      "証明する"
+    ],
+    "example": {
+      "sentence": "Authenticate user",
+      "translation": "ユーザーを認証する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-0999",
+    "word": "subscribe",
+    "meaning": [
+      "購読する",
+      "加入する"
+    ],
+    "example": {
+      "sentence": "Subscribe to event",
+      "translation": "イベントを購読する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1000",
+    "word": "unsubscribe",
+    "meaning": [
+      "購読解除する"
+    ],
+    "example": {
+      "sentence": "Unsubscribe from event",
+      "translation": "イベントの購読を解除する"
+    },
+    "difficulty": 3,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1007",
+    "word": "reference",
+    "meaning": [
+      "参照",
+      "言及"
+    ],
+    "example": {
+      "sentence": "Object reference",
+      "translation": "オブジェクト参照"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1016",
+    "word": "situation",
+    "meaning": [
+      "状況",
+      "事態"
+    ],
+    "example": {
+      "sentence": "Handle situation",
+      "translation": "状況を処理する"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1025",
+    "word": "structure",
+    "meaning": [
+      "構造",
+      "建物"
+    ],
+    "example": {
+      "sentence": "Data structure",
+      "translation": "データ構造"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1041",
+    "word": "contract",
+    "meaning": [
+      "契約",
+      "契約書"
+    ],
+    "example": {
+      "sentence": "Service contract",
+      "translation": "サービス契約"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1042",
+    "word": "specification",
+    "meaning": [
+      "仕様",
+      "明細"
+    ],
+    "example": {
+      "sentence": "Read specification",
+      "translation": "仕様を読む"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1043",
+    "word": "requirement",
+    "meaning": [
+      "要件",
+      "要求"
+    ],
+    "example": {
+      "sentence": "Meet requirement",
+      "translation": "要件を満たす"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1044",
+    "word": "feature",
+    "meaning": [
+      "機能",
+      "特徴"
+    ],
+    "example": {
+      "sentence": "Add feature",
+      "translation": "機能を追加する"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1045",
+    "word": "capability",
+    "meaning": [
+      "能力",
+      "才能"
+    ],
+    "example": {
+      "sentence": "Add capability",
+      "translation": "能力を追加する"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1046",
+    "word": "functionality",
+    "meaning": [
+      "機能性",
+      "機能"
+    ],
+    "example": {
+      "sentence": "Test functionality",
+      "translation": "機能性をテストする"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1047",
+    "word": "behavior",
+    "meaning": [
+      "動作",
+      "振る舞い"
+    ],
+    "example": {
+      "sentence": "Observe behavior",
+      "translation": "動作を観察する"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1049",
+    "word": "operation",
+    "meaning": [
+      "操作",
+      "運転"
+    ],
+    "example": {
+      "sentence": "Execute operation",
+      "translation": "操作を実行する"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1056",
+    "word": "async",
+    "meaning": [
+      "非同期の",
+      "非同時の"
+    ],
+    "example": {
+      "sentence": "Async operation",
+      "translation": "非同期操作"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1057",
+    "word": "synchronous",
+    "meaning": [
+      "同期の",
+      "同時の"
+    ],
+    "example": {
+      "sentence": "Synchronous call",
+      "translation": "同期呼び出し"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1058",
+    "word": "concurrent",
+    "meaning": [
+      "並行の",
+      "同時の"
+    ],
+    "example": {
+      "sentence": "Concurrent execution",
+      "translation": "並行実行"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1064",
+    "word": "notification",
+    "meaning": [
+      "通知",
+      "知らせ"
+    ],
+    "example": {
+      "sentence": "Send notification",
+      "translation": "通知を送信する"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1072",
+    "word": "outcome",
+    "meaning": [
+      "結果",
+      "成果"
+    ],
+    "example": {
+      "sentence": "Check outcome",
+      "translation": "結果を確認する"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1095",
+    "word": "relationship",
+    "meaning": [
+      "リレーションシップ",
+      "関係"
+    ],
+    "example": {
+      "sentence": "Define relationships",
+      "translation": "リレーションシップを定義する"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1096",
+    "word": "association",
+    "meaning": [
+      "関連",
+      "連想"
+    ],
+    "example": {
+      "sentence": "Create association",
+      "translation": "関連を作成する"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1100",
+    "word": "translation",
+    "meaning": [
+      "翻訳",
+      "変換"
+    ],
+    "example": {
+      "sentence": "Perform translation",
+      "translation": "変換を実行する"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1104",
+    "word": "undefined",
+    "meaning": [
+      "未定義の",
+      "定義されていない"
+    ],
+    "example": {
+      "sentence": "Check for undefined values",
+      "translation": "未定義の値をチェックする"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1107",
+    "word": "valid",
+    "meaning": [
+      "有効な",
+      "正当な"
+    ],
+    "example": {
+      "sentence": "Valid input",
+      "translation": "有効な入力"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1108",
+    "word": "invalid",
+    "meaning": [
+      "無効な",
+      "不当な"
+    ],
+    "example": {
+      "sentence": "Invalid data",
+      "translation": "無効なデータ"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1109",
+    "word": "correct",
+    "meaning": [
+      "正しい",
+      "正確な"
+    ],
+    "example": {
+      "sentence": "Correct value",
+      "translation": "正しい値"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1110",
+    "word": "incorrect",
+    "meaning": [
+      "間違った",
+      "不正確な"
+    ],
+    "example": {
+      "sentence": "Incorrect format",
+      "translation": "間違ったフォーマット"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1111",
+    "word": "right",
+    "meaning": [
+      "正しい",
+      "右の"
+    ],
+    "example": {
+      "sentence": "Right answer",
+      "translation": "正しい答え"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1112",
+    "word": "wrong",
+    "meaning": [
+      "間違った",
+      "悪い"
+    ],
+    "example": {
+      "sentence": "Wrong type",
+      "translation": "間違った型"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1113",
+    "word": "accurate",
+    "meaning": [
+      "正確な",
+      "精密な"
+    ],
+    "example": {
+      "sentence": "Accurate measurement",
+      "translation": "正確な測定"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1114",
+    "word": "precise",
+    "meaning": [
+      "精密な",
+      "正確な"
+    ],
+    "example": {
+      "sentence": "Precise calculation",
+      "translation": "精密な計算"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1115",
+    "word": "exact",
+    "meaning": [
+      "正確な",
+      "厳密な"
+    ],
+    "example": {
+      "sentence": "Exact match",
+      "translation": "完全一致"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1116",
+    "word": "approximate",
+    "meaning": [
+      "近似の",
+      "おおよその"
+    ],
+    "example": {
+      "sentence": "Approximate value",
+      "translation": "近似値"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1118",
+    "word": "different",
+    "meaning": [
+      "異なる",
+      "違う"
+    ],
+    "example": {
+      "sentence": "Different approach",
+      "translation": "異なるアプローチ"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1119",
+    "word": "same",
+    "meaning": [
+      "同じ",
+      "同一の"
+    ],
+    "example": {
+      "sentence": "Same value",
+      "translation": "同じ値"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1121",
+    "word": "equivalent",
+    "meaning": [
+      "等価な",
+      "同等の"
+    ],
+    "example": {
+      "sentence": "Equivalent operation",
+      "translation": "等価な操作"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1122",
+    "word": "identical",
+    "meaning": [
+      "同一の",
+      "完全に同じ"
+    ],
+    "example": {
+      "sentence": "Identical objects",
+      "translation": "同一のオブジェクト"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1125",
+    "word": "distinct",
+    "meaning": [
+      "異なる",
+      "区別された"
+    ],
+    "example": {
+      "sentence": "Distinct values",
+      "translation": "異なる値"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1126",
+    "word": "common",
+    "meaning": [
+      "共通の",
+      "一般的な"
+    ],
+    "example": {
+      "sentence": "Common pattern",
+      "translation": "共通パターン"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1127",
+    "word": "shared",
+    "meaning": [
+      "共有の",
+      "共同の"
+    ],
+    "example": {
+      "sentence": "Shared resource",
+      "translation": "共有リソース"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1130",
+    "word": "protected",
+    "meaning": [
+      "保護された",
+      "守られた"
+    ],
+    "example": {
+      "sentence": "Use protected access",
+      "translation": "保護されたアクセスを使用する"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1137",
+    "word": "available",
+    "meaning": [
+      "利用可能な",
+      "入手可能な"
+    ],
+    "example": {
+      "sentence": "Available resource",
+      "translation": "利用可能なリソース"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1138",
+    "word": "unavailable",
+    "meaning": [
+      "利用不可の",
+      "入手不可の"
+    ],
+    "example": {
+      "sentence": "Unavailable service",
+      "translation": "利用不可なサービス"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1139",
+    "word": "accessible",
+    "meaning": [
+      "アクセス可能な",
+      "近づきやすい"
+    ],
+    "example": {
+      "sentence": "Accessible file",
+      "translation": "アクセス可能なファイル"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1140",
+    "word": "inaccessible",
+    "meaning": [
+      "アクセス不可の",
+      "近づきにくい"
+    ],
+    "example": {
+      "sentence": "Inaccessible resource",
+      "translation": "アクセス不可なリソース"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1141",
+    "word": "enabled",
+    "meaning": [
+      "有効な",
+      "可能にされた"
+    ],
+    "example": {
+      "sentence": "Enabled feature",
+      "translation": "有効な機能"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1142",
+    "word": "disabled",
+    "meaning": [
+      "無効な",
+      "不可能にされた"
+    ],
+    "example": {
+      "sentence": "Disabled option",
+      "translation": "無効なオプション"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1143",
+    "word": "active",
+    "meaning": [
+      "アクティブな",
+      "活動的な"
+    ],
+    "example": {
+      "sentence": "Active session",
+      "translation": "アクティブなセッション"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1144",
+    "word": "inactive",
+    "meaning": [
+      "非アクティブな",
+      "不活動な"
+    ],
+    "example": {
+      "sentence": "Inactive connection",
+      "translation": "非アクティブな接続"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1147",
+    "word": "paused",
+    "meaning": [
+      "一時停止の",
+      "中断された"
+    ],
+    "example": {
+      "sentence": "Paused execution",
+      "translation": "一時停止された実行"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1151",
+    "word": "processing",
+    "meaning": [
+      "処理中の",
+      "加工中の"
+    ],
+    "example": {
+      "sentence": "Processing data",
+      "translation": "処理中のデータ"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1153",
+    "word": "prepared",
+    "meaning": [
+      "準備された",
+      "用意された"
+    ],
+    "example": {
+      "sentence": "Prepared statement",
+      "translation": "準備されたステートメント"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1156",
+    "word": "configured",
+    "meaning": [
+      "設定された",
+      "構成された"
+    ],
+    "example": {
+      "sentence": "Configured system",
+      "translation": "設定されたシステム"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1157",
+    "word": "unconfigured",
+    "meaning": [
+      "未設定の",
+      "構成されていない"
+    ],
+    "example": {
+      "sentence": "Unconfigured device",
+      "translation": "未設定デバイス"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1158",
+    "word": "connected",
+    "meaning": [
+      "接続された",
+      "連結された"
+    ],
+    "example": {
+      "sentence": "Connected client",
+      "translation": "接続されたクライアント"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1159",
+    "word": "disconnected",
+    "meaning": [
+      "切断された",
+      "分離された"
+    ],
+    "example": {
+      "sentence": "Disconnected socket",
+      "translation": "切断されたソケット"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1166",
+    "word": "synchronized",
+    "meaning": [
+      "同期された",
+      "同期化された"
+    ],
+    "example": {
+      "sentence": "Synchronized method",
+      "translation": "同期されたメソッド"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1167",
+    "word": "unsynchronized",
+    "meaning": [
+      "非同期の",
+      "非同期化された"
+    ],
+    "example": {
+      "sentence": "Unsynchronized access",
+      "translation": "非同期アクセス"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1169",
+    "word": "insecure",
+    "meaning": [
+      "安全でない",
+      "保護されていない"
+    ],
+    "example": {
+      "sentence": "Insecure protocol",
+      "translation": "安全でないプロトコル"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1171",
+    "word": "unsafe",
+    "meaning": [
+      "安全でない",
+      "危険な"
+    ],
+    "example": {
+      "sentence": "Unsafe cast",
+      "translation": "安全でないキャスト"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1172",
+    "word": "stable",
+    "meaning": [
+      "安定した",
+      "固定された"
+    ],
+    "example": {
+      "sentence": "Stable version",
+      "translation": "安定バージョン"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1173",
+    "word": "unstable",
+    "meaning": [
+      "不安定な",
+      "固定されていない"
+    ],
+    "example": {
+      "sentence": "Unstable build",
+      "translation": "不安定なビルド"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1174",
+    "word": "reliable",
+    "meaning": [
+      "信頼できる",
+      "確実な"
+    ],
+    "example": {
+      "sentence": "Reliable service",
+      "translation": "信頼できるサービス"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1175",
+    "word": "unreliable",
+    "meaning": [
+      "信頼できない",
+      "不確実な"
+    ],
+    "example": {
+      "sentence": "Unreliable connection",
+      "translation": "信頼できない接続"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1176",
+    "word": "consistent",
+    "meaning": [
+      "一貫した",
+      "整合性のある"
+    ],
+    "example": {
+      "sentence": "Consistent state",
+      "translation": "一貫した状態"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1177",
+    "word": "inconsistent",
+    "meaning": [
+      "一貫性のない",
+      "整合性のない"
+    ],
+    "example": {
+      "sentence": "Inconsistent data",
+      "translation": "一貫性のないデータ"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1178",
+    "word": "compatible",
+    "meaning": [
+      "互換性のある",
+      "適合する"
+    ],
+    "example": {
+      "sentence": "Compatible version",
+      "translation": "互換性のあるバージョン"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1179",
+    "word": "incompatible",
+    "meaning": [
+      "互換性のない",
+      "適合しない"
+    ],
+    "example": {
+      "sentence": "Incompatible API",
+      "translation": "互換性のないAPI"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1182",
+    "word": "deprecated",
+    "meaning": [
+      "非推奨の",
+      "廃止予定の"
+    ],
+    "example": {
+      "sentence": "Deprecated function",
+      "translation": "非推奨関数"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1183",
+    "word": "obsolete",
+    "meaning": [
+      "廃止された",
+      "時代遅れの"
+    ],
+    "example": {
+      "sentence": "Obsolete API",
+      "translation": "廃止されたAPI"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1192",
+    "word": "intermediate",
+    "meaning": [
+      "中間の",
+      "中継の"
+    ],
+    "example": {
+      "sentence": "Intermediate result",
+      "translation": "中間結果"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1193",
+    "word": "temporary",
+    "meaning": [
+      "一時的な",
+      "臨時の"
+    ],
+    "example": {
+      "sentence": "Temporary file",
+      "translation": "一時ファイル"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1194",
+    "word": "permanent",
+    "meaning": [
+      "永続的な",
+      "恒久的な"
+    ],
+    "example": {
+      "sentence": "Permanent storage",
+      "translation": "永続ストレージ"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1195",
+    "word": "persistent",
+    "meaning": [
+      "永続的な",
+      "持続的な"
+    ],
+    "example": {
+      "sentence": "Persistent data",
+      "translation": "永続データ"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1196",
+    "word": "transient",
+    "meaning": [
+      "一時的な",
+      "過渡的な"
+    ],
+    "example": {
+      "sentence": "Transient state",
+      "translation": "一時状態"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1197",
+    "word": "volatile",
+    "meaning": [
+      "揮発性の",
+      "不安定な"
+    ],
+    "example": {
+      "sentence": "Volatile variable",
+      "translation": "揮発性変数"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1198",
+    "word": "constant",
+    "meaning": [
+      "定数の",
+      "不変の"
+    ],
+    "example": {
+      "sentence": "Constant value",
+      "translation": "定数値"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1211",
+    "word": "although",
+    "meaning": [
+      "～にもかかわらず",
+      "～だけれども"
+    ],
+    "example": {
+      "sentence": "Although deprecated",
+      "translation": "非推奨にもかかわらず"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1212",
+    "word": "though",
+    "meaning": [
+      "～にもかかわらず",
+      "～だけれども"
+    ],
+    "example": {
+      "sentence": "Though complex",
+      "translation": "複雑だけれども"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1213",
+    "word": "however",
+    "meaning": [
+      "しかし",
+      "しかしながら"
+    ],
+    "example": {
+      "sentence": "However, it works",
+      "translation": "しかし、動作する"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1214",
+    "word": "therefore",
+    "meaning": [
+      "したがって",
+      "それゆえ"
+    ],
+    "example": {
+      "sentence": "Therefore, use this",
+      "translation": "したがって、これを使用する"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1215",
+    "word": "moreover",
+    "meaning": [
+      "さらに",
+      "その上"
+    ],
+    "example": {
+      "sentence": "Moreover, it's fast",
+      "translation": "さらに、高速である"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1216",
+    "word": "furthermore",
+    "meaning": [
+      "さらに",
+      "その上"
+    ],
+    "example": {
+      "sentence": "Furthermore, it's secure",
+      "translation": "さらに、安全である"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1234",
+    "word": "among",
+    "meaning": [
+      "～の中に",
+      "～の間で"
+    ],
+    "example": {
+      "sentence": "Among the options",
+      "translation": "オプションの中に"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1235",
+    "word": "through",
+    "meaning": [
+      "～を通って",
+      "～経由で"
+    ],
+    "example": {
+      "sentence": "Through the API",
+      "translation": "API経由で"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1236",
+    "word": "across",
+    "meaning": [
+      "～を横切って",
+      "～全体で"
+    ],
+    "example": {
+      "sentence": "Across servers",
+      "translation": "サーバー全体で"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1237",
+    "word": "within",
+    "meaning": [
+      "～の中に",
+      "～以内で"
+    ],
+    "example": {
+      "sentence": "Within the scope",
+      "translation": "スコープ内で"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1240",
+    "word": "around",
+    "meaning": [
+      "～の周りに",
+      "～について"
+    ],
+    "example": {
+      "sentence": "Around the issue",
+      "translation": "問題について"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1241",
+    "word": "near",
+    "meaning": [
+      "～の近くに",
+      "～に近い"
+    ],
+    "example": {
+      "sentence": "Near the boundary",
+      "translation": "境界の近くに"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1242",
+    "word": "far",
+    "meaning": [
+      "遠くに",
+      "はるかに"
+    ],
+    "example": {
+      "sentence": "Far from optimal",
+      "translation": "最適から遠い"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1243",
+    "word": "beyond",
+    "meaning": [
+      "～を超えて",
+      "～の向こうに"
+    ],
+    "example": {
+      "sentence": "Beyond the scope",
+      "translation": "スコープを超えて"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1244",
+    "word": "behind",
+    "meaning": [
+      "～の後ろに",
+      "～の背後で"
+    ],
+    "example": {
+      "sentence": "Behind the proxy",
+      "translation": "プロキシの背後で"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1245",
+    "word": "beside",
+    "meaning": [
+      "～の横に",
+      "～のそばに"
+    ],
+    "example": {
+      "sentence": "Beside the point",
+      "translation": "要点の横に"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1246",
+    "word": "besides",
+    "meaning": [
+      "～のほかに",
+      "～に加えて"
+    ],
+    "example": {
+      "sentence": "Besides the main feature",
+      "translation": "メイン機能のほかに"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1247",
+    "word": "against",
+    "meaning": [
+      "～に対して",
+      "～と対比して"
+    ],
+    "example": {
+      "sentence": "Against the database",
+      "translation": "データベースに対して"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1248",
+    "word": "toward",
+    "meaning": [
+      "～に向かって",
+      "～へ向けて"
+    ],
+    "example": {
+      "sentence": "Toward the goal",
+      "translation": "目標に向かって"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1249",
+    "word": "towards",
+    "meaning": [
+      "～に向かって",
+      "～へ向けて"
+    ],
+    "example": {
+      "sentence": "Towards the solution",
+      "translation": "解決策に向かって"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1251",
+    "word": "throughout",
+    "meaning": [
+      "～を通じて",
+      "～全体で"
+    ],
+    "example": {
+      "sentence": "Throughout the process",
+      "translation": "プロセス全体で"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1257",
+    "word": "regarding",
+    "meaning": [
+      "～について",
+      "～に関して"
+    ],
+    "example": {
+      "sentence": "Regarding the issue",
+      "translation": "イシューについて"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1258",
+    "word": "concerning",
+    "meaning": [
+      "～について",
+      "～に関して"
+    ],
+    "example": {
+      "sentence": "Concerning the bug",
+      "translation": "バグについて"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1259",
+    "word": "according to",
+    "meaning": [
+      "～によると",
+      "～に従って"
+    ],
+    "example": {
+      "sentence": "According to the docs",
+      "translation": "ドキュメントによると"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1260",
+    "word": "based on",
+    "meaning": [
+      "～に基づいて",
+      "～を基に"
+    ],
+    "example": {
+      "sentence": "Based on the spec",
+      "translation": "仕様に基づいて"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1261",
+    "word": "due to",
+    "meaning": [
+      "～のために",
+      "～が原因で"
+    ],
+    "example": {
+      "sentence": "Due to the error",
+      "translation": "エラーのために"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1262",
+    "word": "thanks to",
+    "meaning": [
+      "～のおかげで",
+      "～により"
+    ],
+    "example": {
+      "sentence": "Thanks to the fix",
+      "translation": "修正のおかげで"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1263",
+    "word": "instead of",
+    "meaning": [
+      "～の代わりに",
+      "～ではなく"
+    ],
+    "example": {
+      "sentence": "Instead of the old API",
+      "translation": "古いAPIの代わりに"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1264",
+    "word": "as well as",
+    "meaning": [
+      "～もまた",
+      "～と同様に"
+    ],
+    "example": {
+      "sentence": "A as well as B",
+      "translation": "AもまたB"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1265",
+    "word": "along with",
+    "meaning": [
+      "～と一緒に",
+      "～とともに"
+    ],
+    "example": {
+      "sentence": "Along with the update",
+      "translation": "更新と一緒に"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1266",
+    "word": "together with",
+    "meaning": [
+      "～と一緒に",
+      "～とともに"
+    ],
+    "example": {
+      "sentence": "Together with the fix",
+      "translation": "修正と一緒に"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1267",
+    "word": "apart from",
+    "meaning": [
+      "～を除いて",
+      "～以外に"
+    ],
+    "example": {
+      "sentence": "Apart from the bug",
+      "translation": "バグを除いて"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1268",
+    "word": "except",
+    "meaning": [
+      "～を除いて",
+      "～以外に"
+    ],
+    "example": {
+      "sentence": "Except for the error",
+      "translation": "エラーを除いて"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1269",
+    "word": "except for",
+    "meaning": [
+      "～を除いて",
+      "～以外に"
+    ],
+    "example": {
+      "sentence": "Except for this case",
+      "translation": "このケースを除いて"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1274",
+    "word": "versus",
+    "meaning": [
+      "～対",
+      "～と比較して"
+    ],
+    "example": {
+      "sentence": "Version A versus B",
+      "translation": "バージョンA対B"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1275",
+    "word": "via",
+    "meaning": [
+      "～経由で",
+      "～を通じて"
+    ],
+    "example": {
+      "sentence": "Via the API",
+      "translation": "API経由で"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1276",
+    "word": "per",
+    "meaning": [
+      "～ごとに",
+      "～につき"
+    ],
+    "example": {
+      "sentence": "Per request",
+      "translation": "リクエストごとに"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1279",
+    "word": "times",
+    "meaning": [
+      "～倍",
+      "～回"
+    ],
+    "example": {
+      "sentence": "Times faster",
+      "translation": "何倍速い"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1280",
+    "word": "like",
+    "meaning": [
+      "～のような",
+      "～に似た"
+    ],
+    "example": {
+      "sentence": "Like the previous version",
+      "translation": "前のバージョンのような"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1281",
+    "word": "unlike",
+    "meaning": [
+      "～と違って",
+      "～とは異なり"
+    ],
+    "example": {
+      "sentence": "Unlike the old API",
+      "translation": "古いAPIと違って"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1282",
+    "word": "such as",
+    "meaning": [
+      "～のような",
+      "例えば"
+    ],
+    "example": {
+      "sentence": "Such as error handling",
+      "translation": "エラーハンドリングのような"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1296",
+    "word": "whichever",
+    "meaning": [
+      "～するものはどちらでも",
+      "～であるものはどちらでも"
+    ],
+    "example": {
+      "sentence": "Whichever you choose",
+      "translation": "どちらを選んでも"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1297",
+    "word": "whoever",
+    "meaning": [
+      "～する人は誰でも",
+      "～である人は誰でも"
+    ],
+    "example": {
+      "sentence": "Whoever uses it",
+      "translation": "誰が使用しても"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1298",
+    "word": "wherever",
+    "meaning": [
+      "～する場所はどこでも",
+      "～である場所はどこでも"
+    ],
+    "example": {
+      "sentence": "Wherever it runs",
+      "translation": "どこで実行しても"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1299",
+    "word": "whenever",
+    "meaning": [
+      "～するときはいつでも",
+      "～であるときはいつでも"
+    ],
+    "example": {
+      "sentence": "Whenever it happens",
+      "translation": "いつ発生しても"
+    },
+    "difficulty": 4,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1300",
+    "word": "dependency",
+    "meaning": [
+      "依存関係",
+      "依存性"
+    ],
+    "example": {
+      "sentence": "Manage project dependencies",
+      "translation": "プロジェクトの依存関係を管理する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1301",
+    "word": "element",
+    "meaning": [
+      "要素",
+      "成分"
+    ],
+    "example": {
+      "sentence": "Access each element",
+      "translation": "各要素にアクセスする"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1302",
+    "word": "continuous integration",
+    "meaning": [
+      "継続的インテグレーション"
+    ],
+    "example": {
+      "sentence": "Use CI",
+      "translation": "CIを使用する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1303",
+    "word": "continuous delivery",
+    "meaning": [
+      "継続的デリバリー"
+    ],
+    "example": {
+      "sentence": "Use CD",
+      "translation": "CDを使用する"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1304",
+    "word": "continuous deployment",
+    "meaning": [
+      "継続的デプロイメント"
+    ],
+    "example": {
+      "sentence": "Enable CD",
+      "translation": "CDを有効にする"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1305",
+    "word": "reduce",
+    "meaning": [
+      "リデュースする",
+      "減らす"
+    ],
+    "example": {
+      "sentence": "Reduce the collection",
+      "translation": "コレクションをリデュースする"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1306",
+    "word": "encode",
+    "meaning": [
+      "エンコードする",
+      "符号化する"
+    ],
+    "example": {
+      "sentence": "Encode the string",
+      "translation": "文字列をエンコードする"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1307",
+    "word": "decode",
+    "meaning": [
+      "デコードする",
+      "復号化する"
+    ],
+    "example": {
+      "sentence": "Decode the data",
+      "translation": "データをデコードする"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1308",
+    "word": "bind",
+    "meaning": [
+      "バインドする",
+      "束縛する"
+    ],
+    "example": {
+      "sentence": "Bind the monad",
+      "translation": "モナドをバインドする"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1309",
+    "word": "lift",
+    "meaning": [
+      "リフトする",
+      "持ち上げる"
+    ],
+    "example": {
+      "sentence": "Lift the function",
+      "translation": "関数をリフトする"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1310",
+    "word": "approve",
+    "meaning": [
+      "承認する",
+      "認可する"
+    ],
+    "example": {
+      "sentence": "Approve PR",
+      "translation": "PRを承認する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1311",
+    "word": "hang",
+    "meaning": [
+      "ハングする",
+      "固まる"
+    ],
+    "example": {
+      "sentence": "Detect hang",
+      "translation": "ハングを検出する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1312",
+    "word": "specify",
+    "meaning": [
+      "指定する"
+    ],
+    "example": {
+      "sentence": "Specify the parameter",
+      "translation": "パラメータを指定する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1313",
+    "word": "ensure",
+    "meaning": [
+      "確実にする",
+      "確保する"
+    ],
+    "example": {
+      "sentence": "Ensure the condition",
+      "translation": "条件を確実にする"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1314",
+    "word": "manage",
+    "meaning": [
+      "管理する",
+      "扱う"
+    ],
+    "example": {
+      "sentence": "Manage resources",
+      "translation": "リソースを管理する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1315",
+    "word": "recommend",
+    "meaning": [
+      "推奨する",
+      "勧める"
+    ],
+    "example": {
+      "sentence": "Recommend using this",
+      "translation": "これを使用することを推奨する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1316",
+    "word": "provide",
+    "meaning": [
+      "提供する",
+      "供給する"
+    ],
+    "example": {
+      "sentence": "Provide the service",
+      "translation": "サービスを提供する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1317",
+    "word": "isolate",
+    "meaning": [
+      "分離する",
+      "隔離する"
+    ],
+    "example": {
+      "sentence": "Isolate the container",
+      "translation": "コンテナを分離する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1318",
+    "word": "untaint",
+    "meaning": [
+      "アンテイントする",
+      "浄化する"
+    ],
+    "example": {
+      "sentence": "Untaint resource",
+      "translation": "リソースのテイントを解除する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1319",
+    "word": "public",
+    "meaning": [
+      "公開の",
+      "公衆の"
+    ],
+    "example": {
+      "sentence": "Make the method public",
+      "translation": "メソッドを公開する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1320",
+    "word": "private",
+    "meaning": [
+      "非公開の",
+      "私的な"
+    ],
+    "example": {
+      "sentence": "Keep the field private",
+      "translation": "フィールドを非公開に保つ"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1321",
+    "word": "equal",
+    "meaning": [
+      "等しい",
+      "同等の"
+    ],
+    "example": {
+      "sentence": "Equal values",
+      "translation": "等しい値"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1322",
+    "word": "unique",
+    "meaning": [
+      "一意の",
+      "唯一の"
+    ],
+    "example": {
+      "sentence": "Unique identifier",
+      "translation": "一意の識別子"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1323",
+    "word": "running",
+    "meaning": [
+      "実行中の",
+      "走っている"
+    ],
+    "example": {
+      "sentence": "Running process",
+      "translation": "実行中のプロセス"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1324",
+    "word": "stopped",
+    "meaning": [
+      "停止した",
+      "止まった"
+    ],
+    "example": {
+      "sentence": "Stopped service",
+      "translation": "停止したサービス"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1325",
+    "word": "completed",
+    "meaning": [
+      "完了した",
+      "完成した"
+    ],
+    "example": {
+      "sentence": "Completed task",
+      "translation": "完了したタスク"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1326",
+    "word": "pending",
+    "meaning": [
+      "保留中の",
+      "未決の"
+    ],
+    "example": {
+      "sentence": "Pending request",
+      "translation": "保留中のリクエスト"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1327",
+    "word": "queued",
+    "meaning": [
+      "キューに入った",
+      "待機中の"
+    ],
+    "example": {
+      "sentence": "Queued job",
+      "translation": "キューに入ったジョブ"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1328",
+    "word": "initialized",
+    "meaning": [
+      "初期化された",
+      "開始された"
+    ],
+    "example": {
+      "sentence": "Initialized object",
+      "translation": "初期化されたオブジェクト"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1329",
+    "word": "uninitialized",
+    "meaning": [
+      "未初期化の",
+      "開始されていない"
+    ],
+    "example": {
+      "sentence": "Uninitialized variable",
+      "translation": "未初期化変数"
+    },
+    "difficulty": 2,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1330",
+    "word": "bound",
+    "meaning": [
+      "バインドされた",
+      "束縛された"
+    ],
+    "example": {
+      "sentence": "Bound port",
+      "translation": "バインドされたポート"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1331",
+    "word": "unbound",
+    "meaning": [
+      "未バインドの",
+      "束縛されていない"
+    ],
+    "example": {
+      "sentence": "Unbound variable",
+      "translation": "未バインド変数"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1332",
+    "word": "mounted",
+    "meaning": [
+      "マウントされた",
+      "取り付けられた"
+    ],
+    "example": {
+      "sentence": "Mounted volume",
+      "translation": "マウントされたボリューム"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1333",
+    "word": "unmounted",
+    "meaning": [
+      "アンマウントされた",
+      "取り外された"
+    ],
+    "example": {
+      "sentence": "Unmounted disk",
+      "translation": "アンマウントされたディスク"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1334",
+    "word": "locked",
+    "meaning": [
+      "ロックされた",
+      "固定された"
+    ],
+    "example": {
+      "sentence": "Locked resource",
+      "translation": "ロックされたリソース"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1335",
+    "word": "unlocked",
+    "meaning": [
+      "アンロックされた",
+      "固定解除された"
+    ],
+    "example": {
+      "sentence": "Unlocked mutex",
+      "translation": "アンロックされたミューテックス"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1336",
+    "word": "supported",
+    "meaning": [
+      "サポートされた",
+      "支援された"
+    ],
+    "example": {
+      "sentence": "Supported feature",
+      "translation": "サポートされた機能"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1337",
+    "word": "unsupported",
+    "meaning": [
+      "サポートされていない",
+      "支援されていない"
+    ],
+    "example": {
+      "sentence": "Unsupported operation",
+      "translation": "サポートされていない操作"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1338",
+    "word": "previous",
+    "meaning": [
+      "前の",
+      "以前の"
+    ],
+    "example": {
+      "sentence": "Previous version",
+      "translation": "前のバージョン"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1339",
+    "word": "fixed",
+    "meaning": [
+      "固定の",
+      "固定された"
+    ],
+    "example": {
+      "sentence": "Fixed size",
+      "translation": "固定サイズ"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1340",
+    "word": "manually",
+    "meaning": [
+      "手動で",
+      "マニュアルで"
+    ],
+    "example": {
+      "sentence": "Run manually",
+      "translation": "手動で実行する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1341",
+    "word": "immediately",
+    "meaning": [
+      "すぐに",
+      "即座に"
+    ],
+    "example": {
+      "sentence": "Execute immediately",
+      "translation": "すぐに実行する"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1342",
+    "word": "while",
+    "meaning": [
+      "～の間",
+      "～しながら"
+    ],
+    "example": {
+      "sentence": "While condition",
+      "translation": "条件の間"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1343",
+    "word": "until",
+    "meaning": [
+      "～まで",
+      "～するまで"
+    ],
+    "example": {
+      "sentence": "Until condition",
+      "translation": "条件になるまで"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1344",
+    "word": "since",
+    "meaning": [
+      "～以来",
+      "～から"
+    ],
+    "example": {
+      "sentence": "Since version 1.0",
+      "translation": "バージョン1.0以来"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1345",
+    "word": "including",
+    "meaning": [
+      "～を含めて",
+      "～を含む"
+    ],
+    "example": {
+      "sentence": "Including the new feature",
+      "translation": "新機能を含めて"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  },
+  {
+    "id": "word-1346",
+    "word": "excluding",
+    "meaning": [
+      "～を除いて",
+      "～を除外して"
+    ],
+    "example": {
+      "sentence": "Excluding deprecated APIs",
+      "translation": "非推奨APIを除いて"
+    },
+    "difficulty": 1,
+    "category": "基本プログラミング用語"
+  }
+]

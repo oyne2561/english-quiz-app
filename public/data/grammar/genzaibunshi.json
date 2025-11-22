@@ -1,0 +1,1382 @@
+[
+  {
+    "id": "pp-001",
+    "category": "genzaibunshi",
+    "question": "I saw him ___ in the park yesterday.",
+    "options": [
+      "run",
+      "running",
+      "ran",
+      "runs"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "see + 目的語 + 現在分詞の構文。目的語の動作が進行中であることを表します。",
+      "translation": "私は昨日、彼が公園で走っているのを見た。",
+      "wrongOptionExplanations": {
+        "0": "runは原形ですが、see + 目的語 + 動詞の原形は「動作の全過程を見る」という意味になります。ここでは「走っている様子を見た」という進行中の動作を表すので、現在分詞を使います。",
+        "2": "ranは過去形ですが、seeの目的語の後に動詞の過去形を置くことはできません。",
+        "3": "runsは三人称単数現在形ですが、seeの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: I] [V: saw] [O: him] [GER: running] [PP: in the park] [ADV: yesterday]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pp-002",
+    "category": "genzaibunshi",
+    "question": "She kept me ___ for two hours.",
+    "options": [
+      "wait",
+      "waiting",
+      "waited",
+      "waits"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "keep + 目的語 + 現在分詞の構文。目的語をある状態に保つことを表します。",
+      "translation": "彼女は私を2時間待たせた。",
+      "wrongOptionExplanations": {
+        "0": "waitは原形ですが、keep + 目的語 + 動詞の原形という構文はありません。keep + 目的語 + 現在分詞で「〜を〜の状態に保つ」という意味になります。",
+        "2": "waitedは過去分詞ですが、keep + 目的語 + 過去分詞は「目的語が〜される状態に保つ」という受動的な意味になります。ここでは能動的な「待つ」という動作を表すので、現在分詞を使います。",
+        "3": "waitsは三人称単数現在形ですが、keepの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: She] [V: kept] [O: me] [GER: waiting] [PP: for two hours]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pp-003",
+    "category": "genzaibunshi",
+    "question": "I heard someone ___ my name.",
+    "options": [
+      "call",
+      "calling",
+      "called",
+      "calls"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "hear + 目的語 + 現在分詞の構文。目的語の動作が進行中であることを表します。",
+      "translation": "誰かが私の名前を呼んでいるのが聞こえた。",
+      "wrongOptionExplanations": {
+        "0": "callは原形ですが、hear + 目的語 + 動詞の原形は「動作の全過程を聞く」という意味になります。ここでは「呼んでいる様子を聞いた」という進行中の動作を表すので、現在分詞を使います。",
+        "2": "calledは過去分詞ですが、hear + 目的語 + 過去分詞は「目的語が〜されるのを聞く」という受動的な意味になります。ここでは能動的な「呼ぶ」という動作を表すので、現在分詞を使います。",
+        "3": "callsは三人称単数現在形ですが、hearの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: I] [V: heard] [O: someone] [GER: calling] [O: my name]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pp-004",
+    "category": "genzaibunshi",
+    "question": "I found the book ___ on the table.",
+    "options": [
+      "lie",
+      "lying",
+      "lay",
+      "laid"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "find + 目的語 + 現在分詞の構文。目的語が〜している状態で見つかることを表します。",
+      "translation": "私は本がテーブルの上に置いてあるのを見つけた。",
+      "wrongOptionExplanations": {
+        "0": "lieは原形ですが、find + 目的語 + 動詞の原形という構文はありません。find + 目的語 + 現在分詞で「目的語が〜している状態で見つかる」という意味になります。",
+        "2": "layは過去形ですが、findの目的語の後に動詞の過去形を置くことはできません。",
+        "3": "laidは過去分詞ですが、find + 目的語 + 過去分詞は「目的語が〜される状態で見つかる」という受動的な意味になります。ここでは能動的な「横たわる」という動作を表すので、現在分詞を使います。"
+      },
+      "structure": "[S: I] [V: found] [O: the book] [GER: lying] [PP: on the table]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-005",
+    "category": "genzaibunshi",
+    "question": "She watched the children ___ in the garden.",
+    "options": [
+      "play",
+      "playing",
+      "played",
+      "plays"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "watch + 目的語 + 現在分詞の構文。目的語の動作が進行中であることを表します。",
+      "translation": "彼女は子供たちが庭で遊んでいるのを見ていた。",
+      "wrongOptionExplanations": {
+        "0": "playは原形ですが、watch + 目的語 + 動詞の原形は「動作の全過程を見る」という意味になります。ここでは「遊んでいる様子を見ていた」という進行中の動作を表すので、現在分詞を使います。",
+        "2": "playedは過去分詞ですが、watch + 目的語 + 過去分詞は「目的語が〜されるのを見る」という受動的な意味になります。ここでは能動的な「遊ぶ」という動作を表すので、現在分詞を使います。",
+        "3": "playsは三人称単数現在形ですが、watchの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: She] [V: watched] [O: the children] [GER: playing] [PP: in the garden]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pp-006",
+    "category": "genzaibunshi",
+    "question": "Having finished the report, she found herself ___ for the next project.",
+    "options": [
+      "prepare",
+      "preparing",
+      "prepared",
+      "to prepare"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "find oneself + 現在分詞は「自分が〜している状態にあることに気づく」という意味です。完了分詞構文と組み合わせた複雑な文構造です。",
+      "translation": "レポートを終えた後、彼女は次のプロジェクトの準備をしている自分に気づいた。",
+      "wrongOptionExplanations": {
+        "0": "prepareは原形ですが、find oneself + 動詞の原形という構文はありません。",
+        "2": "preparedは過去分詞ですが、find oneself + 過去分詞は「自分が〜される状態にある」という受動的な意味になります。ここでは能動的な「準備する」という動作を表すので、現在分詞を使います。",
+        "3": "to prepareは不定詞ですが、find oneself + 不定詞という構文はありません。"
+      },
+      "structure": "[GER: Having finished the report] [S: she] [V: found] [O: herself] [GER: preparing] [PP: for the next project]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-007",
+    "category": "genzaibunshi",
+    "question": "The manager caught the employee ___ confidential information to a competitor.",
+    "options": [
+      "leak",
+      "leaking",
+      "leaked",
+      "to leak"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "catch + 目的語 + 現在分詞は「目的語が〜しているのを捕まえる」という意味です。不正行為を発見する場面で使われる構文です。",
+      "translation": "マネージャーは従業員が競合他社に機密情報を漏らしているのを発見した。",
+      "wrongOptionExplanations": {
+        "0": "leakは原形ですが、catch + 目的語 + 動詞の原形という構文はありません。",
+        "2": "leakedは過去分詞ですが、catch + 目的語 + 過去分詞は「目的語が〜されるのを捕まえる」という受動的な意味になります。ここでは能動的な「漏らす」という動作を表すので、現在分詞を使います。",
+        "3": "to leakは不定詞ですが、catch + 目的語 + 不定詞という構文はありません。"
+      },
+      "structure": "[S: The manager] [V: caught] [O: the employee] [GER: leaking] [O: confidential information] [PP: to a competitor]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-008",
+    "category": "genzaibunshi",
+    "question": "Not ___ what to do, he decided to consult his supervisor.",
+    "options": [
+      "know",
+      "knowing",
+      "known",
+      "to know"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "Not + 現在分詞は分詞構文で「〜しないで」という意味です。主語と分詞の主語が一致する場合に使われます。",
+      "translation": "何をすべきかわからなかったので、彼は上司に相談することにした。",
+      "wrongOptionExplanations": {
+        "0": "knowは原形ですが、分詞構文では現在分詞を使います。",
+        "2": "knownは過去分詞ですが、ここでは能動的な「知る」という動作を表すので、現在分詞を使います。",
+        "3": "to knowは不定詞ですが、分詞構文では現在分詞を使います。"
+      },
+      "structure": "[GER: Not knowing what to do] [S: he] [V: decided] [INF: to consult] [O: his supervisor]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-009",
+    "category": "genzaibunshi",
+    "question": "Having been warned ___ the danger, they found themselves ___ for a way ___ without getting caught.",
+    "options": [
+      "about, looking, out",
+      "of, searching, around",
+      "for, seeking, away",
+      "with, finding, off"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Having been + 過去分詞は完了受動分詞構文、find oneself + 現在分詞は「自分が〜している状態にある」、look forは「〜を探す」、get caughtは「捕まる」という熟語です。完了受動分詞構文、find構文、熟語を組み合わせた非常に複雑な文構造です。",
+      "translation": "危険について警告されていたので、彼らは捕まらずに逃げる方法を探している自分に気づいた。",
+      "wrongOptionExplanations": {
+        "1": "warned ofは「〜について警告される」ですが、ここではaboutが適切です。search forは「〜を探す」ですが、look forの方が適切です。get aroundは「回避する」という意味ですが、ここでは「逃げる方法」という意味が必要です。being caughtは「捕まっている状態」ですが、ここでは「捕まる」という動作を表すのでgettingを使います。",
+        "2": "warned forは一般的ではありません。seek forは一般的ではありません。get awayは「逃げる」という意味ですが、ここでは「逃げる方法」という意味が必要です。having caughtは「捕まえた状態」ですが、ここでは受動的な「捕まる」という意味が必要です。",
+        "3": "warned withは一般的ではありません。find forは一般的ではありません。get offは「降りる、逃げる」という意味ですが、ここでは「逃げる方法」という意味が必要です。becoming caughtは一般的ではありません。"
+      },
+      "structure": "[GER: Having been warned] [PP: about the danger] [S: they] [V: found] [O: themselves] [GER: looking] [PP: for a way out] [PP: without getting caught]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-010",
+    "category": "genzaibunshi",
+    "question": "Not ___ ___ ___ what to expect, the team ended up falling behind schedule, with everyone struggling to catch up.",
+    "options": [
+      "knowing, what, to",
+      "understanding, for, down",
+      "realizing, at, off",
+      "seeing, on, out"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Not + 現在分詞は分詞構文、what to expectは「何を期待すべきか」、end upは「結局〜になる」、fall behindは「遅れる」、struggle toは「〜しようと苦労する」という熟語です。分詞構文、疑問詞+不定詞、複数の熟語を組み合わせた非常に複雑な文構造です。",
+      "translation": "何を期待すべきかわからなかったので、チームは結局スケジュールに遅れ、全員が追いつこうと苦労している。",
+      "wrongOptionExplanations": {
+        "1": "what for expectは一般的ではありません。end downは一般的ではありません。go behindは一般的ではありません。try toは「〜しようとする」ですが、ここでは「苦労する」という意味が必要です。",
+        "2": "what at expectは一般的ではありません。end offは一般的ではありません。come behindは一般的ではありません。work toは「〜するために働く」という意味ですが、ここでは「苦労する」という意味が必要です。",
+        "3": "what on expectは一般的ではありません。end outは一般的ではありません。get behindは「遅れる」という意味ですが、ここではfall behindが適切です。hope toは「〜することを望む」という意味ですが、ここでは「苦労する」という意味が必要です。"
+      },
+      "structure": "[GER: Not knowing what to expect] [S: the team] [V: ended up] [GER: falling behind] [O: schedule] [PP: with everyone] [GER: struggling] [INF: to catch up]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-011",
+    "category": "genzaibunshi",
+    "question": "The manager caught the employee ___ confidential documents, and now they're ___ taking legal action against him.",
+    "options": [
+      "leaking, looking into",
+      "stealing, thinking about",
+      "copying, considering",
+      "removing, planning"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "catch + 目的語 + 現在分詞は「目的語が〜しているのを捕まえる」、look intoは「調査する」、take action againstは「〜に対して行動を起こす」という熟語です。catch構文と複数の熟語を組み合わせた複雑な文構造です。",
+      "translation": "マネージャーは従業員が機密文書を漏らしているのを発見し、今は彼に対して法的措置を取ることを検討している。",
+      "wrongOptionExplanations": {
+        "1": "stealingは「盗む」という意味ですが、ここでは「漏らす」という意味が必要です。think aboutは「〜について考える」ですが、ここでは「調査する」という意味が必要です。make actionは一般的ではありません。",
+        "2": "copyingは「コピーする」という意味ですが、ここでは「漏らす」という意味が必要です。considerは「考慮する」という意味ですが、ここでは「調査する」という意味が必要です。bring action toは一般的ではありません。",
+        "3": "removingは「削除する」という意味ですが、ここでは「漏らす」という意味が必要です。planは「計画する」という意味ですが、ここでは「調査する」という意味が必要です。file action onは一般的ではありません。"
+      },
+      "structure": "[S: The manager] [V: caught] [O: the employee] [GER: leaking] [O: confidential documents] [OTHER: and now they're looking into taking legal action against him]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-012",
+    "category": "genzaibunshi",
+    "question": "Having finished the report ahead ___ schedule, she found herself ___ ___ more work on her plate than she could handle.",
+    "options": [
+      "of, taking, on",
+      "for, putting, up",
+      "with, getting, over",
+      "by, having, off"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "ahead ofは「〜より早く」、find oneself + 現在分詞は「自分が〜している状態にある」、take onは「引き受ける」、on one's plateは「〜の責任として」という熟語です。完了分詞構文、find構文、複数の熟語を組み合わせた非常に複雑な文構造です。",
+      "translation": "予定より早くレポートを終えたが、彼女は自分が処理できる以上の仕事を引き受けていることに気づいた。",
+      "wrongOptionExplanations": {
+        "1": "ahead forは一般的ではありません。put onは「着る、上演する」という意味ですが、ここでは「引き受ける」という意味が必要です。in one's plateは一般的ではありません。",
+        "2": "ahead withは一般的ではありません。get overは「克服する」という意味ですが、ここでは「引き受ける」という意味が必要です。at one's plateは一般的ではありません。",
+        "3": "ahead byは一般的ではありません。have offは「休む」という意味ですが、ここでは「引き受ける」という意味が必要です。by one's plateは一般的ではありません。"
+      },
+      "structure": "[GER: Having finished the report] [PP: ahead of schedule] [S: she] [V: found] [O: herself] [GER: taking on] [O: more work] [PP: on her plate] [RC: than she could handle]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-013",
+    "category": "genzaibunshi",
+    "question": "I noticed him ___ quietly in the corner.",
+    "options": [
+      "sit",
+      "sitting",
+      "sat",
+      "sits"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "notice + 目的語 + 現在分詞の構文。目的語の動作が進行中であることを表します。",
+      "translation": "私は彼が隅で静かに座っているのに気づいた。",
+      "wrongOptionExplanations": {
+        "0": "sitは原形ですが、notice + 目的語 + 動詞の原形は「動作の全過程に気づく」という意味になります。ここでは「座っている様子に気づいた」という進行中の動作を表すので、現在分詞を使います。",
+        "2": "satは過去形ですが、noticeの目的語の後に動詞の過去形を置くことはできません。",
+        "3": "sitsは三人称単数現在形ですが、noticeの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: I] [V: noticed] [O: him] [GER: sitting] [ADV: quietly] [PP: in the corner]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pp-014",
+    "category": "genzaibunshi",
+    "question": "She left the children ___ in the yard.",
+    "options": [
+      "play",
+      "playing",
+      "played",
+      "plays"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "leave + 目的語 + 現在分詞の構文。目的語を〜している状態のままにしておくことを表します。",
+      "translation": "彼女は子供たちを庭で遊ばせたままにした。",
+      "wrongOptionExplanations": {
+        "0": "playは原形ですが、leave + 目的語 + 動詞の原形という構文はありません。leave + 目的語 + 現在分詞で「目的語を〜している状態のままにしておく」という意味になります。",
+        "2": "playedは過去分詞ですが、leave + 目的語 + 過去分詞は「目的語が〜される状態のままにしておく」という受動的な意味になります。ここでは能動的な「遊ぶ」という動作を表すので、現在分詞を使います。",
+        "3": "playsは三人称単数現在形ですが、leaveの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: She] [V: left] [O: the children] [GER: playing] [PP: in the yard]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pp-015",
+    "category": "genzaibunshi",
+    "question": "I saw a bird ___ in the sky.",
+    "options": [
+      "fly",
+      "flying",
+      "flew",
+      "flies"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "see + 目的語 + 現在分詞の構文。目的語の動作が進行中であることを表します。",
+      "translation": "私は空を飛んでいる鳥を見た。",
+      "wrongOptionExplanations": {
+        "0": "flyは原形ですが、see + 目的語 + 動詞の原形は「動作の全過程を見る」という意味になります。ここでは「飛んでいる様子を見た」という進行中の動作を表すので、現在分詞を使います。",
+        "2": "flewは過去形ですが、seeの目的語の後に動詞の過去形を置くことはできません。",
+        "3": "fliesは三人称単数現在形ですが、seeの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: I] [V: saw] [O: a bird] [GER: flying] [PP: in the sky]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pp-016",
+    "category": "genzaibunshi",
+    "question": "He kept the engine ___ for ten minutes.",
+    "options": [
+      "run",
+      "running",
+      "ran",
+      "runs"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "keep + 目的語 + 現在分詞の構文。目的語をある状態に保つことを表します。",
+      "translation": "彼はエンジンを10分間動かし続けた。",
+      "wrongOptionExplanations": {
+        "0": "runは原形ですが、keep + 目的語 + 動詞の原形という構文はありません。keep + 目的語 + 現在分詞で「〜を〜の状態に保つ」という意味になります。",
+        "2": "ranは過去形ですが、keepの目的語の後に動詞の過去形を置くことはできません。",
+        "3": "runsは三人称単数現在形ですが、keepの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: He] [V: kept] [O: the engine] [GER: running] [PP: for ten minutes]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pp-017",
+    "category": "genzaibunshi",
+    "question": "I heard the phone ___ in the other room.",
+    "options": [
+      "ring",
+      "ringing",
+      "rang",
+      "rings"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "hear + 目的語 + 現在分詞の構文。目的語の動作が進行中であることを表します。",
+      "translation": "私は別の部屋で電話が鳴っているのが聞こえた。",
+      "wrongOptionExplanations": {
+        "0": "ringは原形ですが、hear + 目的語 + 動詞の原形は「動作の全過程を聞く」という意味になります。ここでは「鳴っている様子を聞いた」という進行中の動作を表すので、現在分詞を使います。",
+        "2": "rangは過去形ですが、hearの目的語の後に動詞の過去形を置くことはできません。",
+        "3": "ringsは三人称単数現在形ですが、hearの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: I] [V: heard] [O: the phone] [GER: ringing] [PP: in the other room]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pp-018",
+    "category": "genzaibunshi",
+    "question": "She found the cat ___ on the sofa.",
+    "options": [
+      "sleep",
+      "sleeping",
+      "slept",
+      "sleeps"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "find + 目的語 + 現在分詞の構文。目的語が〜している状態で見つかることを表します。",
+      "translation": "彼女は猫がソファで眠っているのを見つけた。",
+      "wrongOptionExplanations": {
+        "0": "sleepは原形ですが、find + 目的語 + 動詞の原形という構文はありません。find + 目的語 + 現在分詞で「目的語が〜している状態で見つかる」という意味になります。",
+        "2": "sleptは過去形ですが、findの目的語の後に動詞の過去形を置くことはできません。",
+        "3": "sleepsは三人称単数現在形ですが、findの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: She] [V: found] [O: the cat] [GER: sleeping] [PP: on the sofa]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pp-019",
+    "category": "genzaibunshi",
+    "question": "I watched the sun ___ behind the mountains.",
+    "options": [
+      "set",
+      "setting",
+      "setted",
+      "sets"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "watch + 目的語 + 現在分詞の構文。目的語の動作が進行中であることを表します。",
+      "translation": "私は太陽が山の向こうに沈むのを見ていた。",
+      "wrongOptionExplanations": {
+        "0": "setは原形ですが、watch + 目的語 + 動詞の原形は「動作の全過程を見る」という意味になります。ここでは「沈んでいる様子を見ていた」という進行中の動作を表すので、現在分詞を使います。",
+        "2": "settedは過去形ですが、setの過去形はsetです。また、watchの目的語の後に動詞の過去形を置くことはできません。",
+        "3": "setsは三人称単数現在形ですが、watchの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: I] [V: watched] [O: the sun] [GER: setting] [PP: behind the mountains]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pp-020",
+    "category": "genzaibunshi",
+    "question": "They kept the fire ___ all night.",
+    "options": [
+      "burn",
+      "burning",
+      "burned",
+      "burns"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "keep + 目的語 + 現在分詞の構文。目的語をある状態に保つことを表します。",
+      "translation": "彼らは火を一晩中燃やし続けた。",
+      "wrongOptionExplanations": {
+        "0": "burnは原形ですが、keep + 目的語 + 動詞の原形という構文はありません。keep + 目的語 + 現在分詞で「〜を〜の状態に保つ」という意味になります。",
+        "2": "burnedは過去分詞ですが、keep + 目的語 + 過去分詞は「目的語が〜される状態に保つ」という受動的な意味になります。ここでは能動的な「燃える」という動作を表すので、現在分詞を使います。",
+        "3": "burnsは三人称単数現在形ですが、keepの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: They] [V: kept] [O: the fire] [GER: burning] [ADV: all night]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pp-021",
+    "category": "genzaibunshi",
+    "question": "I saw them ___ basketball in the park.",
+    "options": [
+      "play",
+      "playing",
+      "played",
+      "plays"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "see + 目的語 + 現在分詞の構文。目的語の動作が進行中であることを表します。",
+      "translation": "私は彼らが公園でバスケットボールをしているのを見た。",
+      "wrongOptionExplanations": {
+        "0": "playは原形ですが、see + 目的語 + 動詞の原形は「動作の全過程を見る」という意味になります。ここでは「している様子を見た」という進行中の動作を表すので、現在分詞を使います。",
+        "2": "playedは過去分詞ですが、see + 目的語 + 過去分詞は「目的語が〜されるのを見る」という受動的な意味になります。ここでは能動的な「する」という動作を表すので、現在分詞を使います。",
+        "3": "playsは三人称単数現在形ですが、seeの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: I] [V: saw] [O: them] [GER: playing] [O: basketball] [PP: in the park]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pp-022",
+    "category": "genzaibunshi",
+    "question": "She heard the dog ___ loudly.",
+    "options": [
+      "bark",
+      "barking",
+      "barked",
+      "barks"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "hear + 目的語 + 現在分詞の構文。目的語の動作が進行中であることを表します。",
+      "translation": "彼女は犬が大声で吠えているのが聞こえた。",
+      "wrongOptionExplanations": {
+        "0": "barkは原形ですが、hear + 目的語 + 動詞の原形は「動作の全過程を聞く」という意味になります。ここでは「吠えている様子を聞いた」という進行中の動作を表すので、現在分詞を使います。",
+        "2": "barkedは過去形ですが、hearの目的語の後に動詞の過去形を置くことはできません。",
+        "3": "barksは三人称単数現在形ですが、hearの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: She] [V: heard] [O: the dog] [GER: barking] [ADV: loudly]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pp-023",
+    "category": "genzaibunshi",
+    "question": "I found the door ___ open.",
+    "options": [
+      "stand",
+      "standing",
+      "stood",
+      "stands"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "find + 目的語 + 現在分詞の構文。目的語が〜している状態で見つかることを表します。",
+      "translation": "私はドアが開いたままになっているのを見つけた。",
+      "wrongOptionExplanations": {
+        "0": "standは原形ですが、find + 目的語 + 動詞の原形という構文はありません。find + 目的語 + 現在分詞で「目的語が〜している状態で見つかる」という意味になります。",
+        "2": "stoodは過去形ですが、findの目的語の後に動詞の過去形を置くことはできません。",
+        "3": "standsは三人称単数現在形ですが、findの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: I] [V: found] [O: the door] [GER: standing] [ADJ: open]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pp-024",
+    "category": "genzaibunshi",
+    "question": "He watched the train ___ away.",
+    "options": [
+      "move",
+      "moving",
+      "moved",
+      "moves"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "watch + 目的語 + 現在分詞の構文。目的語の動作が進行中であることを表します。",
+      "translation": "彼は電車が遠ざかっていくのを見ていた。",
+      "wrongOptionExplanations": {
+        "0": "moveは原形ですが、watch + 目的語 + 動詞の原形は「動作の全過程を見る」という意味になります。ここでは「動いている様子を見ていた」という進行中の動作を表すので、現在分詞を使います。",
+        "2": "movedは過去分詞ですが、watch + 目的語 + 過去分詞は「目的語が〜されるのを見る」という受動的な意味になります。ここでは能動的な「動く」という動作を表すので、現在分詞を使います。",
+        "3": "movesは三人称単数現在形ですが、watchの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: He] [V: watched] [O: the train] [GER: moving] [ADV: away]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pp-025",
+    "category": "genzaibunshi",
+    "question": "She kept the water ___ by adding ice.",
+    "options": [
+      "cool",
+      "cooling",
+      "cooled",
+      "cools"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "keep + 目的語 + 現在分詞の構文。目的語をある状態に保つことを表します。",
+      "translation": "彼女は氷を加えて水を冷たいままに保った。",
+      "wrongOptionExplanations": {
+        "0": "coolは原形ですが、keep + 目的語 + 動詞の原形という構文はありません。keep + 目的語 + 現在分詞で「〜を〜の状態に保つ」という意味になります。",
+        "2": "cooledは過去分詞ですが、keep + 目的語 + 過去分詞は「目的語が〜される状態に保つ」という受動的な意味になります。ここでは能動的な「冷やす」という動作を表すので、現在分詞を使います。",
+        "3": "coolsは三人称単数現在形ですが、keepの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: She] [V: kept] [O: the water] [GER: cooling] [PP: by adding ice]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pp-026",
+    "category": "genzaibunshi",
+    "question": "I noticed the car ___ slowly down the street.",
+    "options": [
+      "drive",
+      "driving",
+      "drove",
+      "drives"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "notice + 目的語 + 現在分詞の構文。目的語の動作が進行中であることを表します。",
+      "translation": "私は車が通りをゆっくり走っているのに気づいた。",
+      "wrongOptionExplanations": {
+        "0": "driveは原形ですが、notice + 目的語 + 動詞の原形は「動作の全過程に気づく」という意味になります。ここでは「走っている様子に気づいた」という進行中の動作を表すので、現在分詞を使います。",
+        "2": "droveは過去形ですが、noticeの目的語の後に動詞の過去形を置くことはできません。",
+        "3": "drivesは三人称単数現在形ですが、noticeの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: I] [V: noticed] [O: the car] [GER: driving] [ADV: slowly] [PP: down the street]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pp-027",
+    "category": "genzaibunshi",
+    "question": "They left the lights ___ all day.",
+    "options": [
+      "burn",
+      "burning",
+      "burned",
+      "burns"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "leave + 目的語 + 現在分詞の構文。目的語を〜している状態のままにしておくことを表します。",
+      "translation": "彼らは一日中電気をつけっぱなしにした。",
+      "wrongOptionExplanations": {
+        "0": "burnは原形ですが、leave + 目的語 + 動詞の原形という構文はありません。leave + 目的語 + 現在分詞で「目的語を〜している状態のままにしておく」という意味になります。",
+        "2": "burnedは過去分詞ですが、leave + 目的語 + 過去分詞は「目的語が〜される状態のままにしておく」という受動的な意味になります。ここでは能動的な「燃える」という動作を表すので、現在分詞を使います。",
+        "3": "burnsは三人称単数現在形ですが、leaveの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: They] [V: left] [O: the lights] [GER: burning] [ADV: all day]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pp-028",
+    "category": "genzaibunshi",
+    "question": "I saw a man ___ across the bridge.",
+    "options": [
+      "walk",
+      "walking",
+      "walked",
+      "walks"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "see + 目的語 + 現在分詞の構文。目的語の動作が進行中であることを表します。",
+      "translation": "私は男が橋を渡っているのを見た。",
+      "wrongOptionExplanations": {
+        "0": "walkは原形ですが、see + 目的語 + 動詞の原形は「動作の全過程を見る」という意味になります。ここでは「歩いている様子を見た」という進行中の動作を表すので、現在分詞を使います。",
+        "2": "walkedは過去分詞ですが、see + 目的語 + 過去分詞は「目的語が〜されるのを見る」という受動的な意味になります。ここでは能動的な「歩く」という動作を表すので、現在分詞を使います。",
+        "3": "walksは三人称単数現在形ですが、seeの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: I] [V: saw] [O: a man] [GER: walking] [PP: across the bridge]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pp-029",
+    "category": "genzaibunshi",
+    "question": "She heard the birds ___ in the trees.",
+    "options": [
+      "sing",
+      "singing",
+      "sang",
+      "sings"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "hear + 目的語 + 現在分詞の構文。目的語の動作が進行中であることを表します。",
+      "translation": "彼女は鳥が木々で歌っているのが聞こえた。",
+      "wrongOptionExplanations": {
+        "0": "singは原形ですが、hear + 目的語 + 動詞の原形は「動作の全過程を聞く」という意味になります。ここでは「歌っている様子を聞いた」という進行中の動作を表すので、現在分詞を使います。",
+        "2": "sangは過去形ですが、hearの目的語の後に動詞の過去形を置くことはできません。",
+        "3": "singsは三人称単数現在形ですが、hearの目的語の後に動詞の現在形を置くことはできません。"
+      },
+      "structure": "[S: She] [V: heard] [O: the birds] [GER: singing] [PP: in the trees]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pp-030",
+    "category": "genzaibunshi",
+    "question": "He found the keys ___ on the floor.",
+    "options": [
+      "lie",
+      "lying",
+      "lay",
+      "laid"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "find + 目的語 + 現在分詞の構文。目的語が〜している状態で見つかることを表します。",
+      "translation": "彼は鍵が床に置いてあるのを見つけた。",
+      "wrongOptionExplanations": {
+        "0": "lieは原形ですが、find + 目的語 + 動詞の原形という構文はありません。find + 目的語 + 現在分詞で「目的語が〜している状態で見つかる」という意味になります。",
+        "2": "layは過去形ですが、findの目的語の後に動詞の過去形を置くことはできません。",
+        "3": "laidは過去分詞ですが、find + 目的語 + 過去分詞は「目的語が〜される状態で見つかる」という受動的な意味になります。ここでは能動的な「横たわる」という動作を表すので、現在分詞を使います。"
+      },
+      "structure": "[S: He] [V: found] [O: the keys] [GER: lying] [PP: on the floor]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pp-031",
+    "category": "genzaibunshi",
+    "question": "___ the meeting early, she found herself ___ extra time ___ her hands.",
+    "options": [
+      "Leaving, having, on",
+      "Left, having, in",
+      "Leave, have, at",
+      "Leaves, has, by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "現在分詞構文「〜して」、find oneself + 現在分詞は「自分が〜している状態にある」、have on one's handsは「〜を抱えている」という熟語です。分詞構文、find構文、熟語を組み合わせた複雑な文構造です。",
+      "translation": "会議を早く終えたので、彼女は余分な時間を抱えている自分に気づいた。",
+      "wrongOptionExplanations": {
+        "1": "Leftは過去分詞ですが、ここでは能動的な「終える」という動作を表すので、現在分詞を使います。have in one's handsは一般的ではありません。",
+        "2": "Leave have atは文法的に正しくありません。ここではLeaving having onが適切です。",
+        "3": "Leavesは三人称単数現在形ですが、分詞構文では現在分詞を使います。has by one's handsは一般的ではありません。"
+      },
+      "structure": "[GER: Leaving the meeting early] [S: she] [V: found] [O: herself] [GER: having] [O: extra time] [PP: on her hands]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-032",
+    "category": "genzaibunshi",
+    "question": "The security guard caught the thief ___ the building through the back door.",
+    "options": [
+      "enter",
+      "entering",
+      "entered",
+      "to enter"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "catch + 目的語 + 現在分詞は「目的語が〜しているのを捕まえる」という意味です。不正行為を発見する場面で使われる構文です。",
+      "translation": "警備員は泥棒が裏口から建物に入っているのを発見した。",
+      "wrongOptionExplanations": {
+        "0": "enterは原形ですが、catch + 目的語 + 動詞の原形という構文はありません。",
+        "2": "enteredは過去分詞ですが、catch + 目的語 + 過去分詞は「目的語が〜されるのを捕まえる」という受動的な意味になります。ここでは能動的な「入る」という動作を表すので、現在分詞を使います。",
+        "3": "to enterは不定詞ですが、catch + 目的語 + 不定詞という構文はありません。"
+      },
+      "structure": "[S: The security guard] [V: caught] [O: the thief] [GER: entering] [O: the building] [PP: through the back door]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-033",
+    "category": "genzaibunshi",
+    "question": "___ the deadline approaching, they found themselves ___ out of time to complete the project.",
+    "options": [
+      "With, running",
+      "For, going",
+      "At, coming",
+      "By, getting"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "With + 名詞 + 現在分詞は「〜が〜しているので」という意味、find oneself + 現在分詞は「自分が〜している状態にある」、run out ofは「〜を使い果たす」という熟語です。with構文、find構文、熟語を組み合わせた非常に複雑な文構造です。",
+      "translation": "期限が近づいているので、彼らはプロジェクトを完成させる時間を使い果たしている自分に気づいた。",
+      "wrongOptionExplanations": {
+        "1": "For goingは文法的に正しくありません。ここではWith runningが適切です。",
+        "2": "At + 名詞 + 現在分詞は一般的ではありません。come up toは「〜に近づく」という意味ですが、ここでは「使い果たす」という意味が必要です。",
+        "3": "By + 名詞 + 現在分詞は一般的ではありません。get away withは「〜で逃げる」という意味ですが、ここでは「使い果たす」という意味が必要です。"
+      },
+      "structure": "[PP: With the deadline approaching] [S: they] [V: found] [O: themselves] [GER: running out of] [O: time] [INF: to complete the project]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-034",
+    "category": "genzaibunshi",
+    "question": "Having completed the course, he found himself ___ ___ ___ new opportunities in his career.",
+    "options": [
+      "looking, forward, to",
+      "waiting, for, on",
+      "hoping, about, for",
+      "expecting, on, to"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "完了分詞構文、find oneself + 現在分詞は「自分が〜している状態にある」、look forward toは「〜を楽しみにする」という熟語です。完了分詞構文、find構文、熟語を組み合わせた非常に複雑な文構造です。",
+      "translation": "コースを完了した後、彼は自分のキャリアにおける新しい機会を楽しみにしている自分に気づいた。",
+      "wrongOptionExplanations": {
+        "1": "waiting for onは文法的に正しくありません。ここではlooking forward toが適切です。",
+        "2": "hoping about forは文法的に正しくありません。ここではlooking forward toが適切です。",
+        "3": "expecting on toは文法的に正しくありません。ここではlooking forward toが適切です。"
+      },
+      "structure": "[GER: Having completed the course] [S: he] [V: found] [O: himself] [GER: looking forward to] [O: new opportunities] [PP: in his career]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-035",
+    "category": "genzaibunshi",
+    "question": "Not ___ ___ how proceed, the team found itself struggling to find a solution.",
+    "options": [
+      "knowing, to",
+      "understanding, for",
+      "realizing, at",
+      "seeing, on"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Not + 現在分詞は分詞構文、how to proceedは「どう進めるべきか」、find oneself + 現在分詞は「自分が〜している状態にある」、struggle toは「〜しようと苦労する」という熟語です。分詞構文、疑問詞+不定詞、find構文、熟語を組み合わせた非常に複雑な文構造です。",
+      "translation": "どう進めるべきかわからなかったので、チームは解決策を見つけようと苦労している自分に気づいた。",
+      "wrongOptionExplanations": {
+        "1": "understanding forは文法的に正しくありません。ここではknowing toが適切です。",
+        "2": "realizing atは文法的に正しくありません。ここではknowing toが適切です。",
+        "3": "seeing onは文法的に正しくありません。ここではknowing toが適切です。"
+      },
+      "structure": "[GER: Not knowing how to proceed] [S: the team] [V: found] [O: itself] [GER: struggling] [INF: to find] [O: a solution]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-036",
+    "category": "genzaibunshi",
+    "question": "The supervisor caught the intern ___ confidential files without permission.",
+    "options": [
+      "access",
+      "accessing",
+      "accessed",
+      "to access"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "catch + 目的語 + 現在分詞は「目的語が〜しているのを捕まえる」という意味です。不正行為を発見する場面で使われる構文です。",
+      "translation": "監督はインターンが許可なく機密ファイルにアクセスしているのを発見した。",
+      "wrongOptionExplanations": {
+        "0": "accessは原形ですが、catch + 目的語 + 動詞の原形という構文はありません。",
+        "2": "accessedは過去分詞ですが、catch + 目的語 + 過去分詞は「目的語が〜されるのを捕まえる」という受動的な意味になります。ここでは能動的な「アクセスする」という動作を表すので、現在分詞を使います。",
+        "3": "to accessは不定詞ですが、catch + 目的語 + 不定詞という構文はありません。"
+      },
+      "structure": "[S: The supervisor] [V: caught] [O: the intern] [GER: accessing] [O: confidential files] [PP: without permission]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-037",
+    "category": "genzaibunshi",
+    "question": "___ ___ ___ the storm approaching, they found themselves Seeing a shelter immediately.",
+    "options": [
+      "Seeing, looking, for",
+      "Watching, searching, for",
+      "Noticing, seeking, a",
+      "Observing, finding, the"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "現在分詞構文「〜して」、find oneself + 現在分詞は「自分が〜している状態にある」、look forは「〜を探す」という熟語です。分詞構文、find構文、熟語を組み合わせた複雑な文構造です。",
+      "translation": "嵐が近づいているのを見て、彼らはすぐに避難所を探している自分に気づいた。",
+      "wrongOptionExplanations": {
+        "1": "Watching searching forは文法的に正しくありません。ここではSeeing looking forが適切です。",
+        "2": "Noticing seeking aは文法的に正しくありません。ここではSeeing looking forが適切です。",
+        "3": "Observing finding theは文法的に正しくありません。ここではSeeing looking forが適切です。"
+      },
+      "structure": "[GER: Seeing the storm approaching] [S: they] [V: found] [O: themselves] [GER: looking for] [O: a shelter] [ADV: immediately]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-038",
+    "category": "genzaibunshi",
+    "question": "Having been informed ___ the changes, she found herself ___ ___ the new system.",
+    "options": [
+      "about, adapting, to",
+      "of, adjusting, for",
+      "on, getting, used",
+      "with, becoming, familiar"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "完了受動分詞構文、find oneself + 現在分詞は「自分が〜している状態にある」、adapt toは「〜に適応する」という熟語です。完了受動分詞構文、find構文、熟語を組み合わせた非常に複雑な文構造です。",
+      "translation": "変更について知らされた後、彼女は新しいシステムに適応している自分に気づいた。",
+      "wrongOptionExplanations": {
+        "1": "informed ofは「〜について知らされる」ですが、ここではaboutが適切です。adjusting forは一般的ではありません。",
+        "2": "informed onは一般的ではありません。getting used toは「〜に慣れる」という意味ですが、ここでは「適応する」という意味が必要です。",
+        "3": "informed withは一般的ではありません。becoming familiar withは「〜に慣れる」という意味ですが、ここでは「適応する」という意味が必要です。"
+      },
+      "structure": "[GER: Having been informed] [PP: about the changes] [S: she] [V: found] [O: herself] [GER: adapting] [PP: to the new system]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-039",
+    "category": "genzaibunshi",
+    "question": "Not ___ ___ to handle the situation, the manager found himself asking for help from his team.",
+    "options": [
+      "knowing, how",
+      "understanding, what",
+      "realizing, where",
+      "seeing, when"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Not + 現在分詞は分詞構文、how to handleは「どう対処すべきか」、find oneself + 現在分詞は「自分が〜している状態にある」、ask forは「〜を求める」という熟語です。分詞構文、疑問詞+不定詞、find構文、熟語を組み合わせた非常に複雑な文構造です。",
+      "translation": "どう状況に対処すべきかわからなかったので、マネージャーはチームに助けを求めている自分に気づいた。",
+      "wrongOptionExplanations": {
+        "1": "understanding whatは文法的に正しくありません。ここではknowing howが適切です。",
+        "2": "realizing whereは文法的に正しくありません。ここではknowing howが適切です。",
+        "3": "when to handleは一般的ではありません。looking intoは「調査する」という意味ですが、ここでは「求める」という意味が必要です。"
+      },
+      "structure": "[GER: Not knowing how to handle the situation] [S: the manager] [V: found] [O: himself] [GER: asking for] [O: help] [PP: from his team]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-040",
+    "category": "genzaibunshi",
+    "question": "The detective caught the suspect ___ evidence at the crime scene.",
+    "options": [
+      "destroy",
+      "destroying",
+      "destroyed",
+      "to destroy"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "catch + 目的語 + 現在分詞は「目的語が〜しているのを捕まえる」という意味です。不正行為を発見する場面で使われる構文です。",
+      "translation": "刑事は容疑者が犯罪現場で証拠を破壊しているのを発見した。",
+      "wrongOptionExplanations": {
+        "0": "destroyは原形ですが、catch + 目的語 + 動詞の原形という構文はありません。",
+        "2": "destroyedは過去分詞ですが、catch + 目的語 + 過去分詞は「目的語が〜されるのを捕まえる」という受動的な意味になります。ここでは能動的な「破壊する」という動作を表すので、現在分詞を使います。",
+        "3": "to destroyは不定詞ですが、catch + 目的語 + 不定詞という構文はありません。"
+      },
+      "structure": "[S: The detective] [V: caught] [O: the suspect] [GER: destroying] [O: evidence] [PP: at the crime scene]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-041",
+    "category": "genzaibunshi",
+    "question": "___ the deadline ___ closer, they found themselves ___ out of time to finish the task.",
+    "options": [
+      "With, getting, running",
+      "For, coming, going",
+      "At, moving, coming",
+      "By, approaching, getting"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "With + 名詞 + 現在分詞は「〜が〜しているので」という意味、find oneself + 現在分詞は「自分が〜している状態にある」、run out ofは「〜を使い果たす」という熟語です。with構文、find構文、熟語を組み合わせた非常に複雑な文構造です。",
+      "translation": "期限が近づいているので、彼らはタスクを終える時間を使い果たしている自分に気づいた。",
+      "wrongOptionExplanations": {
+        "1": "For coming goingは文法的に正しくありません。ここではWith getting runningが適切です。",
+        "2": "At + 名詞 + 現在分詞は一般的ではありません。coming up toは「〜に近づく」という意味ですが、ここでは「使い果たす」という意味が必要です。",
+        "3": "By + 名詞 + 現在分詞は一般的ではありません。getting away withは「〜で逃げる」という意味ですが、ここでは「使い果たす」という意味が必要です。"
+      },
+      "structure": "[PP: With the deadline getting closer] [S: they] [V: found] [O: themselves] [GER: running out of] [O: time] [INF: to finish the task]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-042",
+    "category": "genzaibunshi",
+    "question": "Having been assigned the project, he found himself ___ ___ the challenges ahead.",
+    "options": [
+      "facing, up",
+      "dealing, with",
+      "confronting, about",
+      "meeting, for"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "完了受動分詞構文、find oneself + 現在分詞は「自分が〜している状態にある」、deal withは「〜に対処する」という熟語です。完了受動分詞構文、find構文、熟語を組み合わせた非常に複雑な文構造です。",
+      "translation": "プロジェクトを割り当てられた後、彼はこれから直面する課題に対処している自分に気づいた。",
+      "wrongOptionExplanations": {
+        "0": "facing up toは「〜に直面する」という意味ですが、ここでは「対処する」という意味が必要です。",
+        "2": "confronting aboutは文法的に正しくありません。ここではdealing withが適切です。",
+        "3": "meeting forは文法的に正しくありません。ここではdealing withが適切です。"
+      },
+      "structure": "[GER: Having been assigned the project] [S: he] [V: found] [O: himself] [GER: dealing with] [O: the challenges ahead]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-043",
+    "category": "genzaibunshi",
+    "question": "Not ___ ___ to respond, the committee found itself struggling to make a decision.",
+    "options": [
+      "knowing, how",
+      "understanding, what",
+      "realizing, where",
+      "seeing, when"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Not + 現在分詞は分詞構文、how to respondは「どう応答すべきか」、find oneself + 現在分詞は「自分が〜している状態にある」、struggle toは「〜しようと苦労する」という熟語です。分詞構文、疑問詞+不定詞、find構文、熟語を組み合わせた非常に複雑な文構造です。",
+      "translation": "どう応答すべきかわからなかったので、委員会は決定を下そうと苦労している自分に気づいた。",
+      "wrongOptionExplanations": {
+        "1": "understanding whatは文法的に正しくありません。ここではknowing howが適切です。",
+        "2": "realizing whereは文法的に正しくありません。ここではknowing howが適切です。",
+        "3": "seeing whenは文法的に正しくありません。ここではknowing howが適切です。"
+      },
+      "structure": "[GER: Not knowing how to respond] [S: the committee] [V: found] [O: itself] [GER: struggling] [INF: to make] [O: a decision]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-044",
+    "category": "genzaibunshi",
+    "question": "The auditor caught the accountant ___ financial records without authorization.",
+    "options": [
+      "alter",
+      "altering",
+      "altered",
+      "to alter"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "catch + 目的語 + 現在分詞は「目的語が〜しているのを捕まえる」という意味です。不正行為を発見する場面で使われる構文です。",
+      "translation": "監査人は会計士が許可なく財務記録を改ざんしているのを発見した。",
+      "wrongOptionExplanations": {
+        "0": "alterは原形ですが、catch + 目的語 + 動詞の原形という構文はありません。",
+        "2": "alteredは過去分詞ですが、catch + 目的語 + 過去分詞は「目的語が〜されるのを捕まえる」という受動的な意味になります。ここでは能動的な「改ざんする」という動作を表すので、現在分詞を使います。",
+        "3": "to alterは不定詞ですが、catch + 目的語 + 不定詞という構文はありません。"
+      },
+      "structure": "[S: The auditor] [V: caught] [O: the accountant] [GER: altering] [O: financial records] [PP: without authorization]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-045",
+    "category": "genzaibunshi",
+    "question": "___ the market conditions ___ rapidly, they found themselves adjusting to their strategy.",
+    "options": [
+      "With, changing",
+      "For, moving",
+      "At, shifting",
+      "By, turning"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "With + 名詞 + 現在分詞は「〜が〜しているので」という意味、find oneself + 現在分詞は「自分が〜している状態にある」、adjust toは「〜に適応する」という熟語です。with構文、find構文、熟語を組み合わせた非常に複雑な文構造です。",
+      "translation": "市場状況が急速に変化しているので、彼らは戦略を適応させている自分に気づいた。",
+      "wrongOptionExplanations": {
+        "1": "For movingは文法的に正しくありません。ここではWith changingが適切です。",
+        "2": "At + 名詞 + 現在分詞は一般的ではありません。getting used toは「〜に慣れる」という意味ですが、ここでは「適応する」という意味が必要です。",
+        "3": "By + 名詞 + 現在分詞は一般的ではありません。becoming familiar withは「〜に慣れる」という意味ですが、ここでは「適応する」という意味が必要です。"
+      },
+      "structure": "[PP: With the market conditions changing rapidly] [S: they] [V: found] [O: themselves] [GER: adjusting] [PP: to their strategy]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-046",
+    "category": "genzaibunshi",
+    "question": "Having been notified ___ ___ ___ the issue, she found herself about a solution immediately.",
+    "options": [
+      "about, working, on",
+      "of, dealing, with",
+      "on, focusing, on",
+      "with, concentrating, on"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "完了受動分詞構文、find oneself + 現在分詞は「自分が〜している状態にある」、work onは「〜に取り組む」という熟語です。完了受動分詞構文、find構文、熟語を組み合わせた非常に複雑な文構造です。",
+      "translation": "問題について通知された後、彼女はすぐに解決策に取り組んでいる自分に気づいた。",
+      "wrongOptionExplanations": {
+        "1": "notified ofは「〜について知らされる」ですが、ここではaboutが適切です。dealing withは「〜に対処する」という意味ですが、ここでは「取り組む」という意味が必要です。",
+        "2": "notified onは一般的ではありません。focusing onは「〜に焦点を当てる」という意味ですが、ここでは「取り組む」という意味が必要です。",
+        "3": "notified withは一般的ではありません。concentrating onは「〜に集中する」という意味ですが、ここでは「取り組む」という意味が必要です。"
+      },
+      "structure": "[GER: Having been notified] [PP: about the issue] [S: she] [V: found] [O: herself] [GER: working on] [O: a solution] [ADV: immediately]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-047",
+    "category": "genzaibunshi",
+    "question": "Not ___ ___ ___ address the problem, the team found itself requesting external assistance.",
+    "options": [
+      "knowing, how, to",
+      "understanding, what, to",
+      "realizing, where, to",
+      "seeing, when, to"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Not + 現在分詞は分詞構文、how to addressは「どう対処すべきか」、find oneself + 現在分詞は「自分が〜している状態にある」、requestは「〜を求める」という意味です。分詞構文、疑問詞+不定詞、find構文を組み合わせた非常に複雑な文構造です。",
+      "translation": "どう問題に対処すべきかわからなかったので、チームは外部の支援を求めている自分に気づいた。",
+      "wrongOptionExplanations": {
+        "1": "what to addressは一般的ではありません。asking forは「〜を求める」という意味ですが、ここではrequestの方が適切です。",
+        "2": "realizing where toは文法的に正しくありません。ここではknowing how toが適切です。",
+        "3": "when to addressは一般的ではありません。looking intoは「調査する」という意味ですが、ここでは「求める」という意味が必要です。"
+      },
+      "structure": "[GER: Not knowing how to address the problem] [S: the team] [V: found] [O: itself] [GER: requesting] [O: external assistance]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-048",
+    "category": "genzaibunshi",
+    "question": "The inspector caught the worker ___ safety regulations.",
+    "options": [
+      "violate",
+      "violating",
+      "violated",
+      "to violate"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "catch + 目的語 + 現在分詞は「目的語が〜しているのを捕まえる」という意味です。不正行為を発見する場面で使われる構文です。",
+      "translation": "検査官は作業員が安全規則に違反しているのを発見した。",
+      "wrongOptionExplanations": {
+        "0": "violateは原形ですが、catch + 目的語 + 動詞の原形という構文はありません。",
+        "2": "violatedは過去分詞ですが、catch + 目的語 + 過去分詞は「目的語が〜されるのを捕まえる」という受動的な意味になります。ここでは能動的な「違反する」という動作を表すので、現在分詞を使います。",
+        "3": "to violateは不定詞ですが、catch + 目的語 + 不定詞という構文はありません。"
+      },
+      "structure": "[S: The inspector] [V: caught] [O: the worker] [GER: violating] [O: safety regulations]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-049",
+    "category": "genzaibunshi",
+    "question": "___ the situation ___ worse, they found themselves ___ alternative approaches.",
+    "options": [
+      "With, getting, considering",
+      "For, becoming, thinking",
+      "At, turning, looking",
+      "By, going, searching"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "With + 名詞 + 現在分詞は「〜が〜しているので」という意味、find oneself + 現在分詞は「自分が〜している状態にある」、considerは「〜を検討する」という意味です。with構文、find構文を組み合わせた非常に複雑な文構造です。",
+      "translation": "状況が悪化しているので、彼らは代替的なアプローチを検討している自分に気づいた。",
+      "wrongOptionExplanations": {
+        "1": "For + 名詞 + 現在分詞は一般的ではありません。thinking aboutは「〜について考える」という意味ですが、ここでは「検討する」という意味が必要です。",
+        "2": "At + 名詞 + 現在分詞は一般的ではありません。looking intoは「調査する」という意味ですが、ここでは「検討する」という意味が必要です。",
+        "3": "By + 名詞 + 現在分詞は一般的ではありません。searching forは「〜を探す」という意味ですが、ここでは「検討する」という意味が必要です。"
+      },
+      "structure": "[PP: With the situation getting worse] [S: they] [V: found] [O: themselves] [GER: considering] [O: alternative approaches]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-050",
+    "category": "genzaibunshi",
+    "question": "Having been warned ___ the consequences, he found himself ___ ___ his actions more carefully.",
+    "options": [
+      "about, thinking, about",
+      "of, considering, of",
+      "on, reflecting, on",
+      "with, contemplating, with"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "完了受動分詞構文、find oneself + 現在分詞は「自分が〜している状態にある」、think aboutは「〜について考える」という熟語です。完了受動分詞構文、find構文、熟語を組み合わせた非常に複雑な文構造です。",
+      "translation": "結果について警告された後、彼は自分の行動についてより慎重に考えている自分に気づいた。",
+      "wrongOptionExplanations": {
+        "1": "warned ofは「〜について警告される」ですが、ここではaboutが適切です。consideringは「考慮する」という意味ですが、ここでは「考える」という意味が必要です。",
+        "2": "warned onは一般的ではありません。reflecting onは「〜について反省する」という意味ですが、ここでは「考える」という意味が必要です。",
+        "3": "warned withは一般的ではありません。contemplatingは「熟考する」という意味ですが、ここでは「考える」という意味が必要です。"
+      },
+      "structure": "[GER: Having been warned] [PP: about the consequences] [S: he] [V: found] [O: himself] [GER: thinking about] [O: his actions] [ADV: more carefully]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-051",
+    "category": "genzaibunshi",
+    "question": "Not ___ ___ to resolve the conflict, the mediator found himself suggesting a compromise.",
+    "options": [
+      "knowing, how",
+      "understanding, what",
+      "realizing, where",
+      "seeing, when"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Not + 現在分詞は分詞構文、how to resolveは「どう解決すべきか」、find oneself + 現在分詞は「自分が〜している状態にある」、suggestは「〜を提案する」という意味です。分詞構文、疑問詞+不定詞、find構文を組み合わせた非常に複雑な文構造です。",
+      "translation": "どう紛争を解決すべきかわからなかったので、調停者は妥協案を提案している自分に気づいた。",
+      "wrongOptionExplanations": {
+        "1": "what to resolveは一般的ではありません。proposing theは一般的ですが、suggesting aの方が適切です。",
+        "2": "where to resolveは一般的ではありません。offering anは一般的ですが、suggesting aの方が適切です。",
+        "3": "when to resolveは一般的ではありません。presenting aは一般的ですが、suggesting aの方が適切です。"
+      },
+      "structure": "[GER: Not knowing how to resolve the conflict] [S: the mediator] [V: found] [O: himself] [GER: suggesting] [O: a compromise]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-052",
+    "category": "genzaibunshi",
+    "question": "The officer caught the driver ___ the speed limit.",
+    "options": [
+      "exceed",
+      "exceeding",
+      "exceeded",
+      "to exceed"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "catch + 目的語 + 現在分詞は「目的語が〜しているのを捕まえる」という意味です。不正行為を発見する場面で使われる構文です。",
+      "translation": "警官は運転手が速度制限を超えているのを発見した。",
+      "wrongOptionExplanations": {
+        "0": "exceedは原形ですが、catch + 目的語 + 動詞の原形という構文はありません。",
+        "2": "exceededは過去分詞ですが、catch + 目的語 + 過去分詞は「目的語が〜されるのを捕まえる」という受動的な意味になります。ここでは能動的な「超える」という動作を表すので、現在分詞を使います。",
+        "3": "to exceedは不定詞ですが、catch + 目的語 + 不定詞という構文はありません。"
+      },
+      "structure": "[S: The officer] [V: caught] [O: the driver] [GER: exceeding] [O: the speed limit]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-053",
+    "category": "genzaibunshi",
+    "question": "___ the pressure ___ , they found themselves reconsidering their original plan.",
+    "options": [
+      "With, mounting",
+      "For, increasing",
+      "At, rising",
+      "By, growing"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "With + 名詞 + 現在分詞は「〜が〜しているので」という意味、find oneself + 現在分詞は「自分が〜している状態にある」、reconsiderは「〜を再考する」という意味です。with構文、find構文を組み合わせた非常に複雑な文構造です。",
+      "translation": "圧力が高まっているので、彼らは元の計画を再考している自分に気づいた。",
+      "wrongOptionExplanations": {
+        "1": "For + 名詞 + 現在分詞は一般的ではありません。thinking aboutは「〜について考える」という意味ですが、ここでは「再考する」という意味が必要です。",
+        "2": "At + 名詞 + 現在分詞は一般的ではありません。looking intoは「調査する」という意味ですが、ここでは「再考する」という意味が必要です。",
+        "3": "By + 名詞 + 現在分詞は一般的ではありません。searching forは「〜を探す」という意味ですが、ここでは「再考する」という意味が必要です。"
+      },
+      "structure": "[PP: With the pressure mounting] [S: they] [V: found] [O: themselves] [GER: reconsidering] [O: their original plan]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-054",
+    "category": "genzaibunshi",
+    "question": "Having been alerted ___ the danger, she found herself ___ immediate action.",
+    "options": [
+      "to, taking",
+      "about, making",
+      "of, doing",
+      "on, performing"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "完了受動分詞構文、find oneself + 現在分詞は「自分が〜している状態にある」、take actionは「行動を取る」という熟語です。完了受動分詞構文、find構文、熟語を組み合わせた非常に複雑な文構造です。",
+      "translation": "危険について警告された後、彼女はすぐに行動を取っている自分に気づいた。",
+      "wrongOptionExplanations": {
+        "1": "alerted aboutは一般的ですが、alerted toの方が適切です。making actionは一般的ではありません。",
+        "2": "alerted ofは一般的ですが、alerted toの方が適切です。doing actionは一般的ではありません。",
+        "3": "alerted onは一般的ではありません。performing actionは一般的ですが、taking actionの方が適切です。"
+      },
+      "structure": "[GER: Having been alerted] [PP: to the danger] [S: she] [V: found] [O: herself] [GER: taking] [O: immediate action]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-055",
+    "category": "genzaibunshi",
+    "question": "Not ___ ___ to prevent the accident, the supervisor found himself implementing emergency procedures.",
+    "options": [
+      "knowing, how",
+      "understanding, what",
+      "realizing, where",
+      "seeing, when"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Not + 現在分詞は分詞構文、how to preventは「どう防ぐべきか」、find oneself + 現在分詞は「自分が〜している状態にある」、implementは「〜を実施する」という意味です。分詞構文、疑問詞+不定詞、find構文を組み合わせた非常に複雑な文構造です。",
+      "translation": "どう事故を防ぐべきかわからなかったので、監督は緊急手順を実施している自分に気づいた。",
+      "wrongOptionExplanations": {
+        "1": "what to preventは一般的ではありません。applyingは「適用する」という意味ですが、ここでは「実施する」という意味が必要です。",
+        "2": "where to preventは一般的ではありません。usingは「使用する」という意味ですが、ここでは「実施する」という意味が必要です。",
+        "3": "when to preventは一般的ではありません。executingは「実行する」という意味ですが、ここでは「実施する」という意味が必要です。"
+      },
+      "structure": "[GER: Not knowing how to prevent the accident] [S: the supervisor] [V: found] [O: himself] [GER: implementing] [O: emergency procedures]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-056",
+    "category": "genzaibunshi",
+    "question": "The teacher caught the student ___ during the exam.",
+    "options": [
+      "cheat",
+      "cheating",
+      "cheated",
+      "to cheat"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "catch + 目的語 + 現在分詞は「目的語が〜しているのを捕まえる」という意味です。不正行為を発見する場面で使われる構文です。",
+      "translation": "先生は学生が試験中にカンニングしているのを発見した。",
+      "wrongOptionExplanations": {
+        "0": "cheatは原形ですが、catch + 目的語 + 動詞の原形という構文はありません。",
+        "2": "cheatedは過去分詞ですが、catch + 目的語 + 過去分詞は「目的語が〜されるのを捕まえる」という受動的な意味になります。ここでは能動的な「カンニングする」という動作を表すので、現在分詞を使います。",
+        "3": "to cheatは不定詞ですが、catch + 目的語 + 不定詞という構文はありません。"
+      },
+      "structure": "[S: The teacher] [V: caught] [O: the student] [GER: cheating] [PP: during the exam]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-057",
+    "category": "genzaibunshi",
+    "question": "___ the costs ___ , they found themselves ___ cost-cutting measures.",
+    "options": [
+      "With, rising, exploring",
+      "For, increasing, thinking",
+      "At, going, up",
+      "By, climbing, searching"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "With + 名詞 + 現在分詞は「〜が〜しているので」という意味、find oneself + 現在分詞は「自分が〜している状態にある」、exploreは「〜を探る」という意味です。with構文、find構文を組み合わせた非常に複雑な文構造です。",
+      "translation": "コストが上昇しているので、彼らはコスト削減策を探っている自分に気づいた。",
+      "wrongOptionExplanations": {
+        "1": "For + 名詞 + 現在分詞は一般的ではありません。thinking aboutは「〜について考える」という意味ですが、ここでは「探る」という意味が必要です。",
+        "2": "At + 名詞 + 現在分詞は一般的ではありません。looking intoは「調査する」という意味ですが、ここでは「探る」という意味が必要です。",
+        "3": "By + 名詞 + 現在分詞は一般的ではありません。searching forは「〜を探す」という意味ですが、ここでは「探る」という意味が必要です。"
+      },
+      "structure": "[PP: With the costs rising] [S: they] [V: found] [O: themselves] [GER: exploring] [O: cost-cutting measures]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-058",
+    "category": "genzaibunshi",
+    "question": "Having been informed ___ the delay, he found himself ___ alternative arrangements.",
+    "options": [
+      "of, making",
+      "about, creating",
+      "on, developing",
+      "with, establishing"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "完了受動分詞構文、find oneself + 現在分詞は「自分が〜している状態にある」、make arrangementsは「手配をする」という熟語です。完了受動分詞構文、find構文、熟語を組み合わせた非常に複雑な文構造です。",
+      "translation": "遅延について知らされた後、彼は代替的な手配をしている自分に気づいた。",
+      "wrongOptionExplanations": {
+        "1": "informed aboutは一般的ですが、informed ofの方が適切です。creating arrangementsは一般的ですが、making arrangementsの方が適切です。",
+        "2": "informed onは一般的ではありません。developing arrangementsは一般的ですが、making arrangementsの方が適切です。",
+        "3": "informed withは一般的ではありません。establishing arrangementsは一般的ですが、making arrangementsの方が適切です。"
+      },
+      "structure": "[GER: Having been informed] [PP: of the delay] [S: he] [V: found] [O: himself] [GER: making] [O: alternative arrangements]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-059",
+    "category": "genzaibunshi",
+    "question": "Not ___ ___ ___ handle the crisis, the director found himself seeking expert advice.",
+    "options": [
+      "knowing, how, to",
+      "understanding, what, to",
+      "realizing, where, to",
+      "seeing, when, to"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Not + 現在分詞は分詞構文、how to handleは「どう対処すべきか」、find oneself + 現在分詞は「自分が〜している状態にある」、seekは「〜を求める」という意味です。分詞構文、疑問詞+不定詞、find構文を組み合わせた非常に複雑な文構造です。",
+      "translation": "どう危機に対処すべきかわからなかったので、ディレクターは専門家の助言を求めている自分に気づいた。",
+      "wrongOptionExplanations": {
+        "1": "what to handleは一般的ではありません。asking forは「〜を求める」という意味ですが、ここではseekの方が適切です。",
+        "2": "where to handleは一般的ではありません。requesting fromは一般的ですが、seekの方が適切です。",
+        "3": "when to handleは一般的ではありません。looking intoは「調査する」という意味ですが、ここでは「求める」という意味が必要です。"
+      },
+      "structure": "[GER: Not knowing how to handle the crisis] [S: the director] [V: found] [O: himself] [GER: seeking] [O: expert advice]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pp-060",
+    "category": "genzaibunshi",
+    "question": "The investigator caught the suspect ___ ___ the evidence.",
+    "options": [
+      "tamper, with",
+      "tampering, with",
+      "tampered, with",
+      "to tamper, with"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "catch + 目的語 + 現在分詞は「目的語が〜しているのを捕まえる」という意味、tamper withは「〜を改ざんする」という熟語です。catch構文と熟語を組み合わせた複雑な文構造です。",
+      "translation": "調査官は容疑者が証拠を改ざんしているのを発見した。",
+      "wrongOptionExplanations": {
+        "0": "tamperは原形ですが、catch + 目的語 + 動詞の原形という構文はありません。",
+        "2": "tamperedは過去分詞ですが、catch + 目的語 + 過去分詞は「目的語が〜されるのを捕まえる」という受動的な意味になります。ここでは能動的な「改ざんする」という動作を表すので、現在分詞を使います。",
+        "3": "to tamper withは文法的に正しくありません。ここではtampering withが適切です。"
+      },
+      "structure": "[S: The investigator] [V: caught] [O: the suspect] [GER: tampering with] [O: the evidence]"
+    },
+    "difficulty": 2
+  }
+]

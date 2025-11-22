@@ -1,0 +1,2785 @@
+[
+  {
+    "id": "prep-001",
+    "category": "zenchishi",
+    "question": "The book is ___ the table.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "onは「〜の上に」という意味で、表面に接触している状態を表します。",
+      "translation": "本はテーブルの上にあります。",
+      "wrongOptionExplanations": {
+        "1": "inは「〜の中に」という意味で、内部に入っている状態を表します。",
+        "2": "atは「〜で、〜に」という意味で、特定の場所や地点を表します。",
+        "3": "byは「〜のそばに」という意味で、近くにある状態を表します。"
+      },
+      "structure": "[S: The book] [V: is] [OTHER: on the table]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-002",
+    "category": "zenchishi",
+    "question": "She lives ___ Tokyo.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "to"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "inは大きな場所（都市、国）を表す時に使います。",
+      "translation": "彼女は東京に住んでいます。",
+      "wrongOptionExplanations": {
+        "1": "atは小さな場所や特定の地点を表す時に使います。",
+        "2": "onは「〜の上に」という意味で、場所を表す時は通りや階などに使います。",
+        "3": "toは「〜へ」という方向を表す前置詞です。"
+      },
+      "structure": "[S: She] [V: lives] [OTHER: in Tokyo]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-003",
+    "category": "zenchishi",
+    "question": "I will meet you ___ 3 o'clock.",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "atは特定の時刻を表す時に使います。",
+      "translation": "3時にあなたに会います。",
+      "wrongOptionExplanations": {
+        "1": "inは月、年、季節など長い期間を表す時に使います。",
+        "2": "onは曜日や日付を表す時に使います。",
+        "3": "byは「〜までに」という期限を表す時に使います。"
+      },
+      "structure": "[S: I] [V: will meet] [O: you] [OTHER: at 3 o'clock]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-004",
+    "category": "zenchishi",
+    "question": "We go to school ___ bus.",
+    "options": [
+      "by",
+      "in",
+      "on",
+      "with"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "byは交通手段を表す時に使います。",
+      "translation": "私たちはバスで学校に行きます。",
+      "wrongOptionExplanations": {
+        "1": "inは車など閉じた空間の乗り物に使いますが、冠詞が必要です（in a car）。",
+        "2": "onは「〜に乗って」という意味ですが、冠詞が必要です（on a bus）。",
+        "3": "withは「〜と一緒に」という意味です。"
+      },
+      "structure": "[S: We] [V: go] [OTHER: to school by bus]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-005",
+    "category": "zenchishi",
+    "question": "The cat is hiding ___ the sofa.",
+    "options": [
+      "under",
+      "on",
+      "above",
+      "between"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "underは「〜の下に」という意味で、何かの下にある状態を表します。",
+      "translation": "猫はソファの下に隠れています。",
+      "wrongOptionExplanations": {
+        "1": "onは「〜の上に」という意味です。",
+        "2": "aboveは「〜の上方に」という意味で、接触していない上方を表します。",
+        "3": "betweenは「〜の間に」という意味で、2つのものの間を表します。"
+      },
+      "structure": "[S: The cat] [V: is hiding] [OTHER: under the sofa]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-006",
+    "category": "zenchishi",
+    "question": "My birthday is ___ July.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "inは月、年、季節を表す時に使います。",
+      "translation": "私の誕生日は7月です。",
+      "wrongOptionExplanations": {
+        "1": "onは曜日や日付を表す時に使います。",
+        "2": "atは特定の時刻を表す時に使います。",
+        "3": "byは「〜までに」という期限を表します。"
+      },
+      "structure": "[S: My birthday] [V: is] [OTHER: in July]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-007",
+    "category": "zenchishi",
+    "question": "He walked ___ the park to get home.",
+    "options": [
+      "through",
+      "across",
+      "over",
+      "along"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "throughは「〜を通り抜けて」という意味で、内部を通過することを表します。",
+      "translation": "彼は家に帰るために公園を通り抜けて歩いた。",
+      "wrongOptionExplanations": {
+        "1": "acrossは「〜を横切って」という意味で、表面を横断することを表します。",
+        "2": "overは「〜を越えて」という意味で、上を越えることを表します。",
+        "3": "alongは「〜に沿って」という意味です。"
+      },
+      "structure": "[S: He] [V: walked] [OTHER: through the park to get home]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-008",
+    "category": "zenchishi",
+    "question": "She was born ___ 1995.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "inは年を表す時に使います。",
+      "translation": "彼女は1995年に生まれました。",
+      "wrongOptionExplanations": {
+        "1": "onは曜日や日付を表す時に使います。",
+        "2": "atは特定の時刻を表す時に使います。",
+        "3": "byは「〜までに」という期限を表します。"
+      },
+      "structure": "[S: She] [V: was born] [OTHER: in 1995]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-009",
+    "category": "zenchishi",
+    "question": "There is a bridge ___ the river.",
+    "options": [
+      "over",
+      "on",
+      "above",
+      "across"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "overは「〜の上に」という意味で、何かを覆うように上にある状態を表します。",
+      "translation": "川の上に橋があります。",
+      "wrongOptionExplanations": {
+        "1": "onは表面に接触している状態を表します。",
+        "2": "aboveは「〜の上方に」という意味で、垂直方向の上を表しますが、橋にはoverを使います。",
+        "3": "acrossは「〜を横切って」という意味で、動きを伴う時に使います。"
+      },
+      "structure": "[V: is] [O: a bridge] [OTHER: There over the river]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-010",
+    "category": "zenchishi",
+    "question": "The meeting will be held ___ Monday.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "onは曜日を表す時に使います。",
+      "translation": "会議は月曜日に開催されます。",
+      "wrongOptionExplanations": {
+        "1": "inは月、年、季節など長い期間を表す時に使います。",
+        "2": "atは特定の時刻を表す時に使います。",
+        "3": "byは「〜までに」という期限を表します。"
+      },
+      "structure": "[S: The meeting] [V: will be held] [OTHER: on Monday]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-011",
+    "category": "zenchishi",
+    "question": "He is sitting ___ the window.",
+    "options": [
+      "by",
+      "on",
+      "in",
+      "at"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "byは「〜のそばに」という意味で、近くにある状態を表します。",
+      "translation": "彼は窓のそばに座っています。",
+      "wrongOptionExplanations": {
+        "1": "onは「〜の上に」という意味です。",
+        "2": "inは「〜の中に」という意味です。",
+        "3": "atは特定の場所や地点を表します。"
+      },
+      "structure": "[S: He] [V: is sitting] [OTHER: by the window]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-012",
+    "category": "zenchishi",
+    "question": "I will finish this work ___ Friday.",
+    "options": [
+      "by",
+      "until",
+      "on",
+      "at"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "byは「〜までに」という期限を表し、その時点までに完了することを意味します。",
+      "translation": "金曜日までにこの仕事を終わらせます。",
+      "wrongOptionExplanations": {
+        "1": "untilは「〜まで」という継続を表し、その時点まで続くことを意味します。",
+        "2": "onは曜日や日付を表す時に使いますが、期限にはbyを使います。",
+        "3": "atは特定の時刻を表す時に使います。"
+      },
+      "structure": "[S: I] [V: will finish] [O: this work] [OTHER: by Friday]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-013",
+    "category": "zenchishi",
+    "question": "The bank is ___ the post office and the library.",
+    "options": [
+      "between",
+      "among",
+      "in",
+      "at"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "betweenは2つのものの間を表す時に使います。",
+      "translation": "銀行は郵便局と図書館の間にあります。",
+      "wrongOptionExplanations": {
+        "1": "amongは3つ以上のものの間を表す時に使います。",
+        "2": "inは「〜の中に」という意味です。",
+        "3": "atは特定の場所や地点を表します。"
+      },
+      "structure": "[S: The bank] [V: is] [OTHER: between the post office and the library]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-014",
+    "category": "zenchishi",
+    "question": "She arrived ___ the airport early.",
+    "options": [
+      "at",
+      "in",
+      "to",
+      "on"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "atは空港、駅など特定の場所に到着する時に使います。",
+      "translation": "彼女は空港に早く到着した。",
+      "wrongOptionExplanations": {
+        "1": "inは大きな場所（都市、国）に到着する時に使います。",
+        "2": "toは「〜へ」という方向を表す前置詞で、arriveの後には使いません。",
+        "3": "onは「〜の上に」という意味です。"
+      },
+      "structure": "[S: She] [V: arrived] [OTHER: at the airport early]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-015",
+    "category": "zenchishi",
+    "question": "The picture is hanging ___ the wall.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "over"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "onは壁に掛かっている状態を表す時に使います。",
+      "translation": "絵は壁に掛かっています。",
+      "wrongOptionExplanations": {
+        "1": "inは「〜の中に」という意味です。",
+        "2": "atは特定の場所や地点を表します。",
+        "3": "overは「〜の上に」という意味で、何かを覆うように上にある状態を表します。"
+      },
+      "structure": "[S: The picture] [V: is hanging] [OTHER: on the wall]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-016",
+    "category": "zenchishi",
+    "question": "We will go camping ___ summer.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "inは季節を表す時に使います。",
+      "translation": "私たちは夏にキャンプに行きます。",
+      "wrongOptionExplanations": {
+        "1": "onは曜日や日付を表す時に使います。",
+        "2": "atは特定の時刻を表す時に使います。",
+        "3": "byは「〜までに」という期限を表します。"
+      },
+      "structure": "[S: We] [V: will go] [C: camping] [OTHER: in summer]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-017",
+    "category": "zenchishi",
+    "question": "The plane flew ___ the clouds.",
+    "options": [
+      "above",
+      "on",
+      "over",
+      "under"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "aboveは「〜の上方に」という意味で、接触せずに上にある状態を表します。",
+      "translation": "飛行機は雲の上を飛んだ。",
+      "wrongOptionExplanations": {
+        "1": "onは表面に接触している状態を表します。",
+        "2": "overも「〜の上に」という意味ですが、aboveの方が適切です。",
+        "3": "underは「〜の下に」という意味です。"
+      },
+      "structure": "[S: The plane] [V: flew] [OTHER: above the clouds]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-018",
+    "category": "zenchishi",
+    "question": "They walked ___ the street to the park.",
+    "options": [
+      "along",
+      "through",
+      "across",
+      "over"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "alongは「〜に沿って」という意味で、何かに沿って移動することを表します。",
+      "translation": "彼らは公園まで通りに沿って歩いた。",
+      "wrongOptionExplanations": {
+        "1": "throughは「〜を通り抜けて」という意味で、内部を通過することを表します。",
+        "2": "acrossは「〜を横切って」という意味で、表面を横断することを表します。",
+        "3": "overは「〜を越えて」という意味です。"
+      },
+      "structure": "[S: They] [V: walked] [OTHER: along the street to the park]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-019",
+    "category": "zenchishi",
+    "question": "I will be there ___ 10 minutes.",
+    "options": [
+      "in",
+      "after",
+      "at",
+      "by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "inは「〜後に」という意味で、未来の時点を表す時に使います。",
+      "translation": "10分後にそこにいます。",
+      "wrongOptionExplanations": {
+        "1": "afterは「〜の後に」という意味ですが、時間の長さを表す時はinを使います。",
+        "2": "atは特定の時刻を表す時に使います。",
+        "3": "byは「〜までに」という期限を表します。"
+      },
+      "structure": "[S: I] [V: will be] [C: there] [OTHER: in 10 minutes]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-020",
+    "category": "zenchishi",
+    "question": "I will be there ___ 10 minutes.",
+    "options": [
+      "in",
+      "after",
+      "at",
+      "by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "inは「〜後に」という意味で、未来の時点を表す時に使います。",
+      "translation": "10分後にそこにいます。",
+      "structure": "[S: I] [V: will be] [C: there] [OTHER: in 10 minutes]",
+      "wrongOptionExplanations": {
+        "1": "afterは「〜の後に」という意味ですが、時間の長さを表す時はinを使います。",
+        "2": "atは特定の時刻を表す時に使います。",
+        "3": "byは「〜までに」という期限を表します。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-021",
+    "category": "zenchishi",
+    "question": "The pen is ___ my desk.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "onは「〜の上に」という意味で、表面に接触している状態を表します。",
+      "translation": "ペンは机の上にあります。",
+      "structure": "[S: The pen] [V: is] [OTHER: on my desk]",
+      "wrongOptionExplanations": {
+        "1": "inは「〜の中に」という意味で、内部に入っている状態を表します。",
+        "2": "atは特定の場所や地点を表します。",
+        "3": "byは「〜のそばに」という意味で、近くにある状態を表します。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-022",
+    "category": "zenchishi",
+    "question": "I will see you ___ Monday.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "onは曜日を表す時に使います。",
+      "translation": "月曜日に会いましょう。",
+      "structure": "[S: I] [V: will see] [O: you] [OTHER: on Monday]",
+      "wrongOptionExplanations": {
+        "1": "inは月、年、季節など長い期間を表す時に使います。",
+        "2": "atは特定の時刻を表す時に使います。",
+        "3": "byは「〜までに」という期限を表します。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-023",
+    "category": "zenchishi",
+    "question": "The cat is sleeping ___ the bed.",
+    "options": [
+      "on",
+      "under",
+      "above",
+      "between"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "onは「〜の上に」という意味で、表面に接触している状態を表します。",
+      "translation": "猫はベッドの上で寝ています。",
+      "structure": "[S: The cat] [V: is sleeping] [OTHER: on the bed]",
+      "wrongOptionExplanations": {
+        "1": "underは「〜の下に」という意味です。",
+        "2": "aboveは「〜の上方に」という意味で、接触していない上方を表します。",
+        "3": "betweenは「〜の間に」という意味で、2つのものの間を表します。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-024",
+    "category": "zenchishi",
+    "question": "I arrived ___ the station at 9 o'clock.",
+    "options": [
+      "at",
+      "in",
+      "to",
+      "on"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "atは空港、駅など特定の場所に到着する時に使います。",
+      "translation": "9時に駅に到着しました。",
+      "structure": "[S: I] [V: arrived] [OTHER: at the station at 9 o'clock]",
+      "wrongOptionExplanations": {
+        "1": "inは大きな場所（都市、国）に到着する時に使います。",
+        "2": "toは「〜へ」という方向を表す前置詞で、arriveの後には使いません。",
+        "3": "onは「〜の上に」という意味です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-025",
+    "category": "zenchishi",
+    "question": "The book is ___ the shelf.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "onは「〜の上に」という意味で、表面に接触している状態を表します。",
+      "translation": "本は棚の上にあります。",
+      "structure": "[S: The book] [V: is] [OTHER: on the shelf]",
+      "wrongOptionExplanations": {
+        "1": "inは「〜の中に」という意味で、内部に入っている状態を表します。",
+        "2": "atは特定の場所や地点を表します。",
+        "3": "byは「〜のそばに」という意味で、近くにある状態を表します。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-026",
+    "category": "zenchishi",
+    "question": "I go to work ___ train every day.",
+    "options": [
+      "by",
+      "in",
+      "on",
+      "with"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "byは交通手段を表す時に使います。",
+      "translation": "毎日電車で仕事に行きます。",
+      "structure": "[S: I] [V: go] [OTHER: to work by train every day]",
+      "wrongOptionExplanations": {
+        "1": "inは車など閉じた空間の乗り物に使いますが、冠詞が必要です（in a car）。",
+        "2": "onは「〜に乗って」という意味ですが、冠詞が必要です（on a bus）。",
+        "3": "withは「〜と一緒に」という意味です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-027",
+    "category": "zenchishi",
+    "question": "The flowers are ___ the vase.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "inは「〜の中に」という意味で、内部に入っている状態を表します。",
+      "translation": "花は花瓶の中にあります。",
+      "structure": "[S: The flowers] [V: are] [OTHER: in the vase]",
+      "wrongOptionExplanations": {
+        "1": "onは「〜の上に」という意味で、表面に接触している状態を表します。",
+        "2": "atは特定の場所や地点を表します。",
+        "3": "byは「〜のそばに」という意味で、近くにある状態を表します。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-028",
+    "category": "zenchishi",
+    "question": "I will finish this ___ 5 minutes.",
+    "options": [
+      "in",
+      "after",
+      "at",
+      "by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "inは「〜後に」という意味で、未来の時点を表す時に使います。",
+      "translation": "5分後にこれを終わらせます。",
+      "structure": "[S: I] [V: will finish] [O: this] [OTHER: in 5 minutes]",
+      "wrongOptionExplanations": {
+        "1": "afterは「〜の後に」という意味ですが、時間の長さを表す時はinを使います。",
+        "2": "atは特定の時刻を表す時に使います。",
+        "3": "byは「〜までに」という期限を表します。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-029",
+    "category": "zenchishi",
+    "question": "The ball is ___ the table.",
+    "options": [
+      "under",
+      "on",
+      "above",
+      "between"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "underは「〜の下に」という意味で、何かの下にある状態を表します。",
+      "translation": "ボールはテーブルの下にあります。",
+      "structure": "[S: The ball] [V: is] [OTHER: under the table]",
+      "wrongOptionExplanations": {
+        "1": "onは「〜の上に」という意味です。",
+        "2": "aboveは「〜の上方に」という意味で、接触していない上方を表します。",
+        "3": "betweenは「〜の間に」という意味で、2つのものの間を表します。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-030",
+    "category": "zenchishi",
+    "question": "I will meet you ___ the library.",
+    "options": [
+      "at",
+      "in",
+      "to",
+      "on"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "atは特定の場所（図書館、駅など）を表す時に使います。",
+      "translation": "図書館で会いましょう。",
+      "structure": "[S: I] [V: will meet] [O: you] [OTHER: at the library]",
+      "wrongOptionExplanations": {
+        "1": "inは大きな場所（都市、国）を表す時に使います。",
+        "2": "toは「〜へ」という方向を表す前置詞です。",
+        "3": "onは「〜の上に」という意味です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-031",
+    "category": "zenchishi",
+    "question": "The bird is flying ___ the tree.",
+    "options": [
+      "above",
+      "on",
+      "over",
+      "under"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "aboveは「〜の上方に」という意味で、接触せずに上にある状態を表します。",
+      "translation": "鳥は木の上を飛んでいます。",
+      "structure": "[S: The bird] [V: is flying] [OTHER: above the tree]",
+      "wrongOptionExplanations": {
+        "1": "onは表面に接触している状態を表します。",
+        "2": "overも「〜の上に」という意味ですが、aboveの方が適切です。",
+        "3": "underは「〜の下に」という意味です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-032",
+    "category": "zenchishi",
+    "question": "I will call you ___ the morning.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "inは時間帯（朝、午後、夜）を表す時に使います。",
+      "translation": "朝に電話します。",
+      "structure": "[S: I] [V: will call] [O: you] [OTHER: in the morning]",
+      "wrongOptionExplanations": {
+        "1": "onは曜日や日付を表す時に使います。",
+        "2": "atは特定の時刻を表す時に使います。",
+        "3": "byは「〜までに」という期限を表します。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-033",
+    "category": "zenchishi",
+    "question": "The keys are ___ the drawer.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "inは「〜の中に」という意味で、内部に入っている状態を表します。",
+      "translation": "鍵は引き出しの中にあります。",
+      "structure": "[S: The keys] [V: are] [OTHER: in the drawer]",
+      "wrongOptionExplanations": {
+        "1": "onは「〜の上に」という意味で、表面に接触している状態を表します。",
+        "2": "atは特定の場所や地点を表します。",
+        "3": "byは「〜のそばに」という意味で、近くにある状態を表します。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-034",
+    "category": "zenchishi",
+    "question": "I will be there ___ 3 PM.",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "atは特定の時刻を表す時に使います。",
+      "translation": "午後3時にそこにいます。",
+      "structure": "[S: I] [V: will be] [C: there] [OTHER: at 3 PM]",
+      "wrongOptionExplanations": {
+        "1": "inは月、年、季節など長い期間を表す時に使います。",
+        "2": "onは曜日や日付を表す時に使います。",
+        "3": "byは「〜までに」という期限を表します。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-035",
+    "category": "zenchishi",
+    "question": "The picture is hanging ___ the wall.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "over"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "onは壁に掛かっている状態を表す時に使います。",
+      "translation": "絵は壁に掛かっています。",
+      "structure": "[S: The picture] [V: is hanging] [OTHER: on the wall]",
+      "wrongOptionExplanations": {
+        "1": "inは「〜の中に」という意味です。",
+        "2": "atは特定の場所や地点を表します。",
+        "3": "overは「〜の上に」という意味で、何かを覆うように上にある状態を表します。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-036",
+    "category": "zenchishi",
+    "question": "I will return ___ Friday.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "onは曜日を表す時に使います。",
+      "translation": "金曜日に戻ります。",
+      "structure": "[S: I] [V: will return] [OTHER: on Friday]",
+      "wrongOptionExplanations": {
+        "1": "inは月、年、季節など長い期間を表す時に使います。",
+        "2": "atは特定の時刻を表す時に使います。",
+        "3": "byは「〜までに」という期限を表します。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-037",
+    "category": "zenchishi",
+    "question": "The dog is sitting ___ the door.",
+    "options": [
+      "by",
+      "on",
+      "in",
+      "at"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "byは「〜のそばに」という意味で、近くにある状態を表します。",
+      "translation": "犬はドアのそばに座っています。",
+      "structure": "[S: The dog] [V: is sitting] [OTHER: by the door]",
+      "wrongOptionExplanations": {
+        "1": "onは「〜の上に」という意味です。",
+        "2": "inは「〜の中に」という意味です。",
+        "3": "atは特定の場所や地点を表します。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-038",
+    "category": "zenchishi",
+    "question": "I will go shopping ___ the weekend.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "onは週末を表す時に使います。",
+      "translation": "週末に買い物に行きます。",
+      "structure": "[S: I] [V: will go] [C: shopping] [OTHER: on the weekend]",
+      "wrongOptionExplanations": {
+        "1": "inは月、年、季節など長い期間を表す時に使います。",
+        "2": "atは特定の時刻を表す時に使います。",
+        "3": "byは「〜までに」という期限を表します。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-039",
+    "category": "zenchishi",
+    "question": "The book is ___ the bag.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "inは「〜の中に」という意味で、内部に入っている状態を表します。",
+      "translation": "本はかばんの中にあります。",
+      "structure": "[S: The book] [V: is] [OTHER: in the bag]",
+      "wrongOptionExplanations": {
+        "1": "onは「〜の上に」という意味で、表面に接触している状態を表します。",
+        "2": "atは特定の場所や地点を表します。",
+        "3": "byは「〜のそばに」という意味で、近くにある状態を表します。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-040",
+    "category": "zenchishi",
+    "question": "I will arrive ___ the airport at 10 AM.",
+    "options": [
+      "at",
+      "in",
+      "to",
+      "on"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "atは空港、駅など特定の場所に到着する時に使います。",
+      "translation": "午前10時に空港に到着します。",
+      "structure": "[S: I] [V: will arrive] [OTHER: at the airport at 10 AM]",
+      "wrongOptionExplanations": {
+        "1": "inは大きな場所（都市、国）に到着する時に使います。",
+        "2": "toは「〜へ」という方向を表す前置詞で、arriveの後には使いません。",
+        "3": "onは「〜の上に」という意味です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-041",
+    "category": "zenchishi",
+    "question": "The cat jumped ___ the fence.",
+    "options": [
+      "over",
+      "on",
+      "above",
+      "under"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "overは「〜を越えて」という意味で、上を越えることを表します。",
+      "translation": "猫はフェンスを越えて跳びました。",
+      "structure": "[S: The cat] [V: jumped] [OTHER: over the fence]",
+      "wrongOptionExplanations": {
+        "1": "onは表面に接触している状態を表します。",
+        "2": "aboveは「〜の上方に」という意味で、接触せずに上にある状態を表します。",
+        "3": "underは「〜の下に」という意味です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-042",
+    "category": "zenchishi",
+    "question": "I will see you ___ the evening.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "inは時間帯（朝、午後、夜）を表す時に使います。",
+      "translation": "夕方に会いましょう。",
+      "structure": "[S: I] [V: will see] [O: you] [OTHER: in the evening]",
+      "wrongOptionExplanations": {
+        "1": "onは曜日や日付を表す時に使います。",
+        "2": "atは特定の時刻を表す時に使います。",
+        "3": "byは「〜までに」という期限を表します。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-043",
+    "category": "zenchishi",
+    "question": "The ball rolled ___ the floor.",
+    "options": [
+      "across",
+      "through",
+      "along",
+      "over"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "acrossは「〜を横切って」という意味で、表面を横断することを表します。",
+      "translation": "ボールは床を横切って転がりました。",
+      "structure": "[S: The ball] [V: rolled] [OTHER: across the floor]",
+      "wrongOptionExplanations": {
+        "1": "throughは「〜を通り抜けて」という意味で、内部を通過することを表します。",
+        "2": "alongは「〜に沿って」という意味です。",
+        "3": "overは「〜を越えて」という意味です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-044",
+    "category": "zenchishi",
+    "question": "I will be home ___ dinner time.",
+    "options": [
+      "by",
+      "until",
+      "on",
+      "at"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "byは「〜までに」という期限を表し、その時点までに完了することを意味します。",
+      "translation": "夕食の時間までに家にいます。",
+      "structure": "[S: I] [V: will be] [C: home] [OTHER: by dinner time]",
+      "wrongOptionExplanations": {
+        "1": "untilは「〜まで」という継続を表し、その時点まで続くことを意味します。",
+        "2": "onは曜日や日付を表す時に使います。",
+        "3": "atは特定の時刻を表す時に使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-045",
+    "category": "zenchishi",
+    "question": "The bird is ___ the tree.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "inは「〜の中に」という意味で、内部に入っている状態を表します。",
+      "translation": "鳥は木の中にいます。",
+      "structure": "[S: The bird] [V: is] [OTHER: in the tree]",
+      "wrongOptionExplanations": {
+        "1": "onは「〜の上に」という意味で、表面に接触している状態を表します。",
+        "2": "atは特定の場所や地点を表します。",
+        "3": "byは「〜のそばに」という意味で、近くにある状態を表します。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-046",
+    "category": "zenchishi",
+    "question": "I will finish this work ___ tomorrow.",
+    "options": [
+      "by",
+      "until",
+      "on",
+      "at"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "byは「〜までに」という期限を表し、その時点までに完了することを意味します。",
+      "translation": "明日までにこの仕事を終わらせます。",
+      "structure": "[S: I] [V: will finish] [O: this work] [OTHER: by tomorrow]",
+      "wrongOptionExplanations": {
+        "1": "untilは「〜まで」という継続を表し、その時点まで続くことを意味します。",
+        "2": "onは曜日や日付を表す時に使いますが、期限にはbyを使います。",
+        "3": "atは特定の時刻を表す時に使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-047",
+    "category": "zenchishi",
+    "question": "The children are playing ___ the park.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "inは場所（公園、学校など）を表す時に使います。",
+      "translation": "子供たちは公園で遊んでいます。",
+      "structure": "[S: The children] [V: are playing] [OTHER: in the park]",
+      "wrongOptionExplanations": {
+        "1": "onは「〜の上に」という意味で、表面に接触している状態を表します。",
+        "2": "atは特定の場所や地点を表します。",
+        "3": "byは「〜のそばに」という意味で、近くにある状態を表します。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-048",
+    "category": "zenchishi",
+    "question": "I will call you ___ the afternoon.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "inは時間帯（朝、午後、夜）を表す時に使います。",
+      "translation": "午後に電話します。",
+      "structure": "[S: I] [V: will call] [O: you] [OTHER: in the afternoon]",
+      "wrongOptionExplanations": {
+        "1": "onは曜日や日付を表す時に使います。",
+        "2": "atは特定の時刻を表す時に使います。",
+        "3": "byは「〜までに」という期限を表します。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-049",
+    "category": "zenchishi",
+    "question": "The lamp is ___ the table.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "onは「〜の上に」という意味で、表面に接触している状態を表します。",
+      "translation": "ランプは机の上にあります。",
+      "structure": "[S: The lamp] [V: is] [OTHER: on the table]",
+      "wrongOptionExplanations": {
+        "1": "inは「〜の中に」という意味で、内部に入っている状態を表します。",
+        "2": "atは特定の場所や地点を表します。",
+        "3": "byは「〜のそばに」という意味で、近くにある状態を表します。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-050",
+    "category": "zenchishi",
+    "question": "I will meet you ___ the entrance.",
+    "options": [
+      "at",
+      "in",
+      "to",
+      "on"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "atは特定の場所（入口、駅など）を表す時に使います。",
+      "translation": "入口で会いましょう。",
+      "structure": "[S: I] [V: will meet] [O: you] [OTHER: at the entrance]",
+      "wrongOptionExplanations": {
+        "1": "inは大きな場所（都市、国）を表す時に使います。",
+        "2": "toは「〜へ」という方向を表す前置詞です。",
+        "3": "onは「〜の上に」という意味です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "prep-051",
+    "category": "zenchishi",
+    "question": "The store is open ___ 9 AM ___ 6 PM.",
+    "options": [
+      "from, to",
+      "at, to",
+      "from, until",
+      "between, and"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "from...toは「〜から〜まで」という時間や場所の範囲を表します。",
+      "translation": "その店は午前9時から午後6時まで開いています。",
+      "wrongOptionExplanations": {
+        "1": "atは特定の時刻を表す前置詞で、範囲の開始点にはfromを使います。",
+        "2": "untilも使えますが、一般的にはtoを使います。",
+        "3": "betweenは「〜の間に」という意味で、通常andとセットで使いますが、営業時間にはfrom...toを使います。"
+      },
+      "structure": "[S: The store] [V: is] [C: open] [OTHER: from 9 AM to 6 PM]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-052",
+    "category": "zenchishi",
+    "question": "The company is looking ___ someone ___ experience ___ marketing.",
+    "options": [
+      "for, with, in",
+      "at, of, on",
+      "to, for, at",
+      "in, by, for"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "look forは「〜を探す」、withは「〜を持っている」、inは「〜の分野で」という意味です。複数の前置詞を正しく組み合わせることが重要です。",
+      "translation": "その会社はマーケティングの経験がある人を探しています。",
+      "wrongOptionExplanations": {
+        "1": "look atは「〜を見る」、ofは所有を表しますが、ここでは「探す」と「経験がある」という意味が必要です。",
+        "2": "look toは「〜に期待する」、forは「〜のために」ですが、文脈に合いません。",
+        "3": "look inは「〜の中を見る」、byは「〜によって」ですが、文脈に合いません。"
+      },
+      "structure": "[S: The company] [V: is looking] [O: someone] [OTHER: for with experience in marketing]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-053",
+    "category": "zenchishi",
+    "question": "She succeeded ___ getting the job ___ spite ___ her lack of experience.",
+    "options": [
+      "in, in, of",
+      "on, at, for",
+      "at, on, with",
+      "to, in, by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "succeed inは「〜に成功する」、in spite ofは「〜にもかかわらず」という熟語です。複数の前置詞の組み合わせを正確に覚える必要があります。",
+      "translation": "彼女は経験不足にもかかわらず、その仕事を得ることに成功した。",
+      "wrongOptionExplanations": {
+        "1": "succeed onは「〜に基づいて成功する」、atは特定の場所を表しますが、ここでは「〜に成功する」という意味が必要です。",
+        "2": "succeed atは「〜で成功する」、onは「〜の上に」ですが、in spite ofという熟語が必要です。",
+        "3": "succeed toは「〜を継承する」、inは使えますが、in spite ofという熟語が必要です。"
+      },
+      "structure": "[S: She] [V: succeeded] [OTHER: in getting the job in spite of her lack of experience]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-054",
+    "category": "zenchishi",
+    "question": "The difference ___ the two proposals lies ___ their approach ___ the problem.",
+    "options": [
+      "between, in, to",
+      "among, on, for",
+      "from, at, with",
+      "of, by, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "difference betweenは「〜の間の違い」、lie inは「〜にある」、approach toは「〜へのアプローチ」という熟語です。複数の前置詞の組み合わせを正確に理解する必要があります。",
+      "translation": "2つの提案の違いは、問題へのアプローチの仕方にある。",
+      "wrongOptionExplanations": {
+        "1": "difference amongは3つ以上のものの間の違い、lie onは「〜の上にある」、approach forは一般的ではありません。",
+        "2": "difference fromは「〜との違い」、lie atは「〜に位置する」、approach withは「〜を使ってアプローチする」ですが、文脈に合いません。",
+        "3": "difference ofは「〜の違い」、lie byは「〜のそばにある」、approach inは一般的ではありません。"
+      },
+      "structure": "[S: The difference] [V: lies] [OTHER: between the two proposals in their approach to the problem]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-055",
+    "category": "zenchishi",
+    "question": "He was accused ___ stealing, but he insisted ___ his innocence ___ the court.",
+    "options": [
+      "of, on, in",
+      "for, at, on",
+      "with, in, at",
+      "by, of, to"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "accuse ofは「〜を非難する」、insist onは「〜を主張する」、in courtは「法廷で」という熟語です。動詞と前置詞の組み合わせを正確に覚える必要があります。",
+      "translation": "彼は窃盗の容疑をかけられたが、法廷で自分の無実を主張した。",
+      "wrongOptionExplanations": {
+        "1": "accuse forは一般的ではありません、insist atは「〜で主張する」、on courtは「法廷で」ですが、in courtが正しいです。",
+        "2": "accuse withは一般的ではありません、insist inは「〜で主張する」、at courtは一般的ではありません。",
+        "3": "accuse byは「〜によって非難される」、insist ofは一般的ではありません、to courtは「法廷へ」という方向を表します。"
+      },
+      "structure": "[S: He] [V: was accused] [OTHER: of stealing but he insisted on his innocence in the court]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-056",
+    "category": "zenchishi",
+    "question": "The research focuses ___ the relationship ___ climate change ___ economic development.",
+    "options": [
+      "on, between, and",
+      "in, of, with",
+      "at, from, to",
+      "for, among, by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "focus onは「〜に焦点を当てる」、relationship between...andは「〜と〜の間の関係」という熟語です。複数の前置詞を正確に組み合わせることが重要です。",
+      "translation": "その研究は気候変動と経済発展の関係に焦点を当てている。",
+      "wrongOptionExplanations": {
+        "1": "focus inは一般的ではありません、relationship ofは所有を表しますが、2つのものの関係にはbetween...andを使います。",
+        "2": "focus atは「〜に焦点を当てる」、relationship from...toは「〜から〜への関係」ですが、ここでは2つのものの関係なのでbetween...andが適切です。",
+        "3": "focus forは一般的ではありません、relationship amongは3つ以上のものの関係、byは手段を表します。"
+      },
+      "structure": "[S: The research] [V: focuses] [OTHER: on the relationship between climate change and economic development]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-057",
+    "category": "zenchishi",
+    "question": "The company is ___ the verge ___ bankruptcy, but they're trying to turn things ___.",
+    "options": [
+      "on, of, around",
+      "at, for, over",
+      "in, with, back",
+      "by, to, up"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "on the verge ofは「〜の瀬戸際に」、turn aroundは「好転させる」という熟語です。複数の熟語を正確に組み合わせる必要があります。",
+      "translation": "その会社は破産の瀬戸際にあるが、状況を好転させようとしている。",
+      "wrongOptionExplanations": {
+        "1": "at the vergeは文法的に正しくありません。正しくはon the verge ofです。また、turn overは「裏返す、引き継ぐ」という意味ですが、ここでは「好転させる」という意味のturn aroundが適切です。",
+        "2": "in the vergeは文法的に正しくありません。正しくはon the verge ofです。また、turn backは「戻る」という意味ですが、ここでは「好転させる」という意味のturn aroundが適切です。",
+        "3": "by the vergeは文法的に正しくありません。正しくはon the verge ofです。また、turn upは「現れる、音量を上げる」という意味ですが、ここでは「好転させる」という意味のturn aroundが適切です。"
+      },
+      "structure": "[S: The company] [V: is] [OTHER: on the verge of bankruptcy but they're trying to turn things around]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-058",
+    "category": "zenchishi",
+    "question": "She insisted ___ ___ ___ paying the dinner, saying it was on her treat.",
+    "options": [
+      "on, for, on",
+      "at, of, in",
+      "in, to, by",
+      "with, by, at"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "insist onは「〜を主張する」、pay forは「〜の代金を払う」、on one's treatは「〜のおごりで」という熟語です。3つの前置詞を正確に組み合わせる必要があります。",
+      "translation": "彼女は夕食代を自分が払うと主張し、自分のおごりだと言った。",
+      "wrongOptionExplanations": {
+        "1": "insist atは一般的ではありません、pay ofは一般的ではありません、in one's treatは一般的ではありません。",
+        "2": "insist inは一般的ではありません、pay toは「〜に支払う」ですが、ここでは「〜の代金を払う」という意味が必要です。",
+        "3": "insist withは一般的ではありません、pay byは「〜で支払う」ですが、ここでは「〜の代金を払う」という意味が必要です。"
+      },
+      "structure": "[S: She] [V: insisted] [OTHER: on paying for the dinner saying it was on her treat]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-059",
+    "category": "zenchishi",
+    "question": "The negotiations broke ___ because they couldn't agree ___ the terms, and now they're ___ square one.",
+    "options": [
+      "down, on, back at",
+      "up, to, to",
+      "off, with, in",
+      "out, for, on"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "break downは「失敗する、故障する」、agree onは「〜について合意する」、back to square oneは「振り出しに戻る」という熟語です。複数の熟語を正確に理解する必要があります。",
+      "translation": "交渉は条件について合意できずに決裂し、今は振り出しに戻っている。",
+      "wrongOptionExplanations": {
+        "1": "break upは「別れる、解散する」、agree toは「〜に同意する」、to square oneは一般的ではありません。",
+        "2": "break offは「中断する」、agree withは「〜に同意する」、in square oneは一般的ではありません。",
+        "3": "break outは「勃発する」、agree forは一般的ではありません、on square oneは一般的ではありません。"
+      },
+      "structure": "[S: The negotiations] [V: broke] [OTHER: down because they couldn't agree on the terms and now they're back at square one]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-060",
+    "category": "zenchishi",
+    "question": "He was charged ___ ___ ___ fraud connection with the embezzlement case.",
+    "options": [
+      "with, in, with",
+      "for, on, to",
+      "by, at, of",
+      "of, in, for"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "charge withは「〜で起訴する」、in connection withは「〜に関連して」という熟語です。複数の前置詞の組み合わせを正確に覚える必要があります。",
+      "translation": "彼は横領事件に関連して詐欺で起訴された。",
+      "wrongOptionExplanations": {
+        "1": "charge forは「〜の料金を請求する」という意味ですが、ここでは「〜で起訴する」という意味のcharge withが必要です。また、on connectionは文法的に正しくありません。正しくはin connection withです。",
+        "2": "charge byは「〜によって請求される」という意味ですが、ここでは「〜で起訴する」という意味のcharge withが必要です。また、at connectionは文法的に正しくありません。正しくはin connection withです。",
+        "3": "charge ofは「〜の責任」という意味ですが、ここでは「〜で起訴する」という意味のcharge withが必要です。また、in connection forは文法的に正しくありません。正しくはin connection withです。"
+      },
+      "structure": "[S: He] [V: was charged] [OTHER: with fraud in connection with the embezzlement case]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-061",
+    "category": "zenchishi",
+    "question": "The project is ___ schedule, but we're running ___ budget and need to cut ___ some expenses.",
+    "options": [
+      "on, over, back on",
+      "in, under, down on",
+      "at, above, off",
+      "by, below, out"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "on scheduleは「予定通り」、run overは「超過する」、cut back onは「〜を削減する」という熟語です。3つの熟語を正確に組み合わせる必要があります。",
+      "translation": "プロジェクトは予定通りだが、予算を超過しており、いくつかの費用を削減する必要がある。",
+      "wrongOptionExplanations": {
+        "1": "in scheduleは一般的ではありません、run underは「不足する」、cut down onは「〜を削減する」ですが、ここでは「予定通り」という意味が必要です。",
+        "2": "at scheduleは一般的ではありません、run aboveは一般的ではありません、cut offは「切断する」という意味です。",
+        "3": "by scheduleは一般的ではありません、run belowは一般的ではありません、cut outは「切り取る、削除する」という意味です。"
+      },
+      "structure": "[S: The project] [V: is] [OTHER: on schedule but we're running over budget and need to cut back on some expenses]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-062",
+    "category": "zenchishi",
+    "question": "The negotiations broke ___ ___ reaching an agreement, but they're still in the process reaching a compromise of working towards.",
+    "options": [
+      "down, without",
+      "off, with",
+      "up, by",
+      "out, through"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "break down withoutは「〜なしで崩壊する」、in the process ofは「〜の過程で」、work towardsは「〜に向けて努力する」という意味です。複数の熟語と前置詞句を組み合わせた非常に複雑な構文です。",
+      "translation": "交渉は合意に達することなく崩壊したが、彼らはまだ妥協点に到達するために努力している過程にある。",
+      "structure": "[S: The negotiations] [V: broke down] [PP: without reaching an agreement] [OTHER: but they're still in the process of working towards reaching a compromise]",
+      "wrongOptionExplanations": {
+        "1": "break off withは一般的ではありません。on the way toは「〜に向かう途中で」という意味ですが、ここでは「過程で」という意味が必要です。",
+        "2": "break up byは一般的ではありません。at the point ofは「〜の時点で」という意味ですが、ここでは「過程で」という意味が必要です。",
+        "3": "break out throughは一般的ではありません。in the middle ofは「〜の最中に」という意味ですが、ここでは「過程で」という意味が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-063",
+    "category": "zenchishi",
+    "question": "She's been ___ ___ the project for months, and now she's thinking about in taking a break the near future.",
+    "options": [
+      "working, on",
+      "dealing, with",
+      "focusing, at",
+      "concentrating, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "work onは「〜に取り組む」、for monthsは「数ヶ月間」、think aboutは「〜について考える」、in the near futureは「近い将来に」という意味です。複数の熟語と前置詞句を組み合わせた非常に複雑な構文です。",
+      "translation": "彼女は数ヶ月間そのプロジェクトに取り組んでおり、今は近い将来に休憩を取ることを考えている。",
+      "structure": "[S: She] [V: has been working] [PP: on the project] [PP: for months] [OTHER: and now she's thinking about taking a break in the near future]",
+      "wrongOptionExplanations": {
+        "1": "deal withは「〜に対処する」という意味ですが、ここでは「取り組む」という意味が必要です。consider ofは一般的ではありません。",
+        "2": "focus atは一般的ではありません。plan onは「〜を計画する」という意味ですが、ここでは「考える」という意味が必要です。",
+        "3": "concentrate inは一般的ではありません。hope forは「〜を望む」という意味ですが、ここでは「考える」という意味が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-064",
+    "category": "zenchishi",
+    "question": "The company is ___ ___ to expanding into new markets, but they need to be careful about the associated potential risks with.",
+    "options": [
+      "looking, forward",
+      "getting, ready",
+      "preparing, up",
+      "setting, out"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "look forward toは「〜を楽しみにしている」、expand intoは「〜に拡大する」、be careful aboutは「〜に注意する」、associated withは「〜に関連する」という意味です。複数の熟語と前置詞句を組み合わせた非常に複雑な構文です。",
+      "translation": "その会社は新しい市場への拡大を楽しみにしているが、それに関連する潜在的なリスクに注意する必要がある。",
+      "structure": "[S: The company] [V: is looking forward] [PP: to expanding] [PP: into new markets] [OTHER: but they need to be careful about the potential risks associated with]",
+      "wrongOptionExplanations": {
+        "1": "get ready forは「〜の準備をする」という意味ですが、ここでは「楽しみにしている」という意味が必要です。related toは一般的ですが、associated withの方が適切です。",
+        "2": "preparing upは文法的に正しくありません。ここではlooking forwardが適切です。",
+        "3": "set out onは「〜に出発する」という意味ですが、ここでは「楽しみにしている」という意味が必要です。linked byは一般的ですが、associated withの方が適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-065",
+    "category": "zenchishi",
+    "question": "They're ___ ___ of time the deadline, but they're also before concerned about maintaining high standards.",
+    "options": [
+      "running, out",
+      "getting, short",
+      "coming, close",
+      "approaching, near"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "run out ofは「〜が尽きる」、before the deadlineは「期限前に」、be concerned aboutは「〜を心配している」、maintain high standardsは「高い基準を維持する」という意味です。複数の熟語と前置詞句を組み合わせた非常に複雑な構文です。",
+      "translation": "彼らは期限前に時間が尽きそうだが、高い基準を維持することも心配している。",
+      "structure": "[S: They] [V: are running out] [PP: of time] [PP: before the deadline] [OTHER: but they're also concerned about maintaining high standards]",
+      "wrongOptionExplanations": {
+        "1": "get short onは一般的ではありません。worried overは一般的ですが、concerned aboutの方が適切です。",
+        "2": "come close toは「〜に近づく」という意味ですが、ここでは「尽きる」という意味が必要です。anxious forは一般的ですが、concerned aboutの方が適切です。",
+        "3": "approach near atは一般的ではありません。nervous withは一般的ですが、concerned aboutの方が適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-066",
+    "category": "zenchishi",
+    "question": "The team succeeded ___ ___ the challenge by coming up with innovative solutions ___ were effective.",
+    "options": [
+      "in, overcoming, that",
+      "at, solving, which",
+      "on, handling, who",
+      "with, dealing, where"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "succeed inは「〜に成功する」、overcomeは「〜を克服する」、by coming up withは「〜を思いつくことによって」、that were effectiveは「効果的だった」という意味です。複数の熟語、前置詞句、関係代名詞を組み合わせた非常に複雑な構文です。",
+      "translation": "チームは効果的だった革新的な解決策を思いつくことによって、その挑戦を克服することに成功した。",
+      "structure": "[S: The team] [V: succeeded] [PP: in overcoming the challenge] [PP: by coming up with innovative solutions] [RC: that were effective]",
+      "wrongOptionExplanations": {
+        "1": "succeed atは一般的ですが、succeed inの方が適切です。find out aboutは「〜について知る」という意味ですが、ここでは「思いつく」という意味が必要です。",
+        "2": "on handling anは文法的に正しくありません。ここではin overcoming theが適切です。",
+        "3": "succeed withは一般的ですが、succeed inの方が適切です。invent on toは一般的ではありません。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-067",
+    "category": "zenchishi",
+    "question": "He's been ___ ___ the problem for days, and he's finally come up with a solution that works.",
+    "options": [
+      "struggling, with",
+      "fighting, against",
+      "battling, over",
+      "competing, for"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "struggle withは「〜に苦労する」、for daysは「数日間」、come up withは「〜を思いつく」、that worksは「機能する」という意味です。複数の熟語と前置詞句を組み合わせた非常に複雑な構文です。",
+      "translation": "彼は数日間その問題に苦労しており、ついに機能する解決策を思いついた。",
+      "structure": "[S: He] [V: has been struggling] [PP: with the problem] [PP: for days] [OTHER: and he's finally come up with a solution that works]",
+      "wrongOptionExplanations": {
+        "1": "fight againstは「〜と戦う」という意味ですが、ここでは「苦労する」という意味が必要です。get to forは一般的ではありません。",
+        "2": "battle overは「〜をめぐって戦う」という意味ですが、ここでは「苦労する」という意味が必要です。arrive at onは一般的ではありません。",
+        "3": "compete forは「〜を競う」という意味ですが、ここでは「苦労する」という意味が必要です。reach in toは一般的ではありません。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-068",
+    "category": "zenchishi",
+    "question": "The agreement fell ___ ___ fundamental differences in opinion, but they're still ___ the process of working towards finding common ground.",
+    "options": [
+      "apart, due, in",
+      "down, because, on",
+      "off, thanks, at",
+      "through, owing, by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "fall apartは「崩壊する」、due toは「〜が原因で」、fundamental differences in opinionは「意見の根本的な相違」、in the process ofは「〜の過程で」、work towardsは「〜に向けて努力する」という意味です。複数の熟語と前置詞句を組み合わせた非常に複雑な構文です。",
+      "translation": "合意は意見の根本的な相違が原因で崩壊したが、彼らはまだ共通の基盤を見つけるために努力している過程にある。",
+      "structure": "[S: The agreement] [V: fell apart] [PP: due to fundamental differences] [PP: in opinion] [OTHER: but they're still in the process of working towards finding common ground]",
+      "wrongOptionExplanations": {
+        "1": "fall down because ofは一般的ですが、fall apart due toの方が適切です。on the way toは「〜に向かう途中で」という意味ですが、ここでは「過程で」という意味が必要です。",
+        "2": "fall off thanks toは一般的ではありません。at the point ofは「〜の時点で」という意味ですが、ここでは「過程で」という意味が必要です。",
+        "3": "fall through owing toは一般的ですが、fall apart due toの方が適切です。in the middle ofは「〜の最中に」という意味ですが、ここでは「過程で」という意味が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-069",
+    "category": "zenchishi",
+    "question": "She's ___ ___ the opportunity to advance her career, but she's also aware ___ the challenges that come with it.",
+    "options": [
+      "excited, about, of",
+      "thrilled, for, about",
+      "delighted, on, for",
+      "pleased, in, on"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "be excited aboutは「〜に興奮している」、the chance toは「〜する機会」、advance one's careerは「キャリアを進める」、be aware ofは「〜に気づいている」、that come withは「〜に伴う」という意味です。複数の熟語、不定詞、関係代名詞を組み合わせた非常に複雑な構文です。",
+      "translation": "彼女はキャリアを進める機会に興奮しているが、それに伴う課題にも気づいている。",
+      "structure": "[S: She] [V: is excited] [PP: about the opportunity] [INF: to advance her career] [OTHER: but she's also aware of the challenges] [RC: that come with]",
+      "wrongOptionExplanations": {
+        "1": "thrilled forは一般的ですが、excited aboutの方が適切です。conscious aboutは一般的ですが、aware ofの方が適切です。",
+        "2": "delighted onは一般的ではありません。familiar withは「〜に慣れている」という意味ですが、ここでは「気づいている」という意味が必要です。",
+        "3": "pleased inは一般的ではありません。knowledgeable atは一般的ですが、aware ofの方が適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-070",
+    "category": "zenchishi",
+    "question": "The company is ___ ___ with the changes in the industry, but they're having trouble ___ them.",
+    "options": [
+      "keeping, up, adapting",
+      "staying, ahead, adjusting",
+      "maintaining, pace, modifying",
+      "preserving, speed, changing"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "keep up withは「〜に追いつく」、changes in the industryは「業界の変化」、have trouble adapting toは「〜に適応するのに苦労する」という意味です。複数の熟語と前置詞句を組み合わせた非常に複雑な構文です。",
+      "translation": "その会社は業界の変化に追いついているが、それに適応するのに苦労している。",
+      "structure": "[S: The company] [V: is keeping up] [PP: with the changes] [PP: in the industry] [OTHER: but they're having trouble adapting to them]",
+      "wrongOptionExplanations": {
+        "1": "stay ahead ofは「〜より先を行く」という意味ですが、ここでは「追いつく」という意味が必要です。experience difficulty withは一般的ですが、have trouble adapting toの方が適切です。",
+        "2": "maintain pace withは一般的ですが、keep up withの方が適切です。face challenges inは一般的ですが、have trouble adapting toの方が適切です。",
+        "3": "preserve speed ofは一般的ではありません。encounter problems onは一般的ですが、have trouble adapting toの方が適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-071",
+    "category": "zenchishi",
+    "question": "They're ___ ___ the decision, taking into account all the factors ___ matter.",
+    "options": [
+      "thinking, over, that",
+      "considering, about, which",
+      "pondering, on, who",
+      "reflecting, in, where"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "think overは「〜をよく考える」、take into accountは「〜を考慮に入れる」、that matterは「重要な」という意味です。複数の熟語と前置詞句を組み合わせた非常に複雑な構文です。",
+      "translation": "彼らは重要なすべての要因を考慮に入れて、その決定をよく考えている。",
+      "structure": "[S: They] [V: are thinking over] [O: the decision] [PP: taking into account all the factors] [RC: that matter]",
+      "wrongOptionExplanations": {
+        "1": "consider aboutは一般的ですが、think overの方が適切です。put in considerationは一般的ですが、take into accountの方が適切です。",
+        "2": "ponder onは一般的ですが、think overの方が適切です。bring to attentionは「〜に注意を向ける」という意味ですが、ここでは「考慮に入れる」という意味が必要です。",
+        "3": "reflect inは一般的ではありません。include for thoughtは一般的ですが、take into accountの方が適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-072",
+    "category": "zenchishi",
+    "question": "The project is ___ ___ completion, but they're running into delays ___ unexpected issues that arose.",
+    "options": [
+      "close, to, due",
+      "near, at, because",
+      "approaching, on, thanks",
+      "reaching, in, owing"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "close toは「〜に近い」、running intoは「〜に遭遇する」、due toは「〜が原因で」、that aroseは「発生した」という意味です。複数の熟語、前置詞句、関係代名詞を組み合わせた非常に複雑な構文です。",
+      "translation": "プロジェクトは完成に近いが、発生した予期しない問題が原因で遅延に遭遇している。",
+      "structure": "[S: The project] [V: is close] [PP: to completion] [OTHER: but they're running into delays] [PP: due to unexpected issues] [RC: that arose]",
+      "wrongOptionExplanations": {
+        "1": "near atは一般的ではありません。come acrossは「偶然出会う」という意味ですが、ここでは「遭遇する」という意味が必要です。",
+        "2": "approaching onは一般的ではありません。get overは「克服する」という意味ですが、ここでは「遭遇する」という意味が必要です。",
+        "3": "reaching inは一般的ではありません。go throughは「経験する」という意味ですが、ここでは「遭遇する」という意味が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-073",
+    "category": "zenchishi",
+    "question": "She's been ___ ___ the problem for weeks, and she's finally come up with a solution that works.",
+    "options": [
+      "working, on",
+      "dealing, with",
+      "handling, over",
+      "managing, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "work onは「〜に取り組む」、for weeksは「数週間」、come up withは「〜を思いつく」、that worksは「機能する」という意味です。複数の熟語と前置詞句を組み合わせた非常に複雑な構文です。",
+      "translation": "彼女は数週間その問題に取り組んでおり、ついに機能する解決策を思いついた。",
+      "structure": "[S: She] [V: has been working] [PP: on the problem] [PP: for weeks] [OTHER: and she's finally come up with a solution that works]",
+      "wrongOptionExplanations": {
+        "1": "deal withは「〜に対処する」という意味ですが、ここでは「取り組む」という意味が必要です。get to forは一般的ではありません。",
+        "2": "handling overは文法的に正しくありません。ここではworking onが適切です。",
+        "3": "managing inは文法的に正しくありません。ここではworking onが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-074",
+    "category": "zenchishi",
+    "question": "The team is ___ ___ towards the deadline, but they're also concerned about maintaining high standards.",
+    "options": [
+      "pressing, on",
+      "pushing, forward",
+      "moving, ahead",
+      "advancing, toward"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "press on towardsは「〜に向かって進む」、be concerned aboutは「〜を心配している」、maintain high standardsは「高い基準を維持する」という意味です。複数の熟語と前置詞句を組み合わせた非常に複雑な構文です。",
+      "translation": "チームは期限に向かって進んでいるが、高い基準を維持することも心配している。",
+      "structure": "[S: The team] [V: is pressing on] [PP: towards the deadline] [OTHER: but they're also concerned about maintaining high standards]",
+      "wrongOptionExplanations": {
+        "1": "push forward toは一般的ですが、press on towardsの方が適切です。worried overは一般的ですが、concerned aboutの方が適切です。",
+        "2": "move ahead forは一般的ではありません。anxious forは一般的ですが、concerned aboutの方が適切です。",
+        "3": "advance toward atは一般的ではありません。nervous withは一般的ですが、concerned aboutの方が適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-075",
+    "category": "zenchishi",
+    "question": "They're ___ ___ the situation taking into consideration involved all parties in.",
+    "options": [
+      "looking, into",
+      "investigating, about",
+      "examining, on",
+      "studying, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "look intoは「〜を調査する」、take into considerationは「〜を考慮に入れる」、involved inは「〜に関与している」という意味です。複数の熟語と前置詞句を組み合わせた非常に複雑な構文です。",
+      "translation": "彼らは関与しているすべての当事者を考慮に入れて、その状況を調査している。",
+      "structure": "[S: They] [V: are looking into] [O: the situation] [PP: taking into consideration all parties] [RC: involved in]",
+      "wrongOptionExplanations": {
+        "1": "investigate aboutは一般的ですが、look intoの方が適切です。put in accountは一般的ですが、take into considerationの方が適切です。",
+        "2": "examine onは一般的ではありません。bring to attentionは「〜に注意を向ける」という意味ですが、ここでは「考慮に入れる」という意味が必要です。",
+        "3": "study inは一般的ではありません。include for thoughtは一般的ですが、take into considerationの方が適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-076",
+    "category": "zenchishi",
+    "question": "The company is ___ ___ the new opportunities in light of that market trends emerge.",
+    "options": [
+      "exploring, for",
+      "searching, about",
+      "seeking, on",
+      "hunting, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "explore forは「〜を探求する」、in light ofは「〜を考慮して」、that emergeは「出現する」という意味です。複数の熟語、前置詞句、関係代名詞を組み合わせた非常に複雑な構文です。",
+      "translation": "その会社は出現する市場トレンドを考慮して、新しい機会を探求している。",
+      "structure": "[S: The company] [V: is exploring] [PP: for new opportunities] [PP: in light of market trends] [RC: that emerge]",
+      "wrongOptionExplanations": {
+        "1": "search aboutは一般的ですが、explore forの方が適切です。in view ofは一般的ですが、in light ofの方が適切です。",
+        "2": "seeking onは文法的に正しくありません。ここではexploring forが適切です。",
+        "3": "hunting inは文法的に正しくありません。ここではexploring forが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-077",
+    "category": "zenchishi",
+    "question": "She's ___ ___ the challenge confident in her ability skills to handle.",
+    "options": [
+      "taking, on",
+      "accepting, about",
+      "embracing, on",
+      "welcoming, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "take onは「〜に取り組む」、be confident inは「〜に自信がある」、ability to handleは「〜を処理する能力」という意味です。複数の熟語、前置詞句、不定詞を組み合わせた非常に複雑な構文です。",
+      "translation": "彼女はそれを処理する能力に自信があるので、その挑戦に取り組んでいる。",
+      "structure": "[S: She] [V: is taking on] [O: the challenge] [OTHER: confident in her ability to handle]",
+      "wrongOptionExplanations": {
+        "1": "accept aboutは一般的ですが、take onの方が適切です。sure ofは一般的ですが、confident inの方が適切です。",
+        "2": "embrace onは一般的ではありません。certain aboutは一般的ですが、confident inの方が適切です。",
+        "3": "welcome inは一般的ではありません。positive withは一般的ですが、confident inの方が適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-078",
+    "category": "zenchishi",
+    "question": "The negotiations are ___ ___ reaching an agreement, but they're running into fundamental differences in opinion.",
+    "options": [
+      "heading, towards",
+      "moving, to",
+      "going, for",
+      "proceeding, toward"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "head towardsは「〜に向かう」、reach an agreementは「合意に達する」、run intoは「〜に遭遇する」、fundamental differences in opinionは「意見の根本的な相違」という意味です。複数の熟語と前置詞句を組み合わせた非常に複雑な構文です。",
+      "translation": "交渉は合意に達することに向かっているが、意見の根本的な相違に遭遇している。",
+      "structure": "[S: The negotiations] [V: are heading] [PP: towards reaching an agreement] [OTHER: but they're running into fundamental differences] [PP: in opinion]",
+      "wrongOptionExplanations": {
+        "1": "move to makingは一般的ですが、head towards reachingの方が適切です。come acrossは「偶然出会う」という意味ですが、ここでは「遭遇する」という意味が必要です。",
+        "2": "go for achievingは一般的ですが、head towards reachingの方が適切です。get overは「克服する」という意味ですが、ここでは「遭遇する」という意味が必要です。",
+        "3": "proceed toward gettingは一般的ですが、head towards reachingの方が適切です。go throughは「経験する」という意味ですが、ここでは「遭遇する」という意味が必要です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-079",
+    "category": "zenchishi",
+    "question": "They're ___ ___ with the project despite facing severe that budget constraints exist.",
+    "options": [
+      "moving, forward",
+      "advancing, ahead",
+      "progressing, on",
+      "proceeding, along"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "move forward withは「〜と共に前進する」、despite facingは「〜に直面しているにもかかわらず」、severe budget constraintsは「厳しい予算の制約」、that existは「存在する」という意味です。複数の熟語、前置詞句、関係代名詞を組み合わせた非常に複雑な構文です。",
+      "translation": "彼らは存在する厳しい予算の制約に直面しているにもかかわらず、そのプロジェクトと共に前進している。",
+      "structure": "[S: They] [V: are moving forward] [PP: with the project] [PP: despite facing severe budget constraints] [RC: that exist]",
+      "wrongOptionExplanations": {
+        "1": "advance ahead onは一般的ですが、move forward withの方が適切です。encounterは一般的ですが、faceの方が適切です。",
+        "2": "progressing onは文法的に正しくありません。ここではmoving forwardが適切です。",
+        "3": "proceeding alongは文法的に正しくありません。ここではmoving forwardが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-080",
+    "category": "zenchishi",
+    "question": "The company is ___ ___ the expansion in response to favorable market conditions that prevail.",
+    "options": [
+      "planning, for",
+      "preparing, about",
+      "arranging, on",
+      "organizing, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "plan forは「〜を計画する」、in response toは「〜に応じて」、favorable market conditionsは「好ましい市場状況」、that prevailは「優勢な」という意味です。複数の熟語、前置詞句、関係代名詞を組み合わせた非常に複雑な構文です。",
+      "translation": "その会社は優勢な好ましい市場状況に応じて、拡大を計画している。",
+      "structure": "[S: The company] [V: is planning] [PP: for the expansion] [PP: in response to favorable market conditions] [RC: that prevail]",
+      "wrongOptionExplanations": {
+        "1": "prepare aboutは一般的ですが、plan forの方が適切です。as answer forは一般的ですが、in response toの方が適切です。",
+        "2": "arrange onは一般的ではありません。by reply toは一般的ですが、in response toの方が適切です。",
+        "3": "organize inは一般的ではありません。through response ofは一般的ですが、in response toの方が適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-081",
+    "category": "zenchishi",
+    "question": "They're ___ ___ the deadline, but they're committed to maintaining high standards.",
+    "options": [
+      "racing, against",
+      "competing, with",
+      "rushing, towards",
+      "hurrying, to"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "race againstは「〜と競争する」、be committed toは「〜にコミットしている」、maintain high standardsは「高い基準を維持する」という意味です。複数の熟語と前置詞句を組み合わせた非常に複雑な構文です。",
+      "translation": "彼らは期限と競争しているが、高い基準を維持することにコミットしている。",
+      "structure": "[S: They] [V: are racing] [PP: against the deadline] [OTHER: but they're committed to maintaining high standards]",
+      "wrongOptionExplanations": {
+        "1": "compete withは「〜と競争する」という意味ですが、ここでは「期限と競争する」という意味が必要です。dedicated forは一般的ですが、committed toの方が適切です。",
+        "2": "rush towardsは「〜に向かって急ぐ」という意味ですが、ここでは「期限と競争する」という意味が必要です。devoted toは一般的ですが、committed toの方が適切です。",
+        "3": "hurry toは「〜に急ぐ」という意味ですが、ここでは「期限と競争する」という意味が必要です。focused onは一般的ですが、committed toの方が適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-082",
+    "category": "zenchishi",
+    "question": "The organization is ___ ___ the in changes with the industry help of involved stakeholders in.",
+    "options": [
+      "adapting, to",
+      "adjusting, for",
+      "responding, on",
+      "reacting, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "adapt toは「〜に適応する」、changes in the industryは「業界の変化」、with the help ofは「〜の助けで」、involved inは「〜に関与している」という意味です。複数の熟語と前置詞句を組み合わせた非常に複雑な構文です。",
+      "translation": "その組織は関与しているステークホルダーの助けで、業界の変化に適応している。",
+      "structure": "[S: The organization] [V: is adapting] [PP: to the changes] [PP: in the industry] [PP: with the help of stakeholders] [RC: involved in]",
+      "wrongOptionExplanations": {
+        "1": "adjust forは一般的ですが、adapt toの方が適切です。by the support fromは一般的ですが、with the help ofの方が適切です。",
+        "2": "respond onは一般的ではありません。through the assistance ofは一般的ですが、with the help ofの方が適切です。",
+        "3": "react inは一般的ではありません。via some aid fromは一般的ですが、with the help ofの方が適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-083",
+    "category": "zenchishi",
+    "question": "They're ___ ___ ___ the proposal on from those who feedback provided.",
+    "options": [
+      "revising, the, based",
+      "updating, a, according",
+      "modifying, an, depending",
+      "changing, some, relying"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "reviseは「〜を修正する」、based onは「〜に基づいて」、from those whoは「〜した人々から」、providedは「提供した」という意味です。複数の熟語、前置詞句、関係代名詞を組み合わせた非常に複雑な構文です。",
+      "translation": "彼らは提供した人々からのフィードバックに基づいて、その提案を修正している。",
+      "structure": "[S: They] [V: are revising] [O: the proposal] [PP: based on feedback] [PP: from those] [RC: who provided]",
+      "wrongOptionExplanations": {
+        "1": "update according toは一般的ですが、revise based onの方が適切です。by which thatは一般的ではありません。",
+        "2": "modify depending onは一般的ですが、revise based onの方が適切です。through what hadは一般的ではありません。",
+        "3": "changing some relyingは文法的に正しくありません。ここではrevising the basedが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-084",
+    "category": "zenchishi",
+    "question": "The team is ___ ___ the deadline despite having limited at resources hand.",
+    "options": [
+      "working, towards",
+      "striving, for",
+      "aiming, at",
+      "targeting, to"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "work towardsは「〜に向けて努力する」、despite havingは「〜を持っているにもかかわらず」、limited resourcesは「限られた資源」、at handは「手元にある」という意味です。複数の熟語と前置詞句を組み合わせた非常に複雑な構文です。",
+      "translation": "チームは手元にある限られた資源を持っているにもかかわらず、期限に向けて努力している。",
+      "structure": "[S: The team] [V: is working] [PP: towards the deadline] [PP: despite having limited resources] [PP: at hand]",
+      "wrongOptionExplanations": {
+        "1": "strive forは一般的ですが、work towardsの方が適切です。in reachは一般的ですが、at handの方が適切です。",
+        "2": "aiming atは文法的に正しくありません。ここではworking towardsが適切です。",
+        "3": "targeting toは文法的に正しくありません。ここではworking towardsが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-085",
+    "category": "zenchishi",
+    "question": "She's ___ ___ ___ the opportunity leverage her skills in her expertise the field.",
+    "options": [
+      "pursuing, the, to",
+      "chasing, an, for",
+      "seeking, a, by",
+      "hunting, the, through"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "pursueは「〜を追求する」、to leverageは「〜を活用するために」、her skillsは「彼女の技能」、in the fieldは「その分野で」という意味です。複数の熟語、不定詞、前置詞句を組み合わせた非常に複雑な構文です。",
+      "translation": "彼女はその分野で自分の技能を活用するために、その機会を追求している。",
+      "structure": "[S: She] [V: is pursuing] [O: the opportunity] [INF: to leverage her expertise] [PP: in the field]",
+      "wrongOptionExplanations": {
+        "1": "chase forは一般的ですが、pursueの方が適切です。on a domainは一般的ですが、in the fieldの方が適切です。",
+        "2": "seeking a byは文法的に正しくありません。ここではpursuing the toが適切です。",
+        "3": "hunt throughは一般的ではありません。in an sectorは一般的ですが、in the fieldの方が適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-086",
+    "category": "zenchishi",
+    "question": "The company is ___ ___ the expansion in accordance with that market research was conducted.",
+    "options": [
+      "planning, for",
+      "preparing, about",
+      "arranging, on",
+      "organizing, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "plan forは「〜を計画する」、in accordance withは「〜に従って」、that was conductedは「実施された」という意味です。複数の熟語、前置詞句、関係代名詞を組み合わせた非常に複雑な構文です。",
+      "translation": "その会社は実施された市場調査に従って、拡大を計画している。",
+      "structure": "[S: The company] [V: is planning] [PP: for the expansion] [PP: in accordance with market research] [RC: that was conducted]",
+      "wrongOptionExplanations": {
+        "1": "prepare aboutは一般的ですが、plan forの方が適切です。as per the whichは一般的ではありません。",
+        "2": "arranging onは文法的に正しくありません。ここではplanning forが適切です。",
+        "3": "organize inは一般的ではありません。through according to that wereは一般的ではありません。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-087",
+    "category": "zenchishi",
+    "question": "The organization succeeded ___ ___ the challenge by implementing that were innovative approaches effective.",
+    "options": [
+      "in, overcoming",
+      "at, solving",
+      "on, handling",
+      "with, dealing"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "succeed inは「〜に成功する」、overcomeは「〜を克服する」、by implementingは「〜を実装することによって」、that were effectiveは「効果的だった」という意味です。",
+      "translation": "その組織は効果的だった革新的なアプローチを実装することによって、その挑戦を克服することに成功した。",
+      "structure": "[S: The organization] [V: succeeded] [PP: in overcoming the challenge] [PP: by implementing innovative approaches] [RC: that were effective]",
+      "wrongOptionExplanations": {
+        "1": "at solvingは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のin overcomingが適切です。",
+        "2": "on handlingは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のin overcomingが適切です。",
+        "3": "with dealingは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のin overcomingが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-088",
+    "category": "zenchishi",
+    "question": "They're ___ ___ the situation taking into account involved all stakeholders in.",
+    "options": [
+      "looking, into",
+      "investigating, about",
+      "examining, on",
+      "studying, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "look intoは「〜を調査する」、take into accountは「〜を考慮に入れる」、involved inは「〜に関与している」という意味です。",
+      "translation": "彼らは関与しているすべてのステークホルダーを考慮に入れて、その状況を調査している。",
+      "structure": "[S: They] [V: are looking into] [O: the situation] [PP: taking into account all stakeholders] [RC: involved in]",
+      "wrongOptionExplanations": {
+        "1": "investigating aboutは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のlooking intoが適切です。",
+        "2": "examining onは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のlooking intoが適切です。",
+        "3": "studying inは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のlooking intoが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-089",
+    "category": "zenchishi",
+    "question": "The project is ___ ___ completion despite encountering unexpected obstacles.",
+    "options": [
+      "close, to",
+      "near, at",
+      "approaching, on",
+      "reaching, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "close toは「〜に近い」、despite encounteringは「〜に遭遇しているにもかかわらず」、that aroseは「発生した」という意味です。",
+      "translation": "プロジェクトは発生した予期しない障害に遭遇しているにもかかわらず、完成に近い。",
+      "structure": "[S: The project] [V: is close] [PP: to completion] [PP: despite encountering unexpected obstacles] [RC: that arose]",
+      "wrongOptionExplanations": {
+        "1": "near at aは文法的に正しくありません。ここではclose to theが適切です。",
+        "2": "approaching on anは文法的に正しくありません。ここではclose to theが適切です。",
+        "3": "reaching in theは文法的に正しくありません。ここではclose to theが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-090",
+    "category": "zenchishi",
+    "question": "She's been ___ ___ the problem for weeks, and she's finally come up with a solution that works.",
+    "options": [
+      "working, on",
+      "dealing, with",
+      "handling, over",
+      "managing, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "work onは「〜に取り組む」、for weeksは「数週間」、come up withは「〜を思いつく」、that worksは「機能する」という意味です。",
+      "translation": "彼女は数週間その問題に取り組んでおり、ついに機能する解決策を思いついた。",
+      "structure": "[S: She] [V: has been working] [PP: on the problem] [PP: for weeks] [OTHER: and she's finally come up with a solution that works]",
+      "wrongOptionExplanations": {
+        "1": "dealing withは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のworking onが適切です。",
+        "2": "handling overは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のworking onが適切です。",
+        "3": "managing inは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のworking onが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-091",
+    "category": "zenchishi",
+    "question": "The team is ___ ___ towards the deadline, but they're also concerned about maintaining high standards.",
+    "options": [
+      "pressing, on",
+      "pushing, forward",
+      "moving, ahead",
+      "advancing, toward"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "press on towardsは「〜に向かって進む」、be concerned aboutは「〜を心配している」、maintain high standardsは「高い基準を維持する」という意味です。",
+      "translation": "チームは期限に向かって進んでいるが、高い基準を維持することも心配している。",
+      "structure": "[S: The team] [V: is pressing on] [PP: towards the deadline] [OTHER: but they're also concerned about maintaining high standards]",
+      "wrongOptionExplanations": {
+        "1": "pushing forwardは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のpressing onが適切です。",
+        "2": "moving aheadは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のpressing onが適切です。",
+        "3": "advancing towardは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のpressing onが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-092",
+    "category": "zenchishi",
+    "question": "The organization succeeded ___ ___ the challenge by implementing innovative approaches ___ were effective.",
+    "options": [
+      "in, overcoming, that",
+      "at, solving, which",
+      "on, handling, who",
+      "with, dealing, where"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "succeed inは「〜に成功する」、overcomeは「〜を克服する」、by implementingは「〜を実装することによって」、that were effectiveは「効果的だった」という意味です。",
+      "translation": "その組織は効果的だった革新的なアプローチを実装することによって、その挑戦を克服することに成功した。",
+      "structure": "[S: The organization] [V: succeeded] [PP: in overcoming the challenge] [PP: by implementing innovative approaches] [RC: that were effective]",
+      "wrongOptionExplanations": {
+        "1": "at solving aは文法的に正しくありません。ここではin overcoming theが適切です。",
+        "2": "on handling anは文法的に正しくありません。ここではin overcoming theが適切です。",
+        "3": "with dealing someは文法的に正しくありません。ここではin overcoming theが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-093",
+    "category": "zenchishi",
+    "question": "They're ___ ___ the situation, taking into account all stakeholders ___ in it.",
+    "options": [
+      "looking, into, involved",
+      "investigating, about, engaged",
+      "examining, on, participating",
+      "studying, in, included"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "look intoは「〜を調査する」、take into accountは「〜を考慮に入れる」、involved inは「〜に関与している」という意味です。",
+      "translation": "彼らは関与しているすべてのステークホルダーを考慮に入れて、その状況を調査している。",
+      "structure": "[S: They] [V: are looking into] [O: the situation] [PP: taking into account all stakeholders] [RC: involved in]",
+      "wrongOptionExplanations": {
+        "1": "investigating about aは文法的に正しくありません。ここではlooking into theが適切です。",
+        "2": "examining on anは文法的に正しくありません。ここではlooking into theが適切です。",
+        "3": "studying in someは文法的に正しくありません。ここではlooking into theが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-094",
+    "category": "zenchishi",
+    "question": "The project is ___ ___ completion despite encountering unexpected obstacles.",
+    "options": [
+      "close, to",
+      "near, at",
+      "approaching, on",
+      "reaching, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "close toは「〜に近い」、despite encounteringは「〜に遭遇しているにもかかわらず」、that aroseは「発生した」という意味です。",
+      "translation": "プロジェクトは発生した予期しない障害に遭遇しているにもかかわらず、完成に近い。",
+      "structure": "[S: The project] [V: is close] [PP: to completion] [PP: despite encountering unexpected obstacles] [RC: that arose]",
+      "wrongOptionExplanations": {
+        "1": "near at aは文法的に正しくありません。ここではclose to theが適切です。",
+        "2": "approaching on anは文法的に正しくありません。ここではclose to theが適切です。",
+        "3": "reaching in theは文法的に正しくありません。ここではclose to theが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-095",
+    "category": "zenchishi",
+    "question": "She's been ___ ___ the problem for weeks, and she's finally come up with a solution that works.",
+    "options": [
+      "working, on",
+      "dealing, with",
+      "handling, over",
+      "managing, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "work onは「〜に取り組む」、for weeksは「数週間」、come up withは「〜を思いつく」、that worksは「機能する」という意味です。",
+      "translation": "彼女は数週間その問題に取り組んでおり、ついに機能する解決策を思いついた。",
+      "structure": "[S: She] [V: has been working] [PP: on the problem] [PP: for weeks] [OTHER: and she's finally come up with a solution that works]",
+      "wrongOptionExplanations": {
+        "1": "dealing withは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のworking onが適切です。",
+        "2": "handling overは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のworking onが適切です。",
+        "3": "managing inは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のworking onが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-096",
+    "category": "zenchishi",
+    "question": "The team is ___ ___ ___ the deadline, but they're also concerned about maintaining high standards.",
+    "options": [
+      "pressing, on, towards",
+      "pushing, forward, to",
+      "moving, ahead, for",
+      "advancing, toward, at"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "press on towardsは「〜に向かって進む」、be concerned aboutは「〜を心配している」、maintain high standardsは「高い基準を維持する」という意味です。",
+      "translation": "チームは期限に向かって進んでいるが、高い基準を維持することも心配している。",
+      "structure": "[S: The team] [V: is pressing on] [PP: towards the deadline] [OTHER: but they're also concerned about maintaining high standards]",
+      "wrongOptionExplanations": {
+        "1": "pushing forward toは文法的に正しくありません。ここではpressing on towardsが適切です。",
+        "2": "moving ahead forは文法的に正しくありません。ここではpressing on towardsが適切です。",
+        "3": "advancing toward atは文法的に正しくありません。ここではpressing on towardsが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-097",
+    "category": "zenchishi",
+    "question": "The organization succeeded ___ ___ the challenge by implementing that were innovative approaches effective.",
+    "options": [
+      "in, overcoming",
+      "at, solving",
+      "on, handling",
+      "with, dealing"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "succeed inは「〜に成功する」、overcomeは「〜を克服する」、by implementingは「〜を実装することによって」、that were effectiveは「効果的だった」という意味です。",
+      "translation": "その組織は効果的だった革新的なアプローチを実装することによって、その挑戦を克服することに成功した。",
+      "structure": "[S: The organization] [V: succeeded] [PP: in overcoming the challenge] [PP: by implementing innovative approaches] [RC: that were effective]",
+      "wrongOptionExplanations": {
+        "1": "at solvingは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のin overcomingが適切です。",
+        "2": "on handlingは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のin overcomingが適切です。",
+        "3": "with dealingは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のin overcomingが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-098",
+    "category": "zenchishi",
+    "question": "They're ___ ___ the situation, taking into account all stakeholders ___ in it.",
+    "options": [
+      "looking, into, involved",
+      "investigating, about, engaged",
+      "examining, on, participating",
+      "studying, in, included"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "look intoは「〜を調査する」、take into accountは「〜を考慮に入れる」、involved inは「〜に関与している」という意味です。",
+      "translation": "彼らは関与しているすべてのステークホルダーを考慮に入れて、その状況を調査している。",
+      "structure": "[S: They] [V: are looking into] [O: the situation] [PP: taking into account all stakeholders] [RC: involved in]",
+      "wrongOptionExplanations": {
+        "1": "investigating about aは文法的に正しくありません。ここではlooking into theが適切です。",
+        "2": "examining on anは文法的に正しくありません。ここではlooking into theが適切です。",
+        "3": "studying in someは文法的に正しくありません。ここではlooking into theが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-099",
+    "category": "zenchishi",
+    "question": "The project is ___ ___ completion despite encountering unexpected obstacles.",
+    "options": [
+      "close, to",
+      "near, at",
+      "approaching, on",
+      "reaching, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "close toは「〜に近い」、despite encounteringは「〜に遭遇しているにもかかわらず」、that aroseは「発生した」という意味です。",
+      "translation": "プロジェクトは発生した予期しない障害に遭遇しているにもかかわらず、完成に近い。",
+      "structure": "[S: The project] [V: is close] [PP: to completion] [PP: despite encountering unexpected obstacles] [RC: that arose]",
+      "wrongOptionExplanations": {
+        "1": "near atは「〜の近くに」という意味ですが、ここでは「〜に近い」という意味のclose toが適切です。",
+        "2": "approaching onは「〜に近づいている」という意味ですが、ここでは「〜に近い」という意味のclose toが適切です。",
+        "3": "reaching inは「〜に到達している」という意味ですが、ここでは「〜に近い」という意味のclose toが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-100",
+    "category": "zenchishi",
+    "question": "She's been ___ ___ the problem for weeks, and she's finally come up with a solution that works.",
+    "options": [
+      "working, on",
+      "dealing, with",
+      "handling, over",
+      "managing, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "work onは「〜に取り組む」、for weeksは「数週間」、come up withは「〜を思いつく」、that worksは「機能する」という意味です。",
+      "translation": "彼女は数週間その問題に取り組んでおり、ついに機能する解決策を思いついた。",
+      "structure": "[S: She] [V: has been working] [PP: on the problem] [PP: for weeks] [OTHER: and she's finally come up with a solution that works]",
+      "wrongOptionExplanations": {
+        "1": "dealing withは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のworking onが適切です。",
+        "2": "handling overは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のworking onが適切です。",
+        "3": "managing inは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のworking onが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-101",
+    "category": "zenchishi",
+    "question": "The team is ___ ___ ___ the deadline, but they're also concerned about maintaining high standards.",
+    "options": [
+      "pressing, on, towards",
+      "pushing, forward, to",
+      "moving, ahead, for",
+      "advancing, toward, at"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "press on towardsは「〜に向かって進む」、be concerned aboutは「〜を心配している」、maintain high standardsは「高い基準を維持する」という意味です。",
+      "translation": "チームは期限に向かって進んでいるが、高い基準を維持することも心配している。",
+      "structure": "[S: The team] [V: is pressing on] [PP: towards the deadline] [OTHER: but they're also concerned about maintaining high standards]",
+      "wrongOptionExplanations": {
+        "1": "pushing forward toは文法的に正しくありません。ここではpressing on towardsが適切です。",
+        "2": "moving ahead forは文法的に正しくありません。ここではpressing on towardsが適切です。",
+        "3": "advancing toward atは文法的に正しくありません。ここではpressing on towardsが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-102",
+    "category": "zenchishi",
+    "question": "The organization succeeded ___ ___ the challenge by implementing innovative approaches ___ were effective.",
+    "options": [
+      "in, overcoming, that",
+      "at, solving, which",
+      "on, handling, who",
+      "with, dealing, where"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "succeed inは「〜に成功する」、overcomeは「〜を克服する」、by implementingは「〜を実装することによって」、that were effectiveは「効果的だった」という意味です。",
+      "translation": "その組織は効果的だった革新的なアプローチを実装することによって、その挑戦を克服することに成功した。",
+      "structure": "[S: The organization] [V: succeeded] [PP: in overcoming the challenge] [PP: by implementing innovative approaches] [RC: that were effective]",
+      "wrongOptionExplanations": {
+        "1": "at solving aは文法的に正しくありません。ここではin overcoming theが適切です。",
+        "2": "on handling anは文法的に正しくありません。ここではin overcoming theが適切です。",
+        "3": "with dealing someは文法的に正しくありません。ここではin overcoming theが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-103",
+    "category": "zenchishi",
+    "question": "They're ___ ___ the situation, taking into account all stakeholders ___ in it.",
+    "options": [
+      "looking, into, involved",
+      "investigating, about, engaged",
+      "examining, on, participating",
+      "studying, in, included"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "look intoは「〜を調査する」、take into accountは「〜を考慮に入れる」、involved inは「〜に関与している」という意味です。",
+      "translation": "彼らは関与しているすべてのステークホルダーを考慮に入れて、その状況を調査している。",
+      "structure": "[S: They] [V: are looking into] [O: the situation] [PP: taking into account all stakeholders] [RC: involved in]",
+      "wrongOptionExplanations": {
+        "1": "investigating about aは文法的に正しくありません。ここではlooking into theが適切です。",
+        "2": "examining on anは文法的に正しくありません。ここではlooking into theが適切です。",
+        "3": "studying in someは文法的に正しくありません。ここではlooking into theが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-104",
+    "category": "zenchishi",
+    "question": "The project is ___ ___ completion despite encountering unexpected obstacles.",
+    "options": [
+      "close, to",
+      "near, at",
+      "approaching, on",
+      "reaching, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "close toは「〜に近い」、despite encounteringは「〜に遭遇しているにもかかわらず」、that aroseは「発生した」という意味です。",
+      "translation": "プロジェクトは発生した予期しない障害に遭遇しているにもかかわらず、完成に近い。",
+      "structure": "[S: The project] [V: is close] [PP: to completion] [PP: despite encountering unexpected obstacles] [RC: that arose]",
+      "wrongOptionExplanations": {
+        "1": "near at aは文法的に正しくありません。ここではclose to theが適切です。",
+        "2": "approaching on anは文法的に正しくありません。ここではclose to theが適切です。",
+        "3": "reaching in theは文法的に正しくありません。ここではclose to theが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-105",
+    "category": "zenchishi",
+    "question": "She's been ___ ___ the problem for weeks, and she's finally come up with a solution that works.",
+    "options": [
+      "working, on",
+      "dealing, with",
+      "handling, over",
+      "managing, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "work onは「〜に取り組む」、for weeksは「数週間」、come up withは「〜を思いつく」、that worksは「機能する」という意味です。",
+      "translation": "彼女は数週間その問題に取り組んでおり、ついに機能する解決策を思いついた。",
+      "structure": "[S: She] [V: has been working] [PP: on the problem] [PP: for weeks] [OTHER: and she's finally come up with a solution that works]",
+      "wrongOptionExplanations": {
+        "1": "dealing withは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のworking onが適切です。",
+        "2": "handling overは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のworking onが適切です。",
+        "3": "managing inは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のworking onが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-106",
+    "category": "zenchishi",
+    "question": "The team is ___ ___ towards the deadline, but they're also concerned about maintaining high standards.",
+    "options": [
+      "pressing, on",
+      "pushing, forward",
+      "moving, ahead",
+      "advancing, toward"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "press on towardsは「〜に向かって進む」、be concerned aboutは「〜を心配している」、maintain high standardsは「高い基準を維持する」という意味です。",
+      "translation": "チームは期限に向かって進んでいるが、高い基準を維持することも心配している。",
+      "structure": "[S: The team] [V: is pressing on] [PP: towards the deadline] [OTHER: but they're also concerned about maintaining high standards]",
+      "wrongOptionExplanations": {
+        "1": "pushing forwardは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のpressing onが適切です。",
+        "2": "moving aheadは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のpressing onが適切です。",
+        "3": "advancing towardは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のpressing onが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-107",
+    "category": "zenchishi",
+    "question": "The organization succeeded ___ ___ the challenge by implementing that were innovative approaches effective.",
+    "options": [
+      "in, overcoming",
+      "at, solving",
+      "on, handling",
+      "with, dealing"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "succeed inは「〜に成功する」、overcomeは「〜を克服する」、by implementingは「〜を実装することによって」、that were effectiveは「効果的だった」という意味です。",
+      "translation": "その組織は効果的だった革新的なアプローチを実装することによって、その挑戦を克服することに成功した。",
+      "structure": "[S: The organization] [V: succeeded] [PP: in overcoming the challenge] [PP: by implementing innovative approaches] [RC: that were effective]",
+      "wrongOptionExplanations": {
+        "1": "at solvingは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のin overcomingが適切です。",
+        "2": "on handlingは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のin overcomingが適切です。",
+        "3": "with dealingは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のin overcomingが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-108",
+    "category": "zenchishi",
+    "question": "They're ___ ___ the situation, taking into account all stakeholders ___ in it.",
+    "options": [
+      "looking, into, involved",
+      "investigating, about, engaged",
+      "examining, on, participating",
+      "studying, in, included"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "look intoは「〜を調査する」、take into accountは「〜を考慮に入れる」、involved inは「〜に関与している」という意味です。",
+      "translation": "彼らは関与しているすべてのステークホルダーを考慮に入れて、その状況を調査している。",
+      "structure": "[S: They] [V: are looking into] [O: the situation] [PP: taking into account all stakeholders] [RC: involved in]",
+      "wrongOptionExplanations": {
+        "1": "investigating about aは文法的に正しくありません。ここではlooking into theが適切です。",
+        "2": "examining on anは文法的に正しくありません。ここではlooking into theが適切です。",
+        "3": "studying in someは文法的に正しくありません。ここではlooking into theが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-109",
+    "category": "zenchishi",
+    "question": "The project is ___ ___ completion despite encountering unexpected obstacles.",
+    "options": [
+      "close, to",
+      "near, at",
+      "approaching, on",
+      "reaching, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "close toは「〜に近い」、despite encounteringは「〜に遭遇しているにもかかわらず」、that aroseは「発生した」という意味です。",
+      "translation": "プロジェクトは発生した予期しない障害に遭遇しているにもかかわらず、完成に近い。",
+      "structure": "[S: The project] [V: is close] [PP: to completion] [PP: despite encountering unexpected obstacles] [RC: that arose]",
+      "wrongOptionExplanations": {
+        "1": "near at aは文法的に正しくありません。ここではclose to theが適切です。",
+        "2": "approaching on anは文法的に正しくありません。ここではclose to theが適切です。",
+        "3": "reaching in theは文法的に正しくありません。ここではclose to theが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-110",
+    "category": "zenchishi",
+    "question": "She's been ___ ___ the problem for weeks, and she's finally come up with a solution that works.",
+    "options": [
+      "working, on",
+      "dealing, with",
+      "handling, over",
+      "managing, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "work onは「〜に取り組む」、for weeksは「数週間」、come up withは「〜を思いつく」、that worksは「機能する」という意味です。",
+      "translation": "彼女は数週間その問題に取り組んでおり、ついに機能する解決策を思いついた。",
+      "structure": "[S: She] [V: has been working] [PP: on the problem] [PP: for weeks] [OTHER: and she's finally come up with a solution that works]",
+      "wrongOptionExplanations": {
+        "1": "dealing with aは文法的に正しくありません。ここではworking on theが適切です。",
+        "2": "handling over anは文法的に正しくありません。ここではworking on theが適切です。",
+        "3": "managing in someは文法的に正しくありません。ここではworking on theが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-111",
+    "category": "zenchishi",
+    "question": "The team is ___ ___ ___ the deadline, but they're also concerned about maintaining high standards.",
+    "options": [
+      "pressing, on, towards",
+      "pushing, forward, to",
+      "moving, ahead, for",
+      "advancing, toward, at"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "press on towardsは「〜に向かって進む」、be concerned aboutは「〜を心配している」、maintain high standardsは「高い基準を維持する」という意味です。",
+      "translation": "チームは期限に向かって進んでいるが、高い基準を維持することも心配している。",
+      "structure": "[S: The team] [V: is pressing on] [PP: towards the deadline] [OTHER: but they're also concerned about maintaining high standards]",
+      "wrongOptionExplanations": {
+        "1": "pushing forward toは文法的に正しくありません。ここではpressing on towardsが適切です。",
+        "2": "moving ahead forは文法的に正しくありません。ここではpressing on towardsが適切です。",
+        "3": "advancing toward atは文法的に正しくありません。ここではpressing on towardsが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-112",
+    "category": "zenchishi",
+    "question": "The organization succeeded ___ ___ the challenge by implementing innovative approaches ___ were effective.",
+    "options": [
+      "in, overcoming, that",
+      "at, solving, which",
+      "on, handling, who",
+      "with, dealing, where"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "succeed inは「〜に成功する」、overcomeは「〜を克服する」、by implementingは「〜を実装することによって」、that were effectiveは「効果的だった」という意味です。",
+      "translation": "その組織は効果的だった革新的なアプローチを実装することによって、その挑戦を克服することに成功した。",
+      "structure": "[S: The organization] [V: succeeded] [PP: in overcoming the challenge] [PP: by implementing innovative approaches] [RC: that were effective]",
+      "wrongOptionExplanations": {
+        "1": "at solving aは文法的に正しくありません。ここではin overcoming theが適切です。",
+        "2": "on handling anは文法的に正しくありません。ここではin overcoming theが適切です。",
+        "3": "with dealing someは文法的に正しくありません。ここではin overcoming theが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-113",
+    "category": "zenchishi",
+    "question": "They're ___ ___ the situation, taking into account all stakeholders ___ in it.",
+    "options": [
+      "looking, into, involved",
+      "investigating, about, engaged",
+      "examining, on, participating",
+      "studying, in, included"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "look intoは「〜を調査する」、take into accountは「〜を考慮に入れる」、involved inは「〜に関与している」という意味です。",
+      "translation": "彼らは関与しているすべてのステークホルダーを考慮に入れて、その状況を調査している。",
+      "structure": "[S: They] [V: are looking into] [O: the situation] [PP: taking into account all stakeholders] [RC: involved in]",
+      "wrongOptionExplanations": {
+        "1": "investigating about aは文法的に正しくありません。ここではlooking into theが適切です。",
+        "2": "examining on anは文法的に正しくありません。ここではlooking into theが適切です。",
+        "3": "studying in someは文法的に正しくありません。ここではlooking into theが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-114",
+    "category": "zenchishi",
+    "question": "The project is ___ ___ completion despite encountering unexpected obstacles.",
+    "options": [
+      "close, to",
+      "near, at",
+      "approaching, on",
+      "reaching, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "close toは「〜に近い」、despite encounteringは「〜に遭遇しているにもかかわらず」、that aroseは「発生した」という意味です。",
+      "translation": "プロジェクトは発生した予期しない障害に遭遇しているにもかかわらず、完成に近い。",
+      "structure": "[S: The project] [V: is close] [PP: to completion] [PP: despite encountering unexpected obstacles] [RC: that arose]",
+      "wrongOptionExplanations": {
+        "1": "near at aは文法的に正しくありません。ここではclose to theが適切です。",
+        "2": "approaching on anは文法的に正しくありません。ここではclose to theが適切です。",
+        "3": "reaching in theは文法的に正しくありません。ここではclose to theが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-115",
+    "category": "zenchishi",
+    "question": "She's been ___ ___ the problem for weeks, and she's finally come up with a solution that works.",
+    "options": [
+      "working, on",
+      "dealing, with",
+      "handling, over",
+      "managing, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "work onは「〜に取り組む」、for weeksは「数週間」、come up withは「〜を思いつく」、that worksは「機能する」という意味です。",
+      "translation": "彼女は数週間その問題に取り組んでおり、ついに機能する解決策を思いついた。",
+      "structure": "[S: She] [V: has been working] [PP: on the problem] [PP: for weeks] [OTHER: and she's finally come up with a solution that works]",
+      "wrongOptionExplanations": {
+        "1": "dealing with aは文法的に正しくありません。ここではworking on theが適切です。",
+        "2": "handling over anは文法的に正しくありません。ここではworking on theが適切です。",
+        "3": "managing in someは文法的に正しくありません。ここではworking on theが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-116",
+    "category": "zenchishi",
+    "question": "The team is ___ ___ towards the deadline, but they're also concerned about maintaining high standards.",
+    "options": [
+      "pressing, on",
+      "pushing, forward",
+      "moving, ahead",
+      "advancing, toward"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "press on towardsは「〜に向かって進む」、be concerned aboutは「〜を心配している」、maintain high standardsは「高い基準を維持する」という意味です。",
+      "translation": "チームは期限に向かって進んでいるが、高い基準を維持することも心配している。",
+      "structure": "[S: The team] [V: is pressing on] [PP: towards the deadline] [OTHER: but they're also concerned about maintaining high standards]",
+      "wrongOptionExplanations": {
+        "1": "pushing forwardは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のpressing onが適切です。",
+        "2": "moving aheadは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のpressing onが適切です。",
+        "3": "advancing towardは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のpressing onが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-117",
+    "category": "zenchishi",
+    "question": "The organization succeeded ___ ___ the challenge by implementing that were innovative approaches effective.",
+    "options": [
+      "in, overcoming",
+      "at, solving",
+      "on, handling",
+      "with, dealing"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "succeed inは「〜に成功する」、overcomeは「〜を克服する」、by implementingは「〜を実装することによって」、that were effectiveは「効果的だった」という意味です。",
+      "translation": "その組織は効果的だった革新的なアプローチを実装することによって、その挑戦を克服することに成功した。",
+      "structure": "[S: The organization] [V: succeeded] [PP: in overcoming the challenge] [PP: by implementing innovative approaches] [RC: that were effective]",
+      "wrongOptionExplanations": {
+        "1": "at solvingは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のin overcomingが適切です。",
+        "2": "on handlingは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のin overcomingが適切です。",
+        "3": "with dealingは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のin overcomingが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-118",
+    "category": "zenchishi",
+    "question": "They're ___ ___ the situation taking into account involved all stakeholders in.",
+    "options": [
+      "looking, into",
+      "investigating, about",
+      "examining, on",
+      "studying, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "look intoは「〜を調査する」、take into accountは「〜を考慮に入れる」、involved inは「〜に関与している」という意味です。",
+      "translation": "彼らは関与しているすべてのステークホルダーを考慮に入れて、その状況を調査している。",
+      "structure": "[S: They] [V: are looking into] [O: the situation] [PP: taking into account all stakeholders] [RC: involved in]",
+      "wrongOptionExplanations": {
+        "1": "investigating aboutは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のlooking intoが適切です。",
+        "2": "examining onは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のlooking intoが適切です。",
+        "3": "studying inは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のlooking intoが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-119",
+    "category": "zenchishi",
+    "question": "The project is ___ ___ completion despite encountering unexpected obstacles.",
+    "options": [
+      "close, to",
+      "near, at",
+      "approaching, on",
+      "reaching, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "close toは「〜に近い」、despite encounteringは「〜に遭遇しているにもかかわらず」、that aroseは「発生した」という意味です。",
+      "translation": "プロジェクトは発生した予期しない障害に遭遇しているにもかかわらず、完成に近い。",
+      "structure": "[S: The project] [V: is close] [PP: to completion] [PP: despite encountering unexpected obstacles] [RC: that arose]",
+      "wrongOptionExplanations": {
+        "1": "near at aは文法的に正しくありません。ここではclose to theが適切です。",
+        "2": "approaching on anは文法的に正しくありません。ここではclose to theが適切です。",
+        "3": "reaching in theは文法的に正しくありません。ここではclose to theが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-120",
+    "category": "zenchishi",
+    "question": "She's been ___ ___ the problem for weeks, and she's finally come up with a solution that works.",
+    "options": [
+      "working, on",
+      "dealing, with",
+      "handling, over",
+      "managing, in"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "work onは「〜に取り組む」、for weeksは「数週間」、come up withは「〜を思いつく」、that worksは「機能する」という意味です。",
+      "translation": "彼女は数週間その問題に取り組んでおり、ついに機能する解決策を思いついた。",
+      "structure": "[S: She] [V: has been working] [PP: on the problem] [PP: for weeks] [OTHER: and she's finally come up with a solution that works]",
+      "wrongOptionExplanations": {
+        "1": "dealing withは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のworking onが適切です。",
+        "2": "handling overは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のworking onが適切です。",
+        "3": "managing inは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のworking onが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "prep-121",
+    "category": "zenchishi",
+    "question": "The team is ___ ___ towards the deadline, but they're also concerned about maintaining high standards.",
+    "options": [
+      "pressing, on",
+      "pushing, forward",
+      "moving, ahead",
+      "advancing, toward"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "press on towardsは「〜に向かって進む」、be concerned aboutは「〜を心配している」、maintain high standardsは「高い基準を維持する」という意味です。",
+      "translation": "チームは期限に向かって進んでいるが、高い基準を維持することも心配している。",
+      "structure": "[S: The team] [V: is pressing on] [PP: towards the deadline] [OTHER: but they're also concerned about maintaining high standards]",
+      "wrongOptionExplanations": {
+        "1": "pushing forwardは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のpressing onが適切です。",
+        "2": "moving aheadは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のpressing onが適切です。",
+        "3": "advancing towardは「特定の意味」という意味ですが、ここでは「特定の意味」という意味のpressing onが適切です。"
+      }
+    },
+    "difficulty": 2
+  }
+]

@@ -1,0 +1,1382 @@
+[
+  {
+    "id": "pass-001",
+    "category": "judoutai",
+    "question": "The book ___ by many students.",
+    "options": [
+      "is read",
+      "reads",
+      "is reading",
+      "read"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "受動態は「be動詞 + 過去分詞」の形で表します。主語（book）が動作を受ける側なので、受動態を使います。",
+      "translation": "その本は多くの学生に読まれています。",
+      "wrongOptionExplanations": {
+        "1": "readsは能動態の三人称単数現在形ですが、ここでは受動態を使います。",
+        "2": "is readingは能動態の現在進行形ですが、ここでは受動態を使います。",
+        "3": "readは原形または過去形ですが、受動態ではbe動詞 + 過去分詞の形が必要です。"
+      },
+      "structure": "[S: The book] [V: is read] [PP: by many students]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-002",
+    "category": "judoutai",
+    "question": "The house ___ last year.",
+    "options": [
+      "was built",
+      "built",
+      "was building",
+      "builds"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "過去の受動態は「was/were + 過去分詞」の形で表します。last yearがあるので過去形を使います。",
+      "translation": "その家は去年建てられました。",
+      "wrongOptionExplanations": {
+        "1": "builtは過去分詞ですが、受動態ではbe動詞 + 過去分詞の形が必要です。",
+        "2": "was buildingは能動態の過去進行形ですが、ここでは受動態を使います。",
+        "3": "buildsは能動態の三人称単数現在形ですが、ここでは受動態を使います。"
+      },
+      "structure": "[S: The house] [V: was built] [ADV: last year]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-003",
+    "category": "judoutai",
+    "question": "The letter ___ tomorrow.",
+    "options": [
+      "will be sent",
+      "will send",
+      "sends",
+      "is sending"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "未来の受動態は「will be + 過去分詞」の形で表します。tomorrowがあるので未来形を使います。",
+      "translation": "その手紙は明日送られます。",
+      "wrongOptionExplanations": {
+        "1": "will sendは能動態の未来形ですが、ここでは受動態を使います。",
+        "2": "sendsは能動態の三人称単数現在形ですが、ここでは受動態を使います。",
+        "3": "is sendingは能動態の現在進行形ですが、ここでは受動態を使います。"
+      },
+      "structure": "[S: The letter] [V: will be sent] [ADV: tomorrow]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-004",
+    "category": "judoutai",
+    "question": "The problem ___ by the team.",
+    "options": [
+      "has been solved",
+      "has solved",
+      "solves",
+      "is solving"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "現在完了の受動態は「have/has been + 過去分詞」の形で表します。",
+      "translation": "その問題はチームによって解決されました。",
+      "wrongOptionExplanations": {
+        "1": "has solvedは能動態の現在完了形ですが、ここでは受動態を使います。",
+        "2": "solvesは能動態の三人称単数現在形ですが、ここでは受動態を使います。",
+        "3": "is solvingは能動態の現在進行形ですが、ここでは受動態を使います。"
+      },
+      "structure": "[S: The problem] [V: has been solved] [PP: by the team]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-005",
+    "category": "judoutai",
+    "question": "The car ___ repaired right now.",
+    "options": [
+      "is being",
+      "is",
+      "was",
+      "will"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "現在進行形の受動態は「is/are being + 過去分詞」の形で表します。right nowがあるので進行形を使います。",
+      "translation": "その車は今修理されています。",
+      "wrongOptionExplanations": {
+        "1": "isだけでは受動態の進行形になりません。is being + 過去分詞の形が必要です。",
+        "2": "wasは過去形ですが、right nowがあるので現在進行形を使います。",
+        "3": "willは未来形ですが、right nowがあるので現在進行形を使います。"
+      },
+      "structure": "[S: The car] [V: is being repaired] [ADV: right now]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-006",
+    "category": "judoutai",
+    "question": "The report ___ ___ been by the deadline, but it seems completed won't be on time.",
+    "options": [
+      "should, have",
+      "must, be",
+      "can, have",
+      "may, be"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "should have been + 過去分詞は「〜されるべきだった（のにされなかった）」、won't be + 過去分詞は「〜されないだろう」という意味です。完了形の受動態と未来形の受動態を組み合わせた複雑な構文です。",
+      "translation": "レポートは期限までに完成されるべきだったが、時間通りに終わらないようだ。",
+      "wrongOptionExplanations": {
+        "1": "must be doneは「〜されなければならない」という意味ですが、ここでは「されるべきだった」という完了形が必要です。will not get completedは一般的ではありません。",
+        "2": "can haveは文法的に正しくありません。ここではshould haveが適切です。",
+        "3": "may be madeは「〜されるかもしれない」という意味ですが、ここでは「されるべきだった」という完了形が必要です。should not turn outは一般的ではありません。"
+      },
+      "structure": "[S: The report] [V: should have been completed] [PP: by the deadline] [OTHER: but it seems it won't be finished] [PP: on time]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-007",
+    "category": "judoutai",
+    "question": "The building ___ ___ ___ at when the earthquake struck, which is why so many people that time.",
+    "options": [
+      "was, being, renovated",
+      "had, been, repaired",
+      "is, getting, fixed",
+      "will, be, restored"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "was being + 過去分詞は過去進行形の受動態「〜されていた」、were injuredは過去形の受動態「〜された」という意味です。過去進行形の受動態と過去形の受動態を組み合わせた複雑な構文です。",
+      "translation": "地震が襲った時、その建物は改修中だった。それが多くの人が負傷した理由だ。",
+      "wrongOptionExplanations": {
+        "1": "had been repairedは過去完了の受動態「〜されていた」という意味ですが、ここでは「改修中だった」という進行形が必要です。got hurtは一般的ですが、were injuredの方が適切です。",
+        "2": "is getting fixedは現在進行形の受動態ですが、when the earthquake struckがあるので過去形を使います。are woundedは現在形ですが、過去の出来事なので過去形を使います。",
+        "3": "will be restoredは未来形の受動態ですが、when the earthquake struckがあるので過去形を使います。will be harmedは未来形ですが、過去の出来事なので過去形を使います。"
+      },
+      "structure": "[S: The building] [V: was being renovated] [PP: at that time] [RC: when the earthquake struck] [OTHER: which is why so many people were injured]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-008",
+    "category": "judoutai",
+    "question": "The proposal ___ ___ ___ serious consideration, but it may not be approved due to budget constraints.",
+    "options": [
+      "is, being, given",
+      "was, getting, taken",
+      "has, been, put",
+      "will, be, brought"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "is being givenは現在進行形の受動態「〜されている」、be given serious considerationは「真剣に検討される」、may not be approvedは「承認されないかもしれない」という意味です。進行形の受動態、熟語、助動詞の受動態を組み合わせた非常に複雑な構文です。",
+      "translation": "その提案は真剣に検討されているが、予算の制約により承認されないかもしれない。",
+      "wrongOptionExplanations": {
+        "1": "was getting takenは一般的ではありません。might not get acceptedは一般的ですが、may not be approvedの方が適切です。",
+        "2": "has been put underは「〜の下に置かれた」という意味ですが、ここでは「検討されている」という進行形が必要です。could not become passedは一般的ではありません。",
+        "3": "will be brought toは未来形の受動態ですが、ここでは「検討されている」という進行形が必要です。should not turn outは一般的ではありません。"
+      },
+      "structure": "[S: The proposal] [V: is being given] [O: serious consideration] [OTHER: but it may not be approved] [PP: due to budget constraints]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-009",
+    "category": "judoutai",
+    "question": "All the evidence ___ ___ ___ thoroughly carefully, and the suspect is being subjected to questioning.",
+    "options": [
+      "has, been, examined",
+      "had, got, checked",
+      "will, be, investigated",
+      "is, becoming, analyzed"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "has been examinedは現在完了の受動態「〜された」、is being subjected toは現在進行形の受動態「〜されている」、subject toは「〜にさらされる」という熟語です。現在完了の受動態、進行形の受動態、熟語を組み合わせた非常に複雑な構文です。",
+      "translation": "すべての証拠は徹底的に調査され、容疑者は尋問を受けている。",
+      "wrongOptionExplanations": {
+        "1": "had got checkedは一般的ではありません。was getting exposedは一般的ですが、is being subjected toの方が適切です。",
+        "2": "will be investigatedは未来形の受動態ですが、ここでは「調査された」という完了形が必要です。will get involvedは一般的ですが、is being subjected toの方が適切です。",
+        "3": "is becoming analyzedは一般的ではありません。might be engaged withは一般的ですが、is being subjected toの方が適切です。"
+      },
+      "structure": "[S: All the evidence] [V: has been examined] [ADV: thoroughly] [OTHER: and the suspect is being subjected] [PP: to questioning]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-010",
+    "category": "judoutai",
+    "question": "The contract ___ ___ ___ several multiple times before it was finally signed off by both parties.",
+    "options": [
+      "had, been, revised",
+      "has, got, changed",
+      "will, be, modified",
+      "is, becoming, altered"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "had been revisedは過去完了の受動態「〜されていた」、was signed offは過去形の受動態「〜された」、sign offは「署名して承認する」という熟語です。過去完了の受動態、過去形の受動態、熟語を組み合わせた非常に複雑な構文です。",
+      "translation": "契約は最終的に両当事者によって署名承認される前に、何度も修正されていた。",
+      "wrongOptionExplanations": {
+        "1": "has got changedは一般的ではありません。is approved onは一般的ですが、was signed offの方が適切です。",
+        "2": "will be modifiedは未来形の受動態ですが、beforeがあるので過去完了形を使います。will get acceptedは一般的ですが、was signed offの方が適切です。",
+        "3": "is becoming alteredは一般的ではありません。might be agreed toは一般的ですが、was signed offの方が適切です。"
+      },
+      "structure": "[S: The contract] [V: had been revised] [ADV: multiple times] [PP: before it was finally signed off] [PP: by both parties]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-011",
+    "category": "judoutai",
+    "question": "The window ___ by the boy.",
+    "options": [
+      "was broken",
+      "broke",
+      "was breaking",
+      "breaks"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "過去の受動態は「was/were + 過去分詞」の形で表します。主語（window）が動作を受ける側なので、受動態を使います。",
+      "translation": "その窓は少年によって壊されました。",
+      "wrongOptionExplanations": {
+        "1": "brokeは能動態の過去形ですが、ここでは受動態を使います。",
+        "2": "was breakingは能動態の過去進行形ですが、ここでは受動態を使います。",
+        "3": "breaksは能動態の三人称単数現在形ですが、ここでは受動態を使います。"
+      },
+      "structure": "[S: The window] [V: was broken] [PP: by the boy]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-012",
+    "category": "judoutai",
+    "question": "The cake ___ by my mother.",
+    "options": [
+      "was made",
+      "made",
+      "was making",
+      "makes"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "過去の受動態は「was/were + 過去分詞」の形で表します。主語（cake）が動作を受ける側なので、受動態を使います。",
+      "translation": "そのケーキは私の母によって作られました。",
+      "wrongOptionExplanations": {
+        "1": "madeは過去分詞ですが、受動態ではbe動詞 + 過去分詞の形が必要です。",
+        "2": "was makingは能動態の過去進行形ですが、ここでは受動態を使います。",
+        "3": "makesは能動態の三人称単数現在形ですが、ここでは受動態を使います。"
+      },
+      "structure": "[S: The cake] [V: was made] [PP: by my mother]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-013",
+    "category": "judoutai",
+    "question": "The door ___ every morning.",
+    "options": [
+      "is opened",
+      "opens",
+      "is opening",
+      "open"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "現在の受動態は「is/are + 過去分詞」の形で表します。主語（door）が動作を受ける側なので、受動態を使います。",
+      "translation": "そのドアは毎朝開けられます。",
+      "wrongOptionExplanations": {
+        "1": "opensは能動態の三人称単数現在形ですが、ここでは受動態を使います。",
+        "2": "is openingは能動態の現在進行形ですが、ここでは受動態を使います。",
+        "3": "openは原形ですが、受動態ではbe動詞 + 過去分詞の形が必要です。"
+      },
+      "structure": "[S: The door] [V: is opened] [ADV: every morning]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-014",
+    "category": "judoutai",
+    "question": "The students ___ by the teacher.",
+    "options": [
+      "are taught",
+      "teach",
+      "are teaching",
+      "teaches"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "現在の受動態は「is/are + 過去分詞」の形で表します。主語（students）が動作を受ける側なので、受動態を使います。",
+      "translation": "その学生たちは先生によって教えられています。",
+      "wrongOptionExplanations": {
+        "1": "teachは能動態の原形ですが、ここでは受動態を使います。",
+        "2": "are teachingは能動態の現在進行形ですが、ここでは受動態を使います。",
+        "3": "teachesは能動態の三人称単数現在形ですが、ここでは受動態を使います。"
+      },
+      "structure": "[S: The students] [V: are taught] [PP: by the teacher]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-015",
+    "category": "judoutai",
+    "question": "The movie ___ next week.",
+    "options": [
+      "will be released",
+      "will release",
+      "releases",
+      "is releasing"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "未来の受動態は「will be + 過去分詞」の形で表します。next weekがあるので未来形を使います。",
+      "translation": "その映画は来週公開されます。",
+      "wrongOptionExplanations": {
+        "1": "will releaseは文法的に正しくありません。ここではwill be releasedが適切です。",
+        "2": "releasesは能動態の三人称単数現在形ですが、ここでは受動態を使います。",
+        "3": "is releasingは文法的に正しくありません。ここではwill be releasedが適切です。"
+      },
+      "structure": "[S: The movie] [V: will be released] [ADV: next week]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-016",
+    "category": "judoutai",
+    "question": "The room ___ cleaned yesterday.",
+    "options": [
+      "was",
+      "is",
+      "will",
+      "has"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "過去の受動態は「was/were + 過去分詞」の形で表します。yesterdayがあるので過去形を使います。",
+      "translation": "その部屋は昨日掃除されました。",
+      "wrongOptionExplanations": {
+        "1": "isは現在形ですが、yesterdayがあるので過去形を使います。",
+        "2": "willは未来形ですが、yesterdayがあるので過去形を使います。",
+        "3": "hasは現在完了形ですが、yesterdayがあるので過去形を使います。"
+      },
+      "structure": "[S: The room] [V: was cleaned] [ADV: yesterday]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-017",
+    "category": "judoutai",
+    "question": "The flowers ___ watered every day.",
+    "options": [
+      "are",
+      "were",
+      "will",
+      "have"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "現在の受動態は「is/are + 過去分詞」の形で表します。every dayがあるので現在形を使います。",
+      "translation": "その花は毎日水をやられます。",
+      "wrongOptionExplanations": {
+        "1": "wereは過去形ですが、every dayがあるので現在形を使います。",
+        "2": "willは未来形ですが、every dayがあるので現在形を使います。",
+        "3": "haveは現在完了形ですが、ここでは現在形の受動態を使います。"
+      },
+      "structure": "[S: The flowers] [V: are watered] [ADV: every day]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-018",
+    "category": "judoutai",
+    "question": "The letter ___ written by him.",
+    "options": [
+      "was",
+      "is",
+      "will",
+      "has"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "過去の受動態は「was/were + 過去分詞」の形で表します。",
+      "translation": "その手紙は彼によって書かれました。",
+      "wrongOptionExplanations": {
+        "1": "isは現在形ですが、ここでは過去形を使います。",
+        "2": "willは未来形ですが、ここでは過去形を使います。",
+        "3": "hasは現在完了形ですが、ここでは過去形を使います。"
+      },
+      "structure": "[S: The letter] [V: was written] [PP: by him]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-019",
+    "category": "judoutai",
+    "question": "The computer ___ fixed tomorrow.",
+    "options": [
+      "will be",
+      "is",
+      "was",
+      "has been"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "未来の受動態は「will be + 過去分詞」の形で表します。tomorrowがあるので未来形を使います。",
+      "translation": "そのコンピューターは明日修理されます。",
+      "wrongOptionExplanations": {
+        "1": "isは現在形ですが、tomorrowがあるので未来形を使います。",
+        "2": "wasは過去形ですが、tomorrowがあるので未来形を使います。",
+        "3": "has beenは現在完了形ですが、tomorrowがあるので未来形を使います。"
+      },
+      "structure": "[S: The computer] [V: will be fixed] [ADV: tomorrow]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-020",
+    "category": "judoutai",
+    "question": "The food ___ cooked by the chef.",
+    "options": [
+      "is",
+      "was",
+      "will",
+      "has"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "現在の受動態は「is/are + 過去分詞」の形で表します。",
+      "translation": "その食べ物はシェフによって調理されています。",
+      "wrongOptionExplanations": {
+        "1": "wasは過去形ですが、ここでは現在形を使います。",
+        "2": "willは未来形ですが、ここでは現在形を使います。",
+        "3": "hasは現在完了形ですが、ここでは現在形の受動態を使います。"
+      },
+      "structure": "[S: The food] [V: is cooked] [PP: by the chef]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-021",
+    "category": "judoutai",
+    "question": "The song ___ sung by many people.",
+    "options": [
+      "is",
+      "was",
+      "will",
+      "has been"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "現在の受動態は「is/are + 過去分詞」の形で表します。",
+      "translation": "その歌は多くの人によって歌われています。",
+      "wrongOptionExplanations": {
+        "1": "wasは過去形ですが、ここでは現在形を使います。",
+        "2": "willは未来形ですが、ここでは現在形を使います。",
+        "3": "has beenは現在完了形ですが、ここでは現在形の受動態を使います。"
+      },
+      "structure": "[S: The song] [V: is sung] [PP: by many people]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-022",
+    "category": "judoutai",
+    "question": "The picture ___ taken last month.",
+    "options": [
+      "was",
+      "is",
+      "will be",
+      "has been"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "過去の受動態は「was/were + 過去分詞」の形で表します。last monthがあるので過去形を使います。",
+      "translation": "その写真は先月撮られました。",
+      "wrongOptionExplanations": {
+        "1": "isは現在形ですが、last monthがあるので過去形を使います。",
+        "2": "will beは未来形ですが、last monthがあるので過去形を使います。",
+        "3": "has beenは現在完了形ですが、last monthがあるので過去形を使います。"
+      },
+      "structure": "[S: The picture] [V: was taken] [ADV: last month]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-023",
+    "category": "judoutai",
+    "question": "The meeting ___ held next Monday.",
+    "options": [
+      "will be",
+      "is",
+      "was",
+      "has been"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "未来の受動態は「will be + 過去分詞」の形で表します。next Mondayがあるので未来形を使います。",
+      "translation": "その会議は来週の月曜日に開催されます。",
+      "wrongOptionExplanations": {
+        "1": "isは現在形ですが、next Mondayがあるので未来形を使います。",
+        "2": "wasは過去形ですが、next Mondayがあるので未来形を使います。",
+        "3": "has beenは現在完了形ですが、next Mondayがあるので未来形を使います。"
+      },
+      "structure": "[S: The meeting] [V: will be held] [ADV: next Monday]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-024",
+    "category": "judoutai",
+    "question": "The story ___ told to children.",
+    "options": [
+      "is",
+      "was",
+      "will be",
+      "has been"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "現在の受動態は「is/are + 過去分詞」の形で表します。",
+      "translation": "その物語は子供たちに語られています。",
+      "wrongOptionExplanations": {
+        "1": "wasは過去形ですが、ここでは現在形を使います。",
+        "2": "will beは未来形ですが、ここでは現在形を使います。",
+        "3": "has beenは現在完了形ですが、ここでは現在形の受動態を使います。"
+      },
+      "structure": "[S: The story] [V: is told] [PP: to children]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-025",
+    "category": "judoutai",
+    "question": "The bridge ___ built in 1990.",
+    "options": [
+      "was",
+      "is",
+      "will be",
+      "has been"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "過去の受動態は「was/were + 過去分詞」の形で表します。in 1990があるので過去形を使います。",
+      "translation": "その橋は1990年に建てられました。",
+      "wrongOptionExplanations": {
+        "1": "isは現在形ですが、in 1990があるので過去形を使います。",
+        "2": "will beは未来形ですが、in 1990があるので過去形を使います。",
+        "3": "has beenは現在完了形ですが、in 1990があるので過去形を使います。"
+      },
+      "structure": "[S: The bridge] [V: was built] [ADV: in 1990]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-026",
+    "category": "judoutai",
+    "question": "The email ___ sent yesterday.",
+    "options": [
+      "was",
+      "is",
+      "will be",
+      "has been"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "過去の受動態は「was/were + 過去分詞」の形で表します。yesterdayがあるので過去形を使います。",
+      "translation": "そのメールは昨日送られました。",
+      "wrongOptionExplanations": {
+        "1": "isは現在形ですが、yesterdayがあるので過去形を使います。",
+        "2": "will beは未来形ですが、yesterdayがあるので過去形を使います。",
+        "3": "has beenは現在完了形ですが、yesterdayがあるので過去形を使います。"
+      },
+      "structure": "[S: The email] [V: was sent] [ADV: yesterday]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-027",
+    "category": "judoutai",
+    "question": "The rules ___ explained to us.",
+    "options": [
+      "were",
+      "are",
+      "will be",
+      "have been"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "過去の受動態は「was/were + 過去分詞」の形で表します。",
+      "translation": "その規則は私たちに説明されました。",
+      "wrongOptionExplanations": {
+        "1": "areは現在形ですが、ここでは過去形を使います。",
+        "2": "will beは未来形ですが、ここでは過去形を使います。",
+        "3": "have beenは現在完了形ですが、ここでは過去形を使います。"
+      },
+      "structure": "[S: The rules] [V: were explained] [PP: to us]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-028",
+    "category": "judoutai",
+    "question": "The question ___ answered by the teacher.",
+    "options": [
+      "was",
+      "is",
+      "will be",
+      "has been"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "過去の受動態は「was/were + 過去分詞」の形で表します。",
+      "translation": "その質問は先生によって答えられました。",
+      "wrongOptionExplanations": {
+        "1": "isは現在形ですが、ここでは過去形を使います。",
+        "2": "will beは未来形ですが、ここでは過去形を使います。",
+        "3": "has beenは現在完了形ですが、ここでは過去形を使います。"
+      },
+      "structure": "[S: The question] [V: was answered] [PP: by the teacher]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-029",
+    "category": "judoutai",
+    "question": "The tickets ___ sold online.",
+    "options": [
+      "are",
+      "were",
+      "will be",
+      "have been"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "現在の受動態は「is/are + 過去分詞」の形で表します。",
+      "translation": "そのチケットはオンラインで販売されています。",
+      "wrongOptionExplanations": {
+        "1": "wereは過去形ですが、ここでは現在形を使います。",
+        "2": "will beは未来形ですが、ここでは現在形を使います。",
+        "3": "have beenは現在完了形ですが、ここでは現在形の受動態を使います。"
+      },
+      "structure": "[S: The tickets] [V: are sold] [PP: online]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-030",
+    "category": "judoutai",
+    "question": "The mistake ___ corrected by the editor.",
+    "options": [
+      "was",
+      "is",
+      "will be",
+      "has been"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "過去の受動態は「was/were + 過去分詞」の形で表します。",
+      "translation": "その間違いは編集者によって訂正されました。",
+      "wrongOptionExplanations": {
+        "1": "isは現在形ですが、ここでは過去形を使います。",
+        "2": "will beは未来形ですが、ここでは過去形を使います。",
+        "3": "has beenは現在完了形ですが、ここでは過去形を使います。"
+      },
+      "structure": "[S: The mistake] [V: was corrected] [PP: by the editor]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-031",
+    "category": "judoutai",
+    "question": "The room ___ cleaned every week.",
+    "options": [
+      "is",
+      "was",
+      "will be",
+      "has been"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "現在の受動態は「is/are + 過去分詞」の形で表します。every weekがあるので現在形を使います。",
+      "translation": "その部屋は毎週掃除されます。",
+      "wrongOptionExplanations": {
+        "1": "wasは過去形ですが、every weekがあるので現在形を使います。",
+        "2": "will beは未来形ですが、every weekがあるので現在形を使います。",
+        "3": "has beenは現在完了形ですが、ここでは現在形の受動態を使います。"
+      },
+      "structure": "[S: The room] [V: is cleaned] [ADV: every week]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-032",
+    "category": "judoutai",
+    "question": "The message ___ sent to everyone.",
+    "options": [
+      "was",
+      "is",
+      "will be",
+      "has been"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "過去の受動態は「was/were + 過去分詞」の形で表します。",
+      "translation": "そのメッセージは全員に送られました。",
+      "wrongOptionExplanations": {
+        "1": "isは現在形ですが、ここでは過去形を使います。",
+        "2": "will beは未来形ですが、ここでは過去形を使います。",
+        "3": "has beenは現在完了形ですが、ここでは過去形を使います。"
+      },
+      "structure": "[S: The message] [V: was sent] [PP: to everyone]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-033",
+    "category": "judoutai",
+    "question": "The package ___ delivered next Friday.",
+    "options": [
+      "will be",
+      "is",
+      "was",
+      "has been"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "未来の受動態は「will be + 過去分詞」の形で表します。next Fridayがあるので未来形を使います。",
+      "translation": "その荷物は来週の金曜日に配達されます。",
+      "wrongOptionExplanations": {
+        "1": "isは現在形ですが、next Fridayがあるので未来形を使います。",
+        "2": "wasは過去形ですが、next Fridayがあるので未来形を使います。",
+        "3": "has beenは現在完了形ですが、next Fridayがあるので未来形を使います。"
+      },
+      "structure": "[S: The package] [V: will be delivered] [ADV: next Friday]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-034",
+    "category": "judoutai",
+    "question": "The news ___ announced yesterday.",
+    "options": [
+      "was",
+      "is",
+      "will be",
+      "has been"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "過去の受動態は「was/were + 過去分詞」の形で表します。yesterdayがあるので過去形を使います。",
+      "translation": "そのニュースは昨日発表されました。",
+      "wrongOptionExplanations": {
+        "1": "isは現在形ですが、yesterdayがあるので過去形を使います。",
+        "2": "will beは未来形ですが、yesterdayがあるので過去形を使います。",
+        "3": "has beenは現在完了形ですが、yesterdayがあるので過去形を使います。"
+      },
+      "structure": "[S: The news] [V: was announced] [ADV: yesterday]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-035",
+    "category": "judoutai",
+    "question": "The books ___ returned to the library.",
+    "options": [
+      "are",
+      "were",
+      "will be",
+      "have been"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "現在の受動態は「is/are + 過去分詞」の形で表します。",
+      "translation": "その本は図書館に返されています。",
+      "wrongOptionExplanations": {
+        "1": "wereは過去形ですが、ここでは現在形を使います。",
+        "2": "will beは未来形ですが、ここでは現在形を使います。",
+        "3": "have beenは現在完了形ですが、ここでは現在形の受動態を使います。"
+      },
+      "structure": "[S: The books] [V: are returned] [PP: to the library]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "pass-036",
+    "category": "judoutai",
+    "question": "The document ___ ___ been prepared before the meeting, but it wasn't finished in time on.",
+    "options": [
+      "should, have",
+      "must, be",
+      "can, have",
+      "may, be"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "should have been + 過去分詞は「〜されるべきだった（のにされなかった）」、wasn't finished in timeは「時間通りに終わらなかった」という意味です。完了形の受動態と過去形の受動態を組み合わせた複雑な構文です。",
+      "translation": "その文書は会議前に準備されるべきだったが、時間通りに終わらなかった。",
+      "wrongOptionExplanations": {
+        "1": "must be madeは「〜されなければならない」という意味ですが、ここでは「されるべきだった」という完了形が必要です。didn't get completedは一般的ですが、wasn't finishedの方が適切です。",
+        "2": "can haveは文法的に正しくありません。ここではshould haveが適切です。",
+        "3": "may be createdは「〜されるかもしれない」という意味ですが、ここでは「されるべきだった」という完了形が必要です。should not turn outは一般的ではありません。"
+      },
+      "structure": "[S: The document] [V: should have been prepared] [PP: before the meeting] [OTHER: but it wasn't finished] [PP: in time]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-032",
+    "category": "judoutai",
+    "question": "The system ___ ___ ___ at that when the power went out, which is why the data moment was.",
+    "options": [
+      "was, being, updated",
+      "had, been, upgraded",
+      "is, getting, modified",
+      "will, be, changed"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "was being + 過去分詞は過去進行形の受動態「〜されていた」、was lostは過去形の受動態「〜された」という意味です。過去進行形の受動態と過去形の受動態を組み合わせた複雑な構文です。",
+      "translation": "停電が起きた時、そのシステムは更新中だった。それがデータが失われた理由だ。",
+      "wrongOptionExplanations": {
+        "1": "had been upgradedは過去完了の受動態「〜されていた」という意味ですが、ここでは「更新中だった」という進行形が必要です。got deletedは一般的ですが、was lostの方が適切です。",
+        "2": "is getting modifiedは現在進行形の受動態ですが、when the power went outがあるので過去形を使います。are removedは現在形ですが、過去の出来事なので過去形を使います。",
+        "3": "will be changedは未来形の受動態ですが、when the power went outがあるので過去形を使います。will be erasedは未来形ですが、過去の出来事なので過去形を使います。"
+      },
+      "structure": "[S: The system] [V: was being updated] [PP: at that moment] [RC: when the power went out] [OTHER: which is why the data was lost]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-033",
+    "category": "judoutai",
+    "question": "The application ___ ___ ___ careful review, but it may not be accepted due to missing documents.",
+    "options": [
+      "is, being, given",
+      "was, getting, taken",
+      "has, been, put",
+      "will, be, brought"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "is being givenは現在進行形の受動態「〜されている」、be given careful reviewは「慎重に検討される」、may not be acceptedは「受け入れられないかもしれない」という意味です。進行形の受動態、熟語、助動詞の受動態を組み合わせた非常に複雑な構文です。",
+      "translation": "その申請は慎重に検討されているが、書類不足により受け入れられないかもしれない。",
+      "wrongOptionExplanations": {
+        "1": "was getting takenは一般的ではありません。might not get approvedは一般的ですが、may not be acceptedの方が適切です。",
+        "2": "has been put underは「〜の下に置かれた」という意味ですが、ここでは「検討されている」という進行形が必要です。could not become passedは一般的ではありません。",
+        "3": "will be brought toは未来形の受動態ですが、ここでは「検討されている」という進行形が必要です。should not turn outは一般的ではありません。"
+      },
+      "structure": "[S: The application] [V: is being given] [O: careful review] [OTHER: but it may not be accepted] [PP: due to missing documents]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-034",
+    "category": "judoutai",
+    "question": "All the files ___ ___ ___ up thoroughly, and the server completely is being put maintenance.",
+    "options": [
+      "have, been, backed",
+      "had, got, saved",
+      "will, be, stored",
+      "is, becoming, archived"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "have been backed upは現在完了の受動態「〜された」、is being put underは現在進行形の受動態「〜されている」、put under maintenanceは「メンテナンス中に置かれる」という熟語です。現在完了の受動態、進行形の受動態、熟語を組み合わせた非常に複雑な構文です。",
+      "translation": "すべてのファイルは完全にバックアップされ、サーバーはメンテナンス中に置かれている。",
+      "wrongOptionExplanations": {
+        "1": "had got savedは一般的ではありません。was getting takenは一般的ですが、is being put underの方が適切です。",
+        "2": "will be storedは未来形の受動態ですが、ここでは「バックアップされた」という完了形が必要です。will get broughtは一般的ですが、is being put underの方が適切です。",
+        "3": "is becoming archivedは一般的ではありません。might be engaged withは一般的ですが、is being put underの方が適切です。"
+      },
+      "structure": "[S: All the files] [V: have been backed up] [ADV: completely] [OTHER: and the server is being put under maintenance]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-035",
+    "category": "judoutai",
+    "question": "The agreement ___ ___ ___ multiple several times before it was finally signed off by both parties.",
+    "options": [
+      "had, been, modified",
+      "has, got, changed",
+      "will, be, altered",
+      "is, becoming, revised"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "had been modifiedは過去完了の受動態「〜されていた」、was signed offは過去形の受動態「〜された」、sign offは「署名して承認する」という熟語です。過去完了の受動態、過去形の受動態、熟語を組み合わせた非常に複雑な構文です。",
+      "translation": "合意は最終的に両当事者によって署名承認される前に、何度も修正されていた。",
+      "wrongOptionExplanations": {
+        "1": "has got changedは一般的ではありません。is approved onは一般的ですが、was signed offの方が適切です。",
+        "2": "will be alteredは未来形の受動態ですが、beforeがあるので過去完了形を使います。will get acceptedは一般的ですが、was signed offの方が適切です。",
+        "3": "is becoming revisedは一般的ではありません。might be agreed toは一般的ですが、was signed offの方が適切です。"
+      },
+      "structure": "[S: The agreement] [V: had been modified] [ADV: multiple times] [PP: before it was finally signed off] [PP: by both parties]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-041",
+    "category": "judoutai",
+    "question": "The software ___ ___ ___ released by the release date, but it won't be launched on time because of technical issues.",
+    "options": [
+      "should, have, been",
+      "must, be, published",
+      "can, have, got",
+      "may, be, issued"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "should have been + 過去分詞は「〜されるべきだった（のにされなかった）」、won't be launched on timeは「時間通りにリリースされないだろう」という意味です。完了形の受動態と未来形の受動態を組み合わせた複雑な構文です。",
+      "translation": "そのソフトウェアはリリース日までに公開されるべきだったが、技術的な問題により時間通りにリリースされないだろう。",
+      "wrongOptionExplanations": {
+        "1": "must be publishedは「〜されなければならない」という意味ですが、ここでは「されるべきだった」という完了形が必要です。will not get deliveredは一般的ではありません。",
+        "2": "can have gotは一般的ではありません。might not become distributedは一般的ではありません。",
+        "3": "may be issuedは「〜されるかもしれない」という意味ですが、ここでは「されるべきだった」という完了形が必要です。should not turn outは一般的ではありません。"
+      },
+      "structure": "[S: The software] [V: should have been released] [PP: by the release date] [OTHER: but it won't be launched] [PP: on time] [PP: because of technical issues]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-042",
+    "category": "judoutai",
+    "question": "The network ___ ___ monitored at that when the attack occurred, which is why the data time was.",
+    "options": [
+      "was, being",
+      "had, been",
+      "is, getting",
+      "will, be"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "was being + 過去分詞は過去進行形の受動態「〜されていた」、was compromisedは過去形の受動態「〜された」という意味です。過去進行形の受動態と過去形の受動態を組み合わせた複雑な構文です。",
+      "translation": "攻撃が発生した時、そのネットワークは監視中だった。それがデータが侵害された理由だ。",
+      "wrongOptionExplanations": {
+        "1": "had been securedは過去完了の受動態「〜されていた」という意味ですが、ここでは「監視中だった」という進行形が必要です。got accessedは一般的ですが、was compromisedの方が適切です。",
+        "2": "is getting protectedは現在進行形の受動態ですが、when the attack occurredがあるので過去形を使います。are breachedは現在形ですが、過去の出来事なので過去形を使います。",
+        "3": "will be defendedは未来形の受動態ですが、when the attack occurredがあるので過去形を使います。will be hackedは未来形ですが、過去の出来事なので過去形を使います。"
+      },
+      "structure": "[S: The network] [V: was being monitored] [PP: at that time] [RC: when the attack occurred] [OTHER: which is why the data was compromised]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-043",
+    "category": "judoutai",
+    "question": "The plan ___ ___ given thorough evaluation, but it may not be implemented due to budget limitations.",
+    "options": [
+      "is, being",
+      "was, getting",
+      "has, been",
+      "will, be"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "is being givenは現在進行形の受動態「〜されている」、be given thorough evaluationは「徹底的に評価される」、may not be implementedは「実施されないかもしれない」という意味です。進行形の受動態、熟語、助動詞の受動態を組み合わせた非常に複雑な構文です。",
+      "translation": "その計画は徹底的に評価されているが、予算の制約により実施されないかもしれない。",
+      "wrongOptionExplanations": {
+        "1": "was getting takenは一般的ではありません。might not get executedは一般的ですが、may not be implementedの方が適切です。",
+        "2": "has been put underは「〜の下に置かれた」という意味ですが、ここでは「評価されている」という進行形が必要です。could not become carried outは一般的ではありません。",
+        "3": "will be brought toは未来形の受動態ですが、ここでは「評価されている」という進行形が必要です。should not turn outは一般的ではありません。"
+      },
+      "structure": "[S: The plan] [V: is being given] [O: thorough evaluation] [OTHER: but it may not be implemented] [PP: due to budget limitations]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-044",
+    "category": "judoutai",
+    "question": "All the transactions ___ ___ reviewed thoroughly carefully, and the account is being subjected to audit.",
+    "options": [
+      "have, been",
+      "had, got",
+      "will, be",
+      "is, becoming"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "have been reviewedは現在完了の受動態「〜された」、is being subjected toは現在進行形の受動態「〜されている」、subject toは「〜にさらされる」という熟語です。現在完了の受動態、進行形の受動態、熟語を組み合わせた非常に複雑な構文です。",
+      "translation": "すべての取引は徹底的に確認され、そのアカウントは監査を受けている。",
+      "wrongOptionExplanations": {
+        "1": "had got checkedは一般的ではありません。was getting exposedは一般的ですが、is being subjected toの方が適切です。",
+        "2": "will be examinedは未来形の受動態ですが、ここでは「確認された」という完了形が必要です。will get involvedは一般的ですが、is being subjected toの方が適切です。",
+        "3": "is becoming analyzedは一般的ではありません。might be engaged withは一般的ですが、is being subjected toの方が適切です。"
+      },
+      "structure": "[S: All the transactions] [V: have been reviewed] [ADV: thoroughly] [OTHER: and the account is being subjected] [PP: to audit]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-045",
+    "category": "judoutai",
+    "question": "The regulation ___ ___ amended several multiple times before it was finally signed off by the board.",
+    "options": [
+      "had, been",
+      "has, got",
+      "will, be",
+      "is, becoming"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "had been amendedは過去完了の受動態「〜されていた」、was signed offは過去形の受動態「〜された」、sign offは「署名して承認する」という熟語です。過去完了の受動態、過去形の受動態、熟語を組み合わせた非常に複雑な構文です。",
+      "translation": "その規則は最終的に理事会によって署名承認される前に、何度も修正されていた。",
+      "wrongOptionExplanations": {
+        "1": "has got changedは一般的ではありません。is approved onは一般的ですが、was signed offの方が適切です。",
+        "2": "will be modifiedは未来形の受動態ですが、beforeがあるので過去完了形を使います。will get acceptedは一般的ですが、was signed offの方が適切です。",
+        "3": "is becoming alteredは一般的ではありません。might be agreed toは一般的ですが、was signed offの方が適切です。"
+      },
+      "structure": "[S: The regulation] [V: had been amended] [ADV: multiple times] [PP: before it was finally signed off] [PP: by the board]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-046",
+    "category": "judoutai",
+    "question": "The system ___ ___ been upgraded by the scheduled time, but it won't be updated on time due to technical problems.",
+    "options": [
+      "should, have",
+      "must, be",
+      "can, have",
+      "may, be"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "should have been + 過去分詞は「〜されるべきだった（のにされなかった）」、won't be updated on timeは「時間通りに更新されないだろう」という意味です。完了形の受動態と未来形の受動態を組み合わせた複雑な構文です。",
+      "translation": "システムは予定時刻までにアップグレードされるべきだったが、技術的な問題により時間通りに更新されないだろう。",
+      "wrongOptionExplanations": {
+        "1": "must be improvedは「〜されなければならない」という意味ですが、ここでは「されるべきだった」という完了形が必要です。will not get modifiedは一般的ではありません。",
+        "2": "can have gotは一般的ではありません。might not become changedは一般的ではありません。",
+        "3": "may be enhancedは「〜されるかもしれない」という意味ですが、ここでは「されるべきだった」という完了形が必要です。should not turn outは一般的ではありません。"
+      },
+      "structure": "[S: The system] [V: should have been upgraded] [PP: by the scheduled time] [OTHER: but it won't be updated] [PP: on time] [PP: due to technical problems]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-047",
+    "category": "judoutai",
+    "question": "The database ___ ___ restored at that when the backup failed, which is why the information moment was.",
+    "options": [
+      "was, being",
+      "had, been",
+      "is, getting",
+      "will, be"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "was being + 過去分詞は過去進行形の受動態「〜されていた」、was lostは過去形の受動態「〜された」という意味です。過去進行形の受動態と過去形の受動態を組み合わせた複雑な構文です。",
+      "translation": "バックアップが失敗した時、そのデータベースは復元中だった。それが情報が失われた理由だ。",
+      "wrongOptionExplanations": {
+        "1": "had been recoveredは過去完了の受動態「〜されていた」という意味ですが、ここでは「復元中だった」という進行形が必要です。got deletedは一般的ですが、was lostの方が適切です。",
+        "2": "is getting repairedは現在進行形の受動態ですが、when the backup failedがあるので過去形を使います。are removedは現在形ですが、過去の出来事なので過去形を使います。",
+        "3": "will be fixedは未来形の受動態ですが、when the backup failedがあるので過去形を使います。will be erasedは未来形ですが、過去の出来事なので過去形を使います。"
+      },
+      "structure": "[S: The database] [V: was being restored] [PP: at that moment] [RC: when the backup failed] [OTHER: which is why the information was lost]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-048",
+    "category": "judoutai",
+    "question": "The proposal ___ ___ ___ comprehensive assessment, but it may not be approved due to regulatory concerns.",
+    "options": [
+      "is, being, given",
+      "was, getting, taken",
+      "has, been, put",
+      "will, be, brought"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "is being givenは現在進行形の受動態「〜されている」、be given comprehensive assessmentは「包括的に評価される」、may not be approvedは「承認されないかもしれない」という意味です。進行形の受動態、熟語、助動詞の受動態を組み合わせた非常に複雑な構文です。",
+      "translation": "その提案は包括的に評価されているが、規制上の懸念により承認されないかもしれない。",
+      "wrongOptionExplanations": {
+        "1": "was getting takenは一般的ではありません。might not get acceptedは一般的ですが、may not be approvedの方が適切です。",
+        "2": "has been put underは「〜の下に置かれた」という意味ですが、ここでは「評価されている」という進行形が必要です。could not become passedは一般的ではありません。",
+        "3": "will be brought toは未来形の受動態ですが、ここでは「評価されている」という進行形が必要です。should not turn outは一般的ではありません。"
+      },
+      "structure": "[S: The proposal] [V: is being given] [O: comprehensive assessment] [OTHER: but it may not be approved] [PP: due to regulatory concerns]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-049",
+    "category": "judoutai",
+    "question": "All the documents ___ ___ examined thoroughly carefully, and the case is being subjected to review.",
+    "options": [
+      "have, been",
+      "had, got",
+      "will, be",
+      "is, becoming"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "have been examinedは現在完了の受動態「〜された」、is being subjected toは現在進行形の受動態「〜されている」、subject toは「〜にさらされる」という熟語です。現在完了の受動態、進行形の受動態、熟語を組み合わせた非常に複雑な構文です。",
+      "translation": "すべての文書は徹底的に調査され、その事件は再審査を受けている。",
+      "wrongOptionExplanations": {
+        "1": "had got checkedは一般的ではありません。was getting exposedは一般的ですが、is being subjected toの方が適切です。",
+        "2": "will be reviewedは未来形の受動態ですが、ここでは「調査された」という完了形が必要です。will get involvedは一般的ですが、is being subjected toの方が適切です。",
+        "3": "is becoming analyzedは一般的ではありません。might be engaged withは一般的ですが、is being subjected toの方が適切です。"
+      },
+      "structure": "[S: All the documents] [V: have been examined] [ADV: thoroughly] [OTHER: and the case is being subjected] [PP: to review]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-050",
+    "category": "judoutai",
+    "question": "The agreement ___ ___ negotiated several multiple times before it was finally signed off by all parties.",
+    "options": [
+      "had, been",
+      "has, got",
+      "will, be",
+      "is, becoming"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "had been negotiatedは過去完了の受動態「〜されていた」、was signed offは過去形の受動態「〜された」、sign offは「署名して承認する」という熟語です。過去完了の受動態、過去形の受動態、熟語を組み合わせた非常に複雑な構文です。",
+      "translation": "合意は最終的にすべての当事者によって署名承認される前に、何度も交渉されていた。",
+      "wrongOptionExplanations": {
+        "1": "has got changedは一般的ではありません。is approved onは一般的ですが、was signed offの方が適切です。",
+        "2": "will be modifiedは未来形の受動態ですが、beforeがあるので過去完了形を使います。will get acceptedは一般的ですが、was signed offの方が適切です。",
+        "3": "is becoming alteredは一般的ではありません。might be agreed toは一般的ですが、was signed offの方が適切です。"
+      },
+      "structure": "[S: The agreement] [V: had been negotiated] [ADV: multiple times] [PP: before it was finally signed off] [PP: by all parties]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-051",
+    "category": "judoutai",
+    "question": "The update ___ ___ been released by the planned date, but it won't be deployed on time because of compatibility issues.",
+    "options": [
+      "should, have",
+      "must, be",
+      "can, have",
+      "may, be"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "should have been + 過去分詞は「〜されるべきだった（のにされなかった）」、won't be deployed on timeは「時間通りに展開されないだろう」という意味です。完了形の受動態と未来形の受動態を組み合わせた複雑な構文です。",
+      "translation": "その更新は予定日までにリリースされるべきだったが、互換性の問題により時間通りに展開されないだろう。",
+      "wrongOptionExplanations": {
+        "1": "must be publishedは「〜されなければならない」という意味ですが、ここでは「されるべきだった」という完了形が必要です。will not get installedは一般的ではありません。",
+        "2": "can have gotは一般的ではありません。might not become distributedは一般的ではありません。",
+        "3": "may be issuedは「〜されるかもしれない」という意味ですが、ここでは「されるべきだった」という完了形が必要です。should not turn outは一般的ではありません。"
+      },
+      "structure": "[S: The update] [V: should have been released] [PP: by the planned date] [OTHER: but it won't be deployed] [PP: on time] [PP: because of compatibility issues]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-052",
+    "category": "judoutai",
+    "question": "The server ___ ___ restarted at that when the maintenance started, which is why the service time was.",
+    "options": [
+      "was, being",
+      "had, been",
+      "is, getting",
+      "will, be"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "was being + 過去分詞は過去進行形の受動態「〜されていた」、was interruptedは過去形の受動態「〜された」という意味です。過去進行形の受動態と過去形の受動態を組み合わせた複雑な構文です。",
+      "translation": "メンテナンスが開始された時、そのサーバーは再起動中だった。それがサービスが中断された理由だ。",
+      "wrongOptionExplanations": {
+        "1": "had been shut downは過去完了の受動態「〜されていた」という意味ですが、ここでは「再起動中だった」という進行形が必要です。got stoppedは一般的ですが、was interruptedの方が適切です。",
+        "2": "is getting rebootedは現在進行形の受動態ですが、when the maintenance startedがあるので過去形を使います。are pausedは現在形ですが、過去の出来事なので過去形を使います。",
+        "3": "will be resetは未来形の受動態ですが、when the maintenance startedがあるので過去形を使います。will be suspendedは未来形ですが、過去の出来事なので過去形を使います。"
+      },
+      "structure": "[S: The server] [V: was being restarted] [PP: at that time] [RC: when the maintenance started] [OTHER: which is why the service was interrupted]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-053",
+    "category": "judoutai",
+    "question": "The report ___ ___ given detailed analysis, but it may not be finalized due to incomplete data.",
+    "options": [
+      "is, being",
+      "was, getting",
+      "has, been",
+      "will, be"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "is being givenは現在進行形の受動態「〜されている」、be given detailed analysisは「詳細に分析される」、may not be finalizedは「最終化されないかもしれない」という意味です。進行形の受動態、熟語、助動詞の受動態を組み合わせた非常に複雑な構文です。",
+      "translation": "そのレポートは詳細に分析されているが、不完全なデータにより最終化されないかもしれない。",
+      "wrongOptionExplanations": {
+        "1": "was getting takenは一般的ではありません。might not get completedは一般的ですが、may not be finalizedの方が適切です。",
+        "2": "has been put underは「〜の下に置かれた」という意味ですが、ここでは「分析されている」という進行形が必要です。could not become finishedは一般的ではありません。",
+        "3": "will be brought toは未来形の受動態ですが、ここでは「分析されている」という進行形が必要です。should not turn outは一般的ではありません。"
+      },
+      "structure": "[S: The report] [V: is being given] [O: detailed analysis] [OTHER: but it may not be finalized] [PP: due to incomplete data]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-054",
+    "category": "judoutai",
+    "question": "All the tests ___ ___ ___ thoroughly carefully, and the product is being subjected to quality control.",
+    "options": [
+      "have, been, conducted",
+      "had, got, performed",
+      "will, be, executed",
+      "is, becoming, run"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "have been conductedは現在完了の受動態「〜された」、is being subjected toは現在進行形の受動態「〜されている」、subject toは「〜にさらされる」という熟語です。現在完了の受動態、進行形の受動態、熟語を組み合わせた非常に複雑な構文です。",
+      "translation": "すべてのテストは徹底的に実施され、その製品は品質管理を受けている。",
+      "wrongOptionExplanations": {
+        "1": "had got performedは一般的ではありません。was getting exposedは一般的ですが、is being subjected toの方が適切です。",
+        "2": "will be executedは未来形の受動態ですが、ここでは「実施された」という完了形が必要です。will get involvedは一般的ですが、is being subjected toの方が適切です。",
+        "3": "is becoming runは一般的ではありません。might be engaged withは一般的ですが、is being subjected toの方が適切です。"
+      },
+      "structure": "[S: All the tests] [V: have been conducted] [ADV: thoroughly] [OTHER: and the product is being subjected] [PP: to quality control]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-055",
+    "category": "judoutai",
+    "question": "The contract ___ ___ renegotiated several multiple times before it was finally signed off by all stakeholders.",
+    "options": [
+      "had, been",
+      "has, got",
+      "will, be",
+      "is, becoming"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "had been renegotiatedは過去完了の受動態「〜されていた」、was signed offは過去形の受動態「〜された」、sign offは「署名して承認する」という熟語です。過去完了の受動態、過去形の受動態、熟語を組み合わせた非常に複雑な構文です。",
+      "translation": "契約は最終的にすべてのステークホルダーによって署名承認される前に、何度も再交渉されていた。",
+      "wrongOptionExplanations": {
+        "1": "has got changedは一般的ではありません。is approved onは一般的ですが、was signed offの方が適切です。",
+        "2": "will be modifiedは未来形の受動態ですが、beforeがあるので過去完了形を使います。will get acceptedは一般的ですが、was signed offの方が適切です。",
+        "3": "is becoming alteredは一般的ではありません。might be agreed toは一般的ですが、was signed offの方が適切です。"
+      },
+      "structure": "[S: The contract] [V: had been renegotiated] [ADV: multiple times] [PP: before it was finally signed off] [PP: by all stakeholders]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-056",
+    "category": "judoutai",
+    "question": "The application ___ ___ been submitted by the submission deadline, but it won't be processed on time due to missing information.",
+    "options": [
+      "should, have",
+      "must, be",
+      "can, have",
+      "may, be"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "should have been + 過去分詞は「〜されるべきだった（のにされなかった）」、won't be processed on timeは「時間通りに処理されないだろう」という意味です。完了形の受動態と未来形の受動態を組み合わせた複雑な構文です。",
+      "translation": "申請は提出期限までに提出されるべきだったが、情報不足により時間通りに処理されないだろう。",
+      "wrongOptionExplanations": {
+        "1": "must be sentは「〜されなければならない」という意味ですが、ここでは「されるべきだった」という完了形が必要です。will not get handledは一般的ではありません。",
+        "2": "can have gotは一般的ではありません。might not become dealt withは一般的ではありません。",
+        "3": "may be deliveredは「〜されるかもしれない」という意味ですが、ここでは「されるべきだった」という完了形が必要です。should not turn outは一般的ではありません。"
+      },
+      "structure": "[S: The application] [V: should have been submitted] [PP: by the submission deadline] [OTHER: but it won't be processed] [PP: on time] [PP: due to missing information]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-057",
+    "category": "judoutai",
+    "question": "The system ___ ___ updated at that when the error occurred, which is why the operation moment was.",
+    "options": [
+      "was, being",
+      "had, been",
+      "is, getting",
+      "will, be"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "was being + 過去分詞は過去進行形の受動態「〜されていた」、was haltedは過去形の受動態「〜された」という意味です。過去進行形の受動態と過去形の受動態を組み合わせた複雑な構文です。",
+      "translation": "エラーが発生した時、そのシステムは更新中だった。それが操作が停止された理由だ。",
+      "wrongOptionExplanations": {
+        "1": "had been upgradedは過去完了の受動態「〜されていた」という意味ですが、ここでは「更新中だった」という進行形が必要です。got stoppedは一般的ですが、was haltedの方が適切です。",
+        "2": "is getting modifiedは現在進行形の受動態ですが、when the error occurredがあるので過去形を使います。are pausedは現在形ですが、過去の出来事なので過去形を使います。",
+        "3": "will be changedは未来形の受動態ですが、when the error occurredがあるので過去形を使います。will be suspendedは未来形ですが、過去の出来事なので過去形を使います。"
+      },
+      "structure": "[S: The system] [V: was being updated] [PP: at that moment] [RC: when the error occurred] [OTHER: which is why the operation was halted]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-058",
+    "category": "judoutai",
+    "question": "The request ___ ___ ___ careful consideration, but it may not be granted due to policy restrictions.",
+    "options": [
+      "is, being, given",
+      "was, getting, taken",
+      "has, been, put",
+      "will, be, brought"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "is being givenは現在進行形の受動態「〜されている」、be given careful considerationは「慎重に検討される」、may not be grantedは「許可されないかもしれない」という意味です。進行形の受動態、熟語、助動詞の受動態を組み合わせた非常に複雑な構文です。",
+      "translation": "その要求は慎重に検討されているが、方針の制約により許可されないかもしれない。",
+      "wrongOptionExplanations": {
+        "1": "was getting takenは一般的ではありません。might not get approvedは一般的ですが、may not be grantedの方が適切です。",
+        "2": "has been put underは「〜の下に置かれた」という意味ですが、ここでは「検討されている」という進行形が必要です。could not become acceptedは一般的ではありません。",
+        "3": "will be brought toは未来形の受動態ですが、ここでは「検討されている」という進行形が必要です。should not turn outは一般的ではありません。"
+      },
+      "structure": "[S: The request] [V: is being given] [O: careful consideration] [OTHER: but it may not be granted] [PP: due to policy restrictions]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-059",
+    "category": "judoutai",
+    "question": "All the samples ___ ___ analyzed thoroughly carefully, and the batch is being subjected to testing.",
+    "options": [
+      "have, been",
+      "had, got",
+      "will, be",
+      "is, becoming"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "have been analyzedは現在完了の受動態「〜された」、is being subjected toは現在進行形の受動態「〜されている」、subject toは「〜にさらされる」という熟語です。現在完了の受動態、進行形の受動態、熟語を組み合わせた非常に複雑な構文です。",
+      "translation": "すべてのサンプルは徹底的に分析され、そのバッチはテストを受けている。",
+      "wrongOptionExplanations": {
+        "1": "had got examinedは一般的ではありません。was getting exposedは一般的ですが、is being subjected toの方が適切です。",
+        "2": "will be testedは未来形の受動態ですが、ここでは「分析された」という完了形が必要です。will get involvedは一般的ですが、is being subjected toの方が適切です。",
+        "3": "is becoming reviewedは一般的ではありません。might be engaged withは一般的ですが、is being subjected toの方が適切です。"
+      },
+      "structure": "[S: All the samples] [V: have been analyzed] [ADV: thoroughly] [OTHER: and the batch is being subjected] [PP: to testing]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "pass-060",
+    "category": "judoutai",
+    "question": "The treaty ___ ___ revised several multiple times before it was finally signed off by all nations.",
+    "options": [
+      "had, been",
+      "has, got",
+      "will, be",
+      "is, becoming"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "had been revisedは過去完了の受動態「〜されていた」、was signed offは過去形の受動態「〜された」、sign offは「署名して承認する」という熟語です。過去完了の受動態、過去形の受動態、熟語を組み合わせた非常に複雑な構文です。",
+      "translation": "条約は最終的にすべての国によって署名承認される前に、何度も修正されていた。",
+      "wrongOptionExplanations": {
+        "1": "has got changedは一般的ではありません。is approved onは一般的ですが、was signed offの方が適切です。",
+        "2": "will be modifiedは未来形の受動態ですが、beforeがあるので過去完了形を使います。will get acceptedは一般的ですが、was signed offの方が適切です。",
+        "3": "is becoming alteredは一般的ではありません。might be agreed toは一般的ですが、was signed offの方が適切です。"
+      },
+      "structure": "[S: The treaty] [V: had been revised] [ADV: multiple times] [PP: before it was finally signed off] [PP: by all nations]"
+    },
+    "difficulty": 2
+  }
+]

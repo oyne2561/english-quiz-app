@@ -1,0 +1,2072 @@
+[
+  {
+    "id": "modal-001",
+    "category": "jodoushi",
+    "question": "You ___ be careful when crossing the street.",
+    "options": [
+      "must",
+      "can",
+      "may",
+      "will"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "mustは「〜しなければならない」という義務・必要性を表します。",
+      "translation": "通りを渡る時は注意しなければなりません。",
+      "wrongOptionExplanations": {
+        "1": "canは「〜できる」という能力や可能性を表しますが、ここでは義務を表すのでmustを使います。",
+        "2": "mayは「〜してもよい」という許可を表しますが、ここでは義務を表すのでmustを使います。",
+        "3": "willは「〜するだろう」という未来を表しますが、ここでは義務を表すのでmustを使います。"
+      },
+      "structure": "[S: You] [V: must be] [C: careful] [OTHER: when crossing the street]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-002",
+    "category": "jodoushi",
+    "question": "I ___ speak English when I was young.",
+    "options": [
+      "can",
+      "could",
+      "may",
+      "might"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "couldはcanの過去形で、過去の能力を表します。",
+      "translation": "私は若い頃、英語を話すことができました。",
+      "wrongOptionExplanations": {
+        "0": "canは現在形で、過去の能力を表すにはcouldを使います。",
+        "2": "mayは許可を表しますが、ここでは能力を表すのでcouldを使います。",
+        "3": "mightはmayの過去形で推量を表しますが、ここでは能力を表すのでcouldを使います。"
+      },
+      "structure": "[S: I] [V: could speak] [O: English] [OTHER: when I was young]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-003",
+    "category": "jodoushi",
+    "question": "You ___ not smoke here.",
+    "options": [
+      "must",
+      "can",
+      "should",
+      "will"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "must notは「〜してはいけない」という禁止を表します。",
+      "translation": "ここでタバコを吸ってはいけません。",
+      "wrongOptionExplanations": {
+        "1": "can notは「〜できない」という不可能を表しますが、ここでは禁止を表すのでmust notを使います。",
+        "2": "should notは「〜すべきではない」という推奨の否定を表しますが、ここでは禁止を表すのでmust notを使います。",
+        "3": "will notは「〜しないだろう」という未来の否定を表しますが、ここでは禁止を表すのでmust notを使います。"
+      },
+      "structure": "[S: You] [V: must not smoke] [OTHER: here]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-004",
+    "category": "jodoushi",
+    "question": "You ___ see a doctor.",
+    "options": [
+      "can",
+      "should",
+      "may",
+      "will"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "shouldは「〜すべきだ」という推奨・忠告を表します。",
+      "translation": "医者に診てもらうべきです。",
+      "wrongOptionExplanations": {
+        "0": "canは「〜できる」という能力を表しますが、ここでは推奨を表すのでshouldを使います。",
+        "2": "mayは「〜してもよい」という許可を表しますが、ここでは推奨を表すのでshouldを使います。",
+        "3": "willは「〜するだろう」という未来を表しますが、ここでは推奨を表すのでshouldを使います。"
+      },
+      "structure": "[S: You] [V: should see] [O: a doctor]"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-005",
+    "category": "jodoushi",
+    "question": "I ___ to finish my homework before dinner.",
+    "options": [
+      "have",
+      "has",
+      "had",
+      "having"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "have toは「〜しなければならない」という必要性を表します。主語がIの場合はhaveを使います。",
+      "translation": "私は夕食前に宿題を終わらせなければなりません。",
+      "structure": "[S: I] [V: have to finish] [O: my homework] [OTHER: before dinner]",
+      "wrongOptionExplanations": {
+        "1": "hasは三人称単数形で、主語がIの場合はhaveを使います。",
+        "2": "hadは過去形で、ここでは現在の必要性を表すのでhaveを使います。",
+        "3": "havingは現在分詞で、ここでは動詞として使うのでhaveを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-006",
+    "category": "jodoushi",
+    "question": "She ___ to go the store.",
+    "options": [
+      "have",
+      "has",
+      "had",
+      "having"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "has toは「〜しなければならない」という必要性を表します。主語が三人称単数の場合はhasを使います。",
+      "translation": "彼女は店に行かなければなりません。",
+      "structure": "[S: She] [V: has to go] [OTHER: to the store]",
+      "wrongOptionExplanations": {
+        "0": "haveは主語がI, you, we, theyの場合に使います。",
+        "2": "hadは過去形で、ここでは現在の必要性を表すのでhasを使います。",
+        "3": "havingは現在分詞で、ここでは動詞として使うのでhasを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-007",
+    "category": "jodoushi",
+    "question": "You ___ not park here.",
+    "options": [
+      "can",
+      "may",
+      "must",
+      "will"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "can notは「〜できない」という不可能を表します。",
+      "translation": "ここに駐車することはできません。",
+      "structure": "[S: You] [V: can not park] [OTHER: here]",
+      "wrongOptionExplanations": {
+        "1": "may notは「〜してはいけない」という許可の否定を表しますが、ここでは不可能を表すのでcan notを使います。",
+        "2": "must notは「〜してはいけない」という禁止を表しますが、ここでは不可能を表すのでcan notを使います。",
+        "3": "will notは「〜しないだろう」という未来の否定を表しますが、ここでは不可能を表すのでcan notを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-008",
+    "category": "jodoushi",
+    "question": "You ___ not eat too much candy.",
+    "options": [
+      "should",
+      "can",
+      "may",
+      "will"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "should notは「〜すべきではない」という推奨の否定を表します。",
+      "translation": "キャンディーを食べすぎるべきではありません。",
+      "structure": "[S: You] [V: should not eat] [O: too much candy]",
+      "wrongOptionExplanations": {
+        "1": "can notは「〜できない」という不可能を表しますが、ここでは推奨の否定を表すのでshould notを使います。",
+        "2": "may notは「〜してはいけない」という許可の否定を表しますが、ここでは推奨の否定を表すのでshould notを使います。",
+        "3": "will notは「〜しないだろう」という未来の否定を表しますが、ここでは推奨の否定を表すのでshould notを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-009",
+    "category": "jodoushi",
+    "question": "I ___ swim when I was five years old.",
+    "options": [
+      "can",
+      "could",
+      "may",
+      "might"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "couldはcanの過去形で、過去の能力を表します。",
+      "translation": "私は5歳の時、泳ぐことができました。",
+      "structure": "[S: I] [V: could swim] [OTHER: when I was five years old]",
+      "wrongOptionExplanations": {
+        "0": "canは現在形で、過去の能力を表すにはcouldを使います。",
+        "2": "mayは許可を表しますが、ここでは能力を表すのでcouldを使います。",
+        "3": "mightはmayの過去形で推量を表しますが、ここでは能力を表すのでcouldを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-010",
+    "category": "jodoushi",
+    "question": "___ I help you?",
+    "options": [
+      "Can",
+      "Could",
+      "May",
+      "Might"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Can I...?は「〜してもいいですか？」という許可を求める丁寧な表現です。",
+      "translation": "お手伝いしましょうか？",
+      "structure": "[V: Can I help] [O: you]",
+      "wrongOptionExplanations": {
+        "1": "Could I...?も許可を求める表現ですが、Can I...?の方が一般的です。",
+        "2": "May I...?はより丁寧な表現ですが、Can I...?の方が一般的です。",
+        "3": "Mightは文法的に正しくありません。ここではCanが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-011",
+    "category": "jodoushi",
+    "question": "You ___ be tired after such a long day.",
+    "options": [
+      "can",
+      "may",
+      "must",
+      "will"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "mustは「〜に違いない」という強い推量を表します。",
+      "translation": "こんなに長い一日の後、あなたは疲れているに違いない。",
+      "structure": "[S: You] [V: must be] [C: tired] [OTHER: after such a long day]",
+      "wrongOptionExplanations": {
+        "0": "canは可能性を表しますが、ここでは強い推量を表すのでmustを使います。",
+        "1": "mayは「〜かもしれない」という弱い推量を表しますが、ここでは強い推量を表すのでmustを使います。",
+        "3": "willは未来を表しますが、ここでは推量を表すのでmustを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-012",
+    "category": "jodoushi",
+    "question": "It ___ rain tomorrow.",
+    "options": [
+      "can",
+      "may",
+      "must",
+      "will"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "mayは「〜かもしれない」という可能性を表します。",
+      "translation": "明日は雨が降るかもしれません。",
+      "structure": "[S: It] [V: may rain] [OTHER: tomorrow]",
+      "wrongOptionExplanations": {
+        "0": "canは可能性を表しますが、mayの方が自然です。",
+        "2": "mustは「〜に違いない」という強い推量を表しますが、ここでは可能性を表すのでmayを使います。",
+        "3": "willは「〜するだろう」という確実な未来を表しますが、ここでは可能性を表すのでmayを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-013",
+    "category": "jodoushi",
+    "question": "I ___ go to the party tonight.",
+    "options": [
+      "can",
+      "may",
+      "will",
+      "would"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "willは「〜するつもりだ」という意思や未来を表します。",
+      "translation": "今夜パーティーに行きます。",
+      "structure": "[S: I] [V: will go] [OTHER: to the party tonight]",
+      "wrongOptionExplanations": {
+        "0": "canは「〜できる」という能力を表しますが、ここでは意思を表すのでwillを使います。",
+        "1": "mayは「〜してもよい」という許可を表しますが、ここでは意思を表すのでwillを使います。",
+        "3": "wouldは仮定法や丁寧な表現に使いますが、ここでは意思を表すのでwillを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-014",
+    "category": "jodoushi",
+    "question": "I ___ to study harder next semester.",
+    "options": [
+      "need",
+      "needs",
+      "needed",
+      "needing"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "need toは「〜する必要がある」という必要性を表します。主語がIの場合はneedを使います。",
+      "translation": "来学期はもっと勉強する必要があります。",
+      "structure": "[S: I] [V: need to study] [ADV: harder] [OTHER: next semester]",
+      "wrongOptionExplanations": {
+        "1": "needsは三人称単数形で、主語がIの場合はneedを使います。",
+        "2": "neededは過去形で、ここでは現在の必要性を表すのでneedを使います。",
+        "3": "needingは現在分詞で、ここでは動詞として使うのでneedを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-015",
+    "category": "jodoushi",
+    "question": "He ___ to be more careful.",
+    "options": [
+      "need",
+      "needs",
+      "needed",
+      "needing"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "needs toは「〜する必要がある」という必要性を表します。主語が三人称単数の場合はneedsを使います。",
+      "translation": "彼はもっと注意する必要があります。",
+      "structure": "[S: He] [V: needs to be] [C: more careful]",
+      "wrongOptionExplanations": {
+        "0": "needは主語がI, you, we, theyの場合に使います。",
+        "2": "neededは過去形で、ここでは現在の必要性を表すのでneedsを使います。",
+        "3": "needingは現在分詞で、ここでは動詞として使うのでneedsを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-016",
+    "category": "jodoushi",
+    "question": "You ___ better hurry up.",
+    "options": [
+      "had",
+      "have",
+      "has",
+      "having"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "had betterは「〜した方がいい」という推奨を表します。主語に関係なくhadを使います。",
+      "translation": "急いだ方がいいです。",
+      "structure": "[S: You] [V: had better hurry] [ADV: up]",
+      "wrongOptionExplanations": {
+        "1": "haveは文法的に正しくありません。ここではhadが適切です。",
+        "2": "hasは文法的に正しくありません。ここではhadが適切です。",
+        "3": "havingは文法的に正しくありません。ここではhadが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-017",
+    "category": "jodoushi",
+    "question": "I ___ rather stay home tonight.",
+    "options": [
+      "will",
+      "would",
+      "should",
+      "could"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "would ratherは「〜したい、〜する方がいい」という好みを表します。",
+      "translation": "今夜は家にいたいです。",
+      "structure": "[S: I] [V: would rather stay] [C: home] [OTHER: tonight]",
+      "wrongOptionExplanations": {
+        "0": "willは文法的に正しくありません。ここではwouldが適切です。",
+        "2": "shouldは文法的に正しくありません。ここではwouldが適切です。",
+        "3": "couldは文法的に正しくありません。ここではwouldが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-018",
+    "category": "jodoushi",
+    "question": "I ___ to play soccer when I was a child.",
+    "options": [
+      "use",
+      "used",
+      "uses",
+      "using"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "used toは「以前は〜していた」という過去の習慣を表します。",
+      "translation": "私は子供の頃、サッカーをしていました。",
+      "structure": "[S: I] [V: used to play] [O: soccer] [OTHER: when I was a child]",
+      "wrongOptionExplanations": {
+        "0": "useは文法的に正しくありません。ここではusedが適切です。",
+        "2": "usesは文法的に正しくありません。ここではusedが適切です。",
+        "3": "usingは文法的に正しくありません。ここではusedが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-019",
+    "category": "jodoushi",
+    "question": "I ___ able to speak three languages.",
+    "options": [
+      "am",
+      "is",
+      "are",
+      "was"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "be able toは「〜できる」という能力を表します。主語がIの場合はamを使います。",
+      "translation": "私は3つの言語を話すことができます。",
+      "structure": "[S: I] [V: am able] [INF: to speak] [O: three languages]",
+      "wrongOptionExplanations": {
+        "1": "isは三人称単数形で、主語がIの場合はamを使います。",
+        "2": "areは複数形で、主語がIの場合はamを使います。",
+        "3": "wasは過去形で、ここでは現在の能力を表すのでamを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-020",
+    "category": "jodoushi",
+    "question": "She ___ supposed to arrive at 3 PM.",
+    "options": [
+      "is",
+      "are",
+      "was",
+      "were"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "be supposed toは「〜することになっている」という予定や義務を表します。主語が三人称単数の場合はisを使います。",
+      "translation": "彼女は午後3時に到着することになっています。",
+      "structure": "[S: She] [V: is supposed] [INF: to arrive] [OTHER: at 3 PM]",
+      "wrongOptionExplanations": {
+        "1": "areは複数形で、主語が三人称単数の場合はisを使います。",
+        "2": "wasは過去形で、ここでは現在の予定を表すのでisを使います。",
+        "3": "wereは過去形の複数形で、主語が三人称単数の場合はisを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-021",
+    "category": "jodoushi",
+    "question": "You ___ not worry about it.",
+    "options": [
+      "need",
+      "needs",
+      "needed",
+      "needing"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "need notは「〜する必要がない」という必要性の否定を表します。主語がyouの場合はneedを使います。",
+      "translation": "それについて心配する必要はありません。",
+      "structure": "[S: You] [V: need not worry] [OTHER: about it]",
+      "wrongOptionExplanations": {
+        "1": "needsは三人称単数形で、主語がyouの場合はneedを使います。",
+        "2": "neededは過去形で、ここでは現在の必要性を表すのでneedを使います。",
+        "3": "needingは現在分詞で、ここでは動詞として使うのでneedを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-022",
+    "category": "jodoushi",
+    "question": "We ___ to help each other.",
+    "options": [
+      "ought",
+      "oughts",
+      "oughted",
+      "oughting"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "ought toは「〜すべきだ」という推奨を表します。主語に関係なくoughtを使います。",
+      "translation": "私たちはお互いを助けるべきです。",
+      "structure": "[S: We] [V: ought to help] [O: each other]",
+      "wrongOptionExplanations": {
+        "1": "oughtsは文法的に正しくありません。ここではoughtが適切です。",
+        "2": "oughtedは文法的に正しくありません。ここではoughtが適切です。",
+        "3": "oughtingは文法的に正しくありません。ここではoughtが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-023",
+    "category": "jodoushi",
+    "question": "___ we go now?",
+    "options": [
+      "Shall",
+      "Will",
+      "Would",
+      "Should"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Shall I/we...?は「〜しましょうか？」という提案を表します。",
+      "translation": "今行きましょうか？",
+      "structure": "[V: Shall we go] [OTHER: now]",
+      "wrongOptionExplanations": {
+        "1": "Will we...?は「〜するだろうか？」という未来の疑問を表しますが、ここでは提案を表すのでShallを使います。",
+        "2": "Would we...?は仮定法の疑問を表しますが、ここでは提案を表すのでShallを使います。",
+        "3": "Should we...?は「〜すべきか？」という推奨の疑問を表しますが、ここでは提案を表すのでShallを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-024",
+    "category": "jodoushi",
+    "question": "I ___ not understand what you mean.",
+    "options": [
+      "can",
+      "may",
+      "must",
+      "will"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "can notは「〜できない」という不可能を表します。",
+      "translation": "あなたの言っていることが理解できません。",
+      "structure": "[S: I] [V: can not understand] [O: what you mean]",
+      "wrongOptionExplanations": {
+        "1": "may notは「〜してはいけない」という許可の否定を表しますが、ここでは不可能を表すのでcan notを使います。",
+        "2": "must notは「〜してはいけない」という禁止を表しますが、ここでは不可能を表すのでcan notを使います。",
+        "3": "will notは「〜しないだろう」という未来の否定を表しますが、ここでは不可能を表すのでcan notを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-025",
+    "category": "jodoushi",
+    "question": "You ___ not tell anyone about this secret.",
+    "options": [
+      "can",
+      "may",
+      "must",
+      "will"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "must notは「〜してはいけない」という禁止を表します。",
+      "translation": "この秘密を誰にも言ってはいけません。",
+      "structure": "[S: You] [V: must not tell] [O: anyone] [OTHER: about this secret]",
+      "wrongOptionExplanations": {
+        "0": "can notは「〜できない」という不可能を表しますが、ここでは禁止を表すのでmust notを使います。",
+        "1": "may notは「〜してはいけない」という許可の否定を表しますが、ここでは強い禁止を表すのでmust notを使います。",
+        "3": "will notは「〜しないだろう」という未来の否定を表しますが、ここでは禁止を表すのでmust notを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-026",
+    "category": "jodoushi",
+    "question": "He ___ to work on weekends.",
+    "options": [
+      "have",
+      "has",
+      "had",
+      "having"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "has toは「〜しなければならない」という必要性を表します。主語が三人称単数の場合はhasを使います。",
+      "translation": "彼は週末に働かなければなりません。",
+      "structure": "[S: He] [V: has to work] [OTHER: on weekends]",
+      "wrongOptionExplanations": {
+        "0": "haveは主語がI, you, we, theyの場合に使います。",
+        "2": "hadは過去形で、ここでは現在の必要性を表すのでhasを使います。",
+        "3": "havingは現在分詞で、ここでは動詞として使うのでhasを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-027",
+    "category": "jodoushi",
+    "question": "They ___ to leave early tomorrow.",
+    "options": [
+      "have",
+      "has",
+      "had",
+      "having"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "have toは「〜しなければならない」という必要性を表します。主語が複数の場合はhaveを使います。",
+      "translation": "彼らは明日早く出発しなければなりません。",
+      "structure": "[S: They] [V: have to leave] [ADV: early] [OTHER: tomorrow]",
+      "wrongOptionExplanations": {
+        "1": "hasは三人称単数形で、主語が複数の場合はhaveを使います。",
+        "2": "hadは過去形で、ここでは未来の必要性を表すのでhaveを使います。",
+        "3": "havingは現在分詞で、ここでは動詞として使うのでhaveを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-028",
+    "category": "jodoushi",
+    "question": "I ___ not believe what I'm seeing.",
+    "options": [
+      "can",
+      "may",
+      "must",
+      "will"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "can notは「〜できない」という不可能を表します。",
+      "translation": "見ていることが信じられません。",
+      "structure": "[S: I] [V: can not believe] [O: what I'm seeing]",
+      "wrongOptionExplanations": {
+        "1": "may notは「〜してはいけない」という許可の否定を表しますが、ここでは不可能を表すのでcan notを使います。",
+        "2": "must notは「〜してはいけない」という禁止を表しますが、ここでは不可能を表すのでcan notを使います。",
+        "3": "will notは「〜しないだろう」という未来の否定を表しますが、ここでは不可能を表すのでcan notを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-029",
+    "category": "jodoushi",
+    "question": "You ___ not smoke in this building.",
+    "options": [
+      "can",
+      "may",
+      "must",
+      "will"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "must notは「〜してはいけない」という禁止を表します。",
+      "translation": "この建物ではタバコを吸ってはいけません。",
+      "structure": "[S: You] [V: must not smoke] [OTHER: in this building]",
+      "wrongOptionExplanations": {
+        "0": "can notは「〜できない」という不可能を表しますが、ここでは禁止を表すのでmust notを使います。",
+        "1": "may notは「〜してはいけない」という許可の否定を表しますが、ここでは強い禁止を表すのでmust notを使います。",
+        "3": "will notは「〜しないだろう」という未来の否定を表しますが、ここでは禁止を表すのでmust notを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-030",
+    "category": "jodoushi",
+    "question": "She ___ be at the library now.",
+    "options": [
+      "can",
+      "may",
+      "might",
+      "will"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "mightは「〜かもしれない」という弱い推量を表します。mayよりも不確実性が高いです。",
+      "translation": "彼女は今、図書館にいるかもしれません。",
+      "structure": "[S: She] [V: might be] [OTHER: at the library now]",
+      "wrongOptionExplanations": {
+        "0": "canは可能性を表しますが、ここでは推量を表すのでmightを使います。",
+        "1": "mayも推量を表しますが、mightの方が不確実性が高いです。",
+        "3": "willは「〜するだろう」という確実な未来を表しますが、ここでは推量を表すのでmightを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-031",
+    "category": "jodoushi",
+    "question": "I ___ not go to the party last night.",
+    "options": [
+      "can",
+      "could",
+      "may",
+      "might"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "could notはcan notの過去形で、過去の不可能を表します。",
+      "translation": "昨夜はパーティーに行けませんでした。",
+      "structure": "[S: I] [V: could not go] [OTHER: to the party last night]",
+      "wrongOptionExplanations": {
+        "0": "can notは現在形で、過去の不可能を表すにはcould notを使います。",
+        "2": "may notは許可の否定を表しますが、ここでは不可能を表すのでcould notを使います。",
+        "3": "might notは弱い推量の否定を表しますが、ここでは不可能を表すのでcould notを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-032",
+    "category": "jodoushi",
+    "question": "We ___ to finish this project by Friday.",
+    "options": [
+      "have",
+      "has",
+      "had",
+      "having"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "have toは「〜しなければならない」という必要性を表します。主語が複数の場合はhaveを使います。",
+      "translation": "私たちは金曜日までにこのプロジェクトを終わらせなければなりません。",
+      "structure": "[S: We] [V: have to finish] [O: this project] [OTHER: by Friday]",
+      "wrongOptionExplanations": {
+        "1": "hasは三人称単数形で、主語が複数の場合はhaveを使います。",
+        "2": "hadは過去形で、ここでは現在の必要性を表すのでhaveを使います。",
+        "3": "havingは現在分詞で、ここでは動詞として使うのでhaveを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-033",
+    "category": "jodoushi",
+    "question": "You ___ not be late for the meeting.",
+    "options": [
+      "can",
+      "may",
+      "must",
+      "will"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "must notは「〜してはいけない」という禁止を表します。",
+      "translation": "会議に遅れてはいけません。",
+      "structure": "[S: You] [V: must not be] [C: late] [OTHER: for the meeting]",
+      "wrongOptionExplanations": {
+        "0": "can notは「〜できない」という不可能を表しますが、ここでは禁止を表すのでmust notを使います。",
+        "1": "may notは「〜してはいけない」という許可の否定を表しますが、ここでは強い禁止を表すのでmust notを使います。",
+        "3": "will notは「〜しないだろう」という未来の否定を表しますが、ここでは禁止を表すのでmust notを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-034",
+    "category": "jodoushi",
+    "question": "I ___ to wake up early every day.",
+    "options": [
+      "use",
+      "used",
+      "uses",
+      "using"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "used toは「以前は〜していた」という過去の習慣を表します。",
+      "translation": "私は以前、毎日早起きしていました。",
+      "structure": "[S: I] [V: used to wake] [ADV: up early] [OTHER: every day]",
+      "wrongOptionExplanations": {
+        "0": "useは文法的に正しくありません。ここではusedが適切です。",
+        "2": "usesは文法的に正しくありません。ここではusedが適切です。",
+        "3": "usingは文法的に正しくありません。ここではusedが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-035",
+    "category": "jodoushi",
+    "question": "She ___ able to solve the problem.",
+    "options": [
+      "is",
+      "are",
+      "was",
+      "were"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "be able toは「〜できる」という能力を表します。主語が三人称単数の場合はisを使います。",
+      "translation": "彼女はその問題を解決することができます。",
+      "structure": "[S: She] [V: is able] [INF: to solve] [O: the problem]",
+      "wrongOptionExplanations": {
+        "1": "areは複数形で、主語が三人称単数の場合はisを使います。",
+        "2": "wasは過去形で、ここでは現在の能力を表すのでisを使います。",
+        "3": "wereは過去形の複数形で、主語が三人称単数の場合はisを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-036",
+    "category": "jodoushi",
+    "question": "They ___ supposed to meet us at the station.",
+    "options": [
+      "is",
+      "are",
+      "was",
+      "were"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "be supposed toは「〜することになっている」という予定を表します。主語が複数の場合はareを使います。",
+      "translation": "彼らは駅で私たちに会うことになっています。",
+      "structure": "[S: They] [V: are supposed] [INF: to meet] [O: us] [OTHER: at the station]",
+      "wrongOptionExplanations": {
+        "0": "isは三人称単数形で、主語が複数の場合はareを使います。",
+        "2": "wasは過去形で、ここでは現在の予定を表すのでareを使います。",
+        "3": "wereは過去形で、ここでは現在の予定を表すのでareを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-037",
+    "category": "jodoushi",
+    "question": "I ___ not afford to buy a new car.",
+    "options": [
+      "can",
+      "could",
+      "may",
+      "might"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "can notは「〜できない」という不可能を表します。",
+      "translation": "新しい車を買う余裕がありません。",
+      "structure": "[S: I] [V: can not afford] [INF: to buy] [O: a new car]",
+      "wrongOptionExplanations": {
+        "1": "could notは過去形で、ここでは現在の不可能を表すのでcan notを使います。",
+        "2": "may notは許可の否定を表しますが、ここでは不可能を表すのでcan notを使います。",
+        "3": "might notは弱い推量の否定を表しますが、ここでは不可能を表すのでcan notを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-038",
+    "category": "jodoushi",
+    "question": "You ___ better see a doctor.",
+    "options": [
+      "had",
+      "have",
+      "has",
+      "having"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "had betterは「〜した方がいい」という推奨を表します。主語に関係なくhadを使います。",
+      "translation": "医者に診てもらった方がいいです。",
+      "structure": "[S: You] [V: had better see] [O: a doctor]",
+      "wrongOptionExplanations": {
+        "1": "haveは文法的に正しくありません。ここではhadが適切です。",
+        "2": "hasは文法的に正しくありません。ここではhadが適切です。",
+        "3": "havingは文法的に正しくありません。ここではhadが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-039",
+    "category": "jodoushi",
+    "question": "He ___ rather stay home than go out.",
+    "options": [
+      "will",
+      "would",
+      "should",
+      "could"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "would rather...thanは「〜するより〜したい」という好みを表します。",
+      "translation": "彼は出かけるより家にいたいです。",
+      "structure": "[S: He] [V: would rather stay] [C: home] [OTHER: than go out]",
+      "wrongOptionExplanations": {
+        "0": "willは文法的に正しくありません。ここではwouldが適切です。",
+        "2": "shouldは文法的に正しくありません。ここではwouldが適切です。",
+        "3": "couldは文法的に正しくありません。ここではwouldが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-040",
+    "category": "jodoushi",
+    "question": "We ___ to respect our elders.",
+    "options": [
+      "ought",
+      "oughts",
+      "oughted",
+      "oughting"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "ought toは「〜すべきだ」という推奨を表します。主語に関係なくoughtを使います。",
+      "translation": "私たちは年長者を尊重すべきです。",
+      "structure": "[S: We] [V: ought to respect] [O: our elders]",
+      "wrongOptionExplanations": {
+        "1": "oughtsは文法的に正しくありません。ここではoughtが適切です。",
+        "2": "oughtedは文法的に正しくありません。ここではoughtが適切です。",
+        "3": "oughtingは文法的に正しくありません。ここではoughtが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-041",
+    "category": "jodoushi",
+    "question": "___ I open the window?",
+    "options": [
+      "Can",
+      "Could",
+      "May",
+      "Might"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "Can I...?は「〜してもいいですか？」という許可を求める表現です。",
+      "translation": "窓を開けてもいいですか？",
+      "structure": "[V: Can I open] [O: the window]",
+      "wrongOptionExplanations": {
+        "1": "Could I...?も許可を求める表現ですが、Can I...?の方が一般的です。",
+        "2": "May I...?はより丁寧な表現ですが、Can I...?の方が一般的です。",
+        "3": "Mightは文法的に正しくありません。ここではCanが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-042",
+    "category": "jodoushi",
+    "question": "I ___ not remember his name.",
+    "options": [
+      "can",
+      "could",
+      "may",
+      "might"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "can notは「〜できない」という不可能を表します。",
+      "translation": "彼の名前を思い出せません。",
+      "structure": "[S: I] [V: can not remember] [O: his name]",
+      "wrongOptionExplanations": {
+        "1": "could notは過去形で、ここでは現在の不可能を表すのでcan notを使います。",
+        "2": "may notは許可の否定を表しますが、ここでは不可能を表すのでcan notを使います。",
+        "3": "might notは弱い推量の否定を表しますが、ここでは不可能を表すのでcan notを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-043",
+    "category": "jodoushi",
+    "question": "She ___ not be feeling well today.",
+    "options": [
+      "can",
+      "may",
+      "must",
+      "will"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "may notは「〜でないかもしれない」という弱い推量の否定を表します。",
+      "translation": "彼女は今日気分が良くないかもしれません。",
+      "structure": "[S: She] [V: may not be feeling] [C: well] [OTHER: today]",
+      "wrongOptionExplanations": {
+        "0": "can notは「〜できない」という不可能を表しますが、ここでは推量を表すのでmay notを使います。",
+        "2": "must notは「〜してはいけない」という禁止を表しますが、ここでは推量を表すのでmay notを使います。",
+        "3": "will notは「〜しないだろう」という未来の否定を表しますが、ここでは推量を表すのでmay notを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-044",
+    "category": "jodoushi",
+    "question": "They ___ to arrive by 9 AM.",
+    "options": [
+      "have",
+      "has",
+      "had",
+      "having"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "have toは「〜しなければならない」という必要性を表します。主語が複数の場合はhaveを使います。",
+      "translation": "彼らは午前9時までに到着しなければなりません。",
+      "structure": "[S: They] [V: have to arrive] [OTHER: by 9 AM]",
+      "wrongOptionExplanations": {
+        "1": "hasは三人称単数形で、主語が複数の場合はhaveを使います。",
+        "2": "hadは過去形で、ここでは現在の必要性を表すのでhaveを使います。",
+        "3": "havingは現在分詞で、ここでは動詞として使うのでhaveを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-045",
+    "category": "jodoushi",
+    "question": "I ___ not wait any longer.",
+    "options": [
+      "can",
+      "could",
+      "may",
+      "might"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "can notは「〜できない」という不可能を表します。",
+      "translation": "これ以上待てません。",
+      "structure": "[S: I] [V: can not wait] [ADV: any longer]",
+      "wrongOptionExplanations": {
+        "1": "could notは過去形で、ここでは現在の不可能を表すのでcan notを使います。",
+        "2": "may notは許可の否定を表しますが、ここでは不可能を表すのでcan notを使います。",
+        "3": "might notは弱い推量の否定を表しますが、ここでは不可能を表すのでcan notを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-046",
+    "category": "jodoushi",
+    "question": "You ___ not forget to bring your ID.",
+    "options": [
+      "can",
+      "may",
+      "must",
+      "will"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "must notは「〜してはいけない」という禁止を表します。",
+      "translation": "IDを持ってくるのを忘れてはいけません。",
+      "structure": "[S: You] [V: must not forget] [INF: to bring] [O: your ID]",
+      "wrongOptionExplanations": {
+        "0": "can notは「〜できない」という不可能を表しますが、ここでは禁止を表すのでmust notを使います。",
+        "1": "may notは「〜してはいけない」という許可の否定を表しますが、ここでは強い禁止を表すのでmust notを使います。",
+        "3": "will notは「〜しないだろう」という未来の否定を表しますが、ここでは禁止を表すのでmust notを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-047",
+    "category": "jodoushi",
+    "question": "He ___ to pay the bill yesterday.",
+    "options": [
+      "have",
+      "has",
+      "had",
+      "having"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "had toは「〜しなければならなかった」という過去の必要性を表します。",
+      "translation": "彼は昨日、請求書を支払わなければなりませんでした。",
+      "structure": "[S: He] [V: had to pay] [O: the bill] [OTHER: yesterday]",
+      "wrongOptionExplanations": {
+        "0": "haveは現在形で、過去の必要性を表すにはhadを使います。",
+        "1": "hasは現在形で、過去の必要性を表すにはhadを使います。",
+        "3": "havingは現在分詞で、ここでは動詞として使うのでhadを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-048",
+    "category": "jodoushi",
+    "question": "We ___ able to finish the work on time.",
+    "options": [
+      "is",
+      "are",
+      "was",
+      "were"
+    ],
+    "correctAnswer": 3,
+    "explanation": {
+      "text": "be able toは「〜できる」という能力を表します。主語が複数で過去の場合はwereを使います。",
+      "translation": "私たちは時間内に仕事を終わらせることができました。",
+      "structure": "[S: We] [V: were able] [INF: to finish] [O: the work] [OTHER: on time]",
+      "wrongOptionExplanations": {
+        "0": "isは現在形の三人称単数形で、主語が複数で過去の場合はwereを使います。",
+        "1": "areは現在形の複数形で、過去の場合はwereを使います。",
+        "2": "wasは過去形の単数形で、主語が複数の場合はwereを使います。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-049",
+    "category": "jodoushi",
+    "question": "I ___ not help but laugh at the joke.",
+    "options": [
+      "can",
+      "could",
+      "may",
+      "might"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "can not help butは「〜せざるを得ない」という意味の熟語です。",
+      "translation": "その冗談に笑わざるを得ませんでした。",
+      "structure": "[S: I] [V: can not help but laugh] [OTHER: at the joke]",
+      "wrongOptionExplanations": {
+        "1": "could not help butも使えますが、can not help butの方が一般的です。",
+        "2": "mayは「〜してもよい」という意味ですが、ここでは「〜できる」という意味のcanが適切です。",
+        "3": "mightは文法的に正しくありません。ここではcanが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-050",
+    "category": "jodoushi",
+    "question": "I ___ not help but smile at the cute puppy.",
+    "options": [
+      "can",
+      "could",
+      "may",
+      "might"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "can not help butは「〜せざるを得ない」という意味の熟語です。",
+      "translation": "その可愛い子犬に笑わざるを得ませんでした。",
+      "structure": "[S: I] [V: can not help but smile] [OTHER: at the cute puppy]",
+      "wrongOptionExplanations": {
+        "1": "could not help butも使えますが、can not help butの方が一般的です。",
+        "2": "mayは「〜してもよい」という意味ですが、ここでは「〜できる」という意味のcanが適切です。",
+        "3": "mightは文法的に正しくありません。ここではcanが適切です。"
+      }
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "modal-051",
+    "category": "jodoushi",
+    "question": "She ___ be at home now.",
+    "options": [
+      "can",
+      "may",
+      "must",
+      "will"
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "text": "mustは「〜に違いない」という強い推量を表します。",
+      "translation": "彼女は今、家にいるに違いない。",
+      "wrongOptionExplanations": {
+        "0": "canは可能性を表しますが、ここでは強い推量を表すのでmustを使います。",
+        "1": "mayは「〜かもしれない」という弱い推量を表しますが、ここでは強い推量を表すのでmustを使います。",
+        "3": "willは未来を表しますが、ここでは推量を表すのでmustを使います。"
+      },
+      "structure": "[S: She] [V: must be] [C: at home] [OTHER: now]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-052",
+    "category": "jodoushi",
+    "question": "You ___ have told me about the meeting earlier. I missed it because of you.",
+    "options": [
+      "should",
+      "must",
+      "could",
+      "might"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "should have + 過去分詞は「〜すべきだった（のにしなかった）」という後悔や非難を表します。完了形と組み合わせた複雑な助動詞の使い方です。",
+      "translation": "あなたはもっと早く会議について教えてくれるべきだった。あなたのせいで私は会議を逃した。",
+      "wrongOptionExplanations": {
+        "1": "must have + 過去分詞は「〜したに違いない」という推量を表しますが、ここでは後悔や非難を表すのでshouldを使います。",
+        "2": "could have + 過去分詞は「〜できた（のにしなかった）」という可能性を表しますが、ここでは義務を表すshouldが適切です。",
+        "3": "might have + 過去分詞は「〜したかもしれない」という弱い推量を表しますが、ここでは後悔や非難を表すのでshouldを使います。"
+      },
+      "structure": "[S: You] [V: should have told] [O: me] [OTHER: about the meeting earlier]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-053",
+    "category": "jodoushi",
+    "question": "He ___ not have been at the party last night. I saw him at the library.",
+    "options": [
+      "could",
+      "must",
+      "should",
+      "may"
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "text": "must not have + 過去分詞は「〜したはずがない」という強い否定の推量を表します。証拠に基づいた推論を表す時に使います。",
+      "translation": "彼は昨夜パーティーにいたはずがない。私は図書館で彼を見た。",
+      "wrongOptionExplanations": {
+        "0": "could not have + 過去分詞は「〜できなかったはずだ」という可能性の否定を表しますが、ここでは強い否定の推量を表すmustが適切です。",
+        "2": "should not have + 過去分詞は「〜すべきではなかった」という後悔を表しますが、ここでは推量を表すのでmustを使います。",
+        "3": "may not have + 過去分詞は「〜しなかったかもしれない」という弱い推量を表しますが、ここでは強い否定の推量を表すmustが適切です。"
+      },
+      "structure": "[S: He] [V: must not have been] [C: at the party] [OTHER: last night]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-054",
+    "category": "jodoushi",
+    "question": "You ___ as well give up now. There's no chance of success.",
+    "options": [
+      "might",
+      "should",
+      "could",
+      "must"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "might as wellは「〜した方がましだ、〜するのが最善だ」という意味の熟語です。選択肢がない状況で使われる表現です。",
+      "translation": "今あきらめた方がましだ。成功の見込みはない。",
+      "wrongOptionExplanations": {
+        "1": "shouldは文法的に正しくありません。ここではmightが適切です。",
+        "2": "couldは文法的に正しくありません。ここではmightが適切です。",
+        "3": "mustは文法的に正しくありません。ここではmightが適切です。"
+      },
+      "structure": "[S: You] [V: might as well give] [C: up] [OTHER: now]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-055",
+    "category": "jodoushi",
+    "question": "You ___ have been more careful. Now we ___ start all over again because of your mistake.",
+    "options": [
+      "should, must",
+      "could, may",
+      "might, can",
+      "would, will"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "should have + 過去分詞は「〜すべきだった（のにしなかった）」という後悔を表し、mustは「〜しなければならない」という強い必要性を表します。完了形と現在形の助動詞を組み合わせた複雑な文構造です。",
+      "translation": "あなたはもっと注意すべきだった。あなたのミスのせいで、私たちは最初からやり直さなければならない。",
+      "wrongOptionExplanations": {
+        "1": "could have + 過去分詞は「〜できた（のにしなかった）」という可能性を表しますが、ここでは後悔を表すのでshouldを使います。mayは「〜かもしれない」という弱い可能性を表しますが、ここでは強い必要性を表すのでmustを使います。",
+        "2": "might have + 過去分詞は「〜したかもしれない」という弱い推量を表しますが、ここでは後悔を表すのでshouldを使います。canは「〜できる」という能力を表しますが、ここでは必要性を表すのでmustを使います。",
+        "3": "would have + 過去分詞は仮定法で使われますが、ここでは後悔を表すのでshouldを使います。willは「〜するだろう」という未来を表しますが、ここでは必要性を表すのでmustを使います。"
+      },
+      "structure": "[S: You] [V: should have been] [C: more careful] [OTHER: Now we must start all over again because of your mistake]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-056",
+    "category": "jodoushi",
+    "question": "I ___ have left earlier, but I ___ not have known about the traffic jam ___ advance.",
+    "options": [
+      "should, could, in",
+      "must, might, at",
+      "would, may, on",
+      "can, will, by"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "should have + 過去分詞は「〜すべきだった」、could not have + 過去分詞は「〜できなかったはずだ」、in advanceは「事前に」という熟語です。完了形の助動詞と熟語を組み合わせた複雑な文構造です。",
+      "translation": "私はもっと早く出発すべきだったが、事前に渋滞を知ることができなかったはずだ。",
+      "wrongOptionExplanations": {
+        "1": "must have + 過去分詞は「〜したに違いない」という推量を表しますが、ここでは後悔を表すのでshouldを使います。might not have + 過去分詞は「〜しなかったかもしれない」という弱い推量を表しますが、ここでは可能性の否定を表すのでcould notを使います。at advanceは一般的ではありません。",
+        "2": "would have + 過去分詞は仮定法で使われますが、ここでは後悔を表すのでshouldを使います。may not have + 過去分詞は「〜しなかったかもしれない」という弱い推量を表しますが、ここでは可能性の否定を表すのでcould notを使います。on advanceは一般的ではありません。",
+        "3": "can have + 過去分詞は一般的ではありません。will not have + 過去分詞は未来完了の否定を表しますが、ここでは可能性の否定を表すのでcould notを使います。by advanceは一般的ではありません。"
+      },
+      "structure": "[S: I] [V: should have left] [OTHER: earlier but I could not have known about the traffic jam in advance]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-057",
+    "category": "jodoushi",
+    "question": "She ___ ___ well quit now since there's no point in continuing ___ these circumstances.",
+    "options": [
+      "might, as, under",
+      "should, so, in",
+      "could, very, by",
+      "must, quite, with"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "might as wellは「〜した方がましだ」、there's no point inは「〜しても無駄だ」、under these circumstancesは「このような状況では」という熟語です。助動詞と複数の前置詞を含む熟語を組み合わせた複雑な文構造です。",
+      "translation": "このような状況では続けても無駄なので、彼女は今辞めた方がましだ。",
+      "wrongOptionExplanations": {
+        "1": "should as wellは一般的ではありません。there's no point onは一般的ではありません。in these circumstancesは使えますが、ここではunderが適切です。",
+        "2": "could as wellは一般的ではありません。there's no point atは一般的ではありません。by these circumstancesは一般的ではありません。",
+        "3": "must as wellは一般的ではありません。there's no point forは一般的ではありません。with these circumstancesは一般的ではありません。"
+      },
+      "structure": "[S: She] [V: might as well quit] [OTHER: now since there's no point in continuing under these circumstances]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-058",
+    "category": "jodoushi",
+    "question": "You ___ not have said that. Now he ___ be feeling terrible, and we need to do something to make it up to him.",
+    "options": [
+      "should, must",
+      "could, may",
+      "might, will",
+      "would, can"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "should not have + 過去分詞は「〜すべきではなかった」、must be + 現在分詞は「〜に違いない（推量）」、need toは「〜する必要がある」、make it up toは「〜に償う」という熟語です。完了形、進行形、不定詞、熟語を組み合わせた非常に複雑な文構造です。",
+      "translation": "あなたはそれを言うべきではなかった。今、彼はひどく感じているに違いない。私たちは彼に償いをする必要がある。",
+      "wrongOptionExplanations": {
+        "1": "could not have + 過去分詞は「〜できなかったはずだ」という可能性の否定を表しますが、ここでは後悔を表すのでshould notを使います。may be + 現在分詞は「〜かもしれない」という弱い推量を表しますが、ここでは強い推量を表すのでmustを使います。can doは「〜できる」という能力を表しますが、ここでは必要性を表すのでneed toを使います。make it up forは一般的ではありません。",
+        "2": "might not have + 過去分詞は「〜しなかったかもしれない」という弱い推量を表しますが、ここでは後悔を表すのでshould notを使います。will be + 現在分詞は未来進行形を表しますが、ここでは推量を表すのでmustを使います。should doは「〜すべきだ」という推奨を表しますが、ここでは必要性を表すのでneed toを使います。make it up withは一般的ではありません。",
+        "3": "would not have + 過去分詞は仮定法で使われますが、ここでは後悔を表すのでshould notを使います。can be + 現在分詞は「〜できる」という可能性を表しますが、ここでは推量を表すのでmustを使います。must doは「〜しなければならない」という強い必要性を表しますが、ここではneed toが適切です。make it up byは一般的ではありません。"
+      },
+      "structure": "[S: You] [V: should not have said] [O: that] [OTHER: Now he must be feeling terrible and we need to do something to make it up to him]"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-059",
+    "category": "jodoushi",
+    "question": "They ___ have been working ___ the project ___ hours, but they must still be struggling with the final details that we in discussed during the meeting.",
+    "options": [
+      "must, on, for",
+      "should, in, since",
+      "could, at, during",
+      "might, by, through"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "must have been workingは「〜に違いない（推量の完了進行形）」、on the projectは「プロジェクトに」、for hoursは「数時間」、must still be strugglingは「まだ苦労しているに違いない」、with the final detailsは「最終的な詳細に」、thatは関係代名詞、discussed in the meetingは「会議で議論した」という意味です。完了進行形、推量、関係代名詞を組み合わせた非常に複雑な文構造です。",
+      "translation": "彼らは数時間プロジェクトに取り組んでいるに違いないが、私たちが会議で議論した最終的な詳細にまだ苦労しているに違いない。",
+      "structure": "[S: They] [V: must have been working] [PP: on the project] [PP: for hours] [OTHER: but they must still be struggling] [PP: with the final details] [RC: that we discussed] [PP: in the meeting]",
+      "wrongOptionExplanations": {
+        "1": "should have been workingは「〜すべきだった」という後悔を表しますが、ここでは推量を表すのでmustを使います。",
+        "2": "could have been workingは「〜できたはずだ」という可能性を表しますが、ここでは推量を表すのでmustを使います。",
+        "3": "might have been workingは「〜したかもしれない」という弱い推量を表しますが、ここでは強い推量を表すのでmustを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-060",
+    "category": "jodoushi",
+    "question": "She ___ ___ not able been complete the task on time if she had not been properly for prepared that the challenges lay ahead.",
+    "options": [
+      "would, have",
+      "should, be",
+      "could, have",
+      "might, be"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "would not have been ableは「できなかっただろう（仮定法）」、complete the task on timeは「時間内にタスクを完了する」、if she had not been properly preparedは「適切に準備していなかったなら」、for the challenges that lay aheadは「待ち受けている課題に」という意味です。仮定法、完了形、関係代名詞を組み合わせた非常に複雑な文構造です。",
+      "translation": "もし彼女が待ち受けている課題に適切に準備していなかったなら、時間内にタスクを完了できなかっただろう。",
+      "structure": "[S: She] [V: would not have been able] [INF: to complete the task] [PP: on time] [OTHER: if she had not been properly prepared] [PP: for the challenges] [RC: that lay ahead]",
+      "wrongOptionExplanations": {
+        "1": "should not be ableは「できないべきだ」という意味ですが、ここでは仮定法を表すのでwouldを使います。",
+        "2": "couldは「〜できた」という意味ですが、ここでは「〜するだろう（仮定）」という意味のwouldが適切です。",
+        "3": "might not be ableは「できないかもしれない」という弱い可能性を表しますが、ここでは仮定法を表すのでwouldを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-061",
+    "category": "jodoushi",
+    "question": "We ___ ___ have missed the opportunity if we had not been aware of the risks were involved.",
+    "options": [
+      "should, not",
+      "could, not",
+      "might, not",
+      "would, not"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "should not have missedは「逃すべきではなかった」、the opportunityは「機会」、if we had been aware ofは「気づいていたなら」、the risks that were involvedは「関与していたリスク」という意味です。完了形、仮定法、関係代名詞を組み合わせた非常に複雑な文構造です。",
+      "translation": "もし私たちが関与していたリスクに気づいていたなら、その機会を逃すべきではなかった。",
+      "structure": "[S: We] [V: should not have missed] [O: the opportunity] [OTHER: if we had been aware of the risks] [RC: that were involved]",
+      "wrongOptionExplanations": {
+        "1": "could not have lostは「失うことができなかったはずだ」という意味ですが、ここでは後悔を表すのでshouldを使います。",
+        "2": "might not have passedは「通過しなかったかもしれない」という弱い推量を表しますが、ここでは後悔を表すのでshouldを使います。",
+        "3": "would not have givenは「与えなかっただろう」という仮定法を表しますが、ここでは後悔を表すのでshouldを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-062",
+    "category": "jodoushi",
+    "question": "He ___ ___ been reconsidering the decision when he should have taken into account all the factors that we in discussed during the meeting.",
+    "options": [
+      "must, have",
+      "should, be",
+      "could, have",
+      "would, be"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "must have been reconsideringは「再考していたに違いない（推量の完了進行形）」、the decisionは「決定」、when he should have taken into accountは「考慮に入れるべきだった時に」、all the factors that we discussedは「私たちが議論したすべての要因」、in the meetingは「会議で」という意味です。完了進行形、推量、関係代名詞、熟語を組み合わせた非常に複雑な文構造です。",
+      "translation": "彼は私たちが会議で議論したすべての要因を考慮に入れるべきだった時に、その決定を再考していたに違いない。",
+      "structure": "[S: He] [V: must have been reconsidering] [O: the decision] [OTHER: when he should have taken into account all the factors] [RC: that we discussed] [PP: in the meeting]",
+      "wrongOptionExplanations": {
+        "1": "shouldは「〜すべきだ」という意味ですが、ここでは「〜しなければならない」という意味のmustが適切です。",
+        "2": "could have been ponderingは「熟考していたかもしれない」という弱い推量を表しますが、ここでは強い推量を表すのでmustを使います。",
+        "3": "wouldは「〜するだろう（仮定）」という意味ですが、ここでは「〜しなければならない」という意味のmustが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-063",
+    "category": "jodoushi",
+    "question": "They ___ ___ have met the deadline if they had not been able to secure the resources that were necessary.",
+    "options": [
+      "would, not",
+      "should, not",
+      "could, not",
+      "might, not"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "would not have metは「達成しなかっただろう（仮定法）」、the deadlineは「期限」、if they had not been able to secureは「確保できなかったなら」、the resources that were necessaryは「必要だった資源」という意味です。仮定法、完了形、関係代名詞、不定詞を組み合わせた非常に複雑な文構造です。",
+      "translation": "もし彼らが必要だった資源を確保できなかったなら、期限を達成しなかっただろう。",
+      "structure": "[S: They] [V: would not have met] [O: the deadline] [OTHER: if they had not been able to secure the resources] [RC: that were necessary]",
+      "wrongOptionExplanations": {
+        "1": "should not be reachingは「到達すべきではない」という意味ですが、ここでは仮定法を表すのでwouldを使います。",
+        "2": "could not have achievedは「達成できなかったはずだ」という意味ですが、ここでは仮定法を表すのでwouldを使います。",
+        "3": "might not have reachedは「到達しなかったかもしれない」という弱い推量を表しますが、ここでは仮定法を表すのでwouldを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-064",
+    "category": "jodoushi",
+    "question": "She ___ ___ ___ been able the problem to she solve if had not access the expertise to we the that have been developing.",
+    "options": [
+      "should, not, have",
+      "could, not, be",
+      "might, not, have",
+      "would, not, have"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "should not have been able to solveは「解決できなかったはずだ」、the problemは「問題」、if she had not had access toは「アクセスを持っていなかったなら」、the expertise that we have been developingは「私たちが開発してきた専門知識」という意味です。完了形、仮定法、関係代名詞、現在完了進行形を組み合わせた非常に複雑な文構造です。",
+      "translation": "もし彼女が私たちが開発してきた専門知識にアクセスを持っていなかったなら、その問題を解決できなかったはずだ。",
+      "structure": "[S: She] [V: should not have been able] [INF: to solve the problem] [OTHER: if she had not had access to the expertise] [RC: that we have been developing]",
+      "wrongOptionExplanations": {
+        "1": "could not beは文法的に正しくありません。ここではshould not haveが適切です。",
+        "2": "might not have been competentは「有能でなかったかもしれない」という弱い推量を表しますが、ここでは後悔を表すのでshouldを使います。",
+        "3": "would not have been proficientは「熟練していなかっただろう」という仮定法を表しますが、ここでは後悔を表すのでshouldを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-065",
+    "category": "jodoushi",
+    "question": "We ___ ___ been working on the project we when should have been receiving the support that was required.",
+    "options": [
+      "must, have",
+      "should, be",
+      "could, have",
+      "would, be"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "must have been working onは「取り組んでいたに違いない（推量の完了進行形）」、the projectは「プロジェクト」、when we should have been receivingは「受け取るべきだった時に」、the support that was requiredは「必要だった支援」という意味です。完了進行形、推量、関係代名詞を組み合わせた非常に複雑な文構造です。",
+      "translation": "私たちが必要だった支援を受け取るべきだった時に、私たちはそのプロジェクトに取り組んでいたに違いない。",
+      "structure": "[S: We] [V: must have been working] [PP: on the project] [OTHER: when we should have been receiving the support] [RC: that was required]",
+      "wrongOptionExplanations": {
+        "1": "shouldは「〜すべきだ」という意味ですが、ここでは「〜しなければならない」という意味のmustが適切です。",
+        "2": "could have been handlingは「処理していたかもしれない」という弱い推量を表しますが、ここでは強い推量を表すのでmustを使います。",
+        "3": "wouldは「〜するだろう（仮定）」という意味ですが、ここでは「〜しなければならない」という意味のmustが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-066",
+    "category": "jodoushi",
+    "question": "He ___ ___ ___ missed the opportunity if he had been properly prepared for the preparation that we have been providing.",
+    "options": [
+      "would, not, have",
+      "should, not, be",
+      "could, not, have",
+      "might, not, have"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "would not have missedは「逃さなかっただろう（仮定法）」、the opportunityは「機会」、if he had been properly prepared forは「適切に準備していたなら」、the preparation that we have been providingは「私たちが提供してきた準備」という意味です。仮定法、完了形、関係代名詞、現在完了進行形を組み合わせた非常に複雑な文構造です。",
+      "translation": "もし彼が私たちが提供してきた準備に適切に準備していたなら、その機会を逃さなかっただろう。",
+      "structure": "[S: He] [V: would not have missed] [O: the opportunity] [OTHER: if he had been properly prepared for the preparation] [RC: that we have been providing]",
+      "wrongOptionExplanations": {
+        "1": "should not be losingは「失うべきではない」という意味ですが、ここでは仮定法を表すのでwouldを使います。",
+        "2": "could not have passedは「通過できなかったはずだ」という意味ですが、ここでは仮定法を表すのでwouldを使います。",
+        "3": "might not have givenは「与えなかったかもしれない」という弱い推量を表しますが、ここでは仮定法を表すのでwouldを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-067",
+    "category": "jodoushi",
+    "question": "They ___ ___ ___ been able the challenge to they overcome if had not been developing the skills were necessary.",
+    "options": [
+      "should, not, have",
+      "could, not, be",
+      "might, not, have",
+      "would, not, have"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "should not have been able to overcomeは「克服できなかったはずだ」、the challengeは「挑戦」、if they had not been developingは「開発していなかったなら」、the skills that were necessaryは「必要だった技能」という意味です。完了形、仮定法、関係代名詞、進行形を組み合わせた非常に複雑な文構造です。",
+      "translation": "もし彼らが必要だった技能を開発していなかったなら、その挑戦を克服できなかったはずだ。",
+      "structure": "[S: They] [V: should not have been able] [INF: to overcome the challenge] [OTHER: if they had not been developing the skills] [RC: that were necessary]",
+      "wrongOptionExplanations": {
+        "1": "could not beは文法的に正しくありません。ここではshould not haveが適切です。",
+        "2": "might not have been competentは「有能でなかったかもしれない」という弱い推量を表しますが、ここでは後悔を表すのでshouldを使います。",
+        "3": "would not have been proficientは「熟練していなかっただろう」という仮定法を表しますが、ここでは後悔を表すのでshouldを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-068",
+    "category": "jodoushi",
+    "question": "She ___ ___ been reconsidering the decision when she should have been aware of the implications that we have been discussing.",
+    "options": [
+      "must, have",
+      "should, be",
+      "could, have",
+      "would, be"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "must have been reconsideringは「再考していたに違いない（推量の完了進行形）」、the decisionは「決定」、when she should have been aware ofは「気づくべきだった時に」、the implications that we have been discussingは「私たちが議論してきた含意」という意味です。完了進行形、推量、関係代名詞、現在完了進行形を組み合わせた非常に複雑な文構造です。",
+      "translation": "私たちが議論してきた含意に気づくべきだった時に、彼女はその決定を再考していたに違いない。",
+      "structure": "[S: She] [V: must have been reconsidering] [O: the decision] [OTHER: when she should have been aware of the implications] [RC: that we have been discussing]",
+      "wrongOptionExplanations": {
+        "1": "shouldは「〜すべきだ」という意味ですが、ここでは「〜しなければならない」という意味のmustが適切です。",
+        "2": "could have been ponderingは「熟考していたかもしれない」という弱い推量を表しますが、ここでは強い推量を表すのでmustを使います。",
+        "3": "wouldは「〜するだろう（仮定）」という意味ですが、ここでは「〜しなければならない」という意味のmustが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-069",
+    "category": "jodoushi",
+    "question": "We ___ ___ ___ met the deadline if we had not been able to secure the resources that were available.",
+    "options": [
+      "would, not, have",
+      "should, not, be",
+      "could, not, have",
+      "might, not, have"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "would not have metは「達成しなかっただろう（仮定法）」、the deadlineは「期限」、if we had not been able to secureは「確保できなかったなら」、the resources that were availableは「利用可能だった資源」という意味です。仮定法、完了形、関係代名詞、不定詞を組み合わせた非常に複雑な文構造です。",
+      "translation": "もし私たちが利用可能だった資源を確保できなかったなら、期限を達成しなかっただろう。",
+      "structure": "[S: We] [V: would not have met] [O: the deadline] [OTHER: if we had not been able to secure the resources] [RC: that were available]",
+      "wrongOptionExplanations": {
+        "1": "should not be reachingは「到達すべきではない」という意味ですが、ここでは仮定法を表すのでwouldを使います。",
+        "2": "could not have achievedは「達成できなかったはずだ」という意味ですが、ここでは仮定法を表すのでwouldを使います。",
+        "3": "might not have reachedは「到達しなかったかもしれない」という弱い推量を表しますが、ここでは仮定法を表すのでwouldを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-070",
+    "category": "jodoushi",
+    "question": "He ___ ___ ___ been able the problem to he solve if had not access the expertise to we the that have been developing.",
+    "options": [
+      "should, not, have",
+      "could, not, be",
+      "might, not, have",
+      "would, not, have"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "should not have been able to solveは「解決できなかったはずだ」、the problemは「問題」、if he had not had access toは「アクセスを持っていなかったなら」、the expertise that we have been developingは「私たちが開発してきた専門知識」という意味です。完了形、仮定法、関係代名詞、現在完了進行形を組み合わせた非常に複雑な文構造です。",
+      "translation": "もし彼が私たちが開発してきた専門知識にアクセスを持っていなかったなら、その問題を解決できなかったはずだ。",
+      "structure": "[S: He] [V: should not have been able] [INF: to solve the problem] [OTHER: if he had not had access to the expertise] [RC: that we have been developing]",
+      "wrongOptionExplanations": {
+        "1": "could not beは文法的に正しくありません。ここではshould not haveが適切です。",
+        "2": "might not have been competentは「有能でなかったかもしれない」という弱い推量を表しますが、ここでは後悔を表すのでshouldを使います。",
+        "3": "would not have been proficientは「熟練していなかっただろう」という仮定法を表しますが、ここでは後悔を表すのでshouldを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-071",
+    "category": "jodoushi",
+    "question": "They ___ ___ been working on the project they when should have been receiving the support that was required.",
+    "options": [
+      "must, have",
+      "should, be",
+      "could, have",
+      "would, be"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "must have been working onは「取り組んでいたに違いない（推量の完了進行形）」、the projectは「プロジェクト」、when they should have been receivingは「受け取るべきだった時に」、the support that was requiredは「必要だった支援」という意味です。完了進行形、推量、関係代名詞を組み合わせた非常に複雑な文構造です。",
+      "translation": "彼らが必要だった支援を受け取るべきだった時に、彼らはそのプロジェクトに取り組んでいたに違いない。",
+      "structure": "[S: They] [V: must have been working] [PP: on the project] [OTHER: when they should have been receiving the support] [RC: that was required]",
+      "wrongOptionExplanations": {
+        "1": "shouldは「〜すべきだ」という意味ですが、ここでは「〜しなければならない」という意味のmustが適切です。",
+        "2": "could have been handlingは「処理していたかもしれない」という弱い推量を表しますが、ここでは強い推量を表すのでmustを使います。",
+        "3": "wouldは「〜するだろう（仮定）」という意味ですが、ここでは「〜しなければならない」という意味のmustが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-072",
+    "category": "jodoushi",
+    "question": "She ___ ___ ___ missed the opportunity if she had been properly prepared for the preparation that we have been providing.",
+    "options": [
+      "would, not, have",
+      "should, not, be",
+      "could, not, have",
+      "might, not, have"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "would not have missedは「逃さなかっただろう（仮定法）」、the opportunityは「機会」、if she had been properly prepared forは「適切に準備していたなら」、the preparation that we have been providingは「私たちが提供してきた準備」という意味です。仮定法、完了形、関係代名詞、現在完了進行形を組み合わせた非常に複雑な文構造です。",
+      "translation": "もし彼女が私たちが提供してきた準備に適切に準備していたなら、その機会を逃さなかっただろう。",
+      "structure": "[S: She] [V: would not have missed] [O: the opportunity] [OTHER: if she had been properly prepared for the preparation] [RC: that we have been providing]",
+      "wrongOptionExplanations": {
+        "1": "should not be losingは「失うべきではない」という意味ですが、ここでは仮定法を表すのでwouldを使います。",
+        "2": "could not have passedは「通過できなかったはずだ」という意味ですが、ここでは仮定法を表すのでwouldを使います。",
+        "3": "might not have givenは「与えなかったかもしれない」という弱い推量を表しますが、ここでは仮定法を表すのでwouldを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-073",
+    "category": "jodoushi",
+    "question": "We ___ ___ ___ been able the challenge to we overcome if had not been developing the skills were necessary.",
+    "options": [
+      "should, not, have",
+      "could, not, be",
+      "might, not, have",
+      "would, not, have"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "should not have been able to overcomeは「克服できなかったはずだ」、the challengeは「挑戦」、if we had not been developingは「開発していなかったなら」、the skills that were necessaryは「必要だった技能」という意味です。完了形、仮定法、関係代名詞、進行形を組み合わせた非常に複雑な文構造です。",
+      "translation": "もし私たちが必要だった技能を開発していなかったなら、その挑戦を克服できなかったはずだ。",
+      "structure": "[S: We] [V: should not have been able] [INF: to overcome the challenge] [OTHER: if we had not been developing the skills] [RC: that were necessary]",
+      "wrongOptionExplanations": {
+        "1": "could not beは文法的に正しくありません。ここではshould not haveが適切です。",
+        "2": "might not have been competentは「有能でなかったかもしれない」という弱い推量を表しますが、ここでは後悔を表すのでshouldを使います。",
+        "3": "would not have been proficientは「熟練していなかっただろう」という仮定法を表しますが、ここでは後悔を表すのでshouldを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-074",
+    "category": "jodoushi",
+    "question": "He ___ ___ been reconsidering the decision when he should have been aware of the implications that we have been discussing.",
+    "options": [
+      "must, have",
+      "should, be",
+      "could, have",
+      "would, be"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "must have been reconsideringは「再考していたに違いない（推量の完了進行形）」、the decisionは「決定」、when he should have been aware ofは「気づくべきだった時に」、the implications that we have been discussingは「私たちが議論してきた含意」という意味です。完了進行形、推量、関係代名詞、現在完了進行形を組み合わせた非常に複雑な文構造です。",
+      "translation": "私たちが議論してきた含意に気づくべきだった時に、彼はその決定を再考していたに違いない。",
+      "structure": "[S: He] [V: must have been reconsidering] [O: the decision] [OTHER: when he should have been aware of the implications] [RC: that we have been discussing]",
+      "wrongOptionExplanations": {
+        "1": "shouldは「〜すべきだ」という意味ですが、ここでは「〜しなければならない」という意味のmustが適切です。",
+        "2": "could have been ponderingは「熟考していたかもしれない」という弱い推量を表しますが、ここでは強い推量を表すのでmustを使います。",
+        "3": "wouldは「〜するだろう（仮定）」という意味ですが、ここでは「〜しなければならない」という意味のmustが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-075",
+    "category": "jodoushi",
+    "question": "They ___ ___ have met the deadline if they had not been able to secure the resources that were available.",
+    "options": [
+      "would, not",
+      "should, not",
+      "could, not",
+      "might, not"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "would not have metは「達成しなかっただろう（仮定法）」、the deadlineは「期限」、if they had not been able to secureは「確保できなかったなら」、the resources that were availableは「利用可能だった資源」という意味です。仮定法、完了形、関係代名詞、不定詞を組み合わせた非常に複雑な文構造です。",
+      "translation": "もし彼らが利用可能だった資源を確保できなかったなら、期限を達成しなかっただろう。",
+      "structure": "[S: They] [V: would not have met] [O: the deadline] [OTHER: if they had not been able to secure the resources] [RC: that were available]",
+      "wrongOptionExplanations": {
+        "1": "should not be reachingは「到達すべきではない」という意味ですが、ここでは仮定法を表すのでwouldを使います。",
+        "2": "could not have achievedは「達成できなかったはずだ」という意味ですが、ここでは仮定法を表すのでwouldを使います。",
+        "3": "might not have reachedは「到達しなかったかもしれない」という弱い推量を表しますが、ここでは仮定法を表すのでwouldを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-076",
+    "category": "jodoushi",
+    "question": "She ___ ___ ___ been able the problem to she solve if had not access the expertise to we the that have been developing.",
+    "options": [
+      "should, not, have",
+      "could, not, be",
+      "might, not, have",
+      "would, not, have"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "should not have been able to solveは「解決できなかったはずだ」、the problemは「問題」、if she had not had access toは「アクセスを持っていなかったなら」、the expertise that we have been developingは「私たちが開発してきた専門知識」という意味です。完了形、仮定法、関係代名詞、現在完了進行形を組み合わせた非常に複雑な文構造です。",
+      "translation": "もし彼女が私たちが開発してきた専門知識にアクセスを持っていなかったなら、その問題を解決できなかったはずだ。",
+      "structure": "[S: She] [V: should not have been able] [INF: to solve the problem] [OTHER: if she had not had access to the expertise] [RC: that we have been developing]",
+      "wrongOptionExplanations": {
+        "1": "could not beは文法的に正しくありません。ここではshould not haveが適切です。",
+        "2": "might not have been competentは「有能でなかったかもしれない」という弱い推量を表しますが、ここでは後悔を表すのでshouldを使います。",
+        "3": "would not have been proficientは「熟練していなかっただろう」という仮定法を表しますが、ここでは後悔を表すのでshouldを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-077",
+    "category": "jodoushi",
+    "question": "We ___ ___ ___ working on the project we when should have been receiving the support that was required.",
+    "options": [
+      "must, have, been",
+      "should, be, being",
+      "could, have, been",
+      "would, be, being"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "must have been working onは「取り組んでいたに違いない（推量の完了進行形）」、the projectは「プロジェクト」、when we should have been receivingは「受け取るべきだった時に」、the support that was requiredは「必要だった支援」という意味です。完了進行形、推量、関係代名詞を組み合わせた非常に複雑な文構造です。",
+      "translation": "私たちが必要だった支援を受け取るべきだった時に、私たちはそのプロジェクトに取り組んでいたに違いない。",
+      "structure": "[S: We] [V: must have been working] [PP: on the project] [OTHER: when we should have been receiving the support] [RC: that was required]",
+      "wrongOptionExplanations": {
+        "1": "shouldは「〜すべきだ」という意味ですが、ここでは「〜しなければならない」という意味のmustが適切です。",
+        "2": "could have been handlingは「処理していたかもしれない」という弱い推量を表しますが、ここでは強い推量を表すのでmustを使います。",
+        "3": "wouldは「〜するだろう（仮定）」という意味ですが、ここでは「〜しなければならない」という意味のmustが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-078",
+    "category": "jodoushi",
+    "question": "He ___ ___ have missed the opportunity if he had been properly prepared for the preparation that we have been providing.",
+    "options": [
+      "would, not",
+      "should, not",
+      "could, not",
+      "might, not"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "would not have missedは「逃さなかっただろう（仮定法）」、the opportunityは「機会」、if he had been properly prepared forは「適切に準備していたなら」、the preparation that we have been providingは「私たちが提供してきた準備」という意味です。仮定法、完了形、関係代名詞、現在完了進行形を組み合わせた非常に複雑な文構造です。",
+      "translation": "もし彼が私たちが提供してきた準備に適切に準備していたなら、その機会を逃さなかっただろう。",
+      "structure": "[S: He] [V: would not have missed] [O: the opportunity] [OTHER: if he had been properly prepared for the preparation] [RC: that we have been providing]",
+      "wrongOptionExplanations": {
+        "1": "should not be losingは「失うべきではない」という意味ですが、ここでは仮定法を表すのでwouldを使います。",
+        "2": "could not have passedは「通過できなかったはずだ」という意味ですが、ここでは仮定法を表すのでwouldを使います。",
+        "3": "might not have givenは「与えなかったかもしれない」という弱い推量を表しますが、ここでは仮定法を表すのでwouldを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-079",
+    "category": "jodoushi",
+    "question": "They ___ ___ have been able the challenge to they overcome if had not been developing the skills were necessary.",
+    "options": [
+      "should, not",
+      "could, not",
+      "might, not",
+      "would, not"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "should not have been able to overcomeは「克服できなかったはずだ」、the challengeは「挑戦」、if they had not been developingは「開発していなかったなら」、the skills that were necessaryは「必要だった技能」という意味です。完了形、仮定法、関係代名詞、進行形を組み合わせた非常に複雑な文構造です。",
+      "translation": "もし彼らが必要だった技能を開発していなかったなら、その挑戦を克服できなかったはずだ。",
+      "structure": "[S: They] [V: should not have been able] [INF: to overcome the challenge] [OTHER: if they had not been developing the skills] [RC: that were necessary]",
+      "wrongOptionExplanations": {
+        "1": "could not be being capableは文法的に正しくありません。",
+        "2": "might not have been competentは「有能でなかったかもしれない」という弱い推量を表しますが、ここでは後悔を表すのでshouldを使います。",
+        "3": "would not have been proficientは「熟練していなかっただろう」という仮定法を表しますが、ここでは後悔を表すのでshouldを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-080",
+    "category": "jodoushi",
+    "question": "She ___ ___ been reconsidering the decision when she should have been aware of the implications that we have been discussing.",
+    "options": [
+      "must, have",
+      "should, be",
+      "could, have",
+      "would, be"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "must have been reconsideringは「再考していたに違いない（推量の完了進行形）」、the decisionは「決定」、when she should have been aware ofは「気づくべきだった時に」、the implications that we have been discussingは「私たちが議論してきた含意」という意味です。完了進行形、推量、関係代名詞、現在完了進行形を組み合わせた非常に複雑な文構造です。",
+      "translation": "私たちが議論してきた含意に気づくべきだった時に、彼女はその決定を再考していたに違いない。",
+      "structure": "[S: She] [V: must have been reconsidering] [O: the decision] [OTHER: when she should have been aware of the implications] [RC: that we have been discussing]",
+      "wrongOptionExplanations": {
+        "1": "shouldは「〜すべきだ」という意味ですが、ここでは「〜しなければならない」という意味のmustが適切です。",
+        "2": "could have been ponderingは「熟考していたかもしれない」という弱い推量を表しますが、ここでは強い推量を表すのでmustを使います。",
+        "3": "wouldは「〜するだろう（仮定）」という意味ですが、ここでは「〜しなければならない」という意味のmustが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-081",
+    "category": "jodoushi",
+    "question": "He ___ ___ ___ made the mistake if he had been following the that have been the instructions providing we.",
+    "options": [
+      "should, not, have",
+      "could, not, be",
+      "might, not, have",
+      "would, not, be"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "should not have madeは「作るべきではなかった」、the mistakeは「間違い」、if he had been followingは「従っていたなら」、the instructions that we have been providingは「私たちが提供してきた指示」という意味です。完了形、仮定法、関係代名詞、現在完了進行形を組み合わせた非常に複雑な文構造です。",
+      "translation": "もし彼が私たちが提供してきた指示に従っていたなら、その間違いを作るべきではなかった。",
+      "structure": "[S: He] [V: should not have made] [O: the mistake] [OTHER: if he had been following the instructions] [RC: that we have been providing]",
+      "wrongOptionExplanations": {
+        "1": "couldは「〜できた」という意味ですが、ここでは「〜すべきだ」という意味のshouldが適切です。",
+        "2": "might not have been creatingは「作っていなかったかもしれない」という弱い推量を表しますが、ここでは後悔を表すのでshouldを使います。",
+        "3": "wouldは「〜するだろう（仮定）」という意味ですが、ここでは「〜すべきだ」という意味のshouldが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-082",
+    "category": "jodoushi",
+    "question": "They ___ ___ ___ been able to the opportunity seize they if had not been making the preparation was necessary.",
+    "options": [
+      "would, not, have",
+      "should, not, be",
+      "could, not, have",
+      "might, not, have"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "would not have been able to seizeは「掴むことができなかっただろう（仮定法）」、the opportunityは「機会」、if they had not been makingは「作っていなかったなら」、the preparation that was necessaryは「必要だった準備」という意味です。仮定法、完了形、関係代名詞、進行形を組み合わせた非常に複雑な文構造です。",
+      "translation": "もし彼らが必要だった準備をしていなかったなら、その機会を掴むことができなかっただろう。",
+      "structure": "[S: They] [V: would not have been able] [INF: to seize the opportunity] [OTHER: if they had not been making the preparation] [RC: that was necessary]",
+      "wrongOptionExplanations": {
+        "1": "should not beは文法的に正しくありません。ここではwould not haveが適切です。",
+        "2": "could not have been competentは「有能でなかったはずだ」という意味ですが、ここでは仮定法を表すのでwouldを使います。",
+        "3": "might not have been proficientは「熟練していなかったかもしれない」という弱い推量を表しますが、ここでは仮定法を表すのでwouldを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-083",
+    "category": "jodoushi",
+    "question": "She ___ ___ ___ struggling with the problem when she should have been using the that have the expertise been we developing.",
+    "options": [
+      "must, have, been",
+      "should, be, being",
+      "could, have, been",
+      "would, be, being"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "must have been struggling withは「苦労していたに違いない（推量の完了進行形）」、the problemは「問題」、when she should have been usingは「使うべきだった時に」、the expertise that we have been developingは「私たちが開発してきた専門知識」という意味です。完了進行形、推量、関係代名詞、現在完了進行形を組み合わせた非常に複雑な文構造です。",
+      "translation": "私たちが開発してきた専門知識を使うべきだった時に、彼女はその問題に苦労していたに違いない。",
+      "structure": "[S: She] [V: must have been struggling] [PP: with the problem] [OTHER: when she should have been using the expertise] [RC: that we have been developing]",
+      "wrongOptionExplanations": {
+        "1": "shouldは「〜すべきだ」という意味ですが、ここでは「〜しなければならない」という意味のmustが適切です。",
+        "2": "could have been handlingは「処理していたかもしれない」という弱い推量を表しますが、ここでは強い推量を表すのでmustを使います。",
+        "3": "wouldは「〜するだろう（仮定）」という意味ですが、ここでは「〜しなければならない」という意味のmustが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-084",
+    "category": "jodoushi",
+    "question": "We ___ ___ ___ been able to the deadline meet we if had not been securing the that resources were available.",
+    "options": [
+      "should, not, have",
+      "could, not, be",
+      "might, not, have",
+      "would, not, have"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "should not have been able to meetは「達成できなかったはずだ」、the deadlineは「期限」、if we had not been securingは「確保していなかったなら」、the resources that were availableは「利用可能だった資源」という意味です。完了形、仮定法、関係代名詞、進行形を組み合わせた非常に複雑な文構造です。",
+      "translation": "もし私たちが利用可能だった資源を確保していなかったなら、期限を達成できなかったはずだ。",
+      "structure": "[S: We] [V: should not have been able] [INF: to meet the deadline] [OTHER: if we had not been securing the resources] [RC: that were available]",
+      "wrongOptionExplanations": {
+        "1": "could not beは文法的に正しくありません。ここではshould not haveが適切です。",
+        "2": "might not have been competentは「有能でなかったかもしれない」という弱い推量を表しますが、ここでは後悔を表すのでshouldを使います。",
+        "3": "would not have been proficientは「熟練していなかっただろう」という仮定法を表しますが、ここでは後悔を表すのでshouldを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-085",
+    "category": "jodoushi",
+    "question": "He ___ ___ ___ reconsidering the when decision should he have been aware of the that have the implications been we discussing.",
+    "options": [
+      "must, have, been",
+      "should, be, being",
+      "could, have, been",
+      "would, be, being"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "must have been reconsideringは「再考していたに違いない（推量の完了進行形）」、the decisionは「決定」、when he should have been aware ofは「気づくべきだった時に」、the implications that we have been discussingは「私たちが議論してきた含意」という意味です。完了進行形、推量、関係代名詞、現在完了進行形を組み合わせた非常に複雑な文構造です。",
+      "translation": "私たちが議論してきた含意に気づくべきだった時に、彼はその決定を再考していたに違いない。",
+      "structure": "[S: He] [V: must have been reconsidering] [O: the decision] [OTHER: when he should have been aware of the implications] [RC: that we have been discussing]",
+      "wrongOptionExplanations": {
+        "1": "shouldは「〜すべきだ」という意味ですが、ここでは「〜しなければならない」という意味のmustが適切です。",
+        "2": "could have been ponderingは「熟考していたかもしれない」という弱い推量を表しますが、ここでは強い推量を表すのでmustを使います。",
+        "3": "wouldは「〜するだろう（仮定）」という意味ですが、ここでは「〜しなければならない」という意味のmustが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-086",
+    "category": "jodoushi",
+    "question": "They ___ ___ ___ been able to the challenge overcome they if had not been developing the that skills were necessary.",
+    "options": [
+      "would, not, have",
+      "should, not, be",
+      "could, not, have",
+      "might, not, have"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "would not have been able to overcomeは「克服できなかっただろう（仮定法）」、the challengeは「挑戦」、if they had not been developingは「開発していなかったなら」、the skills that were necessaryは「必要だった技能」という意味です。仮定法、完了形、関係代名詞、進行形を組み合わせた非常に複雑な文構造です。",
+      "translation": "もし彼らが必要だった技能を開発していなかったなら、その挑戦を克服できなかっただろう。",
+      "structure": "[S: They] [V: would not have been able] [INF: to overcome the challenge] [OTHER: if they had not been developing the skills] [RC: that were necessary]",
+      "wrongOptionExplanations": {
+        "1": "should not beは文法的に正しくありません。ここではwould not haveが適切です。",
+        "2": "could not have been competentは「有能でなかったはずだ」という意味ですが、ここでは仮定法を表すのでwouldを使います。",
+        "3": "might not have been proficientは「熟練していなかったかもしれない」という弱い推量を表しますが、ここでは仮定法を表すのでwouldを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-087",
+    "category": "jodoushi",
+    "question": "She ___ ___ have been able to the opportunity seize she if had not been making the that preparation have we been providing.",
+    "options": [
+      "should, not",
+      "could, not",
+      "might, not",
+      "would, not"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "should not have been able to seizeは「掴むことができなかったはずだ」、the opportunityは「機会」、if she had not been makingは「作っていなかったなら」、the preparation that we have been providingは「私たちが提供してきた準備」という意味です。完了形、仮定法、関係代名詞、現在完了進行形を組み合わせた非常に複雑な文構造です。",
+      "translation": "もし彼女が私たちが提供してきた準備をしていなかったなら、その機会を掴むことができなかったはずだ。",
+      "structure": "[S: She] [V: should not have been able] [INF: to seize the opportunity] [OTHER: if she had not been making the preparation] [RC: that we have been providing]",
+      "wrongOptionExplanations": {
+        "1": "could not be being capableは文法的に正しくありません。",
+        "2": "might not have been competentは「有能でなかったかもしれない」という弱い推量を表しますが、ここでは後悔を表すのでshouldを使います。",
+        "3": "would not have been proficientは「熟練していなかっただろう」という仮定法を表しますが、ここでは後悔を表すのでshouldを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-088",
+    "category": "jodoushi",
+    "question": "We ___ ___ been working on the project when we should have been receiving the that support was required.",
+    "options": [
+      "must, have",
+      "should, be",
+      "could, have",
+      "would, be"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "must have been working onは「取り組んでいたに違いない（推量の完了進行形）」、the projectは「プロジェクト」、when we should have been receivingは「受け取るべきだった時に」、the support that was requiredは「必要だった支援」という意味です。完了進行形、推量、関係代名詞を組み合わせた非常に複雑な文構造です。",
+      "translation": "私たちが必要だった支援を受け取るべきだった時に、私たちはそのプロジェクトに取り組んでいたに違いない。",
+      "structure": "[S: We] [V: must have been working] [PP: on the project] [OTHER: when we should have been receiving the support] [RC: that was required]",
+      "wrongOptionExplanations": {
+        "1": "shouldは「〜すべきだ」という意味ですが、ここでは「〜しなければならない」という意味のmustが適切です。",
+        "2": "could have been handlingは「処理していたかもしれない」という弱い推量を表しますが、ここでは強い推量を表すのでmustを使います。",
+        "3": "wouldは「〜するだろう（仮定）」という意味ですが、ここでは「〜しなければならない」という意味のmustが適切です。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-089",
+    "category": "jodoushi",
+    "question": "He ___ ___ ___ been able to the problem solve he if had not access to the expertise that we have been developing.",
+    "options": [
+      "would, not, have",
+      "should, not, be",
+      "could, not, have",
+      "might, not, have"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "would not have been able to solveは「解決できなかっただろう（仮定法）」、the problemは「問題」、if he had not had access toは「アクセスを持っていなかったなら」、the expertise that we have been developingは「私たちが開発してきた専門知識」という意味です。仮定法、完了形、関係代名詞、現在完了進行形を組み合わせた非常に複雑な文構造です。",
+      "translation": "もし彼が私たちが開発してきた専門知識にアクセスを持っていなかったなら、その問題を解決できなかっただろう。",
+      "structure": "[S: He] [V: would not have been able] [INF: to solve the problem] [OTHER: if he had not had access to the expertise] [RC: that we have been developing]",
+      "wrongOptionExplanations": {
+        "1": "should not beは文法的に正しくありません。ここではwould not haveが適切です。",
+        "2": "could not have been competentは「有能でなかったはずだ」という意味ですが、ここでは仮定法を表すのでwouldを使います。",
+        "3": "might not have been proficientは「熟練していなかったかもしれない」という弱い推量を表しますが、ここでは仮定法を表すのでwouldを使います。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "modal-090",
+    "category": "jodoushi",
+    "question": "They ___ ___ have been able to the deadline meet they if had not been securing the that resources were necessary.",
+    "options": [
+      "should, not",
+      "could, not",
+      "might, not",
+      "would, not"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "should not have been able to meetは「達成できなかったはずだ」、the deadlineは「期限」、if they had not been securingは「確保していなかったなら」、the resources that were necessaryは「必要だった資源」という意味です。完了形、仮定法、関係代名詞、進行形を組み合わせた非常に複雑な文構造です。",
+      "translation": "もし彼らが必要だった資源を確保していなかったなら、期限を達成できなかったはずだ。",
+      "structure": "[S: They] [V: should not have been able] [INF: to meet the deadline] [OTHER: if they had not been securing the resources] [RC: that were necessary]",
+      "wrongOptionExplanations": {
+        "1": "could not be being capableは文法的に正しくありません。",
+        "2": "might not have been competentは「有能でなかったかもしれない」という弱い推量を表しますが、ここでは後悔を表すのでshouldを使います。",
+        "3": "would not have been proficientは「熟練していなかっただろう」という仮定法を表しますが、ここでは後悔を表すのでshouldを使います。"
+      }
+    },
+    "difficulty": 2
+  }
+]

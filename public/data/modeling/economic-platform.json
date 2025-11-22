@@ -1,0 +1,669 @@
+[
+  {
+    "id": "eco-001",
+    "category": "modeling",
+    "question": "財務データの変換処理を実装する場合、決算情報と株価情報を異なる形式に変換する関数をテストしやすく単一責務になるようにモデリングしたいです。\n\n**要件**:\n  - 決算情報をJSONに変換する関数\n  - 株価情報をCSVに変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface FinancialData {\n    val companyId: String\n    val date: LocalDate\n}\n\ndata class EarningsData(\n    override val companyId: String,\n    override val date: LocalDate,\n    val revenue: BigDecimal,\n    val operatingProfit: BigDecimal,\n    val netProfit: BigDecimal,\n    val announcementDate: LocalDate\n) : FinancialData\n\ndata class StockPriceData(\n    override val companyId: String,\n    override val date: LocalDate,\n    val open: BigDecimal,\n    val high: BigDecimal,\n    val low: BigDecimal,\n    val close: BigDecimal,\n    val volume: Long\n) : FinancialData\n```\n\n**メリット**: interfaceとdata classで型安全に区別でき、各変換関数を独立した関数として定義することで単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class FinancialData(\n    val companyId: String,\n    val date: LocalDate,\n    val type: String,\n    val revenue: BigDecimal?,\n    val operatingProfit: BigDecimal?,\n    val netProfit: BigDecimal?,\n    val open: BigDecimal?,\n    val high: BigDecimal?,\n    val low: BigDecimal?,\n    val close: BigDecimal?,\n    val volume: Long?\n)\n```\n\n**メリット**: 1つのdata classで全てのデータを表現できる",
+      "```kotlin\nclass EarningsData(\n    val companyId: String,\n    val date: LocalDate,\n    val revenue: BigDecimal,\n    val operatingProfit: BigDecimal,\n    val netProfit: BigDecimal\n)\n\nclass StockPriceData(\n    val companyId: String,\n    val date: LocalDate,\n    val open: BigDecimal,\n    val high: BigDecimal,\n    val low: BigDecimal,\n    val close: BigDecimal,\n    val volume: Long\n)\n```\n\n**メリット**: シンプルなクラス定義で実装できる",
+      "```kotlin\ndata class FinancialData(\n    val companyId: String,\n    val date: LocalDate,\n    val isEarnings: Boolean,\n    val earningsData: EarningsData?,\n    val stockPriceData: StockPriceData?\n)\n```\n\n**メリット**: Booleanフラグで型を区別できる"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、決算情報と株価情報を型安全に区別できます。共通の属性（企業ID、日付）をinterfaceに定義し、それぞれのデータ型に固有の属性を各data classに定義します。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。",
+      "translation": "interfaceとdata classを使用して、決算情報と株価情報を型安全にモデリングし、変換関数を独立した関数として定義します。",
+      "structure": "[S: interface] [V: 定義] [O: FinancialData] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、typeが\"earnings\"なのにopenがnullでないという不正な状態を表現できてしまいます。また、変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、変換関数を実装する際にコードの重複が発生しやすくなります。共通のインターフェースがないため、変換関数のテストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isEarningsがtrueなのにearningsDataがnullという不正な状態を表現できてしまいます。変換関数を実装する際に、不正な状態をチェックする必要があり、単一責務の原則に反します。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-002",
+    "category": "modeling",
+    "question": "ユーザー情報の変換処理を実装する場合、一般ユーザー、プレミアムユーザー、アナリストユーザーを異なる形式に変換する関数をテストしやすく単一責務になるようにモデリングしたいです。\n\n**要件**:\n  - 各ユーザータイプをJSONに変換する関数\n  - 各ユーザータイプをCSVに変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface User {\n    val name: String\n    val email: String\n    val passwordHash: String\n    val registeredAt: LocalDateTime\n}\n\ndata class RegularUser(\n    override val name: String,\n    override val email: String,\n    override val passwordHash: String,\n    override val registeredAt: LocalDateTime\n) : User\n\ndata class PremiumUser(\n    override val name: String,\n    override val email: String,\n    override val passwordHash: String,\n    override val registeredAt: LocalDateTime,\n    val subscriptionStartDate: LocalDateTime,\n    val planType: PlanType\n) : User\n\ndata class AnalystUser(\n    override val name: String,\n    override val email: String,\n    override val passwordHash: String,\n    override val registeredAt: LocalDateTime,\n    val organization: String,\n    val certifications: List<String>\n) : User\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class User(\n    val name: String,\n    val email: String,\n    val passwordHash: String,\n    val registeredAt: LocalDateTime,\n    val userType: String,\n    val subscriptionStartDate: LocalDateTime?,\n    val planType: PlanType?,\n    val organization: String?,\n    val certifications: List<String>?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass RegularUser(\n    val name: String,\n    val email: String,\n    val passwordHash: String,\n    val registeredAt: LocalDateTime\n)\nclass PremiumUser(\n    val name: String,\n    val email: String,\n    val passwordHash: String,\n    val registeredAt: LocalDateTime,\n    val subscriptionStartDate: LocalDateTime,\n    val planType: PlanType\n)\nclass AnalystUser(\n    val name: String,\n    val email: String,\n    val passwordHash: String,\n    val registeredAt: LocalDateTime,\n    val organization: String,\n    val certifications: List<String>\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class User(\n    val name: String,\n    val email: String,\n    val passwordHash: String,\n    val registeredAt: LocalDateTime,\n    val isPremium: Boolean,\n    val isAnalyst: Boolean,\n    val subscriptionStartDate: LocalDateTime?,\n    val planType: PlanType?,\n    val organization: String?,\n    val certifications: List<String>?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、3種類のユーザーを型安全に表現できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（名前、メール、パスワード、登録日）をinterfaceに定義し、各ユーザータイプに固有の属性を各data classに定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、3種類のユーザーを型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: User] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、userTypeが\"premium\"なのにplanTypeがnullという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isPremiumがtrueなのにsubscriptionStartDateがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-003",
+    "category": "modeling",
+    "question": "ニュース記事とレポートを扱う場合、それぞれ異なる属性を持ちます。\n\n**具体例**:\n- ニュース記事: タイトル、本文、公開日、著者、タグ、閲覧数\n- レポート: タイトル、本文、公開日、著者、対象企業、レポート種別、PDF URL\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface Content {\n    val title: String\n    val body: String\n    val publishedAt: LocalDateTime\n    val author: String\n}\n\ndata class NewsArticle(\n    override val title: String,\n    override val body: String,\n    override val publishedAt: LocalDateTime,\n    override val author: String,\n    val tags: List<String>,\n    val viewCount: Int\n) : Content\n\ndata class Report(\n    override val title: String,\n    override val body: String,\n    override val publishedAt: LocalDateTime,\n    override val author: String,\n    val targetCompany: String,\n    val reportType: ReportType,\n    val pdfUrl: String\n) : Content\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class Content(\n    val title: String,\n    val body: String,\n    val publishedAt: LocalDateTime,\n    val author: String,\n    val contentType: String,\n    val tags: List<String>?,\n    val viewCount: Int?,\n    val targetCompany: String?,\n    val reportType: ReportType?,\n    val pdfUrl: String?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass NewsArticle(\n    val title: String,\n    val body: String,\n    val publishedAt: LocalDateTime,\n    val author: String,\n    val tags: List<String>,\n    val viewCount: Int\n)\nclass Report(\n    val title: String,\n    val body: String,\n    val publishedAt: LocalDateTime,\n    val author: String,\n    val targetCompany: String,\n    val reportType: ReportType,\n    val pdfUrl: String\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class Content(\n    val title: String,\n    val body: String,\n    val publishedAt: LocalDateTime,\n    val author: String,\n    val isNews: Boolean,\n    val tags: List<String>?,\n    val viewCount: Int?,\n    val targetCompany: String?,\n    val reportType: ReportType?,\n    val pdfUrl: String?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、ニュース記事とレポートを型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（タイトル、本文、公開日、著者）をinterfaceに定義し、それぞれのコンテンツ型に固有の属性を各data classに定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、ニュース記事とレポートを型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: Content] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、contentTypeが\"news\"なのにtargetCompanyがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isNewsがtrueなのにtagsがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-004",
+    "category": "modeling",
+    "question": "データソースを扱う場合、API、スクレイピング、手動入力の3種類を区別する必要があります。\n\n**具体例**:\n- APIデータソース: 名前、エンドポイントURL、認証情報、更新頻度\n- スクレイピングデータソース: 名前、スクレイピングURL、セレクター、更新頻度\n- 手動入力データソース: 名前、入力者、最終更新日時\n\n変換関数をテストしやすく単一責務になるようにモデリングしたいです。\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface DataSource {\n    val name: String\n}\n\ndata class ApiDataSource(\n    override val name: String,\n    val endpointUrl: String,\n    val authInfo: AuthInfo,\n    val updateFrequency: UpdateFrequency\n) : DataSource\n\ndata class ScrapingDataSource(\n    override val name: String,\n    val scrapingUrl: String,\n    val selector: String,\n    val updateFrequency: UpdateFrequency\n) : DataSource\n\ndata class ManualDataSource(\n    override val name: String,\n    val inputter: String,\n    val lastUpdatedAt: LocalDateTime\n) : DataSource\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class DataSource(\n    val name: String,\n    val sourceType: String,\n    val endpointUrl: String?,\n    val authInfo: AuthInfo?,\n    val scrapingUrl: String?,\n    val selector: String?,\n    val inputter: String?,\n    val lastUpdatedAt: LocalDateTime?,\n    val updateFrequency: UpdateFrequency?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass ApiDataSource(\n    val name: String,\n    val endpointUrl: String,\n    val authInfo: AuthInfo,\n    val updateFrequency: UpdateFrequency\n)\nclass ScrapingDataSource(\n    val name: String,\n    val scrapingUrl: String,\n    val selector: String,\n    val updateFrequency: UpdateFrequency\n)\nclass ManualDataSource(\n    val name: String,\n    val inputter: String,\n    val lastUpdatedAt: LocalDateTime\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class DataSource(\n    val name: String,\n    val isApi: Boolean,\n    val isScraping: Boolean,\n    val isManual: Boolean,\n    val endpointUrl: String?,\n    val authInfo: AuthInfo?,\n    val scrapingUrl: String?,\n    val selector: String?,\n    val inputter: String?,\n    val lastUpdatedAt: LocalDateTime?,\n    val updateFrequency: UpdateFrequency?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、3種類のデータソースを型安全に表現できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（名前）をinterfaceに定義し、各データソース型に固有の属性を各data classに定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、3種類のデータソースを型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: DataSource] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、sourceTypeが\"api\"なのにendpointUrlがnullという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isApiがtrueなのにendpointUrlがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-005",
+    "category": "modeling",
+    "question": "サブスクリプション管理において、月額プランと年額プランを区別する必要があります。\n\n**具体例**:\n- 月額プラン: プラン名、月額料金、開始日、次回請求日\n- 年額プラン: プラン名、年額料金、開始日、次回請求日、年間割引率\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface SubscriptionPlan {\n    val name: String\n    val startDate: LocalDate\n    val nextBillingDate: LocalDate\n}\n\ndata class MonthlyPlan(\n    override val name: String,\n    override val startDate: LocalDate,\n    override val nextBillingDate: LocalDate,\n    val monthlyPrice: BigDecimal\n) : SubscriptionPlan\n\ndata class YearlyPlan(\n    override val name: String,\n    override val startDate: LocalDate,\n    override val nextBillingDate: LocalDate,\n    val yearlyPrice: BigDecimal,\n    val annualDiscountRate: BigDecimal\n) : SubscriptionPlan\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class SubscriptionPlan(\n    val name: String,\n    val startDate: LocalDate,\n    val nextBillingDate: LocalDate,\n    val planType: String,\n    val monthlyPrice: BigDecimal?,\n    val yearlyPrice: BigDecimal?,\n    val annualDiscountRate: BigDecimal?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass MonthlyPlan(\n    val name: String,\n    val startDate: LocalDate,\n    val nextBillingDate: LocalDate,\n    val monthlyPrice: BigDecimal\n)\nclass YearlyPlan(\n    val name: String,\n    val startDate: LocalDate,\n    val nextBillingDate: LocalDate,\n    val yearlyPrice: BigDecimal,\n    val annualDiscountRate: BigDecimal\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class SubscriptionPlan(\n    val name: String,\n    val startDate: LocalDate,\n    val nextBillingDate: LocalDate,\n    val isMonthly: Boolean,\n    val monthlyPrice: BigDecimal?,\n    val yearlyPrice: BigDecimal?,\n    val annualDiscountRate: BigDecimal?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、月額プランと年額プランを型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（プラン名、開始日、次回請求日）をinterfaceに定義し、各プラン型に固有の属性を各data classに定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、月額プランと年額プランを型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: SubscriptionPlan] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、planTypeが\"monthly\"なのにyearlyPriceがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isMonthlyがtrueなのにmonthlyPriceがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-006",
+    "category": "modeling",
+    "question": "通知システムにおいて、メール通知、プッシュ通知、SMS通知を区別する必要があります。\n\n**具体例**:\n- メール通知: 宛先、件名、本文、送信日時\n- プッシュ通知: デバイストークン、タイトル、本文、送信日時、優先度\n- SMS通知: 電話番号、本文、送信日時、送信ステータス\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface Notification {\n    val body: String\n    val sentAt: LocalDateTime \n}\n\ndata class EmailNotification(\n    override val body: String,\n    override val sentAt: LocalDateTime,\n    val recipient: String,\n    val subject: String\n) : Notification\n\ndata class PushNotification(\n    override val body: String,\n    override val sentAt: LocalDateTime,\n    val deviceToken: String,\n    val title: String,\n    val priority: NotificationPriority\n) : Notification\n\ndata class SmsNotification(\n    override val body: String,\n    override val sentAt: LocalDateTime,\n    val phoneNumber: String,\n    val status: SmsStatus\n) : Notification\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class Notification(\n    val body: String,\n    val sentAt: LocalDateTime,\n    val notificationType: String,\n    val recipient: String?,\n    val subject: String?,\n    val deviceToken: String?,\n    val title: String?,\n    val priority: NotificationPriority?,\n    val phoneNumber: String?,\n    val status: SmsStatus?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass EmailNotification(\n    val body: String,\n    val sentAt: LocalDateTime,\n    val recipient: String,\n    val subject: String\n)\nclass PushNotification(\n    val body: String,\n    val sentAt: LocalDateTime,\n    val deviceToken: String,\n    val title: String,\n    val priority: NotificationPriority\n)\nclass SmsNotification(\n    val body: String,\n    val sentAt: LocalDateTime,\n    val phoneNumber: String,\n    val status: SmsStatus\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class Notification(\n    val body: String,\n    val sentAt: LocalDateTime,\n    val isEmail: Boolean,\n    val isPush: Boolean,\n    val isSms: Boolean,\n    val recipient: String?,\n    val subject: String?,\n    val deviceToken: String?,\n    val title: String?,\n    val priority: NotificationPriority?,\n    val phoneNumber: String?,\n    val status: SmsStatus?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、3種類の通知を型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（本文、送信日時）をinterfaceに定義し、各通知型に固有の属性を各data classに定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、3種類の通知を型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: Notification] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、notificationTypeが\"email\"なのにdeviceTokenがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isEmailがtrueなのにrecipientがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-007",
+    "category": "modeling",
+    "question": "検索機能において、企業検索、ニュース検索、レポート検索を統一的に扱う必要があります。\n\n**具体例**:\n- 企業検索: クエリ文字列、業種フィルター、上場/非上場フィルター、ソート順\n- ニュース検索: クエリ文字列、日付範囲フィルター、タグフィルター、ソート順\n- レポート検索: クエリ文字列、対象企業フィルター、レポート種別フィルター、ソート順\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface SearchRequest {\n    val query: String\n    val sortOrder: SortOrder \n}\n\ndata class CompanySearchRequest(\n    override val query: String,\n    override val sortOrder: SortOrder,\n    val industryFilter: String?,\n    val listingStatusFilter: ListingStatus?\n) : SearchRequest\n\ndata class NewsSearchRequest(\n    override val query: String,\n    override val sortOrder: SortOrder,\n    val dateRangeFilter: DateRange?,\n    val tagFilter: List<String>?\n) : SearchRequest\n\ndata class ReportSearchRequest(\n    override val query: String,\n    override val sortOrder: SortOrder,\n    val targetCompanyFilter: String?,\n    val reportTypeFilter: ReportType?\n) : SearchRequest\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class SearchRequest(\n    val query: String,\n    val sortOrder: SortOrder,\n    val searchType: String,\n    val industryFilter: String?,\n    val listingStatusFilter: ListingStatus?,\n    val dateRangeFilter: DateRange?,\n    val tagFilter: List<String>?,\n    val targetCompanyFilter: String?,\n    val reportTypeFilter: ReportType?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass CompanySearchRequest(\n    val query: String,\n    val sortOrder: SortOrder,\n    val industryFilter: String?,\n    val listingStatusFilter: ListingStatus?\n)\nclass NewsSearchRequest(\n    val query: String,\n    val sortOrder: SortOrder,\n    val dateRangeFilter: DateRange?,\n    val tagFilter: List<String>?\n)\nclass ReportSearchRequest(\n    val query: String,\n    val sortOrder: SortOrder,\n    val targetCompanyFilter: String?,\n    val reportTypeFilter: ReportType?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class SearchRequest(\n    val query: String,\n    val sortOrder: SortOrder,\n    val isCompanySearch: Boolean,\n    val isNewsSearch: Boolean,\n    val isReportSearch: Boolean,\n    val industryFilter: String?,\n    val listingStatusFilter: ListingStatus?,\n    val dateRangeFilter: DateRange?,\n    val tagFilter: List<String>?,\n    val targetCompanyFilter: String?,\n    val reportTypeFilter: ReportType?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、3種類の検索リクエストを型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（クエリ文字列、ソート順）をinterfaceに定義し、各検索型に固有のフィルターを各data classに定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、3種類の検索リクエストを型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: SearchRequest] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、searchTypeが\"company\"なのにdateRangeFilterがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isCompanySearchがtrueなのにindustryFilterがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-008",
+    "category": "modeling",
+    "question": "データ可視化において、グラフ、テーブル、ダッシュボードを扱う必要があります。\n\n**具体例**:\n- グラフ: タイトル、データソース、グラフ種別（折れ線、棒、円）、設定\n- テーブル: タイトル、データソース、列定義、ソート設定\n- ダッシュボード: タイトル、含まれるグラフ・テーブルのリスト、レイアウト設定\n\n変換関数をテストしやすく単一責務になるようにモデリングしたいです。\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface Visualization {\n    val title: String\n    val dataSource: String \n}\n\ndata class Chart(\n    override val title: String,\n    override val dataSource: String,\n    val chartType: ChartType,\n    val settings: ChartSettings\n) : Visualization\n\ndata class Table(\n    override val title: String,\n    override val dataSource: String,\n    val columnDefinitions: List<ColumnDefinition>,\n    val sortSettings: SortSettings\n) : Visualization\n\ndata class Dashboard(\n    override val title: String,\n    override val dataSource: String,\n    val visualizations: List<Visualization>,\n    val layoutSettings: LayoutSettings\n) : Visualization\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class Visualization(\n    val title: String,\n    val dataSource: String,\n    val visualizationType: String,\n    val chartType: ChartType?,\n    val settings: ChartSettings?,\n    val columnDefinitions: List<ColumnDefinition>?,\n    val sortSettings: SortSettings?,\n    val visualizations: List<Visualization>?,\n    val layoutSettings: LayoutSettings?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass Chart(\n    val title: String,\n    val dataSource: String,\n    val chartType: ChartType,\n    val settings: ChartSettings\n)\nclass Table(\n    val title: String,\n    val dataSource: String,\n    val columnDefinitions: List<ColumnDefinition>,\n    val sortSettings: SortSettings\n)\nclass Dashboard(\n    val title: String,\n    val dataSource: String,\n    val visualizations: List<Visualization>,\n    val layoutSettings: LayoutSettings\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class Visualization(\n    val title: String,\n    val dataSource: String,\n    val isChart: Boolean,\n    val isTable: Boolean,\n    val isDashboard: Boolean,\n    val chartType: ChartType?,\n    val settings: ChartSettings?,\n    val columnDefinitions: List<ColumnDefinition>?,\n    val sortSettings: SortSettings?,\n    val visualizations: List<Visualization>?,\n    val layoutSettings: LayoutSettings?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、3種類の可視化を型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（タイトル、データソース）をinterfaceに定義し、各可視化型に固有の属性を各data classに定義します。DashboardがVisualizationのリストを含む再帰的な構造も表現できます。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、3種類の可視化を型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: Visualization] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、visualizationTypeが\"chart\"なのにcolumnDefinitionsがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isChartがtrueなのにchartTypeがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-009",
+    "category": "modeling",
+    "question": "レポート生成において、PDFレポート、Excelレポート、HTMLレポートを扱う必要があります。\n\n**具体例**:\n- PDFレポート: タイトル、コンテンツ、テンプレート、生成日時、ファイルサイズ\n- Excelレポート: タイトル、シートリスト、テンプレート、生成日時、ファイルサイズ\n- HTMLレポート: タイトル、HTMLコンテンツ、スタイルシート、生成日時、URL\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface Report {\n    val title: String\n    val generatedAt: LocalDateTime \n}\n\ndata class PdfReport(\n    override val title: String,\n    override val generatedAt: LocalDateTime,\n    val content: ByteArray,\n    val template: ReportTemplate,\n    val fileSize: Long\n) : Report\n\ndata class ExcelReport(\n    override val title: String,\n    override val generatedAt: LocalDateTime,\n    val sheets: List<Sheet>,\n    val template: ReportTemplate,\n    val fileSize: Long\n) : Report\n\ndata class HtmlReport(\n    override val title: String,\n    override val generatedAt: LocalDateTime,\n    val htmlContent: String,\n    val stylesheet: String,\n    val url: String\n) : Report\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class Report(\n    val title: String,\n    val generatedAt: LocalDateTime,\n    val reportType: String,\n    val content: ByteArray?,\n    val template: ReportTemplate?,\n    val fileSize: Long?,\n    val sheets: List<Sheet>?,\n    val htmlContent: String?,\n    val stylesheet: String?,\n    val url: String?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass PdfReport(\n    val title: String,\n    val generatedAt: LocalDateTime,\n    val content: ByteArray,\n    val template: ReportTemplate,\n    val fileSize: Long\n)\nclass ExcelReport(\n    val title: String,\n    val generatedAt: LocalDateTime,\n    val sheets: List<Sheet>,\n    val template: ReportTemplate,\n    val fileSize: Long\n)\nclass HtmlReport(\n    val title: String,\n    val generatedAt: LocalDateTime,\n    val htmlContent: String,\n    val stylesheet: String,\n    val url: String\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class Report(\n    val title: String,\n    val generatedAt: LocalDateTime,\n    val isPdf: Boolean,\n    val isExcel: Boolean,\n    val isHtml: Boolean,\n    val content: ByteArray?,\n    val template: ReportTemplate?,\n    val fileSize: Long?,\n    val sheets: List<Sheet>?,\n    val htmlContent: String?,\n    val stylesheet: String?,\n    val url: String?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、3種類のレポートを型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（タイトル、生成日時）をinterfaceに定義し、各レポート型に固有の属性を各data classに定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、3種類のレポートを型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: Report] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、reportTypeが\"pdf\"なのにsheetsがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isPdfがtrueなのにcontentがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-010",
+    "category": "modeling",
+    "question": "アラート設定において、価格アラート、ニュースアラート、財務指標アラートを区別する必要があります。\n\n**具体例**:\n- 価格アラート: 企業ID、閾値、条件（上回る/下回る）、通知方法\n- ニュースアラート: キーワードリスト、通知方法\n- 財務指標アラート: 企業ID、指標種別、閾値、条件、通知方法\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface Alert {\n    val notificationMethod: NotificationMethod \n}\n\ndata class PriceAlert(\n    override val notificationMethod: NotificationMethod,\n    val companyId: String,\n    val threshold: BigDecimal,\n    val condition: PriceCondition\n) : Alert\n\ndata class NewsAlert(\n    override val notificationMethod: NotificationMethod,\n    val keywords: List<String>\n) : Alert\n\ndata class FinancialIndicatorAlert(\n    override val notificationMethod: NotificationMethod,\n    val companyId: String,\n    val indicatorType: IndicatorType,\n    val threshold: BigDecimal,\n    val condition: IndicatorCondition\n) : Alert\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class Alert(\n    val notificationMethod: NotificationMethod,\n    val alertType: String,\n    val companyId: String?,\n    val threshold: BigDecimal?,\n    val condition: String?,\n    val keywords: List<String>?,\n    val indicatorType: IndicatorType?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass PriceAlert(\n    val notificationMethod: NotificationMethod,\n    val companyId: String,\n    val threshold: BigDecimal,\n    val condition: PriceCondition\n)\nclass NewsAlert(\n    val notificationMethod: NotificationMethod,\n    val keywords: List<String>\n)\nclass FinancialIndicatorAlert(\n    val notificationMethod: NotificationMethod,\n    val companyId: String,\n    val indicatorType: IndicatorType,\n    val threshold: BigDecimal,\n    val condition: IndicatorCondition\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class Alert(\n    val notificationMethod: NotificationMethod,\n    val isPriceAlert: Boolean,\n    val isNewsAlert: Boolean,\n    val isFinancialIndicatorAlert: Boolean,\n    val companyId: String?,\n    val threshold: BigDecimal?,\n    val condition: String?,\n    val keywords: List<String>?,\n    val indicatorType: IndicatorType?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、3種類のアラートを型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（通知方法）をinterfaceに定義し、各アラート型に固有の属性を各data classに定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、3種類のアラートを型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: Alert] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、alertTypeが\"price\"なのにkeywordsがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isPriceAlertがtrueなのにcompanyIdがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-011",
+    "category": "modeling",
+    "question": "認証情報を扱う場合、APIキー認証、OAuth認証、基本認証を区別する必要があります。\n\n**具体例**:\n- APIキー認証: APIキー、有効期限\n- OAuth認証: アクセストークン、リフレッシュトークン、有効期限、スコープ\n- 基本認証: ユーザー名、パスワード\n\n変換関数をテストしやすく単一責務になるようにモデリングしたいです。\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface AuthInfo {\n    val expiresAt: LocalDateTime? \n}\n\ndata class ApiKeyAuth(\n    override val expiresAt: LocalDateTime?,\n    val apiKey: String\n) : AuthInfo\n\ndata class OAuthAuth(\n    override val expiresAt: LocalDateTime?,\n    val accessToken: String,\n    val refreshToken: String,\n    val scopes: List<String>\n) : AuthInfo\n\ndata class BasicAuth(\n    val username: String,\n    val password: String\n) : AuthInfo\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class AuthInfo(\n    val authType: String,\n    val apiKey: String?,\n    val expiresAt: LocalDateTime?,\n    val accessToken: String?,\n    val refreshToken: String?,\n    val scopes: List<String>?,\n    val username: String?,\n    val password: String?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass ApiKeyAuth(\n    val apiKey: String,\n    val expiresAt: LocalDateTime?\n)\nclass OAuthAuth(\n    val accessToken: String,\n    val refreshToken: String,\n    val expiresAt: LocalDateTime?,\n    val scopes: List<String>\n)\nclass BasicAuth(\n    val username: String,\n    val password: String\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class AuthInfo(\n    val isApiKey: Boolean,\n    val isOAuth: Boolean,\n    val isBasic: Boolean,\n    val apiKey: String?,\n    val expiresAt: LocalDateTime?,\n    val accessToken: String?,\n    val refreshToken: String?,\n    val scopes: List<String>?,\n    val username: String?,\n    val password: String?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、3種類の認証情報を型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。OAuthとAPIキーは有効期限を持つため、共通の属性としてexpiresAtを定義します。Basic認証は有効期限を持たないため、override val expiresAt: LocalDateTime? = nullとして定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、3種類の認証情報を型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: AuthInfo] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、authTypeが\"apiKey\"なのにaccessTokenがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isApiKeyがtrueなのにapiKeyがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-012",
+    "category": "modeling",
+    "question": "データ更新履歴を扱う場合、自動更新と手動更新を区別する必要があります。\n\n**具体例**:\n- 自動更新: データソースID、更新日時、更新ステータス、エラーメッセージ（失敗時）\n- 手動更新: データソースID、更新日時、更新者、更新理由\n\n変換関数をテストしやすく単一責務になるようにモデリングしたいです。\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface UpdateHistory {\n    val dataSourceId: String\n    val updatedAt: LocalDateTime \n}\n\ndata class AutomaticUpdate(\n    override val dataSourceId: String,\n    override val updatedAt: LocalDateTime,\n    val status: UpdateStatus,\n    val errorMessage: String?\n) : UpdateHistory\n\ndata class ManualUpdate(\n    override val dataSourceId: String,\n    override val updatedAt: LocalDateTime,\n    val updater: String,\n    val reason: String\n) : UpdateHistory\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class UpdateHistory(\n    val dataSourceId: String,\n    val updatedAt: LocalDateTime,\n    val updateType: String,\n    val status: UpdateStatus?,\n    val errorMessage: String?,\n    val updater: String?,\n    val reason: String?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass AutomaticUpdate(\n    val dataSourceId: String,\n    val updatedAt: LocalDateTime,\n    val status: UpdateStatus,\n    val errorMessage: String?\n)\nclass ManualUpdate(\n    val dataSourceId: String,\n    val updatedAt: LocalDateTime,\n    val updater: String,\n    val reason: String\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class UpdateHistory(\n    val dataSourceId: String,\n    val updatedAt: LocalDateTime,\n    val isAutomatic: Boolean,\n    val status: UpdateStatus?,\n    val errorMessage: String?,\n    val updater: String?,\n    val reason: String?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、自動更新と手動更新を型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（データソースID、更新日時）をinterfaceに定義し、各更新型に固有の属性を各data classに定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、自動更新と手動更新を型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: UpdateHistory] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、updateTypeが\"automatic\"なのにupdaterがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isAutomaticがtrueなのにstatusがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-013",
+    "category": "modeling",
+    "question": "データエクスポート機能において、CSVエクスポート、JSONエクスポート、Excelエクスポートを扱う必要があります。\n\n**具体例**:\n- CSVエクスポート: データソース、出力ファイル名、区切り文字、エンコーディング\n- JSONエクスポート: データソース、出力ファイル名、整形オプション\n- Excelエクスポート: データソース、出力ファイル名、シート名、書式設定\n\n変換関数をテストしやすく単一責務になるようにモデリングしたいです。\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface ExportRequest {\n    val dataSource: String\n    val outputFileName: String \n}\n\ndata class CsvExportRequest(\n    override val dataSource: String,\n    override val outputFileName: String,\n    val delimiter: Char,\n    val encoding: String\n) : ExportRequest\n\ndata class JsonExportRequest(\n    override val dataSource: String,\n    override val outputFileName: String,\n    val prettyPrint: Boolean\n) : ExportRequest\n\ndata class ExcelExportRequest(\n    override val dataSource: String,\n    override val outputFileName: String,\n    val sheetName: String,\n    val formatSettings: FormatSettings\n) : ExportRequest\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class ExportRequest(\n    val dataSource: String,\n    val outputFileName: String,\n    val exportType: String,\n    val delimiter: Char?,\n    val encoding: String?,\n    val prettyPrint: Boolean?,\n    val sheetName: String?,\n    val formatSettings: FormatSettings?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass CsvExportRequest(\n    val dataSource: String,\n    val outputFileName: String,\n    val delimiter: Char,\n    val encoding: String\n)\nclass JsonExportRequest(\n    val dataSource: String,\n    val outputFileName: String,\n    val prettyPrint: Boolean\n)\nclass ExcelExportRequest(\n    val dataSource: String,\n    val outputFileName: String,\n    val sheetName: String,\n    val formatSettings: FormatSettings\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class ExportRequest(\n    val dataSource: String,\n    val outputFileName: String,\n    val isCsv: Boolean,\n    val isJson: Boolean,\n    val isExcel: Boolean,\n    val delimiter: Char?,\n    val encoding: String?,\n    val prettyPrint: Boolean?,\n    val sheetName: String?,\n    val formatSettings: FormatSettings?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、3種類のエクスポートリクエストを型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（データソース、出力ファイル名）をinterfaceに定義し、各エクスポート型に固有の属性を各data classに定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、3種類のエクスポートリクエストを型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: ExportRequest] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、exportTypeが\"csv\"なのにsheetNameがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isCsvがtrueなのにdelimiterがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-014",
+    "category": "modeling",
+    "question": "データアクセス権限を扱う場合、読み取り専用、読み書き、管理者権限を区別する必要があります。\n\n**具体例**:\n- 読み取り専用: ユーザーID、対象リソース、有効期限\n- 読み書き: ユーザーID、対象リソース、有効期限、編集可能なフィールドリスト\n- 管理者権限: ユーザーID、対象リソース、有効期限、全ての操作が可能\n\n変換関数をテストしやすく単一責務になるようにモデリングしたいです。\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface AccessPermission {\n    val userId: String\n    val targetResource: String\n    val expiresAt: LocalDateTime? \n}\n\ndata class ReadOnlyPermission(\n    override val userId: String,\n    override val targetResource: String,\n    override val expiresAt: LocalDateTime?\n) : AccessPermission\n\ndata class ReadWritePermission(\n    override val userId: String,\n    override val targetResource: String,\n    override val expiresAt: LocalDateTime?,\n    val editableFields: List<String>\n) : AccessPermission\n\ndata class AdminPermission(\n    override val userId: String,\n    override val targetResource: String,\n    override val expiresAt: LocalDateTime?\n) : AccessPermission\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class AccessPermission(\n    val userId: String,\n    val targetResource: String,\n    val expiresAt: LocalDateTime?,\n    val permissionType: String,\n    val editableFields: List<String>?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass ReadOnlyPermission(\n    val userId: String,\n    val targetResource: String,\n    val expiresAt: LocalDateTime?\n)\nclass ReadWritePermission(\n    val userId: String,\n    val targetResource: String,\n    val expiresAt: LocalDateTime?,\n    val editableFields: List<String>\n)\nclass AdminPermission(\n    val userId: String,\n    val targetResource: String,\n    val expiresAt: LocalDateTime?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class AccessPermission(\n    val userId: String,\n    val targetResource: String,\n    val expiresAt: LocalDateTime?,\n    val isReadOnly: Boolean,\n    val isReadWrite: Boolean,\n    val isAdmin: Boolean,\n    val editableFields: List<String>?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、3種類のアクセス権限を型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（ユーザーID、対象リソース、有効期限）をinterfaceに定義し、各権限型に固有の属性を各data classに定義します。ReadWritePermissionのみがeditableFieldsを持つため、型によって必要な情報が明確になります。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、3種類のアクセス権限を型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: AccessPermission] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、permissionTypeが\"readOnly\"なのにeditableFieldsがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isReadWriteがtrueなのにeditableFieldsがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-015",
+    "category": "modeling",
+    "question": "データバックアップにおいて、自動バックアップと手動バックアップを区別する必要があります。\n\n**具体例**:\n- 自動バックアップ: バックアップID、データソース、バックアップ日時、保存先、保持期間\n- 手動バックアップ: バックアップID、データソース、バックアップ日時、保存先、作成者、バックアップ理由\n\n変換関数をテストしやすく単一責務になるようにモデリングしたいです。\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface Backup {\n    val backupId: String\n    val dataSource: String\n    val backedUpAt: LocalDateTime\n    val storageLocation: String \n}\n\ndata class AutomaticBackup(\n    override val backupId: String,\n    override val dataSource: String,\n    override val backedUpAt: LocalDateTime,\n    override val storageLocation: String,\n    val retentionPeriod: Duration\n) : Backup\n\ndata class ManualBackup(\n    override val backupId: String,\n    override val dataSource: String,\n    override val backedUpAt: LocalDateTime,\n    override val storageLocation: String,\n    val creator: String,\n    val reason: String\n) : Backup\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class Backup(\n    val backupId: String,\n    val dataSource: String,\n    val backedUpAt: LocalDateTime,\n    val storageLocation: String,\n    val backupType: String,\n    val retentionPeriod: Duration?,\n    val creator: String?,\n    val reason: String?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass AutomaticBackup(\n    val backupId: String,\n    val dataSource: String,\n    val backedUpAt: LocalDateTime,\n    val storageLocation: String,\n    val retentionPeriod: Duration\n)\nclass ManualBackup(\n    val backupId: String,\n    val dataSource: String,\n    val backedUpAt: LocalDateTime,\n    val storageLocation: String,\n    val creator: String,\n    val reason: String\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class Backup(\n    val backupId: String,\n    val dataSource: String,\n    val backedUpAt: LocalDateTime,\n    val storageLocation: String,\n    val isAutomatic: Boolean,\n    val retentionPeriod: Duration?,\n    val creator: String?,\n    val reason: String?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、自動バックアップと手動バックアップを型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（バックアップID、データソース、バックアップ日時、保存先）をinterfaceに定義し、各バックアップ型に固有の属性を各data classに定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、自動バックアップと手動バックアップを型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: Backup] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、backupTypeが\"automatic\"なのにcreatorがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isAutomaticがtrueなのにretentionPeriodがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-016",
+    "category": "modeling",
+    "question": "データ同期において、リアルタイム同期、定期同期、手動同期を区別する必要があります。\n\n**具体例**:\n- リアルタイム同期: データソースID、同期開始日時、同期ステータス、WebSocket接続ID\n- 定期同期: データソースID、同期開始日時、同期ステータス、同期間隔、次回同期予定日時\n- 手動同期: データソースID、同期開始日時、同期ステータス、実行者\n\n変換関数をテストしやすく単一責務になるようにモデリングしたいです。\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface SyncJob {\n    val dataSourceId: String\n    val startedAt: LocalDateTime\n    val status: SyncStatus \n}\n\ndata class RealtimeSync(\n    override val dataSourceId: String,\n    override val startedAt: LocalDateTime,\n    override val status: SyncStatus,\n    val websocketConnectionId: String\n) : SyncJob\n\ndata class ScheduledSync(\n    override val dataSourceId: String,\n    override val startedAt: LocalDateTime,\n    override val status: SyncStatus,\n    val interval: Duration,\n    val nextSyncAt: LocalDateTime\n) : SyncJob\n\ndata class ManualSync(\n    override val dataSourceId: String,\n    override val startedAt: LocalDateTime,\n    override val status: SyncStatus,\n    val executor: String\n) : SyncJob\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class SyncJob(\n    val dataSourceId: String,\n    val startedAt: LocalDateTime,\n    val status: SyncStatus,\n    val syncType: String,\n    val websocketConnectionId: String?,\n    val interval: Duration?,\n    val nextSyncAt: LocalDateTime?,\n    val executor: String?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass RealtimeSync(\n    val dataSourceId: String,\n    val startedAt: LocalDateTime,\n    val status: SyncStatus,\n    val websocketConnectionId: String\n)\nclass ScheduledSync(\n    val dataSourceId: String,\n    val startedAt: LocalDateTime,\n    val status: SyncStatus,\n    val interval: Duration,\n    val nextSyncAt: LocalDateTime\n)\nclass ManualSync(\n    val dataSourceId: String,\n    val startedAt: LocalDateTime,\n    val status: SyncStatus,\n    val executor: String\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class SyncJob(\n    val dataSourceId: String,\n    val startedAt: LocalDateTime,\n    val status: SyncStatus,\n    val isRealtime: Boolean,\n    val isScheduled: Boolean,\n    val isManual: Boolean,\n    val websocketConnectionId: String?,\n    val interval: Duration?,\n    val nextSyncAt: LocalDateTime?,\n    val executor: String?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、3種類の同期ジョブを型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（データソースID、開始日時、ステータス）をinterfaceに定義し、各同期型に固有の属性を各data classに定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、3種類の同期ジョブを型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: SyncJob] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、syncTypeが\"realtime\"なのにexecutorがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isRealtimeがtrueなのにwebsocketConnectionIdがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-017",
+    "category": "modeling",
+    "question": "データ検証において、必須チェック、形式チェック、範囲チェックを統一的に扱う必要があります。\n\n**具体例**:\n- 必須チェック: フィールド名、エラーメッセージ\n- 形式チェック: フィールド名、エラーメッセージ、正規表現パターン\n- 範囲チェック: フィールド名、エラーメッセージ、最小値、最大値\n\n変換関数をテストしやすく単一責務になるようにモデリングしたいです。\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface ValidationRule {\n    val fieldName: String\n    val errorMessage: String \n}\n\ndata class RequiredRule(\n    override val fieldName: String,\n    override val errorMessage: String\n) : ValidationRule\n\ndata class FormatRule(\n    override val fieldName: String,\n    override val errorMessage: String,\n    val pattern: Regex\n) : ValidationRule\n\ndata class RangeRule(\n    override val fieldName: String,\n    override val errorMessage: String,\n    val minValue: BigDecimal,\n    val maxValue: BigDecimal\n) : ValidationRule\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class ValidationRule(\n    val fieldName: String,\n    val errorMessage: String,\n    val ruleType: String,\n    val pattern: Regex?,\n    val minValue: BigDecimal?,\n    val maxValue: BigDecimal?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass RequiredRule(\n    val fieldName: String,\n    val errorMessage: String\n)\nclass FormatRule(\n    val fieldName: String,\n    val errorMessage: String,\n    val pattern: Regex\n)\nclass RangeRule(\n    val fieldName: String,\n    val errorMessage: String,\n    val minValue: BigDecimal,\n    val maxValue: BigDecimal\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class ValidationRule(\n    val fieldName: String,\n    val errorMessage: String,\n    val isRequired: Boolean,\n    val isFormat: Boolean,\n    val isRange: Boolean,\n    val pattern: Regex?,\n    val minValue: BigDecimal?,\n    val maxValue: BigDecimal?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、3種類の検証ルールを型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（フィールド名、エラーメッセージ）をinterfaceに定義し、各検証型に固有の属性を各data classに定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、3種類の検証ルールを型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: ValidationRule] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、ruleTypeが\"required\"なのにpatternがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isFormatがtrueなのにpatternがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-018",
+    "category": "modeling",
+    "question": "データ変換において、フォーマット変換、単位変換、集計変換を統一的に扱う必要があります。\n\n**具体例**:\n- フォーマット変換: 入力データ、出力フォーマット、変換ルール\n- 単位変換: 入力データ、出力単位、変換係数\n- 集計変換: 入力データ、集計関数（SUM、AVG、MAX、MIN）、グループ化キー\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface DataTransformation {\n    val inputData: String \n}\n\ndata class FormatTransformation(\n    override val inputData: String,\n    val outputFormat: String,\n    val transformationRules: Map<String,\n    String>\n) : DataTransformation\n\ndata class UnitTransformation(\n    override val inputData: String,\n    val outputUnit: String,\n    val conversionFactor: BigDecimal\n) : DataTransformation\n\ndata class AggregationTransformation(\n    override val inputData: String,\n    val aggregationFunction: AggregationFunction,\n    val groupByKeys: List<String>\n) : DataTransformation\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class DataTransformation(\n    val inputData: String,\n    val transformationType: String,\n    val outputFormat: String?,\n    val transformationRules: Map<String,\n    String>?,\n    val outputUnit: String?,\n    val conversionFactor: BigDecimal?,\n    val aggregationFunction: AggregationFunction?,\n    val groupByKeys: List<String>?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass FormatTransformation(\n    val inputData: String,\n    val outputFormat: String,\n    val transformationRules: Map<String,\n    String>\n)\nclass UnitTransformation(\n    val inputData: String,\n    val outputUnit: String,\n    val conversionFactor: BigDecimal\n)\nclass AggregationTransformation(\n    val inputData: String,\n    val aggregationFunction: AggregationFunction,\n    val groupByKeys: List<String>\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class DataTransformation(\n    val inputData: String,\n    val isFormat: Boolean,\n    val isUnit: Boolean,\n    val isAggregation: Boolean,\n    val outputFormat: String?,\n    val transformationRules: Map<String,\n    String>?,\n    val outputUnit: String?,\n    val conversionFactor: BigDecimal?,\n    val aggregationFunction: AggregationFunction?,\n    val groupByKeys: List<String>?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、3種類のデータ変換を型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（入力データ）をinterfaceに定義し、各変換型に固有の属性を各data classに定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、3種類のデータ変換を型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: DataTransformation] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、transformationTypeが\"format\"なのにconversionFactorがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isFormatがtrueなのにoutputFormatがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-019",
+    "category": "modeling",
+    "question": "データキャッシュにおいて、メモリキャッシュ、ディスクキャッシュ、分散キャッシュを区別する必要があります。\n\n**具体例**:\n- メモリキャッシュ: キャッシュキー、データ、有効期限、最大サイズ\n- ディスクキャッシュ: キャッシュキー、データ、有効期限、ファイルパス、圧縮設定\n- 分散キャッシュ: キャッシュキー、データ、有効期限、ノードリスト、レプリケーション設定\n\n変換関数をテストしやすく単一責務になるようにモデリングしたいです。\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface CacheEntry {\n    val cacheKey: String\n    val data: ByteArray\n    val expiresAt: LocalDateTime? \n}\n\ndata class MemoryCacheEntry(\n    override val cacheKey: String,\n    override val data: ByteArray,\n    override val expiresAt: LocalDateTime?,\n    val maxSize: Long\n) : CacheEntry\n\ndata class DiskCacheEntry(\n    override val cacheKey: String,\n    override val data: ByteArray,\n    override val expiresAt: LocalDateTime?,\n    val filePath: String,\n    val compressionEnabled: Boolean\n) : CacheEntry\n\ndata class DistributedCacheEntry(\n    override val cacheKey: String,\n    override val data: ByteArray,\n    override val expiresAt: LocalDateTime?,\n    val nodeList: List<String>,\n    val replicationSettings: ReplicationSettings\n) : CacheEntry\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class CacheEntry(\n    val cacheKey: String,\n    val data: ByteArray,\n    val expiresAt: LocalDateTime?,\n    val cacheType: String,\n    val maxSize: Long?,\n    val filePath: String?,\n    val compressionEnabled: Boolean?,\n    val nodeList: List<String>?,\n    val replicationSettings: ReplicationSettings?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass MemoryCacheEntry(\n    val cacheKey: String,\n    val data: ByteArray,\n    val expiresAt: LocalDateTime?,\n    val maxSize: Long\n)\nclass DiskCacheEntry(\n    val cacheKey: String,\n    val data: ByteArray,\n    val expiresAt: LocalDateTime?,\n    val filePath: String,\n    val compressionEnabled: Boolean\n)\nclass DistributedCacheEntry(\n    val cacheKey: String,\n    val data: ByteArray,\n    val expiresAt: LocalDateTime?,\n    val nodeList: List<String>,\n    val replicationSettings: ReplicationSettings\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class CacheEntry(\n    val cacheKey: String,\n    val data: ByteArray,\n    val expiresAt: LocalDateTime?,\n    val isMemory: Boolean,\n    val isDisk: Boolean,\n    val isDistributed: Boolean,\n    val maxSize: Long?,\n    val filePath: String?,\n    val compressionEnabled: Boolean?,\n    val nodeList: List<String>?,\n    val replicationSettings: ReplicationSettings?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、3種類のキャッシュエントリを型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（キャッシュキー、データ、有効期限）をinterfaceに定義し、各キャッシュ型に固有の属性を各data classに定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、3種類のキャッシュエントリを型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: CacheEntry] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、cacheTypeが\"memory\"なのにfilePathがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isMemoryがtrueなのにmaxSizeがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-020",
+    "category": "modeling",
+    "question": "データ分析において、時系列分析、統計分析、機械学習分析を統一的に扱う必要があります。\n\n**具体例**:\n- 時系列分析: データソース、分析期間、時系列関数（移動平均、トレンド）、出力形式\n- 統計分析: データソース、統計関数（平均、標準偏差、相関）、出力形式\n- 機械学習分析: データソース、モデル種別、学習パラメータ、出力形式\n\n変換関数をテストしやすく単一責務になるようにモデリングしたいです。\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface AnalysisRequest {\n    val dataSource: String\n    val outputFormat: OutputFormat \n}\n\ndata class TimeSeriesAnalysis(\n    override val dataSource: String,\n    override val outputFormat: OutputFormat,\n    val analysisPeriod: DateRange,\n    val timeSeriesFunction: TimeSeriesFunction\n) : AnalysisRequest\n\ndata class StatisticalAnalysis(\n    override val dataSource: String,\n    override val outputFormat: OutputFormat,\n    val statisticalFunction: StatisticalFunction\n) : AnalysisRequest\n\ndata class MachineLearningAnalysis(\n    override val dataSource: String,\n    override val outputFormat: OutputFormat,\n    val modelType: ModelType,\n    val trainingParameters: Map<String,\n    Any>\n) : AnalysisRequest\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class AnalysisRequest(\n    val dataSource: String,\n    val outputFormat: OutputFormat,\n    val analysisType: String,\n    val analysisPeriod: DateRange?,\n    val timeSeriesFunction: TimeSeriesFunction?,\n    val statisticalFunction: StatisticalFunction?,\n    val modelType: ModelType?,\n    val trainingParameters: Map<String,\n    Any>?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass TimeSeriesAnalysis(\n    val dataSource: String,\n    val outputFormat: OutputFormat,\n    val analysisPeriod: DateRange,\n    val timeSeriesFunction: TimeSeriesFunction\n)\nclass StatisticalAnalysis(\n    val dataSource: String,\n    val outputFormat: OutputFormat,\n    val statisticalFunction: StatisticalFunction\n)\nclass MachineLearningAnalysis(\n    val dataSource: String,\n    val outputFormat: OutputFormat,\n    val modelType: ModelType,\n    val trainingParameters: Map<String,\n    Any>\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class AnalysisRequest(\n    val dataSource: String,\n    val outputFormat: OutputFormat,\n    val isTimeSeries: Boolean,\n    val isStatistical: Boolean,\n    val isMachineLearning: Boolean,\n    val analysisPeriod: DateRange?,\n    val timeSeriesFunction: TimeSeriesFunction?,\n    val statisticalFunction: StatisticalFunction?,\n    val modelType: ModelType?,\n    val trainingParameters: Map<String,\n    Any>?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、3種類の分析リクエストを型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（データソース、出力形式）をinterfaceに定義し、各分析型に固有の属性を各data classに定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、3種類の分析リクエストを型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: AnalysisRequest] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、analysisTypeが\"timeSeries\"なのにstatisticalFunctionがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isTimeSeriesがtrueなのにtimeSeriesFunctionがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-021",
+    "category": "modeling",
+    "question": "データインポートにおいて、CSVインポート、JSONインポート、Excelインポートを統一的に扱う必要があります。\n\n**具体例**:\n- CSVインポート: ファイルパス、区切り文字、エンコーディング、ヘッダー行の有無\n- JSONインポート: ファイルパス、JSON構造パス、配列フラット化設定\n- Excelインポート: ファイルパス、シート名、開始行、列マッピング\n\n変換関数をテストしやすく単一責務になるようにモデリングしたいです。\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface ImportRequest {\n    val filePath: String \n}\n\ndata class CsvImportRequest(\n    override val filePath: String,\n    val delimiter: Char,\n    val encoding: String,\n    val hasHeader: Boolean\n) : ImportRequest\n\ndata class JsonImportRequest(\n    override val filePath: String,\n    val jsonPath: String,\n    val flattenArrays: Boolean\n) : ImportRequest\n\ndata class ExcelImportRequest(\n    override val filePath: String,\n    val sheetName: String,\n    val startRow: Int,\n    val columnMapping: Map<String,\n    String>\n) : ImportRequest\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class ImportRequest(\n    val filePath: String,\n    val importType: String,\n    val delimiter: Char?,\n    val encoding: String?,\n    val hasHeader: Boolean?,\n    val jsonPath: String?,\n    val flattenArrays: Boolean?,\n    val sheetName: String?,\n    val startRow: Int?,\n    val columnMapping: Map<String,\n    String>?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass CsvImportRequest(\n    val filePath: String,\n    val delimiter: Char,\n    val encoding: String,\n    val hasHeader: Boolean\n)\nclass JsonImportRequest(\n    val filePath: String,\n    val jsonPath: String,\n    val flattenArrays: Boolean\n)\nclass ExcelImportRequest(\n    val filePath: String,\n    val sheetName: String,\n    val startRow: Int,\n    val columnMapping: Map<String,\n    String>\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class ImportRequest(\n    val filePath: String,\n    val isCsv: Boolean,\n    val isJson: Boolean,\n    val isExcel: Boolean,\n    val delimiter: Char?,\n    val encoding: String?,\n    val hasHeader: Boolean?,\n    val jsonPath: String?,\n    val flattenArrays: Boolean?,\n    val sheetName: String?,\n    val startRow: Int?,\n    val columnMapping: Map<String,\n    String>?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、3種類のインポートリクエストを型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（ファイルパス）をinterfaceに定義し、各インポート型に固有の属性を各data classに定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、3種類のインポートリクエストを型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: ImportRequest] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、importTypeが\"csv\"なのにsheetNameがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isCsvがtrueなのにdelimiterがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-022",
+    "category": "modeling",
+    "question": "データ監査ログにおいて、作成ログ、更新ログ、削除ログを統一的に扱う必要があります。\n\n**具体例**:\n- 作成ログ: リソースID、作成日時、作成者、作成データ\n- 更新ログ: リソースID、更新日時、更新者、更新前データ、更新後データ\n- 削除ログ: リソースID、削除日時、削除者、削除前データ\n\n変換関数をテストしやすく単一責務になるようにモデリングしたいです。\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface AuditLog {\n    val resourceId: String\n    val timestamp: LocalDateTime\n    val actor: String \n}\n\ndata class CreateLog(\n    override val resourceId: String,\n    override val timestamp: LocalDateTime,\n    override val actor: String,\n    val createdData: Map<String,\n    Any>\n) : AuditLog\n\ndata class UpdateLog(\n    override val resourceId: String,\n    override val timestamp: LocalDateTime,\n    override val actor: String,\n    val beforeData: Map<String,\n    Any>,\n    val afterData: Map<String,\n    Any>\n) : AuditLog\n\ndata class DeleteLog(\n    override val resourceId: String,\n    override val timestamp: LocalDateTime,\n    override val actor: String,\n    val deletedData: Map<String,\n    Any>\n) : AuditLog\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class AuditLog(\n    val resourceId: String,\n    val timestamp: LocalDateTime,\n    val actor: String,\n    val logType: String,\n    val createdData: Map<String,\n    Any>?,\n    val beforeData: Map<String,\n    Any>?,\n    val afterData: Map<String,\n    Any>?,\n    val deletedData: Map<String,\n    Any>?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass CreateLog(\n    val resourceId: String,\n    val timestamp: LocalDateTime,\n    val actor: String,\n    val createdData: Map<String,\n    Any>\n)\nclass UpdateLog(\n    val resourceId: String,\n    val timestamp: LocalDateTime,\n    val actor: String,\n    val beforeData: Map<String,\n    Any>,\n    val afterData: Map<String,\n    Any>\n)\nclass DeleteLog(\n    val resourceId: String,\n    val timestamp: LocalDateTime,\n    val actor: String,\n    val deletedData: Map<String,\n    Any>\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class AuditLog(\n    val resourceId: String,\n    val timestamp: LocalDateTime,\n    val actor: String,\n    val isCreate: Boolean,\n    val isUpdate: Boolean,\n    val isDelete: Boolean,\n    val createdData: Map<String,\n    Any>?,\n    val beforeData: Map<String,\n    Any>?,\n    val afterData: Map<String,\n    Any>?,\n    val deletedData: Map<String,\n    Any>?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、3種類の監査ログを型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（リソースID、タイムスタンプ、実行者）をinterfaceに定義し、各ログ型に固有の属性を各data classに定義します。UpdateLogのみがbeforeDataとafterDataの両方を持つため、型によって必要な情報が明確になります。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、3種類の監査ログを型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: AuditLog] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、logTypeが\"create\"なのにbeforeDataがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isUpdateがtrueなのにbeforeDataがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-023",
+    "category": "modeling",
+    "question": "データフィルタリングにおいて、等価フィルター、範囲フィルター、パターンフィルターを統一的に扱う必要があります。\n\n**具体例**:\n- 等価フィルター: フィールド名、値\n- 範囲フィルター: フィールド名、最小値、最大値\n- パターンフィルター: フィールド名、正規表現パターン\n\n変換関数をテストしやすく単一責務になるようにモデリングしたいです。\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface Filter {\n    val fieldName: String \n}\n\ndata class EqualityFilter(\n    override val fieldName: String,\n    val value: Any\n) : Filter\n\ndata class RangeFilter(\n    override val fieldName: String,\n    val minValue: Comparable<Any>,\n    val maxValue: Comparable<Any>\n) : Filter\n\ndata class PatternFilter(\n    override val fieldName: String,\n    val pattern: Regex\n) : Filter\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class Filter(\n    val fieldName: String,\n    val filterType: String,\n    val value: Any?,\n    val minValue: Comparable<Any>?,\n    val maxValue: Comparable<Any>?,\n    val pattern: Regex?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass EqualityFilter(\n    val fieldName: String,\n    val value: Any\n)\nclass RangeFilter(\n    val fieldName: String,\n    val minValue: Comparable<Any>,\n    val maxValue: Comparable<Any>\n)\nclass PatternFilter(\n    val fieldName: String,\n    val pattern: Regex\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class Filter(\n    val fieldName: String,\n    val isEquality: Boolean,\n    val isRange: Boolean,\n    val isPattern: Boolean,\n    val value: Any?,\n    val minValue: Comparable<Any>?,\n    val maxValue: Comparable<Any>?,\n    val pattern: Regex?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、3種類のフィルターを型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（フィールド名）をinterfaceに定義し、各フィルター型に固有の属性を各data classに定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、3種類のフィルターを型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: Filter] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、filterTypeが\"equality\"なのにpatternがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isEqualityがtrueなのにvalueがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-024",
+    "category": "modeling",
+    "question": "データソートにおいて、単一フィールドソート、複数フィールドソート、カスタムソートを統一的に扱う必要があります。\n\n**具体例**:\n- 単一フィールドソート: フィールド名、ソート順（昇順/降順）\n- 複数フィールドソート: フィールド名とソート順のペアリスト\n- カスタムソート: カスタム比較関数\n\n変換関数をテストしやすく単一責務になるようにモデリングしたいです。\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface SortRequest\ndata class SingleFieldSort(\n    val fieldName: String,\n    val order: SortOrder\n) : SortRequest\n\ndata class MultiFieldSort(\n    val fieldSorts: List<Pair<String,\n    SortOrder>>\n) : SortRequest\n\ndata class CustomSort(\n    val comparator: Comparator<Any>\n) : SortRequest\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class SortRequest(\n    val sortType: String,\n    val fieldName: String?,\n    val order: SortOrder?,\n    val fieldSorts: List<Pair<String,\n    SortOrder>>?,\n    val comparator: Comparator<Any>?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass SingleFieldSort(\n    val fieldName: String,\n    val order: SortOrder\n)\nclass MultiFieldSort(\n    val fieldSorts: List<Pair<String,\n    SortOrder>>\n)\nclass CustomSort(\n    val comparator: Comparator<Any>\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class SortRequest(\n    val isSingleField: Boolean,\n    val isMultiField: Boolean,\n    val isCustom: Boolean,\n    val fieldName: String?,\n    val order: SortOrder?,\n    val fieldSorts: List<Pair<String,\n    SortOrder>>?,\n    val comparator: Comparator<Any>?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、3種類のソートリクエストを型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。各ソート型に固有の属性を各data classに定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、3種類のソートリクエストを型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: SortRequest] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、sortTypeが\"singleField\"なのにcomparatorがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isSingleFieldがtrueなのにfieldNameがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-025",
+    "category": "modeling",
+    "question": "データページネーションにおいて、オフセットベース、カーソルベース、キーセットベースのページネーションを統一的に扱う必要があります。\n\n**具体例**:\n- オフセットベース: ページ番号、1ページあたりの件数\n- カーソルベース: カーソルトークン、1ページあたりの件数\n- キーセットベース: 最後のキー値、1ページあたりの件数\n\n変換関数をテストしやすく単一責務になるようにモデリングしたいです。\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface PaginationRequest {\n    val pageSize: Int \n}\n\ndata class OffsetPagination(\n    override val pageSize: Int,\n    val pageNumber: Int\n) : PaginationRequest\n\ndata class CursorPagination(\n    override val pageSize: Int,\n    val cursorToken: String\n) : PaginationRequest\n\ndata class KeysetPagination(\n    override val pageSize: Int,\n    val lastKeyValue: Any\n) : PaginationRequest\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class PaginationRequest(\n    val pageSize: Int,\n    val paginationType: String,\n    val pageNumber: Int?,\n    val cursorToken: String?,\n    val lastKeyValue: Any?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass OffsetPagination(\n    val pageSize: Int,\n    val pageNumber: Int\n)\nclass CursorPagination(\n    val pageSize: Int,\n    val cursorToken: String\n)\nclass KeysetPagination(\n    val pageSize: Int,\n    val lastKeyValue: Any\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class PaginationRequest(\n    val pageSize: Int,\n    val isOffset: Boolean,\n    val isCursor: Boolean,\n    val isKeyset: Boolean,\n    val pageNumber: Int?,\n    val cursorToken: String?,\n    val lastKeyValue: Any?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、3種類のページネーションリクエストを型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（1ページあたりの件数）をinterfaceに定義し、各ページネーション型に固有の属性を各data classに定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、3種類のページネーションリクエストを型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: PaginationRequest] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、paginationTypeが\"offset\"なのにcursorTokenがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isOffsetがtrueなのにpageNumberがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-026",
+    "category": "modeling",
+    "question": "データ集計において、グループ化集計、時系列集計、階層集計を統一的に扱う必要があります。\n\n**具体例**:\n- グループ化集計: グループ化キー、集計関数（SUM、AVG、COUNT）、出力フィールド名\n- 時系列集計: 時系列キー、集計関数、時間間隔、出力フィールド名\n- 階層集計: 階層キー、集計関数、階層レベル、出力フィールド名\n\n変換関数をテストしやすく単一責務になるようにモデリングしたいです。\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface AggregationRequest {\n    val aggregationFunction: AggregationFunction\n    val outputFieldName: String \n}\n\ndata class GroupByAggregation(\n    override val aggregationFunction: AggregationFunction,\n    override val outputFieldName: String,\n    val groupByKeys: List<String>\n) : AggregationRequest\n\ndata class TimeSeriesAggregation(\n    override val aggregationFunction: AggregationFunction,\n    override val outputFieldName: String,\n    val timeSeriesKey: String,\n    val timeInterval: Duration\n) : AggregationRequest\n\ndata class HierarchicalAggregation(\n    override val aggregationFunction: AggregationFunction,\n    override val outputFieldName: String,\n    val hierarchyKey: String,\n    val hierarchyLevel: Int\n) : AggregationRequest\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class AggregationRequest(\n    val aggregationFunction: AggregationFunction,\n    val outputFieldName: String,\n    val aggregationType: String,\n    val groupByKeys: List<String>?,\n    val timeSeriesKey: String?,\n    val timeInterval: Duration?,\n    val hierarchyKey: String?,\n    val hierarchyLevel: Int?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass GroupByAggregation(\n    val aggregationFunction: AggregationFunction,\n    val outputFieldName: String,\n    val groupByKeys: List<String>\n)\nclass TimeSeriesAggregation(\n    val aggregationFunction: AggregationFunction,\n    val outputFieldName: String,\n    val timeSeriesKey: String,\n    val timeInterval: Duration\n)\nclass HierarchicalAggregation(\n    val aggregationFunction: AggregationFunction,\n    val outputFieldName: String,\n    val hierarchyKey: String,\n    val hierarchyLevel: Int\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class AggregationRequest(\n    val aggregationFunction: AggregationFunction,\n    val outputFieldName: String,\n    val isGroupBy: Boolean,\n    val isTimeSeries: Boolean,\n    val isHierarchical: Boolean,\n    val groupByKeys: List<String>?,\n    val timeSeriesKey: String?,\n    val timeInterval: Duration?,\n    val hierarchyKey: String?,\n    val hierarchyLevel: Int?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、3種類の集計リクエストを型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（集計関数、出力フィールド名）をinterfaceに定義し、各集計型に固有の属性を各data classに定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、3種類の集計リクエストを型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: AggregationRequest] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、aggregationTypeが\"groupBy\"なのにtimeSeriesKeyがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isGroupByがtrueなのにgroupByKeysがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-027",
+    "category": "modeling",
+    "question": "データ変換パイプラインにおいて、単一変換、複数変換の順次実行、条件分岐変換を統一的に扱う必要があります。\n\n**具体例**:\n- 単一変換: 変換関数、入力データ\n- 複数変換の順次実行: 変換関数のリスト、入力データ\n- 条件分岐変換: 条件関数、真の場合の変換、偽の場合の変換、入力データ\n\n最も適切なモデルはどれですか？",
+    "options": [
+      "```kotlin\ninterface TransformationPipeline {\n    val inputData: String \n}\n\ndata class SingleTransformation(\n    override val inputData: String,\n    val transformationFunction: TransformationFunction\n) : TransformationPipeline\n\ndata class SequentialTransformation(\n    override val inputData: String,\n    val transformationFunctions: List<TransformationFunction>\n) : TransformationPipeline\n\ndata class ConditionalTransformation(\n    override val inputData: String,\n    val conditionFunction: ConditionFunction,\n    val trueTransformation: TransformationFunction,\n    val falseTransformation: TransformationFunction\n) : TransformationPipeline\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class TransformationPipeline(\n    val inputData: String,\n    val pipelineType: String,\n    val transformationFunction: TransformationFunction?,\n    val transformationFunctions: List<TransformationFunction>?,\n    val conditionFunction: ConditionFunction?,\n    val trueTransformation: TransformationFunction?,\n    val falseTransformation: TransformationFunction?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass SingleTransformation(\n    val inputData: String,\n    val transformationFunction: TransformationFunction\n)\nclass SequentialTransformation(\n    val inputData: String,\n    val transformationFunctions: List<TransformationFunction>\n)\nclass ConditionalTransformation(\n    val inputData: String,\n    val conditionFunction: ConditionFunction,\n    val trueTransformation: TransformationFunction,\n    val falseTransformation: TransformationFunction\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class TransformationPipeline(\n    val inputData: String,\n    val isSingle: Boolean,\n    val isSequential: Boolean,\n    val isConditional: Boolean,\n    val transformationFunction: TransformationFunction?,\n    val transformationFunctions: List<TransformationFunction>?,\n    val conditionFunction: ConditionFunction?,\n    val trueTransformation: TransformationFunction?,\n    val falseTransformation: TransformationFunction?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、3種類の変換パイプラインを型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（入力データ）をinterfaceに定義し、各パイプライン型に固有の属性を各data classに定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、3種類の変換パイプラインを型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: TransformationPipeline] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、pipelineTypeが\"single\"なのにtransformationFunctionsがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isSingleがtrueなのにtransformationFunctionがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-028",
+    "category": "modeling",
+    "question": "データアクセス制御において、IP制限、時間制限、レート制限を統一的に扱う必要があります。\n\n**具体例**:\n- IP制限: 許可IPリスト、拒否IPリスト\n- 時間制限: 開始時刻、終了時刻、タイムゾーン\n- レート制限: リクエスト数、時間窓、超過時の動作\n\n変換関数をテストしやすく単一責務になるようにモデリングしたいです。\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface AccessControl\ndata class IpRestriction(\n    val allowedIps: List<String>,\n    val deniedIps: List<String>\n) : AccessControl\n\ndata class TimeRestriction(\n    val startTime: LocalTime,\n    val endTime: LocalTime,\n    val timezone: String\n) : AccessControl\n\ndata class RateLimit(\n    val requestCount: Int,\n    val timeWindow: Duration,\n    val onExceeded: RateLimitAction\n) : AccessControl\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class AccessControl(\n    val controlType: String,\n    val allowedIps: List<String>?,\n    val deniedIps: List<String>?,\n    val startTime: LocalTime?,\n    val endTime: LocalTime?,\n    val timezone: String?,\n    val requestCount: Int?,\n    val timeWindow: Duration?,\n    val onExceeded: RateLimitAction?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass IpRestriction(\n    val allowedIps: List<String>,\n    val deniedIps: List<String>\n)\nclass TimeRestriction(\n    val startTime: LocalTime,\n    val endTime: LocalTime,\n    val timezone: String\n)\nclass RateLimit(\n    val requestCount: Int,\n    val timeWindow: Duration,\n    val onExceeded: RateLimitAction\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class AccessControl(\n    val isIpRestriction: Boolean,\n    val isTimeRestriction: Boolean,\n    val isRateLimit: Boolean,\n    val allowedIps: List<String>?,\n    val deniedIps: List<String>?,\n    val startTime: LocalTime?,\n    val endTime: LocalTime?,\n    val timezone: String?,\n    val requestCount: Int?,\n    val timeWindow: Duration?,\n    val onExceeded: RateLimitAction?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、3種類のアクセス制御を型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。各制御型に固有の属性を各data classに定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、3種類のアクセス制御を型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: AccessControl] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、controlTypeが\"ip\"なのにstartTimeがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isIpRestrictionがtrueなのにallowedIpsがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "eco-029",
+    "category": "modeling",
+    "question": "データ品質チェックにおいて、完全性チェック、一貫性チェック、正確性チェックを統一的に扱う必要があります。\n\n**具体例**:\n- 完全性チェック: 必須フィールドリスト、チェック結果\n- 一貫性チェック: 一貫性ルール、参照テーブル、チェック結果\n- 正確性チェック: 検証関数、許容誤差、チェック結果\n\n変換関数をテストしやすく単一責務になるようにモデリングしたいです。\n\n**要件**:\n  - 各データ型を異なる形式に変換する関数\n  - 各変換関数は独立してテスト可能であること\n  - 変換ロジックが単一責務の原則に従っていること\n\n変換関数をモデリングする際、最も適切な粒度の設計はどれですか？",
+    "options": [
+      "```kotlin\ninterface QualityCheck {\n    val checkResult: CheckResult \n}\n\ndata class CompletenessCheck(\n    override val checkResult: CheckResult,\n    val requiredFields: List<String>\n) : QualityCheck\n\ndata class ConsistencyCheck(\n    override val checkResult: CheckResult,\n    val consistencyRule: ConsistencyRule,\n    val referenceTable: String\n) : QualityCheck\n\ndata class AccuracyCheck(\n    override val checkResult: CheckResult,\n    val validationFunction: ValidationFunction,\n    val tolerance: BigDecimal\n) : QualityCheck\n```\n\n**メリット**: 型安全で、単一責務の原則に従い、テストしやすい設計",
+      "```kotlin\ndata class QualityCheck(\n    val checkResult: CheckResult,\n    val checkType: String,\n    val requiredFields: List<String>?,\n    val consistencyRule: ConsistencyRule?,\n    val referenceTable: String?,\n    val validationFunction: ValidationFunction?,\n    val tolerance: BigDecimal?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\nclass CompletenessCheck(\n    val checkResult: CheckResult,\n    val requiredFields: List<String>\n)\nclass ConsistencyCheck(\n    val checkResult: CheckResult,\n    val consistencyRule: ConsistencyRule,\n    val referenceTable: String\n)\nclass AccuracyCheck(\n    val checkResult: CheckResult,\n    val validationFunction: ValidationFunction,\n    val tolerance: BigDecimal\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある",
+      "```kotlin\ndata class QualityCheck(\n    val checkResult: CheckResult,\n    val isCompleteness: Boolean,\n    val isConsistency: Boolean,\n    val isAccuracy: Boolean,\n    val requiredFields: List<String>?,\n    val consistencyRule: ConsistencyRule?,\n    val referenceTable: String?,\n    val validationFunction: ValidationFunction?,\n    val tolerance: BigDecimal?\n)\n```\n\n**メリット**: シンプルだが、型安全性やテスト容易性に課題がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "text": "interfaceとdata classを使うことで、3種類の品質チェックを型安全に区別できます。各変換関数は独立した関数として定義することで、単一責務の原則に従い、独立してテスト可能になります。共通の属性（チェック結果）をinterfaceに定義し、各チェック型に固有の属性を各data classに定義します。when式で型チェックが可能になり、コンパイル時に全てのケースを網羅できるため、安全性が高いです。",
+      "translation": "interfaceを使用して、3種類の品質チェックを型安全にモデリングします。",
+      "structure": "[S: interface] [V: 定義] [O: QualityCheck] [C: 共通属性] [RC: 各実装クラス]",
+      "wrongOptionExplanations": {
+        "1": "nullableプロパティを使う方法は動作しますが、型安全性が低く、checkTypeが\"completeness\"なのにvalidationFunctionがnullでないという不正な状態を表現できてしまいます。また、実行時にnullチェックが必要になります。変換関数を実装する際に、全てのプロパティをチェックする必要があり、単一責務の原則に反します。",
+        "2": "別々のclassとして定義する方法も動作しますが、統一的に扱うことができず、when式での型チェックができません。共通のインターフェースがないため、コードの重複が発生しやすくなります。変換関数を実装する際にコードの重複が発生しやすくなり、テストが複雑になります。",
+        "3": "Booleanフラグとnullableプロパティの組み合わせは動作しますが、型安全性が低く、isCompletenessがtrueなのにrequiredFieldsがnullという不正な状態を表現できてしまいます。interfaceを使う方が、このような不正な状態を防げます。"
+      }
+    },
+    "difficulty": 2
+  }
+]
