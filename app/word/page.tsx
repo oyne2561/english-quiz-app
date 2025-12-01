@@ -136,13 +136,26 @@ function WordPageContent() {
     setIsCorrect(correct);
     wasCorrectRef.current = correct;
 
+    // 記録処理を即座に実行（早くクリックされても確実に記録されるように）
+    const wordId = `word:${currentWord.word.toLowerCase()}`;
     if (correct) {
-      // 正解：緑フラッシュ → 解説ドロワー表示（設定でスキップ可能）
-      // 苦手克服モードの場合、正解した単語を間違いリストから削除
+      // 正解：苦手克服モードの場合、正解した単語を間違いリストから削除
       if (mode === 'weak') {
-        const wordId = `word:${currentWord.word.toLowerCase()}`;
         removeMistake(wordId);
       }
+    } else {
+      // 不正解：間違えた単語を記録
+      if (mode === 'weak') {
+        // 苦手克服モード：nextReviewを更新せず、即座に復習可能のまま
+        recordMistakeForWeakMode(wordId);
+      } else {
+        // 通常モード：nextReviewを更新して復習スケジュールを設定
+        recordMistake(wordId);
+      }
+    }
+
+    if (correct) {
+      // 正解：緑フラッシュ → 解説ドロワー表示（設定でスキップ可能）
       setFlashGreen(true);
       setTimeout(() => {
         setFlashGreen(false);
@@ -156,15 +169,6 @@ function WordPageContent() {
       }, 200);
     } else {
       // 不正解：画面揺れ → 解説ドロワー表示
-      // 間違えた単語を記録
-      const wordId = `word:${currentWord.word.toLowerCase()}`;
-      if (mode === 'weak') {
-        // 苦手克服モード：nextReviewを更新せず、即座に復習可能のまま
-        recordMistakeForWeakMode(wordId);
-      } else {
-        // 通常モード：nextReviewを更新して復習スケジュールを設定
-        recordMistake(wordId);
-      }
       setShake(true);
       setTimeout(() => {
         setShake(false);
